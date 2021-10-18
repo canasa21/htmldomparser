@@ -96,7 +96,7 @@ li.current {
     $servername = "db";
     $username = "root";
     $password = "root";
-    $dbname = "scraper";
+    $dbname = "db";
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
