@@ -198,7 +198,7 @@
     $servername = "db";
     $username = "root";
     $password = "root";
-    $dbname = "scraper";
+    $dbname = "db";
 
 
   
