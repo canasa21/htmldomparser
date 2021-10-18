@@ -1,5 +1,6 @@
 <html>
 <!-- Alex was here on October 18, 2021 -->
+<!-- 11:17 AM -->
 <style type="text/css">
 * { font-family: helvetica;
     font-size: .9rem;}
@@ -96,7 +97,7 @@ li.current {
     $servername = "db";
     $username = "root";
     $password = "root";
-    $dbname = "scraper";
+    $dbname = "db";
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
