@@ -70,6 +70,11 @@ li.current {
             success: function (data) {
                 returnedvalue = data;
                 console.log(data)
+
+               
+                    location.reload();
+                
+
             }
           });
           return false;
@@ -117,15 +122,21 @@ li.current {
     $result = $conn->query($sql);
 
   echo("<p>Total number of records: " . $total_rows . "</p>");
-  
-    $content = mysqli_real_escape_string($conn, $content);
-    //$content = htmlspecialchars($content);
-    //$content = base64_encode($content);
+
+  $sql_ids = "select name from content_both";
+  $dataset = $conn->query($sql_ids);
+  $page_ids = array();
+  while($row = $dataset->fetch_assoc()){
+    $page_ids[] = $row['name'];
+  }
+  //print_r($page_ids);
+
     
     echo "<table>";
     echo "<tr style=\"border-bottom:3px solid #000;\">";
     echo "<th style=\"text-align:left;\">ID</th>";
     echo "<th style=\"text-align:left;\">URL</th>";
+    echo "<th></th>";
     echo "<th></th>";
     echo "</tr>";
     if ($result->num_rows > 0) {
@@ -135,8 +146,19 @@ li.current {
         echo "<tr>";
         echo "<td>" . $row['id'] . "</td>";
         echo "<td><a href=\"" . $row['url'] . "\" target=\"_blank\">" . $row['url'] . "</a></td>";
-        echo "<td><form id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input type=\"submit\" value=\"Harvest\"></form></td>";   
-        echo "</tr>";
+
+        
+        echo "<td><form id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input type=\"submit\" value=\"Harvest\"></form></td>";  
+       
+
+     
+        if (isset($row['id']) && in_array($row['id'],$page_ids)){
+        echo "<td><a href=\"gcweb-eng.php?id=" . $row['id'] . "\">Preview</a></td>";
+        }else{
+          echo "<td></td>";
+        }
+       
+       echo "</tr>";
         
       }
     } else {

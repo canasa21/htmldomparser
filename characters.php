@@ -4,7 +4,7 @@ $characters = array(
             "&agrave;"=> "à",
             "&aacute;"=> "á",
             "&acirc;"=> "â",
-            "&ccedil;;"=> "ç",
+            "&ccedil;"=> "ç",
             "&egrave;"=> "è",
             "&eacute;"=> "é",
             "&ecirc;"=> "ê",
@@ -18,7 +18,7 @@ $characters = array(
             "&Agrave;"=> "À",
             "&Aacute;"=> "Á",
             "&Acirc;"=> "Â",
-            "&Ccedil;;"=> "Ç",
+            "&Ccedil;"=> "Ç",
             "&Egrave;"=> "È",
             "&Eacute;"=> "É",
             "&Ecirc;"=> "Ê",
@@ -29,9 +29,9 @@ $characters = array(
             "&Ugrave;"=> "Ù",
             "&Uacute;"=> "Ú",
             "&Ucirc;"=> "Û",
-            "&rsquo;"=> "\'",
-            "&nbsp;"=> " " ,
-            "'"=> "&rsquo;"
+            "&rsquo;"=> "'",
+            "'"=> "\'",
+            "’"=> "\'"
 );
 ?>
 
