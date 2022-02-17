@@ -20,11 +20,20 @@
     $myURL = $_POST['url'];
     $html = file_get_html($myURL);
     //echo $html;
-    $name = 'wxt_content_' . $ID;
+    $name = $ID;
     //$title = $html->find('title', 0)->plaintext;
     $title = strip_tags($html->find('h1[id="wb-cont"]',0));
     //$heading = $html->find('h1[id="wb-cont"]',0);
+
+    $breadcrumbs = $html->find('div[id="gcwu-bc"]',0);
+    //echo($breadcrumbs);
     $content = $html->find('div[id="wb-main"]',0);
+    //echo($content);
+    //if(is_null($content)){
+      //$content = $html->find('div[class="span-6"]',0);
+      //echo($content);
+    //}
+
     //echo $content;
     $status = 1;
     $modified = $html->find('time',0)->plaintext;
@@ -39,6 +48,7 @@
     $translation_html = file_get_html($translation_myURL);
     $translation_title = strip_tags($translation_html->find('h1[id="wb-cont"]',0));
     //$translation_heading = $translation_html->find('h1[id="wb-cont"]',0);
+    $translation_breadcrumbs = $translation_html->find('div[id="gcwu-bc"]',0);
     $translation_content = $translation_html->find('div[id="wb-main"]',0);
 
     $content = str_replace('https://www.nuclearsafety.gc.ca/','/',$content);
@@ -105,14 +115,24 @@
     $content = str_replace('<div class="span-6">', '', $content);
     $content = str_replace('<div class="span-8">', '', $content);
     $content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $content);
+
+    //clean breadcrumbs
+    $breadcrumbs = str_replace('<div id="gcwu-bc">', '', $breadcrumbs);
+    $breadcrumbs = str_replace('<h2>Breadcrumb trail</h2>', '', $breadcrumbs);
+    $breadcrumbs = str_replace('<div id="gcwu-bc-in">', '', $breadcrumbs);
+    $breadcrumbs = str_replace('<ol>', '', $breadcrumbs);
+    $breadcrumbs = str_replace('</ol>', '', $breadcrumbs);
+    $breadcrumbs = str_replace('</div>', '', $breadcrumbs);
+    $breadcrumbs = str_replace('</div>', '', $breadcrumbs);
+    $breadcrumbs = trim($breadcrumbs);
     //remove absolute paths
 
 
     //echo "img: ".$content; 
-    $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/sites/default/files/$1"', $content);  
+    $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="./images/$1"', $content);  
     //echo ("image on");
     //$content = preg_replace('%<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"%s', '<img src="sites/default/files/$1"', $content); 
-    $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/sites/default/files/$2"', $content); 
+    $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $content); 
     //echo ("poster on");
      
    //echo ("pdf on");
@@ -139,6 +159,8 @@
     $content = str_replace('</div> </div> </div>', '', $content);
     $content = str_replace('</div></div></div>', '', $content);
     $content = preg_replace('/\s\s+/', ' ', $content);
+    $content = str_replace('<table class="width-100">', '<table class="table table-striped">', $content);
+    $content = str_replace('<table>', '<table class="table table-striped">', $content);
     $content = trim($content);
     
 
@@ -155,10 +177,10 @@
     //$translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="sites/default/files/$1"', $translation_content);   
     //$translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="sites/default/files/$2"', $translation_content); 
     //$translation_content = preg_replace('#<a\s.*?href=".*?/?([^/]+?(\.pdf))"#s', '<a href="sites/default/files/$1"', $translation_content);  
-    $translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/sites/default/files/$1"', $translation_content);  
+    $translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="./images/$1"', $translation_content);  
     //echo ("image on");
     //$content = preg_replace('%<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"%s', '<img src="sites/default/files/$1"', $content); 
-    $translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/sites/default/files/$2"', $translation_content);    
+    $translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $translation_content);    
     
     
     
@@ -175,6 +197,13 @@
     //echo ("<h1>".$i." WET replcaements</h1>");
     include('removals.php');
     $translation_content = str_replace(($removals), '', $translation_content);
+
+
+    //include('characters.php');
+    //$translation_content = str_replace(($characters), '', $translation_content);
+
+
+
     //remove share
     //<div class="wet-boew-share span-5 margin-bottom-none" data-wet-boew="{'sites': ['bit.ly', 'blogger', 'del.icio.us', 'digg', 'diigo', 'facebook', 'google', 'hotmail', 'linkedin', 'newsvine', 'reddit', 'stumbleupon', 'technorati', 'tumblr', 'twitter', 'yahoobuzz'],addAnalytics:true, analyticsName:'/share/{r}/{s}'}"></div>
     $translation_content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $translation_content);
@@ -183,14 +212,24 @@
     //$content = preg_replace('#</div>{3}#', '', $content);
     //$content = preg_replace('#</div></div>#', '', $content);
     $translation_content = str_replace('</div> </div> </div>', '', $translation_content);
-    $translation_content = str_replace('</div></div></div>', '', $translation_content);
+    $translation_content = str_replace('’', '', $translation_content);
+
+    //$translation_content = addslashes($translation_content);
+
+
     $translation_content = preg_replace('/\s\s+/', ' ', $translation_content);
     $translation_content = trim($translation_content);
 
     $translation_content = preg_replace('#href="/fra/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $translation_content);
 
-
-
+    $translation_breadcrumbs = str_replace('<div id="gcwu-bc">', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('<h2>Fil d\'Ariane</h2>', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('<div id="gcwu-bc-in">', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('<ol>', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('</ol>', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('</div>', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = str_replace('</div>', '', $translation_breadcrumbs);
+    $translation_breadcrumbs = trim($translation_breadcrumbs);
 
     //echo ("<h1>".$x." removal</h1>");
     //echo $image;
@@ -208,14 +247,19 @@
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }
+
+    $content = htmlspecialchars($content, ENT_QUOTES);
+    $breadcrumbs = htmlspecialchars($breadcrumbs, ENT_QUOTES);
     $content = mysqli_real_escape_string($conn, $content);
     //$content = addslashes($content);
+    $translation_content = htmlspecialchars($translation_content, ENT_QUOTES);
+    $translation_breadcrumbs = htmlspecialchars($translation_breadcrumbs, ENT_QUOTES);
     $translation_content = mysqli_real_escape_string($conn, $translation_content );
     //$translation_content = addslashes($translation_content);
     //$content = htmlspecialchars($content);
     //$content = base64_encode($content);
-    $sql = "INSERT INTO content_both (name, link, title, translation_title, language, translation_language, content, translation_content, status, modified, path, translation_path)
-    VALUES ('$name', '$myURL', '$title', '$translation_title', 'en', 'fr', '$content', '$translation_content', $status, '$modified', '$path', '$translation_path')";
+    $sql = "INSERT INTO content_both (name, link, title, breadcrumb, translation_title, translation_breadcrumb, language, translation_language, content, translation_content, status, modified, path, translation_path)
+    VALUES ('$name', '$myURL', '$title', ' $breadcrumbs', '$translation_title', '$translation_breadcrumbs', 'en', 'fr', '$content', '$translation_content', $status, '$modified', '$path', '$translation_path')";
 
 
     //update flag
