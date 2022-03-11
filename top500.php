@@ -3,10 +3,11 @@
 <!-- 1:15 PM -->
 <style type="text/css">
 * { font-family: helvetica;
-    font-size: .9rem;}
-table {
+    font-size: 1rem;}
+
+  table {
   border:1px solid #999;
-  width: 80%;
+  width: 100%;
     }
 td {
     border-bottom:1px solid #999;
@@ -16,14 +17,14 @@ th {
 }
 
 .pagination {
-	margin-bottom: -10px;
+	margin-bottom: 100px;
 }
 
 .pagination li {
 	padding: 5px 10px;
-	border: 1px solid #ddd;
+	/*border: 1px solid #ddd;*/
 	display: inline-block;
-	*float: left;
+	float: left;
 	background: #fff;
 	color: #888;
 	margin-right: 1px;
@@ -51,7 +52,9 @@ li.current {
   padding: 8px;
   border: 1px solid #CCCCCC;
   border-radius: 5px;
+ 
 }
+
 
 .buttonAction {
   text-decoration: none;
@@ -60,17 +63,86 @@ li.current {
   padding: 8px;
   border: 1px solid #000;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonAction:hover {
+  color: #000;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.buttonExport {
+  text-decoration: none;
+  background-color: #336699;
+  color: #fff;
+  padding: 18px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  
+}
+
+.buttonExport:hover {
+  color: #000;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+select {
+  text-decoration: none;
+  background-color: #ddd;
+  color: #000;
+  padding: 18px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  
+}
+a:hover {
+  color: #000;
+  background-color: #ddd;
+}
+.trigger, .result, .log {
+  display: inline;
 }
 
 </style>
 <body>
+<div id="progressbar" style="border:1px solid #ccc; border-radius: 5px; "></div>
+<div id="information" ></div>
+<iframe id="loadarea" style="display:none;"></iframe>
 <!--?php echo getcwd() . "\n"; ?-->
-    <a class="button" href="export.php">Export English Pages</a> <a class="button" href="exportf.php">Export French Pages</a><br>
+    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export.php">Export English Pages</a> <a class="buttonExport" href="exportf.php">Export French Pages</a> <a class="buttonExport" href="make-directory.php">Make Directory</a> <a class="buttonExport" href="tidy.php">Tidy</a> <!--a class="buttonExport" href="force.php">Force Harvest</a-->
+    
+    <form id="batch" action="start.php">
+
+    <?php
+    echo ("<select name=\"threshold\" id=\"threshold\">");
+    //echo ("<option value=\" 1 AND 25\">TEST (1 AND 25)</option>");
+for ($i = 1; $i <= 2501; $i += 25)
+{
+    $j = $i + 24;
+    echo ("<option value=\" $i AND $j \">$i to $j</option>");
+}
+echo("</select>");
+?>
+  <input class="buttonExport" id="batch" value="Batch Process" type="submit"></form>
+ </p>
+
+<!--- PROGRESS -- BAR -->
+
+
 <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script--> 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
+
+
       $(document).ready(function() {
-        $('form').submit(function(event) {
+
+
+            $("form[name=singlePage]").submit(function(event) {
 
      
             event.preventDefault();
@@ -79,9 +151,11 @@ li.current {
             //urlData = urlData.replace('addy=','');
             console.log("url data: " + urlData);
             //alert(urlData.toString());
+
           $.ajax({
-            type: 'POST',
-            url: 'top500-csv.php',
+
+           type: 'POST',
+            url: 'force-csv.php',
             data: {
                 'url': urlData,
                 'id' : idData
@@ -92,13 +166,16 @@ li.current {
 
                
                     location.reload();
-                
+                 
 
-            }
+                  }
           });
           return false;
-        });
-      });
+        });   
+     
+});
+
+
 
 
     </script>
@@ -108,14 +185,12 @@ li.current {
 <?php
 
 
-//UPDATE `externalPages` SET `flag`= 'x' WHERE `url` like '%application/app%'
-
   if ( isset( $_GET[ 'pageno' ] ) ) {
     $pageno = $_GET[ 'pageno' ];
   } else {
     $pageno = 1;
   }
-  $no_of_records_per_page = 100;
+  $no_of_records_per_page = 25;
   $offset = ( $pageno - 1 ) * $no_of_records_per_page;
 
     $servername = "db";
@@ -140,7 +215,7 @@ li.current {
   $sql = "select id, url from top500 LIMIT $offset, $no_of_records_per_page";
     $result = $conn->query($sql);
 
-  echo("<p>Total number of records: " . $total_rows . "</p>");
+  echo("<p><b>Total number of records: </b>" . $total_rows . "</p>");
 
   $sql_ids = "select name from content_both_top_500";
   $dataset = $conn->query($sql_ids);
@@ -150,14 +225,25 @@ li.current {
   }
   //print_r($page_ids);
 
+  ?>
+
+<ul class="pagination">
+    <li><a class="button" href="?pageno=1">First</a></li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
+    <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
+  </ul>
+
+<?php
+
     
     echo "<table>";
-    echo "<tr style=\"border-bottom:3px solid #000;\">";
-    echo "<th style=\"text-align:left;\">ID</th>";
-    echo "<th style=\"text-align:left;\">URL</th>";
-    echo "<th>Action</th>";
-    echo "<th>Preview</th>";
-    echo "</tr>";
+    //echo "<tr style=\"border-bottom:3px solid #000;\">";
+    //echo "<th style=\"text-align:left;\">ID</th>";
+    //echo "<th style=\"text-align:left;\">URL</th>";
+    //echo "<th>Action</th>";
+    //echo "<th>Preview</th>";
+    //echo "</tr>";
     if ($result->num_rows > 0) {
       // output data of each row
       while($row = $result->fetch_assoc()) {
@@ -167,14 +253,14 @@ li.current {
         echo "<td><a href=\"" . $row['url'] . "\" target=\"_blank\">" . $row['url'] . "</a></td>";
 
         
-        echo "<td style=\"padding-top:13px;\"><form id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input class=\"buttonAction\" type=\"submit\"  value=\"Harvest\"></form></td>";  
+        echo "<td style=\"padding-top:13px;\"><form name=\"singlePage\" id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input class=\"buttonAction\" type=\"submit\"  id=\"harvest\" value=\"Force Harvest\"></form></td>";  
        
 
      
         if (isset($row['id']) && in_array($row['id'],$page_ids)){
         echo "<td width=\"100px\"><a class=\"button\" href=\"content-eng.php?id=" . $row['id'] . "\">Eng</a> <a class=\"button\" href=\"content-fra.php?id=" . $row['id'] . "\">Fra</a></td>";
         }else{
-          echo "<td></td>";
+          echo "<td style=\"background-color: #dd0000;padding:4px;color:#fff;text-align:center;\">No data</td>";
         }
        
        echo "</tr>";
@@ -189,10 +275,10 @@ li.current {
 </table>
 
 <ul class="pagination">
-    <li><a href="?pageno=1">First</a></li>
-    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
-    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
-    <li><a href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
+    <li><a class="button" href="?pageno=1">First</a></li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
+    <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>
   <script>
 $('.js-selectall').on('change', function() {
@@ -200,6 +286,8 @@ $('.js-selectall').on('change', function() {
   var selector = $(this).data('target');
   $(selector).prop("checked", isChecked);
 });
+
+
 
 </script>
 </body>
