@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Apple macOS version 5.9.20">
+  <meta charset="UTF-8">
+  <title>Search Licensee Database</title>
+</head>
+<body>
+  <form name="licence_query" action="results.cfm" method="post" id=
+  "licence_query">
+    <label>Organization Name: <input type="text" id="_org" name=
+    "_org" value="" size="42" maxlength="60"></label>
+    <label>Licence Number: <input type="text" id="_ln" name="_ln"
+    value="" size="30" maxlength="30" onkeypress=
+    "digit_dash_dot_only();"></label> <label>Licensee (Core)
+    Number: <input type="text" id="_en" name="_en" value="" size=
+    "30" maxlength="30" onkeypress="digit_only();"></label>
+    <label>Country: <select name="_cnty" id="_cnty">
+      <option value="(ALL)">
+        (ALL)
+      </option>
+      <option value="AUS">
+        Australia
+      </option>
+      <option value="BEL">
+        Belgium
+      </option>
+      <option value="CAN">
+        Canada
+      </option>
+      <option value="CHN">
+        China
+      </option>
+      <option value="DNK">
+        Denmark
+      </option>
+      <option value="FIN">
+        Finland
+      </option>
+      <option value="DEU">
+        Germany
+      </option>
+      <option value="ISR">
+        Israel
+      </option>
+      <option value="ITA">
+        Italy
+      </option>
+      <option value="JPN">
+        Japan
+      </option>
+      <option value="NLD">
+        Netherlands
+      </option>
+      <option value="SCT">
+        Scotland
+      </option>
+      <option value="SWE">
+        Sweden
+      </option>
+      <option value="CHE">
+        Switzerland
+      </option>
+      <option value="GBF">
+        United Kingdom
+      </option>
+      <option value="USA">
+        United States of America
+      </option>
+    </select></label> <span style=
+    "display:none"><label>Province/State: <select id="_prv" name=
+    "_prv">
+      <option value="%">
+        (ALL)
+      </option>
+    </select></label></span> <span style=
+    "display:none"><label>City: <select id="_cty" name="_cty">
+    </select></label></span> <label>Licensed Purpose (Usetype)<br>
+    <select name="_prps" id="_prps" size="1">
+      <option value="0" selected>
+        ALL
+      </option>
+      <option value="100" title=
+      "construct an industrial accelerator">
+        100 construct an industrial accelerator
+      </option>
+      <option value="101" title=
+      "operate an industrial accelerator">
+        101 operate an industrial accelerator
+      </option>
+      <option value="102" title=
+      "decommission an industrial accelerator">
+        102 decommission an industrial accelerator
+      </option>
+      <option value="103" title="operate a portable accelerator">
+        103 operate a portable accelerator
+      </option>
+      <option value="104" title="operate a mobile accelerator">
+        104 operate a mobile accelerator
+      </option>
+      <option value="504" title=
+      "operate a geophysical logging accelerator">
+        504 operate a geophysical logging accelerator
+      </option>
+      <option value="506" title=
+      "construct a neutron generator for industrial application">
+        506 construct a neutron generator for industrial
+        application
+      </option>
+      <option value="507" title=
+      "operate a neutron generator for industrial application">
+        507 operate a neutron generator for industrial application
+      </option>
+      <option value="515" title=
+      "construct an isotope production accelerator facility">
+        515 construct an isotope production accelerator facility
+      </option>
+      <option value="516" title=
+      "operate an isotope production accelerator facility">
+        516 operate an isotope production accelerator facility
+      </option>
+      <option value="517" title=
+      "decommission an isotope production accelerator facility">
+        517 decommission an isotope production accelerator facility
+      </option>
+      <option value="518" title=
+      "construct a research particle accelerator facility">
+        518 construct a research particle accelerator facility
+      </option>
+      <option value="519" title=
+      "operate a research particle accelerator facility">
+        519 operate a research particle accelerator facility
+      </option>
+      <option value="520" title=
+      "decommission a research particle accelerator facility">
+        520 decommission a research particle accelerator facility
+      </option>
+      <option value="521" title=
+      "construct a medical accelerator facility">
+        521 construct a medical accelerator facility
+      </option>
+      <option value="522" title=
+      "operate a medical accelerator facility">
+        522 operate a medical accelerator facility
+      </option>
+      <option value="523" title=
+      "decommission a medical accelerator facility">
+        523 decommission a medical accelerator facility
+      </option>
+      <option value="524" title=
+      "operate and service the medical accelerator and other radiotherapy facilities">
+        524 operate and service the medical accelerator and other
+        radiotherapy faciliti...
+      </option>
+      <option value="525" title=
+      "operate the medical accelerator and other radiotherapy facilities">
+        525 operate the medical accelerator and other radiotherapy
+        facilities
+      </option>
+      <option value="526" title=
+      "Conduct manual brachytherapy, operate and service the medical accelerator and other radiotherapy facilities">
+        526 Conduct manual brachytherapy, operate and service the
+        medical accelerator a...
+      </option>
+      <option value="527" title=
+      "Conduct manual brachytherapy, operate the medical accelerator and other radiotherapy facilities">
+        527 Conduct manual brachytherapy, operate the medical
+        accelerator and other rad...
+      </option>
+      <option value="531" title=
+      "construct a calibration irradiator facility">
+        531 construct a calibration irradiator facility
+      </option>
+      <option value="532" title=
+      "operate a calibration irradiator facility">
+        532 operate a calibration irradiator facility
+      </option>
+      <option value="534" title="construct an irradiator facility">
+        534 construct an irradiator facility
+      </option>
+      <option value="535" title="operate an irradiator facility">
+        535 operate an irradiator facility
+      </option>
+      <option value="536" title=
+      "decommission an irradiator facility">
+        536 decommission an irradiator facility
+      </option>
+      <option value="538" title=
+      "operate a pool type irradiator facility">
+        538 operate a pool type irradiator facility
+      </option>
+      <option value="541" title=
+      "construct a radioactive source teletherapy facility">
+        541 construct a radioactive source teletherapy facility
+      </option>
+      <option value="542" title=
+      "operate a radioactive source teletherapy facility">
+        542 operate a radioactive source teletherapy facility
+      </option>
+      <option value="543" title=
+      "decommission a radioactive source teletherapy facility">
+        543 decommission a radioactive source teletherapy facility
+      </option>
+      <option value="544" title=
+      "construct a veterinary teletherapy machine">
+        544 construct a veterinary teletherapy machine
+      </option>
+      <option value="545" title=
+      "operate a veterinary teletherapy machine">
+        545 operate a veterinary teletherapy machine
+      </option>
+      <option value="551" title=
+      "construct a low dose rate brachytherapy facility">
+        551 construct a low dose rate brachytherapy facility
+      </option>
+      <option value="552" title=
+      "operate a low dose rate brachytherapy facility">
+        552 operate a low dose rate brachytherapy facility
+      </option>
+      <option value="554" title=
+      "construct a high dose rate rate or pulsed dose rate brachytherapy facility">
+        554 construct a high dose rate rate or pulsed dose rate
+        brachytherapy facility
+      </option>
+      <option value="555" title=
+      "operate a high dose rate or pulsed dose rate brachytherapy facility">
+        555 operate a high dose rate or pulsed dose rate
+        brachytherapy facility
+      </option>
+      <option value="558" title=
+      "operate other brachytherapy prescribed equipment">
+        558 operate other brachytherapy prescribed equipment
+      </option>
+      <option value="560" title=
+      "construct a radioactive source stereotactic teletherapy facility">
+        560 construct a radioactive source stereotactic teletherapy
+        facility
+      </option>
+      <option value="561" title=
+      "operate a radioactive source stereotactic teletherapy facility">
+        561 operate a radioactive source stereotactic teletherapy
+        facility
+      </option>
+      <option value="562" title=
+      "decommission a radioactive source stereotactic teletherapy facility">
+        562 decommission a radioactive source stereotactic
+        teletherapy facility
+      </option>
+      <option value="565" title=
+      "service (by independent provider) Class II prescribed equipment">
+        565 service (by independent provider) Class II prescribed
+        equipment
+      </option>
+      <option value="566" title=
+      "service (by operator) Class II prescribed equipment">
+        566 service (by operator) Class II prescribed equipment
+      </option>
+      <option value="567" title=
+      "development and testing of Class II equipment">
+        567 development and testing of Class II equipment
+      </option>
+      <option value="591" title=
+      "commercial dosimetry services - external radiation">
+        591 commercial dosimetry services - external radiation
+      </option>
+      <option value="592" title=
+      "commercial dosimetry services - internal radiation">
+        592 commercial dosimetry services - internal radiation
+      </option>
+      <option value="593" title=
+      "commercial dosimetry services - radon progeny and long lived radioactive dust">
+        593 commercial dosimetry services - radon progeny and long
+        lived radioactive du...
+      </option>
+      <option value="596" title=
+      "in-house dosimetry services - internal radiation">
+        596 in-house dosimetry services - internal radiation
+      </option>
+      <option value="598" title=
+      "in-house dosimetry services - consolidated">
+        598 in-house dosimetry services - consolidated
+      </option>
+      <option value="616" title=
+      "Operate and service an isotope production accelerator facility">
+        616 Operate and service an isotope production accelerator
+        facility
+      </option>
+      <option value="619" title=
+      "Operate and service a research particle accelerator facility">
+        619 Operate and service a research particle accelerator
+        facility
+      </option>
+      <option value="624" title=
+      "operate, service and decommission a medical accelerator and other radiotherapy facilities">
+        624 operate, service and decommission a medical accelerator
+        and other radiother...
+      </option>
+      <option value="626" title=
+      "conduct manual brachytherapy, operate, service and decommission the medical accelerator and other radiotherapy facilities">
+        626 conduct manual brachytherapy, operate, service and
+        decommission the medical...
+      </option>
+      <option value="635" title=
+      "Operate and service an irradiator facility">
+        635 Operate and service an irradiator facility
+      </option>
+      <option value="667" title=
+      "Develop, test and service Class II prescribed equipment">
+        667 Develop, test and service Class II prescribed equipment
+      </option>
+      <option value="811" title="portable gauges">
+        811 portable gauges
+      </option>
+      <option value="812" title="industrial radiography">
+        812 industrial radiography
+      </option>
+      <option value="813" title="laboratory studies">
+        813 laboratory studies
+      </option>
+      <option value="814" title="fixed gauges">
+        814 fixed gauges
+      </option>
+      <option value="815" title=
+      "consolidated uses of nuclear substances">
+        815 consolidated uses of nuclear substances
+      </option>
+      <option value="816" title="logging - sealed source">
+        816 logging - sealed source
+      </option>
+      <option value="817" title="development and testing">
+        817 development and testing
+      </option>
+      <option value="822" title=
+      "servicing, installation and dismantling of devices - basic servicing">
+        822 servicing, installation and dismantling of devices -
+        basic servicing
+      </option>
+      <option value="823" title=
+      "servicing, installation and dismantling of devices - complex servicing">
+        823 servicing, installation and dismantling of devices -
+        complex servicing
+      </option>
+      <option value="824" title="distribution - drop shipment">
+        824 distribution - drop shipment
+      </option>
+      <option value="825" title="distribution - less than 740 MBq">
+        825 distribution - less than 740 MBq
+      </option>
+      <option value="826" title="distribution - 740 MBq or more">
+        826 distribution - 740 MBq or more
+      </option>
+      <option value="827" title="calibration: less than 740 MBq">
+        827 calibration: less than 740 MBq
+      </option>
+      <option value="828" title="calibration: 740 MBq or more">
+        828 calibration: 740 MBq or more
+      </option>
+      <option value="829" title="development of sealed sources">
+        829 development of sealed sources
+      </option>
+      <option value="830" title=
+      "gauging device: development and testing">
+        830 gauging device: development and testing
+      </option>
+      <option value="831" title=
+      "industrial radiography: 51 or more exposure devices">
+        831 industrial radiography: 51 or more exposure devices
+      </option>
+      <option value="832" title=
+      "fixed gauges: 10 or more locations where gauges are used">
+        832 fixed gauges: 10 or more locations where gauges are
+        used
+      </option>
+      <option value="833" title=
+      "portable gauges: 15 or more devices">
+        833 portable gauges: 15 or more devices
+      </option>
+      <option value="834" title="distribution: more than 1 GBq">
+        834 distribution: more than 1 GBq
+      </option>
+      <option value="836" title=
+      "laboratory studies: 10 or more laboratories">
+        836 laboratory studies: 10 or more laboratories
+      </option>
+      <option value="837" title=
+      "laboratory studies: 3 to 9 laboratories">
+        837 laboratory studies: 3 to 9 laboratories
+      </option>
+      <option value="838" title=
+      "laboratory studies: 1 or 2 laboratories">
+        838 laboratory studies: 1 or 2 laboratories
+      </option>
+      <option value="839" title=
+      "industrial radiography: 31 or more exposure devices">
+        839 industrial radiography: 31 or more exposure devices
+      </option>
+      <option value="840" title=
+      "industrial radiography: more than 9 exposure devices">
+        840 industrial radiography: more than 9 exposure devices
+      </option>
+      <option value="841" title=
+      "consolidated licence: 51 or more locations">
+        841 consolidated licence: 51 or more locations
+      </option>
+      <option value="842" title=
+      "industrial radiography: from 24 to 30 exposure devices, inclusive">
+        842 industrial radiography: from 24 to 30 exposure devices,
+        inclusive
+      </option>
+      <option value="843" title=
+      "industrial radiography: from 17 to 23 exposure devices, inclusive">
+        843 industrial radiography: from 17 to 23 exposure devices,
+        inclusive
+      </option>
+      <option value="844" title="subsurface zone location">
+        844 subsurface zone location
+      </option>
+      <option value="845" title=
+      "logging: sealed source use with 6 or more storage locations">
+        845 logging: sealed source use with 6 or more storage
+        locations
+      </option>
+      <option value="846" title="subsurface tracer studies">
+        846 subsurface tracer studies
+      </option>
+      <option value="847" title=
+      "processing: total unsealed source possession limit of more than 10 GBq">
+        847 processing: total unsealed source possession limit of
+        more than 10 GBq
+      </option>
+      <option value="848" title=
+      "industrial radiography: fewer than 10 exposure devices">
+        848 industrial radiography: fewer than 10 exposure devices
+      </option>
+      <option value="849" title=
+      "consolidated licence: between 11 and 50 locations, inclusive, where radioisotopes are used">
+        849 consolidated licence: between 11 and 50 locations,
+        inclusive, where radiois...
+      </option>
+      <option value="850" title=
+      "laboratory studies: total unsealed source possession limit of more than 10 GBq">
+        850 laboratory studies: total unsealed source possession
+        limit of more than 10 ...
+      </option>
+      <option value="851" title=
+      "manufacturing of nuclear substances">
+        851 manufacturing of nuclear substances
+      </option>
+      <option value="852" title=
+      "fixed gauges: 5 or more locations where gauges are used">
+        852 fixed gauges: 5 or more locations where gauges are used
+      </option>
+      <option value="853" title=
+      "industrial radiography: from 10 to 16 exposure devices, inclusive">
+        853 industrial radiography: from 10 to 16 exposure devices,
+        inclusive
+      </option>
+      <option value="854" title=
+      "industrial radiography: from 3 to 9 exposure devices inclusive">
+        854 industrial radiography: from 3 to 9 exposure devices
+        inclusive
+      </option>
+      <option value="855" title=
+      "fixed gauges: between 2 and 4 locations, inclusive, where gauges are used">
+        855 fixed gauges: between 2 and 4 locations, inclusive,
+        where gauges are used
+      </option>
+      <option value="856" title="irradiation: pool-type">
+        856 irradiation: pool-type
+      </option>
+      <option value="857" title=
+      "consolidated licence: between 1 and 10 locations">
+        857 consolidated licence: between 1 and 10 locations
+      </option>
+      <option value="858" title="tracer studies">
+        858 tracer studies
+      </option>
+      <option value="859" title=
+      "teletherapy: radioactive source teletherapy machine">
+        859 teletherapy: radioactive source teletherapy machine
+      </option>
+      <option value="860" title="brachytherapy">
+        860 brachytherapy
+      </option>
+      <option value="861" title=
+      "logging: sealed source use with 1 to 5 storage locations, inclusive">
+        861 logging: sealed source use with 1 to 5 storage
+        locations, inclusive
+      </option>
+      <option value="862" title=
+      "diagnostic nuclear medicine procedures">
+        862 diagnostic nuclear medicine procedures
+      </option>
+      <option value="863" title=
+      "processing: total unsealed source possession limit of 10 GBq or less">
+        863 processing: total unsealed source possession limit of
+        10 GBq or less
+      </option>
+      <option value="864" title="device manufacturing">
+        864 device manufacturing
+      </option>
+      <option value="865" title=
+      "removal of radioactive luminious compounds">
+        865 removal of radioactive luminious compounds
+      </option>
+      <option value="866" title=
+      "servicing, installation and dismantling of devices containing radioisotopes">
+        866 servicing, installation and dismantling of devices
+        containing radioisotopes
+      </option>
+      <option value="867" title="neutron activation">
+        867 neutron activation
+      </option>
+      <option value="868" title="borehole tube tagging">
+        868 borehole tube tagging
+      </option>
+      <option value="869" title=
+      "laboratory studies: total unsealed source possession limit between 100 MBq and 10 GBq, inclusive">
+        869 laboratory studies: total unsealed source possession
+        limit between 100 MBq ...
+      </option>
+      <option value="870" title=
+      "portable gauges: 5 or more devices">
+        870 portable gauges: 5 or more devices
+      </option>
+      <option value="871" title=
+      "fixed gauging: more than 9 gauges">
+        871 fixed gauging: more than 9 gauges
+      </option>
+      <option value="872" title="therapeutic nuclear medicine">
+        872 therapeutic nuclear medicine
+      </option>
+      <option value="873" title=
+      "research: maximum sealed source size of more than 50 MBq">
+        873 research: maximum sealed source size of more than 50
+        MBq
+      </option>
+      <option value="874" title="radiography instruction">
+        874 radiography instruction
+      </option>
+      <option value="875" title="human research studies">
+        875 human research studies
+      </option>
+      <option value="876" title=
+      "fixed gauging: fewer than 10 gauges">
+        876 fixed gauging: fewer than 10 gauges
+      </option>
+      <option value="877" title=
+      "laboratory studies: total unsealed source possession limit of less than 100 MBq">
+        877 laboratory studies: total unsealed source possession
+        limit of less than 100...
+      </option>
+      <option value="878" title="irradiation: self-shielded type">
+        878 irradiation: self-shielded type
+      </option>
+      <option value="879" title="calibration">
+        879 calibration
+      </option>
+      <option value="880" title="X-ray fluorescence analysis">
+        880 X-ray fluorescence analysis
+      </option>
+      <option value="881" title="electron capture detection">
+        881 electron capture detection
+      </option>
+      <option value="883" title="bone mineral analysis">
+        883 bone mineral analysis
+      </option>
+      <option value="884" title="low energy imaging">
+        884 low energy imaging
+      </option>
+      <option value="885" title=
+      "repair of components containing radioactive luminous compounds">
+        885 repair of components containing radioactive luminous
+        compounds
+      </option>
+      <option value="886" title="beta backscatter gauging">
+        886 beta backscatter gauging
+      </option>
+      <option value="887" title="distribution">
+        887 distribution
+      </option>
+      <option value="888" title="electronic component testing">
+        888 electronic component testing
+      </option>
+      <option value="889" title=
+      "research: maximum sealed source size of 50 MBq">
+        889 research: maximum sealed source size of 50 MBq
+      </option>
+      <option value="890" title=
+      "portable gauges: between 1 and 4 devices, inclusive">
+        890 portable gauges: between 1 and 4 devices, inclusive
+      </option>
+      <option value="891" title="liquid level indication">
+        891 liquid level indication
+      </option>
+      <option value="892" title=
+      "fixed gauges: only 1 location where gauges are used">
+        892 fixed gauges: only 1 location where gauges are used
+      </option>
+      <option value="894" title="teaching: more than 50 MBq">
+        894 teaching: more than 50 MBq
+      </option>
+      <option value="895" title=
+      "Industry: maximum sealed source size of 100 MBq">
+        895 Industry: maximum sealed source size of 100 MBq
+      </option>
+      <option value="896" title="dew point detection">
+        896 dew point detection
+      </option>
+      <option value="897" title="static elimination">
+        897 static elimination
+      </option>
+      <option value="898" title="static detection">
+        898 static detection
+      </option>
+      <option value="899" title="radioluminescence">
+        899 radioluminescence
+      </option>
+      <option value="900" title="surge voltage protection">
+        900 surge voltage protection
+      </option>
+      <option value="901" title=
+      "display or use of components containing radioactive luminous compounds">
+        901 display or use of components containing radioactive
+        luminous compounds
+      </option>
+      <option value="902" title="remote blade inspection">
+        902 remote blade inspection
+      </option>
+      <option value="903" title="smoke detection">
+        903 smoke detection
+      </option>
+      <option value="905" title="sinker bars">
+        905 sinker bars
+      </option>
+      <option value="906" title="storage">
+        906 storage
+      </option>
+      <option value="907" title=
+      "teaching: maximum sealed source size of 50 MBq">
+        907 teaching: maximum sealed source size of 50 MBq
+      </option>
+      <option value="908" title="demonstration">
+        908 demonstration
+      </option>
+      <option value="909" title=
+      "industrial radiography: 1 or 2 exposure devices">
+        909 industrial radiography: 1 or 2 exposure devices
+      </option>
+      <option value="910" title=
+      "exposure device: development and testing">
+        910 exposure device: development and testing
+      </option>
+      <option value="911" title=
+      "fixed gauges: development and testing">
+        911 fixed gauges: development and testing
+      </option>
+      <option value="912" title=
+      "brachytherapy other than by remote afterloader">
+        912 brachytherapy other than by remote afterloader
+      </option>
+      <option value="913" title=
+      "brachytherapy : remote afterloader - low dose rate">
+        913 brachytherapy : remote afterloader - low dose rate
+      </option>
+      <option value="914" title=
+      "brachytherapy : remote afterloader - high dose rate">
+        914 brachytherapy : remote afterloader - high dose rate
+      </option>
+      <option value="915" title="veterinary nuclear medicine">
+        915 veterinary nuclear medicine
+      </option>
+      <option value="916" title="possession of deuterium">
+        916 possession of deuterium
+      </option>
+      <option value="917" title=
+      "radiation device: development and testing">
+        917 radiation device: development and testing
+      </option>
+      <option value="918" title="temporary possession - no use">
+        918 temporary possession - no use
+      </option>
+      <option value="919" title="radioactive check sources">
+        919 radioactive check sources
+      </option>
+      <option value="939" title=
+      "industrial radiography: 31 to 50 exposure devices (839) /">
+        939 industrial radiography: 31 to 50 exposure devices (839)
+        /
+      </option>
+      <option value="940" title="liquid scintillation counters">
+        940 liquid scintillation counters
+      </option>
+      <option value="952" title=
+      "fixed gauges: 5 to 9 locations where gauges are used">
+        952 fixed gauges: 5 to 9 locations where gauges are used
+      </option>
+      <option value="970" title="portable gauges: 5 to 14 devices">
+        970 portable gauges: 5 to 14 devices
+      </option>
+      <option value="971" title=
+      "portable gauges: 15 to 25 devices">
+        971 portable gauges: 15 to 25 devices
+      </option>
+      <option value="972" title=
+      "portable gauges: 26 to 40 devices">
+        972 portable gauges: 26 to 40 devices
+      </option>
+      <option value="973" title=
+      "portable gauges: 41 to 60 devices">
+        973 portable gauges: 41 to 60 devices
+      </option>
+      <option value="974" title=
+      "portable gauges: 61 to 80 devices">
+        974 portable gauges: 61 to 80 devices
+      </option>
+      <option value="975" title=
+      "portable gauges: 81 or more devices">
+        975 portable gauges: 81 or more devices
+      </option>
+      <option value="987" title="distribution: 1 GBq or less">
+        987 distribution: 1 GBq or less
+      </option>
+      <option value="990" title="portable gauges: 2 to 4 devices">
+        990 portable gauges: 2 to 4 devices
+      </option>
+      <option value="993" title="portable gauges: 1 device">
+        993 portable gauges: 1 device
+      </option>
+      <option value="999" title="processing recyclable materials">
+        999 processing recyclable materials
+      </option>
+    </select></label> <input type="submit" name="Submit" value=
+    "Search"> <input type="reset" name="Reset" value="Reset">
+  </form>
+</body>
+</html>

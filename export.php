@@ -25,6 +25,10 @@ $content = htmlspecialchars_decode($row["content"], ENT_QUOTES);
 
 
 $filename =  strtolower(str_replace(' ', '-', $title));
+include('filenames.php');
+$filename =   str_replace(array_keys($filenames), $filenames, $filename);
+
+
 
 $HTML=$target_directory . $filename.'.html';
 $handlehtml=fopen($HTML, 'w');

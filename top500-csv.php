@@ -14,11 +14,35 @@
 //}
 //}
 
+function urlExists($url=NULL)  
+{  
+    if($url == NULL) return false;  
+    $ch = curl_init($url);  
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5);  
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);  
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
+    $data = curl_exec($ch);  
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);  
+    curl_close($ch);  
+    if($httpcode>=200 && $httpcode<300){  
+        return true;  
+    } else {  
+        return false;  
+    }  
+}  
+
     include('simple_html_dom.php');
     $ID = $_POST['id'];
 
     $myURL = $_POST['url'];
-    $html = file_get_html($myURL);
+
+    if (urlExists($myURL)){
+      $html = file_get_html($myURL);
+    }else{
+      exit();
+    }
+    
+    
     //echo $html;
     $name = $ID;
     //$title = $html->find('title', 0)->plaintext;
@@ -195,12 +219,12 @@
         //var_dump(json_decode($json));
         //var_dump(json_decode($json, true));
 
-    include('replacements.php');
+    //include('replacements.php');
     //$replacements = json_decode($json, true);
     //var_dump($replacements);
     $translation_content = str_replace(array_keys($replacements), $replacements, $translation_content);
     //echo ("<h1>".$i." WET replcaements</h1>");
-    include('removals.php');
+    //include('removals.php');
     $translation_content = str_replace(($removals), '', $translation_content);
 
 
@@ -251,6 +275,9 @@
       die("Connection failed: " . $conn->connect_error);
     }
     //echo '3. ' . $content;
+
+
+
     $content = htmlspecialchars($content, ENT_QUOTES);
     //echo '4. ' . $content;
     $breadcrumbs = htmlspecialchars($breadcrumbs, ENT_QUOTES);

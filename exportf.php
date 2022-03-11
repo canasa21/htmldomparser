@@ -28,6 +28,10 @@ $filename =  strtolower(str_replace(' ', '-', $title));
 include('french.php');
 $filename = str_replace(array_keys($french), $french, $filename);
 
+$filename =  strtolower(str_replace(' ', '-', $title));
+include('filenames.php');
+$filename =   str_replace(array_keys($filenames), $filenames, $filename);
+
 $HTML=$target_directory . $filename.'.html';
 $handlehtml=fopen($HTML, 'w');
 $loadhtml='<!doctype html>

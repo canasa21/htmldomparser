@@ -55,6 +55,13 @@ $sql = "select title, breadcrumb, content, modified from content_both_top_500 wh
 <header>
 <div id="wb-bnr" class="container">
 <div class="row">
+  <!-- W3C START --> 
+  <form name="HtmlValidator" action="HtmlValidator.php">
+          <input type="hidden" name="id" value="<?php echo($ID) ?>"/>
+         <input type="submit" name="submit" value="W3C Validator"/>
+  </form>
+  <!-- W3C END -->
+  <div id="result">if 1 page is good if 0 there are problems with this page</div>
 <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
 <h2 class="wb-inv">Language selection</h2>
 <ul class="list-inline mrgn-bttm-0">

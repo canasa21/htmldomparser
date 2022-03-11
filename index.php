@@ -148,7 +148,7 @@ li.current {
         echo "<td><a href=\"" . $row['url'] . "\" target=\"_blank\">" . $row['url'] . "</a></td>";
 
         
-        echo "<td><form id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input type=\"submit\" value=\"Harvest\"></form></td>";  
+        echo "<td><form id=\"". $row['id'] . "\"><input type=\"hidden\" name=\"addy\" value=\"". $row['url'] . "\"><input type=\"hidden\" name=\"id\" value=\"". $row['id'] . "\"><input id=\"harvest\" type=\"submit\" value=\"Harvest\"></form></td>";  
        
 
      
@@ -181,6 +181,9 @@ $('.js-selectall').on('change', function() {
   var selector = $(this).data('target');
   $(selector).prop("checked", isChecked);
 });
+
+
+
 
 </script>
 </body>
