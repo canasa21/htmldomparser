@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE>
+<html lang="en">
 <!-- Alex was here on October 18, 2021 -->
 <!-- 1:15 PM -->
 <style type="text/css">
@@ -69,16 +70,13 @@ li.current {
 
 ini_set('max_execution_time', '300');
 
-$threshold = $_GET['threshold'];
+$threshold = htmlspecialchars($_GET['threshold']);
 echo $threshold;
-//mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 include('simple_html_dom.php');
 include('characters.php');
 include('replacements.php');
 include('removals.php');
-
-//UPDATE `externalPages` SET `flag`= 'x' WHERE `url` like '%application/app%'
 
     $servername = "db";
     $username = "root";
@@ -91,9 +89,8 @@ include('removals.php');
       die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "select id, url from top500 WHERE ID BETWEEN $threshold";
+    $sql = "select id, url from externalPages WHERE ID BETWEEN $threshold";
     $result = $conn->query($sql);
-
 
     while($row = $result->fetch_array())
     {
@@ -223,10 +220,10 @@ include('removals.php');
 
 
     //echo "img: ".$content; 
-    $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="./images/$1"', $content);  
+    $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $content);  
     //echo ("image on");
     //$content = preg_replace('%<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"%s', '<img src="sites/default/files/$1"', $content); 
-    $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $content); 
+    $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $content); 
     //echo ("poster on");
      
    //echo ("pdf on");
@@ -252,9 +249,14 @@ include('removals.php');
     //$content = preg_replace('#</div></div>#', '', $content);
     $content = str_replace('</div> </div> </div>', '', $content);
     $content = str_replace('</div></div></div>', '', $content);
-    $content = preg_replace('/\s\s+/', ' ', $content);
+    //HOLD $content = preg_replace('/\s\s+/', ' ', $content);
     $content = str_replace('<table class="width-100">', '<table class="table table-striped">', $content);
     $content = str_replace('<table>', '<table class="table table-striped">', $content);
+
+    //$content = preg_replace('#(<img[^>]*[^\/])>#', '$1/>', $content); 
+
+    $content = preg_replace('#(<img[^>]+)(?<!\/)>#', '$1$2/>', $content); 
+
     $content = trim($content);
     
 
@@ -268,33 +270,19 @@ include('removals.php');
     $translation_content = str_replace('<div class="span-6">', '', $translation_content);
     $translation_content = str_replace('<div class="span-8">', '', $translation_content);
     $translation_content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $translation_content);
-    //$translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="sites/default/files/$1"', $translation_content);   
-    //$translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="sites/default/files/$2"', $translation_content); 
-    //$translation_content = preg_replace('#<a\s.*?href=".*?/?([^/]+?(\.pdf))"#s', '<a href="sites/default/files/$1"', $translation_content);  
-    $translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="./images/$1"', $translation_content);  
-    //echo ("image on");
-    //$content = preg_replace('%<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"%s', '<img src="sites/default/files/$1"', $content); 
-    $translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $translation_content);    
+ 
+    $translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $translation_content);  
     
+    $translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $translation_content);    
     
-    
-        //echo $content;
-        //clean content
-        //include('wet4.php');
-        //var_dump(json_decode($json));
-        //var_dump(json_decode($json, true));
+   
 
-    include('replacements.php');
-    //$replacements = json_decode($json, true);
-    //var_dump($replacements);
+  
     $translation_content = str_replace(array_keys($replacements), $replacements, $translation_content);
-    //echo ("<h1>".$i." WET replcaements</h1>");
-    include('removals.php');
+  
     $translation_content = str_replace(($removals), '', $translation_content);
 
 
-    //include('characters.php');
-    //$translation_content = str_replace(($characters), '', $translation_content);
 
 
 
@@ -303,15 +291,16 @@ include('removals.php');
     $translation_content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $translation_content);
     $translation_content = preg_replace('#<dl id="gcwu-date-mod(.*?)</dl>#', '', $translation_content);
     $translation_content = str_replace('<div class="clearfix"></div>', '', $translation_content);
-    //$content = preg_replace('#</div>{3}#', '', $content);
-    //$content = preg_replace('#</div></div>#', '', $content);
+   
     $translation_content = str_replace('</div> </div> </div>', '', $translation_content);
     $translation_content = str_replace('’', '', $translation_content);
 
-    //$translation_content = addslashes($translation_content);
+  
 
 
-    $translation_content = preg_replace('/\s\s+/', ' ', $translation_content);
+    //HOLD $translation_content = preg_replace('/\s\s+/', ' ', $translation_content);
+    $translation_content = preg_replace('#(<img[^>]*[^\/])>#', '$1/>', $translation_content); 
+
     $translation_content = trim($translation_content);
 
     $translation_content = preg_replace('#href="/fra/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $translation_content);
@@ -323,6 +312,9 @@ include('removals.php');
     $translation_breadcrumbs = str_replace('</ol>', '', $translation_breadcrumbs);
     $translation_breadcrumbs = str_replace('</div>', '', $translation_breadcrumbs);
     $translation_breadcrumbs = str_replace('</div>', '', $translation_breadcrumbs);
+
+   
+
     $translation_breadcrumbs = trim($translation_breadcrumbs);
 
     //echo ("<h1>".$x." removal</h1>");
@@ -361,7 +353,7 @@ include('removals.php');
     if ($conn->query($sql) === TRUE) {
       echo "\nNew record " . $ID . " created successfully<br>";
     } else {
-      echo " Error: " . $sql . "<br>" . $conn->error;
+      echo "Error: " . $sql . "<br>" . $conn->error;
     }
     $conn->close();
 

@@ -15,10 +15,10 @@ $servername = "db";
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }
-   
+    //echo '3. ' . $content;
 
 //connect to database and query
-$sql = "select link, path, title, content from content_both_top_500";
+$sql = "select link, path, title, content, modified, language, translation_path from content_both_top_500";
     $result = $conn->query($sql);
 
 //select paths
@@ -48,23 +48,55 @@ if ($result->num_rows > 0) {
 
         $title = $row['title'];
         $content = $row['content'];
+        $language = $row['language'];
+        $modified = $row['modified'];
+        $translation_path = $row['translation_path'];
+        //echo($translation_path);
 
         $title = htmlspecialchars_decode($row["title"], ENT_QUOTES);
         $content = htmlspecialchars_decode($row["content"], ENT_QUOTES);
 
-        $HTML=$incoming_path . $page_name.'.html';
-       
+        include('gatsby.php');
+        $content = str_replace(array_keys($gatsby), $gatsby, $content);
+
+        $content = strip_tags($content, '<section><p><a><header><table><thead><tbody><tfoot><tr><th><td><h1><h2><h3><h4><h5><h6><br><ul><ol><li><img><dl><dt><dd><time><details><summary>');
+
+        //add breaks
+        $content = preg_replace('#\s{4,}#', PHP_EOL, $content);
+
+     
+        $HTML=$incoming_path . $page_name.'.js';
+        $languageToggle = $incoming_path . $page_name;
+        $languageToggle = str_replace('./wwwroot/eng','/fra',$languageToggle);
+        //$HTML=$path_to_directory . '.html';
         $handlehtml=fopen($HTML, 'w');
-        $loadhtml='<!doctype html>
-        <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <title>' . $title . '</title>
-        </head>
-        <body>' . $content . '</body>
-        </html>';
-    
+        $loadhtml='import React from "react"
+        import Layout from "/src/components/Layout"
+
+        export default function pageName({ pageContext }) {
+
+            pageContext.layout = {
+
+                language: "' . $language . '",
+                pageTitle: "' . $title . '", 
+                dateModified: "' . $modified . '",
+                langToggleUrl: "'. $languageToggle .'"
         
+            };
+
+
+            return (
+                <>
+                    <Layout pageContext={pageContext}>
+                    {/*MAIN CONTENT START*/}
+                    ' . $content . '
+                    {/*MAIN CONTENT END*/}
+                    </Layout>
+                </>
+            )
+        }';
+    
+        //echo $loadhtml;
         
         fwrite($handlehtml, $loadhtml);
 

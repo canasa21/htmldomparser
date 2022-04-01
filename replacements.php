@@ -1,4 +1,6 @@
 <?php 
+//REMOVED: "clear"=> "clearfix",
+//ADDED: "<br>"=>"</br>"
 $replacements = array(
 "span-2"=> "col-md-3",
       "span-8"=> "col-md-12",
@@ -8,7 +10,6 @@ $replacements = array(
       "float-right"=> "pull-right",
       "float-left"=> "pull-left",
       "clear-right"=> "clearfix",
-      "clear"=> "clearfix",
       "wet-boew-footnotes"=> "wb-fnote",
       "footnote-return"=> "fn-rtn",
       "footnote-link"=> "fn-lnk",
@@ -91,7 +92,6 @@ $replacements = array(
       "form-confirm"=> "has-success",
       "form-horizontal"=> "form-horizontal",
       "form-inline"=> "form-inline",
-      "form-radio"=> "radio-inline",
-      "uclearfix"=>"uclear"
+      "form-radio"=> "radio-inline"
 );
       ?>

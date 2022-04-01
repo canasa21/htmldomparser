@@ -24,8 +24,7 @@
                 <div class="col">
                     <?php
                         include('replacements.php');
-                        //$replacements = json_decode($json, true);
-                        //var_dump($replacements);
+
                         $content = str_replace(array_keys($replacements), $replacements, $content, $i);
                         include('removals.php');
                         $content = str_replace(($removals), '', $content, $x);
