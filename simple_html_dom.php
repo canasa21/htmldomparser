@@ -81,7 +81,7 @@ function file_get_html(
 		$offset,
 		$maxLen
 	);
-	// $contents = retrieve_url_contents($url);
+	
 
 	if (empty($contents) || strlen($contents) > $maxLen) {
 		$dom->clear();

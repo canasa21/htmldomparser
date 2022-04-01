@@ -47,7 +47,7 @@ li.current {
 
 </style>
 <body>
-<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script--> 
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -115,8 +115,7 @@ li.current {
   $total_rows = mysqli_fetch_array( $resultCount )[ 0 ];
   $total_pages = ceil( $total_rows / $no_of_records_per_page );
 
-  //$query_select_xref_info = "SELECT id, url FROM externalPages WHERE flag <> 'x' LIMIT $offset, $no_of_records_per_page";
-  //$result = $conn->query($query_select_xref_info);
+
 
   $sql = "select id, url from externalPages LIMIT $offset, $no_of_records_per_page";
     $result = $conn->query($sql);
@@ -129,7 +128,7 @@ li.current {
   while($row = $dataset->fetch_assoc()){
     $page_ids[] = $row['name'];
   }
-  //print_r($page_ids);
+
 
     
     echo "<table>";

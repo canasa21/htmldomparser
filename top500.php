@@ -114,14 +114,14 @@ a:hover {
 <div id="information" ></div>
 <iframe id="loadarea" style="display:none;"></iframe>
 <!--?php echo getcwd() . "\n"; ?-->
-    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export.php">Export English Pages</a> <a class="buttonExport" href="exportf.php">Export French Pages</a> <a class="buttonExport" href="make-directory.php">Make Directory</a> <a class="buttonExport" href="tidy.php">Tidy</a> <!--a class="buttonExport" href="force.php">Force Harvest</a-->
+    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> <a class="buttonExport" href="make-directory.php">Make Directory</a> <a class="buttonExport" href="tidy.php">Tidy</a> <!--a class="buttonExport" href="force.php">Force Harvest</a-->
     
     <form id="batch" action="start.php">
 
     <?php
     echo ("<select name=\"threshold\" id=\"threshold\">");
     //echo ("<option value=\" 1 AND 25\">TEST (1 AND 25)</option>");
-for ($i = 1; $i <= 2501; $i += 25)
+for ($i = 1; $i <= 2410; $i += 25)
 {
     $j = $i + 24;
     echo ("<option value=\" $i AND $j \">$i to $j</option>");
@@ -204,7 +204,7 @@ echo("</select>");
       die("Connection failed: " . $conn->connect_error);
     }
 
-  $total_pages_sql = "SELECT COUNT(*) FROM top500";
+  $total_pages_sql = "SELECT COUNT(*) FROM externalPages";
   $resultCount = mysqli_query( $conn, $total_pages_sql );
   $total_rows = mysqli_fetch_array( $resultCount )[ 0 ];
   $total_pages = ceil( $total_rows / $no_of_records_per_page );
@@ -212,7 +212,7 @@ echo("</select>");
   //$query_select_xref_info = "SELECT id, url FROM externalPages WHERE flag <> 'x' LIMIT $offset, $no_of_records_per_page";
   //$result = $conn->query($query_select_xref_info);
 
-  $sql = "select id, url from top500 LIMIT $offset, $no_of_records_per_page";
+  $sql = "select id, url from externalPages LIMIT $offset, $no_of_records_per_page";
     $result = $conn->query($sql);
 
   echo("<p><b>Total number of records: </b>" . $total_rows . "</p>");

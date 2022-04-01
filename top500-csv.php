@@ -140,13 +140,15 @@ function urlExists($url=NULL)
     //$content = str_replace('<div id="wb-core">', '', $content);
     //echo $content;
 
+    //MOVED to tags.php
+    //$content = str_replace('<div id="wb-core-in" class="equalize">', '', $content);
+    //$content = str_replace('<div id="wb-main-in">', '', $content);
+    //$content = str_replace('<div id="wb-main" role="main">', '', $content);
+    //$content = str_replace('<div class="span-6">', '', $content);
+    //$content = str_replace('<div class="span-8">', '', $content);
 
-    $content = str_replace('<div id="wb-core-in" class="equalize">', '', $content);
-    //echo $content;
-    $content = str_replace('<div id="wb-main-in">', '', $content);
-    $content = str_replace('<div id="wb-main" role="main">', '', $content);
-    $content = str_replace('<div class="span-6">', '', $content);
-    $content = str_replace('<div class="span-8">', '', $content);
+    include('tags.php');
+    $content = str_replace(($tags), '', $content);
     $content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $content);
 
     //clean breadcrumbs
@@ -168,6 +170,11 @@ function urlExists($url=NULL)
     //$content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $content); 
     //echo ("poster on");
      
+
+
+ 
+//<img([^>]*[^/])>
+
    //echo ("pdf on");
         //echo $content;
         //clean content
@@ -183,62 +190,32 @@ function urlExists($url=NULL)
     $content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $content);
     $content = preg_replace('#<dl id="gcwu-date-mod(.*?)</dl>#', '', $content);
     $content = str_replace('<div class="clearfix"></div>', '', $content);
-    $content = str_replace('</div> </div> </div>', '', $content);
+    //$content = str_replace('</div> </div> </div>', '', $content);
     //$content = str_replace('</div></div></div>', '', $content);
-    $content = preg_replace('/\s\s+/', ' ', $content);
+    //REMOVE: $content = preg_replace('/\s\s+/', ' ', $content);
     $content = str_replace('<table class="width-100">', '<table class="table table-striped">', $content);
     $content = str_replace('<table>', '<table class="table table-striped">', $content);
+    $content = preg_replace('#(<img[^>]*[^\/])>#', '$1/>', $content); 
     $content = trim($content);
     
     //PDF link harvesting causing a problem
     //$content = preg_replace('#href="/eng/.*?/?([^/]+?(\.pdf))"/#s', 'href="/sites/default/files/$1"/', $content);
    
    //French
-    $translation_content = str_replace('<div id="wb-core">', '', $translation_content);
-    $translation_content = str_replace('<div id="wb-core-in" class="equalize">', '', $translation_content);
-    $translation_content = str_replace('<div id="wb-main-in">', '', $translation_content);
-    $translation_content = str_replace('<div id="wb-main" role="main">', '', $translation_content);
-    $translation_content = str_replace('<div class="span-6">', '', $translation_content);
-    $translation_content = str_replace('<div class="span-8">', '', $translation_content);
-    $translation_content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $translation_content);
-   
+   $translation_content = str_replace(($tags), '', $translation_content);
+   $translation_content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $translation_content);
+   $translation_content = str_replace(array_keys($replacements), $replacements, $translation_content);
+   $translation_content = str_replace(($removals), '', $translation_content);
     
     //$translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="sites/default/files/$1"', $translation_content);   
     //$translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="sites/default/files/$2"', $translation_content); 
     //$translation_content = preg_replace('#<a\s.*?href=".*?/?([^/]+?(\.pdf))"#s', '<a href="sites/default/files/$1"', $translation_content);  
-    
-    
     //$translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="./images/$1"', $translation_content);  
     //$translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="./images/$2"', $translation_content);    
-    
-    
-    
-        //echo $content;
-        //clean content
-        //include('wet4.php');
-        //var_dump(json_decode($json));
-        //var_dump(json_decode($json, true));
 
-    //include('replacements.php');
-    //$replacements = json_decode($json, true);
-    //var_dump($replacements);
-    $translation_content = str_replace(array_keys($replacements), $replacements, $translation_content);
-    //echo ("<h1>".$i." WET replcaements</h1>");
-    //include('removals.php');
-    $translation_content = str_replace(($removals), '', $translation_content);
-
-
-    //include('characters.php');
-    //$translation_content = str_replace(($characters), '', $translation_content);
-
-
-
-    //remove share
-    //<div class="wet-boew-share span-5 margin-bottom-none" data-wet-boew="{'sites': ['bit.ly', 'blogger', 'del.icio.us', 'digg', 'diigo', 'facebook', 'google', 'hotmail', 'linkedin', 'newsvine', 'reddit', 'stumbleupon', 'technorati', 'tumblr', 'twitter', 'yahoobuzz'],addAnalytics:true, analyticsName:'/share/{r}/{s}'}"></div>
     $translation_content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $translation_content);
     $translation_content = preg_replace('#<dl id="gcwu-date-mod(.*?)</dl>#', '', $translation_content);
     $translation_content = str_replace('<div class="clearfix"></div>', '', $translation_content);
-    $translation_content = str_replace('</div> </div> </div>', '', $translation_content);
     $translation_content = str_replace('’', '', $translation_content);
 
     //$translation_content = addslashes($translation_content);
@@ -304,4 +281,3 @@ function urlExists($url=NULL)
     
     $conn->close();
 ?> 
-

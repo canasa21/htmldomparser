@@ -193,13 +193,12 @@ a:hover {
   $total_rows = mysqli_fetch_array( $resultCount )[ 0 ];
   $total_pages = ceil( $total_rows / $no_of_records_per_page );
 
-  //$query_select_xref_info = "SELECT id, url FROM externalPages WHERE flag <> 'x' LIMIT $offset, $no_of_records_per_page";
-  //$result = $conn->query($query_select_xref_info);
+
 
   $sql = "select id, url from top500 LIMIT $offset, $no_of_records_per_page";
     $result = $conn->query($sql);
 
-  echo("<p><b>Total number of records: </b>" . $total_rows . "</p>");
+  echo "<p><b>Total number of records: </b>" . $total_rows . "</p>";
 
   $sql_ids = "select name from content_both_top_500 WHERE content = ''";
   $dataset = $conn->query($sql_ids);
@@ -211,12 +210,7 @@ a:hover {
 
     
     echo "<table>";
-    //echo "<tr style=\"border-bottom:3px solid #000;\">";
-    //echo "<th style=\"text-align:left;\">ID</th>";
-    //echo "<th style=\"text-align:left;\">URL</th>";
-    //echo "<th>Action</th>";
-    //echo "<th>Preview</th>";
-    //echo "</tr>";
+
     if ($result->num_rows > 0) {
       // output data of each row
       while($row = $result->fetch_assoc()) {

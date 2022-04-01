@@ -49,7 +49,7 @@ include('removals.php');
         $content = str_replace(($removals), '', $content);
         $content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $content);
         $content = preg_replace('#<dl id="gcwu-date-mod(.*?)</dl>#', '', $content);
-        $ontent = preg_replace('/\s\s+/', ' ', $content);
+        $content = preg_replace('#(<img[^>]+)(?<!\/)>#', '$1$2/>', $content); 
         $content = trim($content);
 
 
@@ -78,13 +78,11 @@ include('removals.php');
     $translation_content = htmlspecialchars($translation_content, ENT_QUOTES);
     $translation_content = mysqli_real_escape_string($conn, $translation_content);
 
-    //echo ($content);
-
     $sql = "UPDATE content_both_top_500 set content='$content', translation_content='$translation_content' WHERE name = $ID";
 
     
     if ($conn->query($sql) === TRUE) {
-      echo ("Record " . $ID . " updated successfully");
+      echo "Record " . $ID . " updated successfully";
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
