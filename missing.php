@@ -17,16 +17,8 @@ th {
 
 <?php
 
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+include('include/db.php');
+
 
   $sql = "SELECT link, title, content, translation_content FROM content_both_top_500 WHERE content='' OR translation_content=''";
   $result = $conn->query($sql);

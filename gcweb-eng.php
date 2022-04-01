@@ -2,20 +2,13 @@
 
 $ID = $_GET['id'];
 
-$servername = "db";
-$username = "root";
-$password = "root";
-$dbname = "db";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+include('include/db.php');
+
 
 //incoming id
 
 $sql = "select title, breadcrumb, content, modified from content_both where name = $ID";
+    // deepcode ignore Sqli: <please specify a reason of ignoring this>
     $result = $conn->query($sql);
 
 

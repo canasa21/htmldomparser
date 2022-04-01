@@ -1,15 +1,7 @@
 <?php 
 
-$servername = "db";
-$username = "root";
-$password = "root";
-$dbname = "db";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+include('include/db.php');
+
 
 $language = "en";
 $target_directory = "./export/";
@@ -31,6 +23,7 @@ $filename =   str_replace(array_keys($filenames), $filenames, $filename);
 
 
 $HTML=$target_directory . $filename.'.html';
+// deepcode ignore PT: <please specify a reason of ignoring this>
 $handlehtml=fopen($HTML, 'w');
 $loadhtml='<!doctype html>
 <html lang="en">

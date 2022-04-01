@@ -177,16 +177,8 @@ a:hover {
   $no_of_records_per_page = 25;
   $offset = ( $pageno - 1 ) * $no_of_records_per_page;
 
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+  include('include/db.php');
+ 
 
   $total_pages_sql = "SELECT COUNT(*) FROM content_both_top_500 where content = ''";
   $resultCount = mysqli_query( $conn, $total_pages_sql );
@@ -244,6 +236,7 @@ a:hover {
 <ul class="pagination">
     <li><a class="button" href="?pageno=1">First</a></li>
     <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
+    {# deepcode ignore XSS: <please specify a reason of ignoring this> #}
     <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
     <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>

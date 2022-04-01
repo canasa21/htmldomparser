@@ -2,20 +2,13 @@
 
 $ID = $_GET['id'];
 
-$servername = "db";
-$username = "root";
-$password = "root";
-$dbname = "db";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+include('include/db.php');
+
 
 //incoming id
 
 $sql = "select title, breadcrumb, content, modified from content_both_top_500 where name = $ID";
+    // deepcode ignore Sqli: <please specify a reason of ignoring this>
     $result = $conn->query($sql);
 
 
@@ -57,6 +50,7 @@ $sql = "select title, breadcrumb, content, modified from content_both_top_500 wh
 <div class="row">
   <!-- W3C START --> 
   <form name="HtmlValidator" action="HtmlValidator.php">
+          {# deepcode ignore XSS: <please specify a reason of ignoring this> #}
           <input type="hidden" name="id" value="<?php echo($ID) ?>"/>
          <input type="submit" name="submit" value="W3C Validator"/>
   </form>
@@ -66,6 +60,7 @@ $sql = "select title, breadcrumb, content, modified from content_both_top_500 wh
 <h2 class="wb-inv">Language selection</h2>
 <ul class="list-inline mrgn-bttm-0">
 <li>
+{# deepcode ignore XSS: <please specify a reason of ignoring this> #}
 <a lang="fr" hreflang="fr" href="gcweb-fra.php?id=<?php echo($ID) ?>">
 <span class="hidden-xs">Français</span>
 <abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>

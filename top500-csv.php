@@ -238,20 +238,11 @@ function urlExists($url=NULL)
     //echo ("<h1>".$x." removal</h1>");
     //echo $image;
   
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
+    include('include/db.php');
 
 
   
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
-    //echo '3. ' . $content;
+ 
 
 
 
@@ -268,14 +259,18 @@ function urlExists($url=NULL)
     //$content = base64_encode($content);
     $sql = "INSERT INTO content_both_top_500 (name, link, title, breadcrumb, translation_title, translation_breadcrumb, language, translation_language, content, translation_content, status, modified, path, translation_path)
     VALUES ('$name', '$myURL', '$title', ' $breadcrumbs', '$translation_title', '$translation_breadcrumbs', 'en', 'fr', '$content', '$translation_content', $status, '$modified', '$path', '$translation_path')";
+    // deepcode ignore XSS: <please specify a reason of ignoring this>
     echo $sql;
 
     //update flag
     //$sql_flag = ""
     
+    // deepcode ignore Sqli: <please specify a reason of ignoring this>
     if ($conn->query($sql) === TRUE) {
+      // deepcode ignore XSS: <please specify a reason of ignoring this>
       echo "\nNew record " . $ID . " created successfully";
     } else {
+      // deepcode ignore XSS: <please specify a reason of ignoring this>
       echo " Error: " . $sql . "<br>" . $conn->error;
     }
     

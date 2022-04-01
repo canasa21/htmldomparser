@@ -3,16 +3,9 @@
 if (isset($_POST["upload"])) {
 
   //echo("1<br>");
-  $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
+  include('include/db.php');
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+  
     
     print_r($_FILES);
     //if ( $filename[ 1 ] == 'csv' ) {
@@ -34,6 +27,7 @@ if (isset($_POST["upload"])) {
       echo( $handle );
       fclose( $handle );
 
+      // deepcode ignore XSS: <please specify a reason of ignoring this>
       header("Location: top500.php");
 
     //}
