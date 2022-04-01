@@ -4,17 +4,9 @@
 
 $target_directory = "./wwwroot";
 
-$servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
+include('include/db.php');
 
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+
     //echo '3. ' . $content;
 
 //connect to database and query
@@ -70,6 +62,7 @@ if ($result->num_rows > 0) {
         $languageToggle = $incoming_path . $page_name;
         $languageToggle = str_replace('./wwwroot/fra','/eng',$languageToggle);
         //$HTML=$path_to_directory . '.html';
+        // deepcode ignore PT: <please specify a reason of ignoring this>
         $handlehtml=fopen($HTML, 'w');
         $loadhtml='import React from "react"
         import Layout from "/src/components/Layout"
@@ -110,6 +103,7 @@ $conn->close();
 
 function createDirectoryStructure($page_name,$path_to_directory) {
 if (!file_exists($path_to_directory)) {
+    // deepcode ignore PT: <please specify a reason of ignoring this>
     mkdir($path_to_directory, 0777, true);
     //add page    
     }

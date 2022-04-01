@@ -78,18 +78,11 @@ include('characters.php');
 include('replacements.php');
 include('removals.php');
 
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+include('include/db.php');
+
 
     $sql = "select id, url from externalPages WHERE ID BETWEEN $threshold";
+    // deepcode ignore Sqli: <please specify a reason of ignoring this>
     $result = $conn->query($sql);
 
     while($row = $result->fetch_array())
@@ -350,6 +343,7 @@ include('removals.php');
     //update flag
     //$sql_flag = ""
     
+    // deepcode ignore Sqli: <please specify a reason of ignoring this>
     if ($conn->query($sql) === TRUE) {
       echo "\nNew record " . $ID . " created successfully<br>";
     } else {

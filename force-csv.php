@@ -62,17 +62,9 @@ include('removals.php');
         $translation_content = preg_replace('/\s\s+/', ' ', $translation_content);
         $translation_content = trim($translation_content);
 
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
+        include('include/db.php');
     
-    
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+ 
 
     $content = htmlspecialchars($content, ENT_QUOTES);
     $translation_content = htmlspecialchars($translation_content, ENT_QUOTES);
@@ -82,8 +74,10 @@ include('removals.php');
 
     
     if ($conn->query($sql) === TRUE) {
+      // deepcode ignore XSS: <please specify a reason of ignoring this>
       echo "Record " . $ID . " updated successfully";
     } else {
+      // deepcode ignore XSS: <please specify a reason of ignoring this>
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
     

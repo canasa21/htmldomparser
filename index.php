@@ -99,16 +99,8 @@ li.current {
   $no_of_records_per_page = 100;
   $offset = ( $pageno - 1 ) * $no_of_records_per_page;
 
-    $servername = "db";
-    $username = "root";
-    $password = "root";
-    $dbname = "db";
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
+  include('include/db.php');
+  
 
   $total_pages_sql = "SELECT COUNT(*) FROM externalPages";
   $resultCount = mysqli_query( $conn, $total_pages_sql );
