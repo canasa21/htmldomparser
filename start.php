@@ -213,10 +213,10 @@ include('include/db.php');
 
 
     //echo "img: ".$content; 
-    $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $content);  
+    //IMG $content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $content);  
     //echo ("image on");
     //$content = preg_replace('%<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"%s', '<img src="sites/default/files/$1"', $content); 
-    $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $content); 
+    //POSTER $content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $content); 
     //echo ("poster on");
      
    //echo ("pdf on");
@@ -253,7 +253,7 @@ include('include/db.php');
     $content = trim($content);
     
 
-    $content = preg_replace('#href="/eng/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $content);
+    //PDF $content = preg_replace('#href="/eng/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $content);
     
    //French
     $translation_content = str_replace('<div id="wb-core">', '', $translation_content);
@@ -264,9 +264,9 @@ include('include/db.php');
     $translation_content = str_replace('<div class="span-8">', '', $translation_content);
     $translation_content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $translation_content);
  
-    $translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $translation_content);  
+    //$translation_content = preg_replace('#<img\s.*?src=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '<img src="/images/$1"', $translation_content);  
     
-    $translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $translation_content);    
+    //$translation_content = preg_replace('#(\s.*?)poster=".*?/?([^/]+?(\.gif|\.png|\.jpg))"#s', '$1poster="/images/$2"', $translation_content);    
     
    
 
@@ -296,7 +296,7 @@ include('include/db.php');
 
     $translation_content = trim($translation_content);
 
-    $translation_content = preg_replace('#href="/fra/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $translation_content);
+    //PDF $translation_content = preg_replace('#href="/fra/.*?/?([^/]+?(\.pdf))"#s', 'href="/sites/default/files/$1"', $translation_content);
 
     $translation_breadcrumbs = str_replace('<div id="gcwu-bc">', '', $translation_breadcrumbs);
     $translation_breadcrumbs = str_replace('<h2>Fil d\'Ariane</h2>', '', $translation_breadcrumbs);
@@ -352,7 +352,7 @@ include('include/db.php');
     $conn->close();
 
         //END HARVEST
-        sleep (10);
+        //sleep (10);
        
     }
     
