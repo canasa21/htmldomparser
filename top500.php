@@ -190,7 +190,7 @@ echo("</select>");
   } else {
     $pageno = 1;
   }
-  $no_of_records_per_page = 25;
+  $no_of_records_per_page = 200;
   $offset = ( $pageno - 1 ) * $no_of_records_per_page;
 
   include('include/db.php');
