@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
         include('gatsby.php');
         $content = str_replace(array_keys($gatsby), $gatsby, $content);
 
-        $content = strip_tags($content, '<section><p><a><header><table><thead><tbody><tfoot><tr><th><td><h1><h2><h3><h4><h5><h6><br><ul><ol><li><img><dl><dt><dd><time><details><summary>');
+        $content = strip_tags($content, '<section><p><a><header><table><thead><tbody><tfoot><tr><th><td><h1><h2><h3><h4><h5><h6><br><hr><i><em><b><strong><ul><ol><li><img><dl><dt><dd><time><details><summary><iframe><svg><title><canvas><desc><style><symbol><g><path><text><rect>');
 
         //add breaks
         $content = preg_replace('#\s{4,}#', PHP_EOL, $content);
