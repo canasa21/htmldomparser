@@ -97,7 +97,8 @@ Hall G,  Maier A, Bennell MC, Randhawa K, Majury A. 2012. Heat burden and  socio
 <li><a href="https://www.linkedin.com/in/kristi-randhawa-33812757/">Profil LinkedIn</a></li>
 <li><a href="https://gcdirectory-gcannuaire.ssc-spc.gc.ca/fr/GCA/?pgid=015&dn=Q049S1JJU1RJLlJBTkRIQVdBQENBTkFEQS5DQSxPVT1IU0VDRC1EU1NDRSxPVT1ERVJQQS1EUEVSRSxPVT1UU0ItREdTVCxPVT1DTlNDLUNDU04sTz1HQyxDPUNB">Page dans  le SAGE</a></li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -14,6 +14,10 @@ $gatsby = array(
     "'"=> "&#39;",
     "`"=>"&#39;",
     "’"=>"&#39;",
-    "colspan"=>"colSpan"
+    "colspan"=>"colSpan",
+    "rowspan"=>"rowSpan",
+    "<div className=\"clear\"></div>"=>"",
+    "<div className=\"col-md-22\">"=>"",
+    "col-md-12" => "col-md-8"
 );
       ?>

@@ -18,8 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-12 alert alert-info module-simplify">  <p>Submitted to the Minister of Natural Resources on November 23 2021, following the 2021 Canadian federal election.</p>  </div>
-<div className="clear"></div>
+<div className="col-md-6 alert alert-info module-simplify">  <p>Submitted to the Minister of Natural Resources on November 23 2021, following the 2021 Canadian federal election.</p>  </div>
 <div className="module-table-contents">
 <h2>Table of contents</h2>
 <ul>
@@ -238,7 +237,8 @@ import React from "react"
 <p>Ms. Maharaj&#39;s legal practice spans three decades and includes trial and appellate court experience in multiple jurisdictions, as well as experience with federal and provincial administrative tribunals. Her practice in the areas of administrative, commercial, environmental, energy and resources law includes significant experience in legal, regulatory, environment and community/Aboriginal relations departments of major natural gas and electricity transmission organizations, and with the Alberta Utilities Commission.</p>
 <p>Ms. Maharaj has experienced the resources and regulatory sector from the viewpoints of the owner, the regulated proponent, the generation proponent, and the regulator, gaining a unique perspective on the industry as a whole. She has participated in many large high-profile energy development and permitting processes, including the Mackenzie Gas Project, inter-jurisdictional natural gas pipelines, an LNG regasification development in the northeastern United States, flare-gas-to-power projects, and many smaller projects The Alberta Government appointed Ms. Maharaj Chair of the Criminal Injuries Review Board in 2017 and, on October 1, 2020, appointed her to a three-year term as an Acting Member of the Natural Resources Conservation Board.</p>
 <p>Ms. Maharaj is a Research Fellow at the Canadian Institute of Resources Law. Her research interests include advancement of the regulatory framework of the energy sector, understanding of renewable generation, and policy development with respect to achieving a progressive balance between environmental impact and development. Ms. Maharaj&#39;s current volunteer activities include Director for the Smart Sustainable Resilient Infrastructure Association, volunteer lawyer with Calgary Legal Guidance, Secretary of the Alberta Branch of the Canadian Bar Association, mentor in the Law Society of Alberta mentorship program, volunteer with Calgary&#39;s Soup Sisters and founder of the Sunflower Spirit Project.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

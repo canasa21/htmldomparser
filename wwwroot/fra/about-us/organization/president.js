@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="module-poster col-md-3 mrgn-lft-0 mrgn-bttm-0">  	<img src="/images/commission_members/CNSC-Commission-Member-Velshi.jpg" alt="Rumina Velshi"/>
+<div className="module-poster col-md-2 mrgn-lft-0 mrgn-bttm-0">  	<img src="/images/commission_members/CNSC-Commission-Member-Velshi.jpg" alt="Rumina Velshi"/>
 <div className="image-caption">
 <p className="text-center mrgn-bttm-0"><strong>M<sup>me</sup> Rumina Velshi</strong></p>
 </div>
@@ -33,7 +33,6 @@ import React from "react"
 <p>M<sup>me</sup> Velshi est titulaire dun baccalauréat en sciences appliquées (génie civil), dune maîtrise en génie (génie chimique) et dune maîtrise en administration des affaires; tous ces diplômes lui ont été décernés par lUniversité de Toronto.</p>
 <h2>Présentations et discours</h2>
 <p>Une liste des présentations, des notes d&rsquo;allocution et des discours de M<sup>me</sup> Velshi se trouve sur la <a href="/fra/resources/presentations/2022">page des présentations</a> de la CCSN.</p>
-<div className="clear"></div>
 <div className="alert alert-info">
 <h2 id="rel-conn">Liens connexes</h2>
 <ul>
@@ -52,7 +51,8 @@ import React from "react"
 <li><a href="https://ocni.webex.com/recordingservice/sites/ocni/recording/play/b7e401b56ab04b07ac2dbf58d363ec06">Séance de discussion ouverte: Une conversation avec la CCSN</a> (en anglais seulement)</li>
 </ul>
 </div>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

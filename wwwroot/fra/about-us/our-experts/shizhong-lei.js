@@ -18,9 +18,9 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <p>Division des g&eacute;osciences</p>
-<div className="pull-right col-md-3"> <img alt="Shizhong Lei" src="/images/our-experts/web_experts_shizhongLei_sub.png"/>
+<div className="pull-right col-md-2"> <img alt="Shizhong Lei" src="/images/our-experts/web_experts_shizhongLei_sub.png"/>
 <p>Shizhong Lei,<br/>
 Sp&eacute;cialiste technique en g&eacute;oscience </p>
 </div>
@@ -29,7 +29,8 @@ Sp&eacute;cialiste technique en g&eacute;oscience </p>
 <h2>Expertise et &eacute;ducation</h2>
 <p>Shizhong est titulaire d&rsquo;un baccalaur&eacute;at &egrave;s sciences, d&rsquo;une ma&icirc;trise en hydrologie et d&rsquo;un doctorat en g&eacute;nie civil avec sp&eacute;cialisation en hydrologie et en ing&eacute;nierie des cours d&rsquo;eau.</p>
 <h2>Recherches et projets actuels</h2>
-<p><strong>Projet&nbsp;: </strong><a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. Dans le cadre de l&rsquo;examen de cette installation propos&eacute;e que r&eacute;alise la CCSN, Shizhong passe en revue les rapports techniques du promoteur sur les pr&eacute;cipitations, les temp&ecirc;tes extr&ecirc;mes, la stabilit&eacute; &agrave; long terme des installations en surface sous l&rsquo;effet de pr&eacute;cipitations extr&ecirc;mes et des changements climatiques ainsi que l&rsquo;&eacute;valuation de la s&ucirc;ret&eacute; et des risques.</p>  
+<p><strong>Projet&nbsp;: </strong><a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. Dans le cadre de l&rsquo;examen de cette installation propos&eacute;e que r&eacute;alise la CCSN, Shizhong passe en revue les rapports techniques du promoteur sur les pr&eacute;cipitations, les temp&ecirc;tes extr&ecirc;mes, la stabilit&eacute; &agrave; long terme des installations en surface sous l&rsquo;effet de pr&eacute;cipitations extr&ecirc;mes et des changements climatiques ainsi que l&rsquo;&eacute;valuation de la s&ucirc;ret&eacute; et des risques.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

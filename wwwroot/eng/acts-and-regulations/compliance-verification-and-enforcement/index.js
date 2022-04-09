@@ -91,7 +91,8 @@ import React from "react"
 <li>See the decertifications undertaken by the CNSC. (<a href="/eng/acts-and-regulations/regulatory-action/index">Regulatory actions</a>)</li>
 </ul>
 <h3 id="sec2-9">Prosecution</h3>
-<p>Prosecution is the laying of charges against a person in accordance with federal or provincial legislation.</p>  
+<p>Prosecution is the laying of charges against a person in accordance with federal or provincial legislation.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

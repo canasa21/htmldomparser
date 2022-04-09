@@ -22,7 +22,8 @@ import React from "react"
 <li>regulation of the development, production and use of nuclear energy in Canada to protect health, safety and the environment</li>
 <li>regulation of the production, possession, use and transport of nuclear substances, and the production, possession and use of prescribed equipment and prescribed information </li>
 <li>implementation of measures respecting international control of the development, production, transport and use of nuclear energy and substances, including measures respecting the non-proliferation of nuclear weapons and nuclear explosive devices </li>
-<li>dissemination of scientific, technical and regulatory information concerning the activities of CNSC, and the effects on the environment, on the health and safety of persons, of the development, production, possession, transport and use of nuclear substances</li>  	</ul>  
+<li>dissemination of scientific, technical and regulatory information concerning the activities of CNSC, and the effects on the environment, on the health and safety of persons, of the development, production, possession, transport and use of nuclear substances</li>  	</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

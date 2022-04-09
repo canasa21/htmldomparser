@@ -18,9 +18,9 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <p>Division de l&rsquo;&eacute;valuation environnementale</p>
-<div className="pull-right col-md-3"> <img alt="Nicole Frigault" src="/images/our-experts/web_experts_NFrigault-sub.png"/>
+<div className="pull-right col-md-2"> <img alt="Nicole Frigault" src="/images/our-experts/web_experts_NFrigault-sub.png"/>
 <p>Nicole Frigault,<br/>
 Sp&eacute;cialiste de l&rsquo;&eacute;valuation environnementale</p>
 </div>
@@ -29,7 +29,8 @@ Sp&eacute;cialiste de l&rsquo;&eacute;valuation environnementale</p>
 <h2>Expertise et &eacute;ducation</h2>
 <p>Nicole est titulaire d&rsquo;un baccalaur&eacute;at &egrave;s sciences avec sp&eacute;cialisation en biologie et en &eacute;tudes environnementales de l&rsquo;Universit&eacute; Saint Mary&rsquo;s. Alors qu&rsquo;elle &eacute;tait &eacute;tudiante, elle a travaill&eacute; dans l&rsquo;industrie mini&egrave;re o&ugrave; elle &eacute;tait charg&eacute;e de la surveillance de l&rsquo;environnement, de l&rsquo;exploitation et de l&rsquo;entretien d&rsquo;une usine de traitement de l&rsquo;eau ainsi que de la r&eacute;alisation d&rsquo;analyses quotidiennes en laboratoire. Elle a entam&eacute; sa carri&egrave;re en tant qu&rsquo;agente de l&rsquo;environnement &agrave; Environnement et Changements climatiques Canada o&ugrave; elle a travaill&eacute; sur les questions de changements climatiques et de l&rsquo;assainissement des sites contamin&eacute;s par la suite. Apr&egrave;s, elle a rejoint Travaux publics et Services gouvernementaux Canada comme agente d&rsquo;&eacute;valuation environnementale o&ugrave; elle a mis son expertise &agrave; contribution dans le cadre de plusieurs grands projets f&eacute;d&eacute;raux dans divers minist&egrave;res et men&eacute; de nombreuses &eacute;tudes environnementales.</p>
 <h2>Recherches et projets actuels</h2>
-<p><strong>Projet&nbsp;: </strong><a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility"><strong>Installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</strong></a><strong>. </strong>En ce qui concerne l&rsquo;examen de cette installation propos&eacute;e, Nicole est responsable de l&rsquo;&eacute;valuation environnementale depuis le d&eacute;but du processus en 2016. Elle poursuivra l&rsquo;&eacute;valuation des r&eacute;percussions environnementales potentielles au cours de l&rsquo;&eacute;tape de la proposition et, si un permis est d&eacute;livr&eacute;, elle continuera &agrave; s&rsquo;assurer que toutes les mesures d&rsquo;att&eacute;nuation et de suivi ainsi que les engagements pris par le titulaire de permis sont respect&eacute;s pendant la dur&eacute;e de vie du projet.</p>  
+<p><strong>Projet&nbsp;: </strong><a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility"><strong>Installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</strong></a><strong>. </strong>En ce qui concerne l&rsquo;examen de cette installation propos&eacute;e, Nicole est responsable de l&rsquo;&eacute;valuation environnementale depuis le d&eacute;but du processus en 2016. Elle poursuivra l&rsquo;&eacute;valuation des r&eacute;percussions environnementales potentielles au cours de l&rsquo;&eacute;tape de la proposition et, si un permis est d&eacute;livr&eacute;, elle continuera &agrave; s&rsquo;assurer que toutes les mesures d&rsquo;att&eacute;nuation et de suivi ainsi que les engagements pris par le titulaire de permis sont respect&eacute;s pendant la dur&eacute;e de vie du projet.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -412,7 +412,8 @@ Tableau A.2&nbsp;: Crit&egrave;res d&#8217;acceptation pour les AD
 <li><em>Safety of Research Reactors</em>. Collection Normes de s&ucirc;ret&eacute; de l&#8217;Agence internationale de l&#8217;&eacute;nergie atomique n<sup>o</sup> NS-R-4, 2005.</li>
 <li>RD-310, <em>Analyses de la s&ucirc;ret&eacute; pour les centrales nucl&eacute;aires</em> (2008).</li>
 <li>RD-367, <em>Conception de petits r&eacute;acteurs</em> (en cours d&#8217;&eacute;laboration).</li>  </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

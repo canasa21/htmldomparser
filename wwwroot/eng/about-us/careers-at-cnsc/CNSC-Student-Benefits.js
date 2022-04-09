@@ -70,7 +70,8 @@ For Coop students working a term longer than 6 months</th>
 <li><a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pension-plan.html"> Superannuation Plan (PSSP)</a></li>
 </ul></td>
 </tr>
-</table>  
+</table>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

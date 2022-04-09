@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -506,9 +506,9 @@ Table B.1 List of Systems Important to Safety and Reliability Targets
 Table B.2  Predicted Reliability
 </caption>
 <tr>
-<td rowspan="3" valign="top"><p><strong>Failure Criteria</strong></p></td>
+<td rowSpan="3" valign="top"><p><strong>Failure Criteria</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Predicted Reliability</strong></p></td>
-<td rowspan="3" valign="top"><p align="center"><strong>Target</strong></p></td>
+<td rowSpan="3" valign="top"><p align="center"><strong>Target</strong></p></td>
 </tr>
 <tr>
 <td colSpan="2" valign="top"><p align="center">Previous Years</p></td>
@@ -608,7 +608,7 @@ Table B.4 Standby Generator Reliability Indices
 <td colSpan="5" valign="top"><p align="center"><strong>A. Test Results</strong></p></td>
 </tr>
 <tr>
-<td width="35" rowspan="2" valign="top"><p><strong>SG#</strong></p></td>
+<td width="35" rowSpan="2" valign="top"><p><strong>SG#</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Start</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Running</strong></p></td>
 </tr>
@@ -657,7 +657,7 @@ Table B.4 Standby Generator Reliability Indices
 <td colSpan="5" valign="top"><p align="center"><strong>B. Outage Statistics</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><strong>SG#</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>SG#</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Maintenance</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Forced</strong></p></td>
 </tr>
@@ -707,7 +707,7 @@ Table B.4 Standby Generator Reliability Indices
 Table B.5  Standby Generator Reliability Indices Trend
 </caption>
 <tr>
-<td rowspan="2" valign="top"><p><strong>Year*</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>Year*</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Running Failure Rate</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Mean Time to Failure (MTTF)</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Mean Time to Repair (MTTR)</strong></p></td>
@@ -838,7 +838,7 @@ Table B.6  Emergency Generator Reliability Indices
 <td colSpan="5" valign="top"><p align="center"><strong>A. Test Results</strong></p></td>
 </tr>
 <tr>
-<td width="39" rowspan="2" valign="top"><p><strong>EPG#</strong></p></td>
+<td width="39" rowSpan="2" valign="top"><p><strong>EPG#</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Start</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Running</strong></p></td>
 </tr>
@@ -873,7 +873,7 @@ Table B.6  Emergency Generator Reliability Indices
 <td colSpan="5" valign="top"><p align="center"><strong>B. Outage Statistics</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><strong>EPG#</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>EPG#</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Maintenance</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Forced</strong></p></td>
 </tr>
@@ -909,7 +909,7 @@ Table B.6  Emergency Generator Reliability Indices
 Table B.7 Emergency Generator Reliability Indices Trend
 </caption>
 <tr>
-<td rowspan="2" valign="top"><p><strong>Year*</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>Year*</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Running Failure Rate</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Mean Time to Failure (MTTF)</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Mean Time to Repair (MTTR)</strong></p></td>
@@ -1060,7 +1060,7 @@ Primary Event</strong></p></td>
 Table B.9 Reliability Models Information
 </caption>
 <tr>
-<td rowspan="2" valign="top"><p><strong>System</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>System</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Reliability Model</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Report</strong></p></td>
 </tr>
@@ -1152,7 +1152,7 @@ Table 2: Categorization of Reports by CNSC Safety and Control Areas
 <td valign="top"><p align="center"><strong>Report Title</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Management</p></td>
+<td rowSpan="3" valign="top"><p>Management</p></td>
 <td valign="top"><p>Management System</p></td>
 <td valign="top"><p>2.2.1.1</p></td>
 <td valign="top"><p>Operations report*</p></td>
@@ -1172,7 +1172,7 @@ Planning report on scheduled training, examination, and testing of personnel for
 <td valign="top"><p>Operations report*</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Facility and Equipment</p></td>
+<td rowSpan="3" valign="top"><p>Facility and Equipment</p></td>
 <td valign="top"><p>Safety Analysis</p></td>
 <td valign="top"><p>2.2.1.2</p>
 <p>2.2.2.4</p>
@@ -1200,7 +1200,7 @@ Planning report on scheduled training, examination, and testing of personnel for
 Report on the degradation of NPP Pressure Boundaries</p></td>
 </tr>
 <tr>
-<td rowspan="8" valign="top"><p>Core Control Processes</p></td>
+<td rowSpan="8" valign="top"><p>Core Control Processes</p></td>
 <td valign="top"><p>Radiation Protection</p></td>
 <td valign="top"><p>2.2.1.1<br />
 2.2.1.2<br />
@@ -1269,7 +1269,7 @@ Accident Frequency Rate</p></td>
 <tr>
 <td valign="top"><p align="center">2.</p></td>
 <td valign="top"><p>Chemistry Index</p></td>
-<td rowspan="2" valign="top"><p align="center">4&#8211;6</p></td>
+<td rowSpan="2" valign="top"><p align="center">4&#8211;6</p></td>
 </tr>
 <tr>
 <td valign="top"><p align="center">3.</p></td>
@@ -1283,7 +1283,7 @@ Accident Frequency Rate</p></td>
 <tr>
 <td valign="top"><p align="center">5.</p></td>
 <td valign="top"><p>Radiological Emergency Performance Index</p></td>
-<td rowspan="3" valign="top"><p align="center">10</p></td>
+<td rowSpan="3" valign="top"><p align="center">10</p></td>
 </tr>
 <tr>
 <td valign="top"><p align="center">6.</p></td>
@@ -1311,7 +1311,7 @@ Accident Frequency Rate</p></td>
 <tr>
 <td valign="top"><p align="center">11.</p></td>
 <td valign="top"><p>Radiation Occurrence Index</p></td>
-<td rowspan="2" valign="top"><p align="center">7</p></td>
+<td rowSpan="2" valign="top"><p align="center">7</p></td>
 </tr>
 <tr>
 <td valign="top"><p align="center">12.</p></td>
@@ -1325,7 +1325,7 @@ Accident Frequency Rate</p></td>
 <tr>
 <td valign="top"><p align="center">14.</p></td>
 <td valign="top"><p>Number of Unplanned Transients</p></td>
-<td rowspan="2" valign="top"><p align="center">3, 5, 6</p></td>
+<td rowSpan="2" valign="top"><p align="center">3, 5, 6</p></td>
 </tr>
 <tr>
 <td valign="top"><p align="center">15.</p></td>
@@ -1334,7 +1334,7 @@ Accident Frequency Rate</p></td>
 <tr>
 <td valign="top"><p align="center">16.</p></td>
 <td valign="top"><p>Corrective Maintenance Backlog</p></td>
-<td rowspan="4" valign="top"><p align="center">5, 6</p></td>
+<td rowSpan="4" valign="top"><p align="center">5, 6</p></td>
 </tr>
 <tr>
 <td valign="top"><p align="center">17.</p></td>
@@ -1463,7 +1463,8 @@ Table 4: Safety and Control Areas (SCAs)
 <li>ISO 17025, <em>Quality Manual Template</em>, International Organization for Standardization, 2005</li>
 <li><em>ASME Boiler &amp; Pressure Vessel Code, Section III, Division 1, Rules for Construction of Nuclear Power Plant Components - Subsection NB &#8211; Class 1 Components</em>, American Society of Mechanical Engineers</li>
 <li>TS-R-1, <em>Regulations for the Safe Transport of Radioactive Material</em>, International Atomic Energy Agency, 2009</li>  </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

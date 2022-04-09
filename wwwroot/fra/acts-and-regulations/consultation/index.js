@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 module-related pull-right">
+<div className="col-md-2 module-related pull-right">
 <h2>Soumettre des commentaires et des suggestions</h2>
 <ul>
 <li>La CCSN accueille favorablement en tout temps la <a href="mailto:consulation@cnsc-ccsn.gc.ca">r&eacute;troaction</a> sur n&#39;importe quel document d&#39;application de la r&eacute;glementation.</li>
@@ -64,7 +64,8 @@ import React from "react"
 <li><a href="http://actionplan.gc.ca/fr/page/rcc-ccr/propos-du-conseil-de-cooperation-matiere-de">Conseil de coop&eacute;ration en  mati&egrave;re de r&eacute;glementation Canada &ndash; &Eacute;tats-Unis</a></li>
 </ul>
 <p>Pour de plus amples renseignements concernant les  consultations actuelles ou &agrave; venir sur les projets de r&egrave;glement f&eacute;d&eacute;raux, veuillez consulter la <em><a href="http://www.gazette.gc.ca/index-fra.html">Gazette du Canada</a></em> et sure le site web le <a href="https://open.canada.ca/fr">Gouvernement ouvert</a> du gouvernement du Canada sous l&rsquo;option  &laquo; <a href="https://www.canada.ca/fr/gouvernement/systeme/consultations/consultationdescanadiens.html">Trouver une consultation</a> &raquo; </p>
-</section>  
+</section>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

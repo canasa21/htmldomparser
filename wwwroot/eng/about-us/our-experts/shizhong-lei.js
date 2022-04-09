@@ -18,9 +18,9 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <p>Geoscience Division</p>
-<div className="pull-right col-md-3"> <img alt="Shizhong Lei" src="/images/our-experts/web_experts_shizhongLei_sub.png"/>
+<div className="pull-right col-md-2"> <img alt="Shizhong Lei" src="/images/our-experts/web_experts_shizhongLei_sub.png"/>
 <p>Shizhong Lei,<br/>
 Geoscience Technical Specialist </p>
 </div>
@@ -29,7 +29,8 @@ Geoscience Technical Specialist </p>
 <h2>Expertise and education</h2>
 <p>Shizhong holds a bachelor of science, a master&rsquo;s degree in hydrology, and a PhD in civil engineering specializing in hydrology and river engineering.</p>
 <h2>Current research and projects</h2>
-<p><strong>Project:</strong> <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. As part of the CNSC&rsquo;s review of this proposed facility, Shizhong reviews technical reports from the proponent on precipitation, extreme storms, long-term stability of surface facilities under extreme precipitation and climate change, and safety and risk assessment.</p>  
+<p><strong>Project:</strong> <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. As part of the CNSC&rsquo;s review of this proposed facility, Shizhong reviews technical reports from the proponent on precipitation, extreme storms, long-term stability of surface facilities under extreme precipitation and climate change, and safety and risk assessment.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

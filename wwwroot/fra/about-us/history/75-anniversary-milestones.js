@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">  <div className="col-md-22">
+<div className="row">  <div className="col-md-8">
 <div className="span-3 "> <a href="#1955"><img src="/images/75th-anniversary/75_milestones_1955.png" alt=""/></a>
 <p><a href="#1955">1946-1955 : &Eacute;tablir le cadre de s&ucirc;ret&eacute; nucl&eacute;aire au Canada </a></p>
 </div>
@@ -31,7 +31,6 @@ import React from "react"
 <div className="span-3 "> <a href="#1985"><img src="/images/75th-anniversary/75_milestones_1985.png" alt=""/></a>
 <p><a href="#1985">1976-1985 : Inspirer confiance envers la r&eacute;glementation nucl&eacute;aire et la s&eacute;curit&eacute; au Canada</a></p>
 </div>
-<div className="clear"></div>
 <div className="span-3 "> <a href="#1995"><img src="/images/75th-anniversary/75_milestones_1995.png" alt=""/></a>
 <p><a href="#1995">1986-1995 : Leadership sur la sc&egrave;ne internationale</a></p>
 </div>
@@ -43,10 +42,10 @@ import React from "react"
 </div>
 <div className="span-3 "> <a href="#2021"><img src="/images/75th-anniversary/75_milestones_2021.png" alt=""/></a>
 <p><a href="#2021">2016-2021 : B&acirc;tir la confiance dans une &egrave;re d&rsquo;innovations technologiques et de possibilit&eacute;s</a></p>
-</div>  </div>  <h2 id="1955">1946-1955 : &Eacute;tablir le cadre de s&ucirc;ret&eacute; nucl&eacute;aire au Canada</h2>  <div className="col-md-22">  <div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>  <h2 id="1955">1946-1955 : &Eacute;tablir le cadre de s&ucirc;ret&eacute; nucl&eacute;aire au Canada</h2>  <div className="col-md-8">  <div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_1955.png" alt=""/>
 </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1946</strong> &ndash; Le 12 octobre, la <em>Loi sur le contr&ocirc;le de l&rsquo;&eacute;nergie atomique</em> est promulgu&eacute;e. En vertu  de cette loi, le gouvernement du Canada cr&eacute;e la Commission de contr&ocirc;le de  l&rsquo;&eacute;nergie atomique (CCEA), organisme de r&eacute;glementation charg&eacute; de pourvoir au  contr&ocirc;le et &agrave; la surveillance de l&rsquo;exploitation, des applications et utilisations  de l&rsquo;&eacute;nergie atomique, et de permettre au Canada de participer d&rsquo;une mani&egrave;re  efficace aux mesures de contr&ocirc;le international de l&rsquo;&eacute;nergie atomique.</li>
 <li><strong>1947</strong> &ndash; Un an plus tard, en juillet 1947, le Canada est  pr&ecirc;t &agrave; exploiter le premier r&eacute;acteur de recherche aux Laboratoires de Chalk  River. Il s&rsquo;agit du r&eacute;acteur nucl&eacute;aire de recherche le plus puissant au monde &agrave;  cette &eacute;poque. Gr&acirc;ce aux radio&#8209;isotopes produits &agrave; l&rsquo;aide du r&eacute;acteur, le Canada  devient le pionnier de la m&eacute;decine nucl&eacute;aire.</li>
@@ -59,9 +58,9 @@ import React from "react"
 <li>1954&nbsp;: <a href="/fra/reactors/research-reactors/other-reactor-facilities/nuclear-power-demonstration">R&eacute;acteur nucl&eacute;aire de  d&eacute;monstration</a></li>
 </ul>
 </div>
-<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="1965">1956-1965 : Paver la voie vers l&rsquo;utilisation pacifique de l&rsquo;&eacute;nergie nucl&eacute;aire</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="1965">1956-1965 : Paver la voie vers l&rsquo;utilisation pacifique de l&rsquo;&eacute;nergie nucl&eacute;aire</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_1965.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1958</strong> &ndash; En septembre, bon nombre de Canadiens  s&rsquo;opposent au projet f&eacute;d&eacute;ral d&rsquo;acquisition de missiles Bomarc &agrave; ogive nucl&eacute;aire  aupr&egrave;s des &Eacute;tats-Unis. La controverse persiste jusqu&rsquo;&agrave; ce que le premier  ministre Lester Pearson annonce, en septembre 1963, que le Canada fera  l&rsquo;acquisition de missiles nucl&eacute;aires aupr&egrave;s des &Eacute;tats-Unis. Cependant, apr&egrave;s la  ratification par le Canada du <em>Trait&eacute; sur  la non-prolif&eacute;ration des armes nucl&eacute;aires</em> en 1969, on commence &agrave; retirer  les ogives nucl&eacute;aires du territoire canadien.</li>
 <li><strong>1959</strong> &ndash; Comme le public devient plus conscient de  l&rsquo;utilisation de l&rsquo;&eacute;nergie nucl&eacute;aire au Canada, la sensibilisation devient une  priorit&eacute;. En 1959, le premier r&eacute;acteur de recherche universitaire au sein du  Commonwealth britannique entre en exploitation &agrave; l&rsquo;Universit&eacute; McMaster de  Hamilton, en Ontario.</li>
@@ -73,9 +72,9 @@ import React from "react"
 <li>1959&nbsp;: <a href="/fra/reactors/research-reactors/nuclear-facilities/mcmaster/index">R&eacute;acteur de recherche nucl&eacute;aire McMaster</a></li>
 <li>1960&nbsp;: <a href="https://cna.ca/fr/">Association  nucl&eacute;aire canadienne (ANC)</a></li>
 </ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
-<h2 id="1975">1966-1975 : Le nucl&eacute;aire et la sant&eacute;</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+<h2 id="1975">1966-1975 : Le nucl&eacute;aire et la sant&eacute;</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_1975.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1966</strong> &ndash; La centrale nucl&eacute;aire de Douglas Point,  premi&egrave;re centrale nucl&eacute;aire commerciale au Canada et prototype des grandes  centrales nucl&eacute;aires de l&rsquo;avenir, entre en exploitation. Un permis  d&rsquo;exploitation provisoire est d&eacute;livr&eacute; pour permettre le d&eacute;marrage et le  fonctionnement de la centrale. </li>
 <li><strong>1969</strong> &ndash; Alors que le Canada commence &agrave; se concentrer  sur les applications nucl&eacute;aires en m&eacute;decine, la CCEA adopte un r&egrave;glement  concernant le transport des substances radioactives. </li>
@@ -89,9 +88,9 @@ import React from "react"
 <li>1972&nbsp;: <a href="https://www.iaea.org/sites/default/files/publications/documents/infcircs/1970/infcirc140_fr.pdf">Trait&eacute; sur la non-prolif&eacute;ration des armes nucl&eacute;aires</a></li>
 <li>1975&nbsp;: <a href="/fra/nuclear-substances/index#Medicine">Substances nucl&eacute;aires - M&eacute;decine</a></li>
 </ul>  	</div>
-<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="1985">1976-1985 : Inspirer confiance envers la r&eacute;glementation nucl&eacute;aire et la s&eacute;curit&eacute; au Canada</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="1985">1976-1985 : Inspirer confiance envers la r&eacute;glementation nucl&eacute;aire et la s&eacute;curit&eacute; au Canada</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_1985.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1978 </strong>&ndash; En 1977, l&rsquo;Union sovi&eacute;tique lance le  satellite Kosmos 954. En 1978, un bris d&rsquo;&eacute;quipement emp&ecirc;che le d&eacute;tachement du  r&eacute;acteur nucl&eacute;aire &agrave; bord; au moment de la rentr&eacute;e du satellite dans  l&rsquo;atmosph&egrave;re terrestre, des d&eacute;bris radioactifs sont dispers&eacute;s dans le Nord du  Canada, ce qui n&eacute;cessite d&rsquo;importantes mesures de nettoyage. Une &eacute;quipe  d&rsquo;employ&eacute;s de la CCEA est form&eacute;e et envoy&eacute;e aux Territoires du Nord-Ouest dans  le cadre d&rsquo;une mission de recherche et de r&eacute;cup&eacute;ration. Le Canada et les &Eacute;tats-Unis  collaborent &agrave; l&rsquo;initiative, baptis&eacute;e &laquo;&nbsp;op&eacute;ration Morning Light&nbsp;&raquo;. Les  &eacute;quipes travaillent jour et nuit dans des conditions m&eacute;t&eacute;orologiques extr&ecirc;mes  pour nettoyer les d&eacute;bris dispers&eacute;s sur 124&nbsp;000 km2.</li>
 <li><strong>1979</strong> &ndash; Une panne d&rsquo;&eacute;quipement et une erreur humaine  causent un accident &agrave; la centrale nucl&eacute;aire de Three Mile Island, pr&egrave;s de  Harrisburg, en Pennsylvanie &ndash; le pire accident de l&rsquo;histoire des &Eacute;tats-Unis.  L&rsquo;un des deux r&eacute;acteurs de la centrale subit des dommages majeurs, mais les  structures de confinement font en sorte que l&rsquo;exposition radiologique des  employ&eacute;s et de la population demeure tr&egrave;s faible. Au moment o&ugrave; le personnel  stabilise la centrale, il y a un manque de coordination de la communication  d&rsquo;information &eacute;manant des diff&eacute;rentes autorit&eacute;s par l&rsquo;interm&eacute;diaire des m&eacute;dias.  Le manque d&rsquo;information fiable donne lieu &agrave; une couverture sensationnaliste et  &agrave; une certaine hyst&eacute;rie. Apr&egrave;s examen, l&rsquo;industrie nucl&eacute;aire r&eacute;agit en cr&eacute;ant  l&rsquo;Institute of Nuclear Power Operations (INPO), dont la mission consiste &agrave;  promouvoir les niveaux de s&ucirc;ret&eacute; et de fiabilit&eacute; les plus &eacute;lev&eacute;s dans  l&rsquo;exploitation des centrales nucl&eacute;aires. La CCEA, quant &agrave; elle, r&eacute;&eacute;value les  strat&eacute;gies de mobilisation du public et de communication transparente avec lui.</li>
@@ -104,9 +103,9 @@ import React from "react"
 <li>1978&nbsp;: <a href="https://www.youtube.com/watch?v=9xVucCrfBbA">Operation Morning Light</a> (en anglais)</li>
 <li>1979&nbsp;: <a href="https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/three-mile-island-accident.aspx">Three  Mile Island</a> (en anglais)</li>
 </ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
-<h2 id="1995">1986-1995 : Leadership sur la sc&egrave;ne internationale</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+<h2 id="1995">1986-1995 : Leadership sur la sc&egrave;ne internationale</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_1995.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1986</strong> &ndash; Le 26 avril, &agrave; la centrale nucl&eacute;aire de  Tchernobyl, en Ukraine, la puissance augmente soudainement dans la tranche 4,  provoquant ainsi des explosions dans le c&oelig;ur du r&eacute;acteur. Cette catastrophe est  consid&eacute;r&eacute;e comme le pire accident jamais survenu dans une centrale nucl&eacute;aire et  le seul du niveau 7, jusqu&rsquo;alors, selon l&rsquo;&eacute;chelle des &eacute;v&eacute;nements nucl&eacute;aires  &eacute;tablie par l&rsquo;Agence internationale de l&rsquo;&eacute;nergie atomique. En Ontario, le  gouvernement r&eacute;agit en demandant l&rsquo;examen de l&rsquo;exploitation des centrales  nucl&eacute;aires de la province. Pour sa part, l&rsquo;industrie nucl&eacute;aire cr&eacute;e, en 1989,  l&rsquo;Association mondiale des exploitants nucl&eacute;aires. L&rsquo;impact majeur sur la  perception du public renforce l&rsquo;engagement de la CCEA envers la transparence  et la mobilisation du public. On met en place des politiques sur l&rsquo;acc&egrave;s du  public et des programmes de consultation publique, et on diffuse des annonces  sur les programmes de r&eacute;glementation et des &eacute;nonc&eacute;s strat&eacute;giques pour commentaire du public. Enfin, on nomme un  coordonnateur de l&rsquo;acc&egrave;s &agrave; l&rsquo;information et de la protection des renseignements  personnels. </li>
 <li><strong>1992</strong> &ndash; La <em>Loi  canadienne sur l&rsquo;&eacute;valuation environnementale</em> est adopt&eacute;e, une &eacute;tape  importante vers la protection de l&rsquo;environnement. En vertu de cette loi, la  CCSN m&egrave;nera des &eacute;valuations environnementales visant les projets et les  activit&eacute;s nucl&eacute;aires.</li>
@@ -117,9 +116,9 @@ import React from "react"
 <ul>
 <li>1994&nbsp;: <a href="/fra/reactors/power-plants/convention-on-nuclear-safety/index">Convention sur la s&ucirc;ret&eacute; nucl&eacute;aire</a></li>
 <li>1995&nbsp;: <em><a href="https://cnsc.ent.sirsidynix.net/custom/Library%20backup/cnsc/INFO_reports/info_0537F.pdf">La r&eacute;glementation  des d&eacute;chets de combustible nucl&eacute;aire</a></em></li>
-</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2005">1996-2005 : Am&eacute;liorer la r&eacute;glementation afin de prot&eacute;ger les Canadiens et l&rsquo;environnement</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2005">1996-2005 : Am&eacute;liorer la r&eacute;glementation afin de prot&eacute;ger les Canadiens et l&rsquo;environnement</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_2005.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1996</strong> &ndash; On c&eacute;l&egrave;bre  le 50e anniversaire de la <em>Loi  sur le contr&ocirc;le de l&rsquo;&eacute;nergie atomique</em> et, le 21 mars, le d&eacute;p&ocirc;t du projet de  loi C&#8209;23 &agrave; la Chambre des communes par l&rsquo;hon. Anne&nbsp;McLellan, ministre des Ressources  naturelles. Ce projet de loi vise &agrave; &eacute;tablir la Commission canadienne de s&ucirc;ret&eacute;  nucl&eacute;aire et &agrave; modifier d&rsquo;autres lois en cons&eacute;quence. En 1997, la <em>Loi sur le  contr&ocirc;le de l&rsquo;&eacute;nergie atomique</em> devient la <em>Loi sur la s&ucirc;ret&eacute; et la r&eacute;glementation  nucl&eacute;aires</em> (LSRN), qui est ax&eacute;e sur l&rsquo;impact de l&rsquo;utilisation des  technologies nucl&eacute;aires sur la sant&eacute;, la s&ucirc;ret&eacute; et l&rsquo;environnement.</li>
 <li><strong>1997</strong> &ndash; Hydro Ontario annonce que 7 r&eacute;acteurs CANDU  seront mis &agrave; l&rsquo;arr&ecirc;t, menant certains &agrave; pr&eacute;dire la fin de l&rsquo;&eacute;nergie nucl&eacute;aire  au Canada. La CCEA indique qu&rsquo;un processus de surveillance sp&eacute;cial devra &ecirc;tre  mis en place avant le red&eacute;marrage des r&eacute;acteurs. Il s&rsquo;agit du d&eacute;but des examens  p&eacute;riodiques de la s&ucirc;ret&eacute;, qui ont donn&eacute; lieu &agrave; de grandes am&eacute;liorations &agrave; la  s&ucirc;ret&eacute; de tous les r&eacute;acteurs nucl&eacute;aires en exploitation.</li>
@@ -139,9 +138,9 @@ import React from "react"
 <li>2003&nbsp;: <a href="https://laws-lois.justice.gc.ca/fra/reglements/DORS-2015-145/index.html">R&egrave;glement sur l&rsquo;emballage et le transport des substances nucl&eacute;aires</a></li>
 <li>2003&nbsp;: <a href="https://laws.justice.gc.ca/fra/reglements/DORS-2000-209/page-1.html">R&egrave;glement sur la s&eacute;curit&eacute; nucl&eacute;aire</a></li>
 </ul>  	</div>
-<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2015">2006-2015 : Transparence et clart&eacute; des exigences r&eacute;glementaires</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2015">2006-2015 : Transparence et clart&eacute; des exigences r&eacute;glementaires</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/75_milestones_2015.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>2006</strong> &ndash; La  CCSN met en &oelig;uvre le Registre national des sources scell&eacute;es et le Syst&egrave;me de  suivi des sources scell&eacute;es, faisant ainsi du Canada le premier pays du G7 dot&eacute;  de solides m&eacute;canismes d&rsquo;enregistrement et de suivi des sources radioactives  scell&eacute;es &agrave; risque &eacute;lev&eacute;. Gr&acirc;ce au registre et au syst&egrave;me de suivi, la  communaut&eacute; mondiale peut avoir l&rsquo;assurance que le transfert international de  ces sources est effectu&eacute; en toute s&ucirc;ret&eacute;.</li>
 <li><strong>2007 </strong>&ndash; La CCSN entame des recherches sur les rejets  de tritium au Canada afin d&rsquo;&eacute;tudier et d&rsquo;&eacute;valuer les pratiques exemplaires  internationales adopt&eacute;es par les installations de traitement du tritium. La  CCSN a entrepris plusieurs projets de recherche sous l&rsquo;&eacute;gide du Projet d&rsquo;&eacute;tudes  sur le tritium. L&rsquo;ensemble des &eacute;tudes est mis &agrave; la disposition du public en 2017.</li>
@@ -162,9 +161,9 @@ import React from "react"
 <li>2012&nbsp;: <a href="/fra/the-commission/participant-funding-program/index">Programme de financement des  participants</a></li>
 <li>2012&nbsp;: <a href="/fra/resources/maps-of-nuclear-facilities/iemp/index">Programme ind&eacute;pendant de  surveillance environnementale (PISE)</a></li>
 <li>2013&nbsp;: <a href="/fra/resources/research/technical-papers-and-articles/2013/2013-radiation-exposure">Exposition aux rayonnements et  incidence du cancer (de 1990 &agrave; 2008) &agrave; proximit&eacute; de centrales nucl&eacute;aires de  l&rsquo;Ontario, au Canada</a></li>
-</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2021">2016-2021 : B&acirc;tir la confiance dans une &egrave;re d&rsquo;innovations technologiques et de possibilit&eacute;s</h2>  	<div className="col-md-6 mrgn-lft-0 mrgn-rght-0">
+</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  	<h2 id="2021">2016-2021 : B&acirc;tir la confiance dans une &egrave;re d&rsquo;innovations technologiques et de possibilit&eacute;s</h2>  	<div className="col-md-4 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/75th-anniversary/updates-thumbs-present-fr.png" alt=""/>
-</div>  	<div className="col-md-12 mrgn-tp-0">
+</div>  	<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>2018</strong> &ndash; En janvier, la CCSN devient le premier  organisme de r&eacute;glementation f&eacute;d&eacute;ral du Canada &agrave; publier des exigences  r&eacute;glementaires concernant la gestion de l&rsquo;aptitude au travail en ce qui a trait  &agrave; la consommation d&rsquo;alcool et de drogues &agrave; tous les sites &agrave; s&eacute;curit&eacute; &eacute;lev&eacute;e,  comme il est d&eacute;fini dans le <em>R&egrave;glement sur  la s&eacute;curit&eacute; nucl&eacute;aire.</em> En 2021, les exigences sont mises &agrave; jour pour tenir  compte de la l&eacute;galisation de la marijuana.</li>
 <li><strong>2019</strong> &ndash; Global First Power soumet &agrave; la CCSN une  demande de permis de pr&eacute;paration de l&rsquo;emplacement pour un micror&eacute;acteur  modulaire qui serait situ&eacute; sur le site des Laboratoires de Chalk River,  propri&eacute;t&eacute; d&rsquo;&Eacute;nergie atomique du Canada limit&eacute;e. Alors que l&rsquo;int&eacute;r&ecirc;t envers les  petits r&eacute;acteurs modulaires augmente, la CCSN et la Commission de r&eacute;glementation  nucl&eacute;aire des &Eacute;tats-Unis signent un protocole de coop&eacute;ration visant &agrave; am&eacute;liorer  et &agrave; harmoniser les examens techniques des technologies de r&eacute;acteurs avanc&eacute;s et  de petits r&eacute;acteurs modulaires.</li>
@@ -180,7 +179,8 @@ import React from "react"
 <li>2019&nbsp;: <a href="https://laws.justice.gc.ca/fra/lois/I-2.75/index.html">Loi  sur l&rsquo;&eacute;valuation d&rsquo;impact</a></li>
 <li>2020&nbsp;: <a href="/fra/resources/emergency-management-and-safety/pandemic-preparedness">Intervention de la CCSN &agrave; l&rsquo;&eacute;gard de la COVID-19</a></li>
 <li>2020&nbsp;: <a href="/fra/resources/status-of-new-nuclear-projects/deep-geologic-repository/index">Projet de stockage dans des formations g&eacute;ologiques profondes d&rsquo;Ontario  Power Generation</a></li>
-</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  </div>  
+</ul>  	</div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>  </div>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

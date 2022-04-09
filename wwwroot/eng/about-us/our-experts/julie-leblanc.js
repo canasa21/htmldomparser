@@ -58,7 +58,8 @@ import React from "react"
 <li><a href="https://www.researchgate.net/profile/Julie_Leblanc3">ResearchGate profile</a></li>
 <li><a href="https://www.linkedin.com/in/julie-leblanc-833451a7">LinkedIn profile</a></li>
 <li><a href="http://geds20-sage20.ssc-spc.gc.ca/en/GEDS20/?pgid=015&dn=Q049SlVMSUUuTEVCTEFOQ0BDQU5BREEuQ0EsT1U9SFNFQ0QtRFNTQ0UsT1U9REVSUEEtRFBFUkUsT1U9VFNCLURHU1QsT1U9Q05TQy1DQ1NOLE89R0MsQz1DQQ==">GEDS  contact</a></li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

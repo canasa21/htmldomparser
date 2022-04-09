@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Environmental Risk Assessment Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_AEthier-sq.png" alt="" />
 <figcaption>Adrienne Ethier,<br/>
 Environmental Risk Assessment Specialist</figcaption>
@@ -30,7 +30,8 @@ Environmental Risk Assessment Specialist</figcaption>
 <h2>Expertise and education</h2>
 <p>Adrienne holds a PhD focused on the development of aquatic environmental risk assessment modelling tools and the use of stable isotope analyses to reconstruct food webs, aquatic habitat and geochemical profiles. She has since gained a diverse professional background in the nuclear industry in areas of environmental risk assessment, risk communication, emergency preparedness, safety analysis, and environmental and effluent monitoring. She currently serves as an adjunct professor in the Department of Earth and Environmental Science at the University of Ottawa and as the Vice-Chair of the CSA Group&rsquo;s team responsible for CSA N288.6, <em>Environmental Risk Assessments at Class I Nuclear Facilities and Uranium Mines and Mills</em> &ndash; a standard that CNSC nuclear licensees must comply with. In addition, she is a member of the CNSC advisory groups on Indigenous knowledge and perceived risk.</p>
 <h2>Current research and projects</h2>
-<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Adrienne provides expert technical leadership regarding the proposed project&rsquo;s predicted effects on the public and the environment during construction, operation and decommissioning. She does this in addition to ensuring that the project meets all applicable regulatory requirements.</p>  
+<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Adrienne provides expert technical leadership regarding the proposed project&rsquo;s predicted effects on the public and the environment during construction, operation and decommissioning. She does this in addition to ensuring that the project meets all applicable regulatory requirements.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

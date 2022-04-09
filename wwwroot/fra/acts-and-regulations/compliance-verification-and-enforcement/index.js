@@ -37,7 +37,8 @@ import React from "react"
 <li><a href="http://www.nuclearsafety.gc.ca/fra/pdfs/forms/request-review-administrative-monetary-penalty-fra.pdf">Demande de r&eacute;vision d&rsquo;une sanction administrative p&eacute;cuniaire (SAP)</a></li>
 <li>REGDOC-3.5.2, <em>Conformit&eacute; et application de la loi Sanctions administratives p&eacute;cuniaires</em> (<a href="/fra/acts-and-regulations/regulatory-documents/published/html/regdoc3-5-2/index">HTML</a>) (<a href="http://www.nuclearsafety.gc.ca/pubs_catalogue/uploads_fre/REGDOC-3-5-2-v2-Compliance-Enforcement-AMP-fra.pdf">PDF</a>)</li>  </ul>
 <h3 id="sec2-8">Retrait de l&#39;accr&eacute;ditation</h3>  <p>Le retrait de l&#39;accr&eacute;ditation se produit lorsque la Commission a des motifs raisonnables de croire qu&#39;une personne ou une entreprise n&#39;est plus qualifi&eacute;e ou est incapable d&#39;exploiter une installation r&eacute;glement&eacute;e ou d&#39;entreprendre une activit&eacute; r&eacute;glement&eacute;e. En vertu des articles&nbsp;27 &agrave; 29 du <em>R&egrave;glement sur les substances nucl&eacute;aires et les appareils &agrave; rayonnement</em> et des articles&nbsp;12 et 13 du <em>R&egrave;glement sur les installations nucl&eacute;aires de cat&eacute;gorie&nbsp;I</em>, la Commission ou un fonctionnaire d&eacute;sign&eacute; autoris&eacute; par la Commission peut retirer l&#39;accr&eacute;ditation d&#39;une personne.</p>  <ul>   <li>Voir les accr&eacute;ditations retir&eacute;es par la Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire. (<a href="/fra/acts-and-regulations/regulatory-action/index">Mesures r&eacute;glementaires</a>)</li>  </ul>  <h3 id="sec2-9">Poursuites</h3>  <p>Une poursuite est le d&eacute;p&ocirc;t d&#39;accusations au titre des lois f&eacute;d&eacute;rales et provinciales.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

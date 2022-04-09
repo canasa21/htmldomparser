@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Division de l&rsquo;&eacute;valuation environnementale</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_NKwamena-sub.png" alt="" />
 <figcaption>Nana Kwamena,<br/>
 Directrice</figcaption>
@@ -32,7 +32,8 @@ Directrice</figcaption>
 <p>&Agrave; titre de directrice de la Division de l&rsquo;&eacute;valuation environnementale, Mme Kwamena dirige une &eacute;quipe de sp&eacute;cialistes charg&eacute;s de veiller &agrave; ce que la CCSN respecte les exigences de la l&eacute;gislation f&eacute;d&eacute;rale en mati&egrave;re de gestion des <a href="/fra/resources/environmental-protection/index">&eacute;valuations environnementales et &eacute;valuations d&rsquo;impacts</a>. Son &eacute;quipe coordonne le r&ocirc;le de la CCSN dans ces &eacute;valuations afin de s&rsquo;assurer que les effets environnementaux des projets propos&eacute;s sont examin&eacute;s avant toute mesure d&rsquo;autorisation en vertu de la <em>Loi sur la s&ucirc;ret&eacute; et la r&eacute;glementation nucl&eacute;aires</em>.</p>
 <p>M<sup>me</sup> Kwamena et son &eacute;quipe consultent &eacute;galement les Nations et communaut&eacute;s autochtones, ainsi que les membres du public, pour s&rsquo;assurer que ces groupes aient la possibilit&eacute; de pr&eacute;senter leur point de vue sur un projet.</p>
 <h2>Autres r&ocirc;les</h2>
-<p>Elle a accept&eacute; une affectation d&rsquo;un an &agrave; titre d&rsquo;agente principale de projet charg&eacute;e de diriger la pr&eacute;paration de la CCSN en vue de la mission au Canada du <a href="/fra/resources/international-cooperation/index#review">Service d&rsquo;examen int&eacute;gr&eacute; de la r&eacute;glementation</a> en 2019. La mission a permis d&rsquo;obtenir de pr&eacute;cieux renseignements sur le cadre de s&ucirc;ret&eacute; du Canada et les principaux processus de r&eacute;glementation de la CCSN.</p>  
+<p>Elle a accept&eacute; une affectation d&rsquo;un an &agrave; titre d&rsquo;agente principale de projet charg&eacute;e de diriger la pr&eacute;paration de la CCSN en vue de la mission au Canada du <a href="/fra/resources/international-cooperation/index#review">Service d&rsquo;examen int&eacute;gr&eacute; de la r&eacute;glementation</a> en 2019. La mission a permis d&rsquo;obtenir de pr&eacute;cieux renseignements sur le cadre de s&ucirc;ret&eacute; du Canada et les principaux processus de r&eacute;glementation de la CCSN.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

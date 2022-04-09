@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -169,7 +169,7 @@ renseignements recueillis sont en grande partie historiques. L&rsquo;analyse
 fonctionnelle peut &eacute;galement inclure des visites et des &eacute;changes informels.</td>
 </tr>
 <tr>
-<td rowspan="4">Entrevue</td>
+<td rowSpan="4">Entrevue</td>
 <td><em>L&rsquo;entrevue
 individuelle</em> consiste en la collecte d&rsquo;information dans
 un contexte d&rsquo;entrevue en face &agrave; face au cours de laquelle un intervieweur
@@ -194,7 +194,7 @@ questions qui sont &eacute;labor&eacute;es en cours d&rsquo;entrevue. Elle peut 
 un contexte d&rsquo;entrevue en face &agrave; face ou de groupe.</td>
 </tr>
 <tr>
-<td rowspan="3">Questionnaire &eacute;crit et enqu&ecirc;te</td>
+<td rowSpan="3">Questionnaire &eacute;crit et enqu&ecirc;te</td>
 <td><em>L&rsquo;enqu&ecirc;te
 quantitative</em> est un questionnaire &eacute;crit structur&eacute;,
 administr&eacute; &agrave; des r&eacute;pondants. Les questions sont ferm&eacute;es (requi&egrave;rent une
@@ -291,7 +291,8 @@ novembre&nbsp;2007. Disponible chez <a href="http://www.tc.gc.ca/media/documents
 <li><a name="R12" id="R12"></a>Commission de contr&ocirc;le de l&#8217;&eacute;nergie atomique, <em><span lang="en" xml:lang="en">Development of a Regulatory Organizational and Management Review Method</span></em>, n<sup>o</sup>&nbsp;RSP-0060, CCEA, n<sup>o</sup>&nbsp;de projet&nbsp;2.341.2, 1998.</li>
 <li><a name="R13" id="R13"></a>Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire, <em>Version provisoire des lignes directrices &#8211; Auto&eacute;valuation de la culture de s&ucirc;ret&eacute;</em>, 2004.</li>
 <li><a name="R14" id="R14"></a>Harrison,&nbsp;F., &amp; Taylor,&nbsp;T., <span lang="en" xml:lang="en"><em>Observations Made Regarding the JCO Criticality Accident at Tokai-mura, Japan</em>, Cognition, Technology &amp; Work</span>, vol. 2, n<sup>o&nbsp;</sup>4, 218-220, 2000.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

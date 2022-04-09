@@ -100,7 +100,8 @@ réglementation</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/index-fra.asp">Plan d&#39;action pour la réduction du fardeau
 administratif</a></li>
 <li><a href="http://actionplan.gc.ca/fr/page/rcc-ccr/propos-du-conseil-de-cooperation-matiere-de">Conseil de coopération en matière de
-réglementation Canada - États-Unis</a></li>  </ul>  <p>Pour  de plus amples renseignements concernant les consultations actuelles ou à venir  sur les projets de règlement fédéraux, veuillez consulter la <a href="http://www.gazette.gc.ca/index-fra.html">Gazette du Canada</a> ou le site Web <a href="http://www.consultation-des-canadiens.gc.ca/hm.jspx?lang=fra">Consultations auprès des Canadiens</a>. </p>  
+réglementation Canada - États-Unis</a></li>  </ul>  <p>Pour  de plus amples renseignements concernant les consultations actuelles ou à venir  sur les projets de règlement fédéraux, veuillez consulter la <a href="http://www.gazette.gc.ca/index-fra.html">Gazette du Canada</a> ou le site Web <a href="http://www.consultation-des-canadiens.gc.ca/hm.jspx?lang=fra">Consultations auprès des Canadiens</a>. </p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

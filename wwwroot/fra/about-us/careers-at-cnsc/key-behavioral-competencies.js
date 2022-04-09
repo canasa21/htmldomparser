@@ -23,7 +23,7 @@ import React from "react"
 <p>Les  compétences comportementales clés de la CCSN ont été conçues pour bâtir une  organisation souple, polyvalente et très performante qui est capable  d&rsquo;atteindre ses objectifs opérationnels.</p>
 <p>La CCSN adoptera graduellement les quatre compétences clés dans toutes ses  pratiques de ressources humaines pour que les  méthodes d&rsquo;embauche uniformes; pour intéresser les nouvelles recrues à  l&rsquo;apprentissage et au perfectionnement; pour reconnaître, évaluer et  récompenser leur performance en utilisant un langage clair et en visant des  objectifs précis. </p>
 <h2>Pour que la CCSN soit le meilleur organisme de r&eacute;glementation au monde, ses employ&eacute;s doivent mettre en pratique ce qui suit&nbsp;: </h2>
-<div className="col-md-12 mrgn-bttm-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-bttm-0 mrgn-bttm-0">
 <div className="span-3 mrgn-lft-0 mrgn-lft-0 mrgn-bttm-0"> <img className="mrgn-bttm-0" src="/images/career/meilleur-applique.png" alt="Je l&#39;applique" />
 <h4>Adoptez les valeurs de la CCSN et soyez un exemple</h4>
 <p><strong>Respect</strong> &ndash; Montrez que vous valorisez les droits, les responsabilit&eacute;s et la contribution de toutes les parties int&eacute;ress&eacute;es.</p>
@@ -44,8 +44,7 @@ l&#39;&eacute;gard de la CCSN soit maintenue.</p>
 <p>Demeurez au fait des objectifs d&#39;&eacute;quipe, des m&eacute;thodes de travail et des objectifs de rendement.</p>
 </div>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div className="span-3 mrgn-lft-0 mrgn-lft-0"> <img className="mrgn-bttm-0" src="/images/career/meilleur-collabore.png" alt="Je collabore" />
 <h4>Collaborez efficacement avec les autres</h4>
 <p>&Eacute;coutez activement et posez des questions ouvertes pour apprendre et comprendre.</p>
@@ -66,7 +65,6 @@ l&#39;&eacute;gard de la CCSN soit maintenue.</p>
 <p>Faites preuve de curiosit&eacute; dans votre qu&ecirc;te d&#39;un large &eacute;ventail d&#39;exp&eacute;riences d&#39;apprentissage.</p>
 </div>
 </div>
-<div className="clear"></div>
 <h3>Joignez-vous à JacKey BE-IT pour en apprendre davantage sur les compétences comportementales clés de la CCSN.</h3>
 <div className="wet-boew-multimedia">
 <video width="640" height="360" poster="http://nuclearsafety.gc.ca/images/JacKey-video-still-fra.jpg" alt="Compétences comportementales clés de la CCSN">
@@ -74,7 +72,8 @@ l&#39;&eacute;gard de la CCSN soit maintenue.</p>
 <source src="https://download.isiglobal.ca/cnsc/JacKey-fra.webm" type="video/webm" />
 </video>
 </div>
-<p><a href="http://download.isiglobal.ca/cnsc/JacKey-fra.webm">Télécharger en format Webm</a></p>  
+<p><a href="http://download.isiglobal.ca/cnsc/JacKey-fra.webm">Télécharger en format Webm</a></p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

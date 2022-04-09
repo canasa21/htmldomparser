@@ -263,8 +263,8 @@ Ottawa, Ontario  K1P 5S9</li>
 <td colSpan="3" >No proposed change</td>
 </tr>
 <tr>
-<td rowspan="4">7</td>
-<td rowspan="4"><a href="#sec7">Provision of Information</a></td>
+<td rowSpan="4">7</td>
+<td rowSpan="4"><a href="#sec7">Provision of Information</a></td>
 <td>7. (1)&nbsp;Every licensee shall inform each nuclear energy worker, in writing,
 <p>(<em>a</em>)&nbsp;that he or she is a nuclear energy worker;</p></td>
 <td>7. (1)&nbsp;Every licensee shall inform each worker, in writing,
@@ -321,8 +321,8 @@ Ottawa, Ontario  K1P 5S9</li>
 <td colSpan="2">Certain definitions will be amended or removed as a result of the proposed amendments to section 13.</td>
 </tr>
 <tr>
-<td rowspan="2">13</td>
-<td rowspan="2"><a href="#sec13">Effective Dose Limits</a></td>
+<td rowSpan="2">13</td>
+<td rowSpan="2"><a href="#sec13">Effective Dose Limits</a></td>
 <td>&nbsp;</td>
 <td>Amend subsections 13(2),(3) and (4) to describe in written text, as opposed to mathematical formulas, how effective doses are to be calculated. The proposed text would indicate that effective dose would be calculated to include both the sum of relevant doses from external radiation exposures and the sum of relevant committed doses from intakes in the same period </td>
 <td>To simplify and clarify regulatory requirements, while better reflecting how doses are measured and calculated in practice</td>
@@ -333,8 +333,8 @@ Ottawa, Ontario  K1P 5S9</li>
 <td>The unique treatment of radon progeny, along with the underlying concepts of the working level and the working level month, are considered to be unnecessary in the context of the Regulations. Furthermore, the models behind the approach to the calculation of radon progeny dose are currently being revised by the ICRP. It is expected these models will soon be replaced by the concept of dose coefficients (similar to the treatment of intakes of other radionuclides). The removal of specific references to radon and radon progeny, along with the terms &quot;working level&quot; and &quot;working level month&quot;, would align with other similar changes proposed for sections 4, 5, and 19. </td>
 </tr>
 <tr>
-<td rowspan="2">14</td>
-<td rowspan="2"><a href="#sec14">Equivalent Dose Limits</a></td>
+<td rowSpan="2">14</td>
+<td rowSpan="2"><a href="#sec14">Equivalent Dose Limits</a></td>
 <td>&quot;Hands and feet&quot; are referenced in item 3, under column 1 in the table outlined in section 14.</td>
 <td>Amendment to the wording &quot;hands and feet&quot; to read &quot;the skin of each hand and foot&quot;.</td>
 <td>To clarify terminology to more accurately reflect both of the following: the actual measurement of equivalent dose to the hands and feet, and the intent of the dose limit. </td>
@@ -372,11 +372,11 @@ Ottawa, Ontario  K1P 5S9</li>
 <td>To allow for flexibility in the determination of future dose limits for the purposes of authorizing the return to work of a person who exceeds a dose limit, as specified in section 16.</td>
 </tr>
 <tr>
-<td rowspan="3">18</td>
-<td rowspan="3"><a href="#sec18">Application for Licence to Operate</a></td>
+<td rowSpan="3">18</td>
+<td rowSpan="3"><a href="#sec18">Application for Licence to Operate</a></td>
 <td>18(<em>b</em>) the proposed quality assurance program</td>
 <td>18(<em>b</em>) the proposed quality assurance program, including the following elements: management policy; quality assurance program description; review by management; organization and authority; personnel qualifications; procurement; work control; change control; document control; calibration and maintenance; verification; non-conformance; corrective actions; records; and independent audits.</td>
-<td rowspan="3">To reflect requirements of S-106, <em>Technical and Quality Assurance Requirements for Dosimetry Services</em>, <em>Revision 1</em>, that are already being implemented by licensees. The amendment would incorporate requirements that apply to all licensed dosimetry services.</td>
+<td rowSpan="3">To reflect requirements of S-106, <em>Technical and Quality Assurance Requirements for Dosimetry Services</em>, <em>Revision 1</em>, that are already being implemented by licensees. The amendment would incorporate requirements that apply to all licensed dosimetry services.</td>
 </tr>
 <tr>
 <td>18(<em>c</em>) the types of dosimetry services proposed to be provided, including the types of radiation that will be monitored and their respective energy ranges;</td>
@@ -387,8 +387,8 @@ Ottawa, Ontario  K1P 5S9</li>
 <td>18(<em>d</em>) the precision, accuracy and reliability of the dosimetry services to be provided,&nbsp;including the&nbsp;provisions for independent testing and a demonstration of successful completion of the independent test;</td>
 </tr>
 <tr>
-<td rowspan="2">19</td>
-<td rowspan="2"><a href="#sec19">Obligations of Licensees</a></td>
+<td rowSpan="2">19</td>
+<td rowSpan="2"><a href="#sec19">Obligations of Licensees</a></td>
 <td>&nbsp;</td>
 <td>Addition of a requirement that the licensees whose NEWs are monitored by a licensed dosimetry service must provide the required information to the licensed dosimetry service, for the purpose of reporting doses to the National Dose Registry.</td>
 <td>To provide licensed dosimetry services with the means to require clients (i.e., CNSC licensees) who need licensed dosimetry services to provide the information specified in the Regulations (see sections 10 and 19 in this table).</td>
@@ -523,7 +523,8 @@ Ottawa, Ontario  K1P 5S9</li>
 <input type="submit" name="submit" disabled value="Comment on the References"  />
 </p>
 </form>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

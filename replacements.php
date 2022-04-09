@@ -2,11 +2,12 @@
 //REMOVED: "clear"=> "clearfix",
 //ADDED: "<br>"=>"</br>"
 $replacements = array(
-"span-2"=> "col-md-3",
+      "span-1"=> "col-md-1",
+      "span-2"=> "col-md-2",
+      "span-4"=> "col-md-4",
+      "span-6"=> "col-md-6",  
       "span-8"=> "col-md-12",
-      "span-4"=> "col-md-6",
-      "span-1"=> "col-md-2",
-      "span-6"=> "col-md-12",  
+      "grid-12"=>"row",
       "float-right"=> "pull-right",
       "float-left"=> "pull-left",
       "clear-right"=> "clearfix",

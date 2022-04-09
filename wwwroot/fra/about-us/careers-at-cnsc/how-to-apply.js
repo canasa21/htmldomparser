@@ -18,26 +18,26 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec1">1. Cr&eacute;er un profil</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="#sec2">2. Pr&eacute;senter une demande d&rsquo;emploi</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec3">3. Pr&eacute;ciser les mesures d&rsquo;adaptation</a></p>
 </div>
 </div>
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec4">4. Examiner les conditions d&rsquo;emploi</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-prepare#sec5">5. Pr&eacute;parer l&rsquo;&eacute;valuation</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-prepare#sec6">6. Apr&egrave;s l&rsquo;&eacute;valuation</a></p>
 </div>
 </div>
@@ -151,7 +151,8 @@ telle cote. Elle peut &ecirc;tre refus&eacute;e si les ant&eacute;c&eacute;dents
 <p><strong>Titres professionnels comptables reconnus</strong></p>
 <ul>
 <li>Les titres professionnels reconnus en comptabilit&eacute; sont ceux de comptable professionnel agr&eacute;&eacute; (CPA), de comptable agr&eacute;&eacute; (CA), de comptable en management  accr&eacute;dit&eacute; (CMA) et de comptable g&eacute;n&eacute;ral accr&eacute;dit&eacute; (CGA).</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

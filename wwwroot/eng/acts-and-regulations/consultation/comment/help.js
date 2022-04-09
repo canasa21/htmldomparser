@@ -58,7 +58,8 @@ P.O. Box 1046 , Station B <br />
 Ottawa , Ontario, Canada , K1P 5S9</p>
 <p><span className="fontStrong">By fax:</span> 613-995-5086 </p>
 <p> Please note that any comments submitted, including names and affiliations, may be made public. </p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

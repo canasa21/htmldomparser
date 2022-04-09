@@ -22,7 +22,7 @@ import React from "react"
 <p>The CNSC key behavioural competencies were designed specifically to create a flexible, agile and high-performing organization with the capability  to achieve its business objectives.</p>
 <p>The CNSC will gradually embed these four key behaviours in all its human  resources practices to ensure the CNSC is consistent in its recruitment  practices; engage them in learning and development; and recognize, assess and award  performance, using common language with clarity and with purpose when doing so.</p>
 <h2>To Be The Best Nuclear Regulator In The World, All CNSC Employees Are Expected To:</h2>
-<div className="col-md-12 mrgn-bttm-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-bttm-0 mrgn-bttm-0">
 <div className="span-3 mrgn-lft-0 mrgn-lft-0 mrgn-bttm-0"> <img className="mrgn-bttm-0" src="/images/career/best-live-it.png" alt="Live It" />
 <h4>Model The CNSC Values</h4>
 <p><strong>Respect</strong> - Demonstrate that you value the rights, responsibilities and contribution of all stakeholders.</p>
@@ -42,8 +42,7 @@ import React from "react"
 <p>Stay up to date on team goals, work processes and performance objectives.</p>
 </div>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div className="span-3 mrgn-lft-0 mrgn-lft-0"> <img className="mrgn-bttm-0" src="/images/career/best-build-it.png" alt="Build It" />
 <h4>Collaborate Effectively With Others</h4>
 <p>Listen actively and ask open questions to learn and understand.</p>
@@ -64,7 +63,6 @@ import React from "react"
 <p>Demonstrate curiosity in the pursuit of a wide range of learning experiences.</p>
 </div>
 </div>
-<div className="clear"></div>
 <h3>Take a ride with JacKey BE-IT to learn more  about the key behaviourial competencies.</h3>
 <div className="wet-boew-multimedia">
 <video width="640" height="360" poster="http://nuclearsafety.gc.ca/images/JacKey-video-still-eng.jpg" alt="CNSC Key Behavioural Competencies">
@@ -72,7 +70,8 @@ import React from "react"
 <source src="https://download.isiglobal.ca/cnsc/JacKey-eng.webm" type="video/webm" />
 </video>
 </div>
-<p><a href="http://download.isiglobal.ca/cnsc/JacKey-eng.webm">Download Webm format</a></p>  
+<p><a href="http://download.isiglobal.ca/cnsc/JacKey-eng.webm">Download Webm format</a></p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

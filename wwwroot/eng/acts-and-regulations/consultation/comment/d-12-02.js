@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -459,7 +459,8 @@ time of media or biota consumed<br />
 <dd>Any restriction imposed by the CNSC on quantities, rates and/or concentrations of pollutants released from point sources (i.e. end-of-pipe or stack) into surface waters or the atmosphere. Limits may be exposure-based (i.e., based on environmental quality objectives or exposure-pathway modelling) or technology-based (i.e., based on pollution prevention and control technologies). </dd>
 <dt>technology-based release limit (TBRL)</dt>
 <dd>A release limit based on pollution prevention and control technology and administrative practices. A technology-based limit can be sector-specific (based on pollution prevention and control technology and practices common to the top performing facilities in a sector) or case-specific (based on the pollution prevention and control technology and administrative practices in place for the specified facility).</dd>  </dl>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

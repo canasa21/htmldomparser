@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 module-related pull-right">
+<div className="col-md-2 module-related pull-right">
 <p><strong>Related links</strong></p>
 <ul>
 <li><a href="/eng/resources/research/technical-papers-and-articles/index">Technical papers, presentations and articles</a></li>
@@ -71,7 +71,8 @@ import React from "react"
 <li><p><strong>September 18, 2017</strong><br />
 <a href="/eng/pdfs/Presentations/VP/2017/20170918-Peter-Elder-Fire-Protection-deck-eng.pdf">Presentation by Peter Elder at the 2nd  International CNS Conference on Fire Safety and Emergency Preparedness in the Nuclear Industry</a></p>
 <p>On September 18, 2017, Peter Elder, Vice-President and  Chief Science Officer, Technical Support Branch, presented at the 2nd  International CNS Conference on Fire Safety and Emergency Preparedness in the Nuclear Industry in Toronto, Ontario. The presentation focused on the CNSC&#39;s regulatory approach for fire protection and emergency management at nuclear facilities in Canada.</p></li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

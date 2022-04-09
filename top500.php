@@ -114,7 +114,7 @@ a:hover {
 <div id="information" ></div>
 <iframe id="loadarea" style="display:none;"></iframe>
 <!--?php echo getcwd() . "\n"; ?-->
-    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> <a class="buttonExport" href="make-directory.php">Make Directory</a> <a class="buttonExport" href="tidy.php">Tidy</a> <!--a class="buttonExport" href="force.php">Force Harvest</a-->
+    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> 
     
     <form id="batch" action="start.php">
 

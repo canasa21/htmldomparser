@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" />This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -530,7 +530,7 @@ largely historical. A functional analysis can also include informal walk and
 talk-throughs.</td>
 </tr>
 <tr>
-<td rowspan="4">Interview</td>
+<td rowSpan="4">Interview</td>
 <td><em>Individual
 interviews</em> consist of collecting information in a
 face-to-face, one-on-one setting where an interviewer poses a series of
@@ -554,7 +554,7 @@ questions that are developed as the interview is conducted. It can be done in
 a face-to-face or group setting.</td>
 </tr>
 <tr>
-<td rowspan="3">Written Questionnaires and
+<td rowSpan="3">Written Questionnaires and
 Surveys</td>
 <td><em>Quantitative
 surveys</em> are structured, written questionnaires,
@@ -647,7 +647,8 @@ activity or event.</td>
 <li><a name="R12" id="R12"></a>Atomic Energy Control Board (1998), <em>Development of a Regulatory Organizational and Management Review Method</em>, RSP-0060, AECB Project No. 2.341.2.</li>
 <li><a name="R13" id="R13"></a>Canadian Nuclear Safety Commission (2004), <em>Draft Safety Culture Self-Assessment Guidance</em>.</li>
 <li><a name="R14" id="R14"></a>Harrison, F., &amp; Taylor, T. (2000), &quot;Observations Made Regarding the JCO Criticality Accident at Tokai-mura, Japan&quot;, <em>Cognition, Technology &amp; Work,</em> Volume 2, Number 4, 218-220.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

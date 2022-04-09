@@ -18,8 +18,8 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div>  <section className="col-md-6">
-<section className="col-md-6 module-menu-section">
+<div>  <section className="col-md-4">
+<section className="col-md-4 module-menu-section">
 <h4>Home</h4>
 <ul>
 <li><a href="/eng/index">Home</a></li>
@@ -60,7 +60,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>The Commission</h4>
 <ul>
 <li><a href="/eng/the-commission/index">The Commission</a></li>
@@ -101,7 +101,7 @@ import React from "react"
 <li><a href="/eng/the-commission/commission-registry">Commission Registry</a></li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Uranium</h4>
 <ul>
 <li><a href="/eng/uranium/index">Uranium</a></li>
@@ -116,7 +116,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Reactors</h4>
 <ul>
 <li><a href="/eng/reactors/index">Reactors</a></li>
@@ -133,7 +133,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Nuclear substances</h4>
 <ul>
 <li><a href="/eng/nuclear-substances/index">Nuclear substances</a></li>
@@ -181,7 +181,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Radioactive waste</h4>
 <ul>
 <li><a href="/eng/waste/index">Radioactive waste</a></li>
@@ -197,7 +197,7 @@ import React from "react"
 <li><a href="/eng/waste/deep-geological-repositories">Deep geological repositories</a></li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Resources</h4>
 <ul>
 <li><a href="/eng/resources/index">Resources</a></li>
@@ -282,7 +282,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>CNSC Online</h4>
 <ul>
 <li><a href="/cnsconline/fl/index-eng">CNSC Online</a></li>
@@ -306,8 +306,8 @@ import React from "react"
 <li><a href="/cnsconline/heu/eng/index">Safe HEU Transport</a></li>
 <li><a href="/cnsconline/ff11-mr11/eng/index">Fact or Fiction: Transporting HEU</a></li>
 </ul>
-</section> </section> <section className="col-md-6">
-<section className="col-md-6 module-menu-section">
+</section> </section> <section className="col-md-4">
+<section className="col-md-4 module-menu-section">
 <h4>Acts and Regulations</h4>
 <ul>
 <li><a href="/eng/acts-and-regulations/index">Acts and Regulations</a></li>
@@ -342,7 +342,8 @@ import React from "react"
 <li><a href="/eng/acts-and-regulations/cost-recovery-program/index">Cost Recovery Program</a><ul></ul>
 </li>
 </ul>
-</section> </section>  
+</section> </section>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

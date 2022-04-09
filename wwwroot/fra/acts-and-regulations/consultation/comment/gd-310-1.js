@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -400,10 +400,10 @@ Tableau&nbsp;3&nbsp;: Attentes minimales pour le nombre de param&egrave;tres de 
 <td valign="top"><p align="center"><strong>Param&egrave;tres de d&eacute;clenche-ment</strong></p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p align="center">1</p></td>
-<td rowspan="4" valign="top"><p align="center">Non</p></td>
-<td rowspan="2" valign="top"><p align="center">Un seul DAU rapide</p></td>
-<td rowspan="2" valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
+<td rowSpan="4" valign="top"><p align="center">1</p></td>
+<td rowSpan="4" valign="top"><p align="center">Non</p></td>
+<td rowSpan="2" valign="top"><p align="center">Un seul DAU rapide</p></td>
+<td rowSpan="2" valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
 <td valign="top"><p align="center">Oui</p></td>
 <td valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
 <td valign="top"><p align="center">Un seul PD</p></td>
@@ -414,8 +414,8 @@ Tableau&nbsp;3&nbsp;: Attentes minimales pour le nombre de param&egrave;tres de 
 <td valign="top"><p align="center">Deux PD</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p align="center">Deuxi&egrave;me DAU</p></td>
-<td rowspan="2" valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
+<td rowSpan="2" valign="top"><p align="center">Deuxi&egrave;me DAU</p></td>
+<td rowSpan="2" valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
 <td valign="top"><p align="center">Oui</p></td>
 <td valign="top"><p align="center">Un seul PD direct par &eacute;v&eacute;nement</p></td>
 <td valign="top"><p align="center">Un seul PD</p></td>
@@ -426,10 +426,10 @@ Tableau&nbsp;3&nbsp;: Attentes minimales pour le nombre de param&egrave;tres de 
 <td valign="top"><p align="center">Deux PD</p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p align="center">2</p></td>
-<td rowspan="4" valign="top"><p align="center">Oui</p></td>
-<td rowspan="2" valign="top"><p align="center">Un seul DAU</p></td>
-<td rowspan="2" valign="top"><p align="center">Deux PD par &eacute;v&eacute;nement (au moins un direct)</p></td>
+<td rowSpan="4" valign="top"><p align="center">2</p></td>
+<td rowSpan="4" valign="top"><p align="center">Oui</p></td>
+<td rowSpan="2" valign="top"><p align="center">Un seul DAU</p></td>
+<td rowSpan="2" valign="top"><p align="center">Deux PD par &eacute;v&eacute;nement (au moins un direct)</p></td>
 <td valign="top"><p align="center">Oui</p></td>
 <td valign="top"><p align="center">Deux PD (au moins un direct)</p></td>
 <td valign="top"><p align="center">Deux PD</p></td>
@@ -440,8 +440,8 @@ Tableau&nbsp;3&nbsp;: Attentes minimales pour le nombre de param&egrave;tres de 
 <td valign="top"><p align="center">Deux PD</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p align="center">Deuxi&egrave;me DAU</p></td>
-<td rowspan="2" valign="top"><p align="center">Deux PD par &eacute;v&eacute;nement (au moins un direct)</p></td>
+<td rowSpan="2" valign="top"><p align="center">Deuxi&egrave;me DAU</p></td>
+<td rowSpan="2" valign="top"><p align="center">Deux PD par &eacute;v&eacute;nement (au moins un direct)</p></td>
 <td valign="top"><p align="center">Oui</p></td>
 <td valign="top"><p align="center">Deux PD (au moins un direct)</p></td>
 <td valign="top"><p align="center">Deux PD</p></td>
@@ -587,7 +587,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="10" valign="top"><p>Petit APRP </p>
+<td rowSpan="10" valign="top"><p>Petit APRP </p>
 <ul>
 <li> Petite rupture d&#8217;une conduite de CP (~&nbsp;50 &agrave; 1 000&nbsp;kg/s)</li>
 <li> Rupture d&#8217;une conduite &agrave; la partie sup&eacute;rieure du pressuriseur</li>
@@ -655,7 +655,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Rupture de transition APRP</p>
+<td rowSpan="9" valign="top"><p>Rupture de transition APRP</p>
 <ul>
 <li> D&eacute;faillance de conduite du CP (~&nbsp;1&nbsp;000 &agrave; 3 000&nbsp;kg/s)</li>
 </ul></td>
@@ -713,7 +713,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Rupture APRP majeur</p>
+<td rowSpan="9" valign="top"><p>Rupture APRP majeur</p>
 <ul>
 <li> (&gt;&nbsp;3&nbsp;000&nbsp;kg/s)</li>
 </ul></td>
@@ -774,7 +774,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5" valign="top"><p align="left"><strong>APRP &agrave; l&#8217;ext&eacute;rieur de l&#8217;enceinte de confinement</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Tr&egrave;s petit APRP (fuite) hors de l&#8217;enceinte de confinement</p>
+<td rowSpan="2" valign="top"><p>Tr&egrave;s petit APRP (fuite) hors de l&#8217;enceinte de confinement</p>
 <ul>
 <li> Rupture de tube d&#8217;instrument du CP hors de l&#8217;enceinte de confinement</li>
 </ul></td>
@@ -797,7 +797,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="5" valign="top"><p>Rupture d&#8217;un tube de GV </p></td>
+<td rowSpan="5" valign="top"><p>Rupture d&#8217;un tube de GV </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -842,7 +842,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>D&eacute;faillance du joint d&#8217;&eacute;tanch&eacute;it&eacute; du CP </p></td>
+<td rowSpan="2" valign="top"><p>D&eacute;faillance du joint d&#8217;&eacute;tanch&eacute;it&eacute; du CP </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -855,7 +855,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Rupture de la conduite de drainage du CP </p></td>
+<td rowSpan="2" valign="top"><p>Rupture de la conduite de drainage du CP </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -868,7 +868,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Rupture de la conduite d&#8217;alimentation du CP </p></td>
+<td rowSpan="2" valign="top"><p>Rupture de la conduite d&#8217;alimentation du CP </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -891,7 +891,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5" valign="top"><p align="left"><strong>Perte d&#8217;&eacute;coulement</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Blocage d&#8217;&eacute;coulement mineur dans un canal </p></td>
+<td rowSpan="2" valign="top"><p>Blocage d&#8217;&eacute;coulement mineur dans un canal </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -904,7 +904,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Blocage d&#8217;&eacute;coulement grave dans un canal</p></td>
+<td rowSpan="2" valign="top"><p>Blocage d&#8217;&eacute;coulement grave dans un canal</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -917,7 +917,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Stagnation due &agrave; une rupture d&#8217;un tuyau d&#8217;alimentation </p></td>
+<td rowSpan="9" valign="top"><p>Stagnation due &agrave; une rupture d&#8217;un tuyau d&#8217;alimentation </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -975,7 +975,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5" valign="top"><p align="left"><strong>D&eacute;faillances du rechargement</strong></p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>&Eacute;jection du combustible de la machine de rechargement du combustible (MRC) dans l&#8217;enceinte de confinement</p></td>
+<td rowSpan="9" valign="top"><p>&Eacute;jection du combustible de la machine de rechargement du combustible (MRC) dans l&#8217;enceinte de confinement</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1033,7 +1033,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5" valign="top"><p align="left"><strong>Rupture du circuit d&#8217;eau d&#8217;alimentation</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Perte totale de l&#8217;eau d&#8217;alimentation</p></td>
+<td rowSpan="3" valign="top"><p>Perte totale de l&#8217;eau d&#8217;alimentation</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1052,7 +1052,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Rupture d&#8217;une conduite d&#8217;eau d&#8217;alimentation en amont du dernier clapet</p></td>
+<td rowSpan="3" valign="top"><p>Rupture d&#8217;une conduite d&#8217;eau d&#8217;alimentation en amont du dernier clapet</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1071,7 +1071,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Rupture d&#8217;une conduite d&#8217;eau d&#8217;alimentation en aval du dernier clapet </p></td>
+<td rowSpan="3" valign="top"><p>Rupture d&#8217;une conduite d&#8217;eau d&#8217;alimentation en aval du dernier clapet </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1121,7 +1121,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Rupture d&#8217;une large conduite de vapeur </p>
+<td rowSpan="3" valign="top"><p>Rupture d&#8217;une large conduite de vapeur </p>
 <ul>
 <li> Rupture de la conduite principale de vapeur</li>
 <li> D&eacute;faillance de l&#8217;&eacute;quilibrage du collecteur des conduites principales de vapeur</li>
@@ -1145,7 +1145,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Rupture de la conduite de drainage du r&eacute;chauffeur </p></td>
+<td rowSpan="3" valign="top"><p>Rupture de la conduite de drainage du r&eacute;chauffeur </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1198,7 +1198,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5"  valign="top"><p align="left"><strong>D&eacute;faillances du syst&egrave;me de manutention du combustible</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Perte de refroidissement de la machine de rechargement du combustible (MRC) au cours du transport</p></td>
+<td rowSpan="3" valign="top"><p>Perte de refroidissement de la machine de rechargement du combustible (MRC) au cours du transport</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1217,7 +1217,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p>Perte de r&eacute;frig&eacute;rant de la MRC ancr&eacute;e au r&eacute;acteur</p></td>
+<td rowSpan="4" valign="top"><p>Perte de r&eacute;frig&eacute;rant de la MRC ancr&eacute;e au r&eacute;acteur</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1242,7 +1242,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Grappe &eacute;cras&eacute;e avec la MRC ancr&eacute;e au r&eacute;acteur</p></td>
+<td rowSpan="2" valign="top"><p>Grappe &eacute;cras&eacute;e avec la MRC ancr&eacute;e au r&eacute;acteur</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1255,7 +1255,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Incidents de manutention du combustible &agrave; la piscine de stockage (PS)</p></td>
+<td rowSpan="2" valign="top"><p>Incidents de manutention du combustible &agrave; la piscine de stockage (PS)</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1268,7 +1268,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Incidents touchant la piscine de stockage (PS)</p></td>
+<td rowSpan="2" valign="top"><p>Incidents touchant la piscine de stockage (PS)</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1281,7 +1281,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Perte de refroidissement de la PS </p></td>
+<td rowSpan="3" valign="top"><p>Perte de refroidissement de la PS </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1300,7 +1300,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte d&#8217;inventaire de la PS </p></td>
+<td rowSpan="2" valign="top"><p>Perte d&#8217;inventaire de la PS </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1316,7 +1316,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5"  valign="top"><p align="left"><strong>D&eacute;faillances &eacute;lectriques</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte de l&#8217;alimentation de cat&eacute;gorie IV </p></td>
+<td rowSpan="2" valign="top"><p>Perte de l&#8217;alimentation de cat&eacute;gorie IV </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1447,7 +1447,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte de circulation du refroidissement du blindage</p></td>
+<td rowSpan="2" valign="top"><p>Perte de circulation du refroidissement du blindage</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1467,7 +1467,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte d&#8217;inventaire du bouclier d&#8217;extr&eacute;mit&eacute; </p></td>
+<td rowSpan="2" valign="top"><p>Perte d&#8217;inventaire du bouclier d&#8217;extr&eacute;mit&eacute; </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1480,7 +1480,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte de contr&ocirc;le de la temp&eacute;rature du bouclier</p></td>
+<td rowSpan="2" valign="top"><p>Perte de contr&ocirc;le de la temp&eacute;rature du bouclier</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1496,7 +1496,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5"  valign="top"><p align="left"><strong>D&eacute;faillances du mod&eacute;rateur</strong></p></td>
 </tr>
 <tr>
-<td rowspan="5" valign="top"><p>Perte du SESBP</p></td>
+<td rowSpan="5" valign="top"><p>Perte du SESBP</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1527,7 +1527,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Perte de circulation du mod&eacute;rateur</p></td>
+<td rowSpan="3" valign="top"><p>Perte de circulation du mod&eacute;rateur</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1553,7 +1553,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Perte de l&#8217;inventaire du mod&eacute;rateur</p></td>
+<td rowSpan="2" valign="top"><p>Perte de l&#8217;inventaire du mod&eacute;rateur</p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1587,7 +1587,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Perte du SESBP aux &eacute;changeurs de chaleur du mod&eacute;rateur </p></td>
+<td rowSpan="3" valign="top"><p>Perte du SESBP aux &eacute;changeurs de chaleur du mod&eacute;rateur </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1609,7 +1609,7 @@ Tableau A.1&nbsp;: Extrants des processus d&#8217;identification et de classific
 <td colSpan="5"  valign="top"><p align="left"><strong>D&eacute;faillances des syst&egrave;mes de soutien</strong></p></td>
 </tr>
 <tr>
-<td rowspan="6" valign="top"><p>Perte du SESBP/d&eacute;faillance du syst&egrave;me d&#8217;eau de refroidissement recircul&eacute;e </p></td>
+<td rowSpan="6" valign="top"><p>Perte du SESBP/d&eacute;faillance du syst&egrave;me d&#8217;eau de refroidissement recircul&eacute;e </p></td>
 <td valign="top"><p>Pas de d&eacute;faillances additionnelles</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -2142,7 +2142,8 @@ Tableau B.2&nbsp;: Exemples de crit&egrave;res d&#8217;acceptation d&#8217;accid
 <li>Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire, G-149, <em>Les programmes informatiques utilis&eacute;s lors de la conception et des analyses de la s&ucirc;ret&eacute; des centrales nucl&eacute;aires et des r&eacute;acteurs de recherche</em>, Ottawa, 2000.</li>
 <li> Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire, RD-327, <em>S&ucirc;ret&eacute; en mati&egrave;re de criticit&eacute; nucl&eacute;aire</em>, Ottawa, 2010.</li>
 <li> Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire, GD-327, <em>Directives de s&ucirc;ret&eacute; en mati&egrave;re de criticit&eacute; nucl&eacute;aire</em>, Ottawa, 2010.</li>
-<li> Association canadienne de normalisation, N286.7-99, <em>Assurance de la qualit&eacute; des programmes informatiques scientifiques, d&#8217;analyse et de conception des centrales nucl&eacute;aires</em>, Toronto, 2003.</li>  </ol>  
+<li> Association canadienne de normalisation, N286.7-99, <em>Assurance de la qualit&eacute; des programmes informatiques scientifiques, d&#8217;analyse et de conception des centrales nucl&eacute;aires</em>, Toronto, 2003.</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

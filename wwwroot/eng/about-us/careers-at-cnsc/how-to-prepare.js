@@ -18,30 +18,27 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-apply#sec1">1. Create a profile</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-apply#sec2">2. Submit an application</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-apply#sec3">3. Identify accommodations</a></p>
 </div>
 </div>
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-apply#sec4">4. Review the hiring conditions</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="#sec5">5. Prepare for the assessment</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec6">6. After the assessment</a></p>
-</div>
-</div>
-</div>
 <h2 id="sec5">5. Prepare for the assessment</h2>
 <h3>Before the interview or written test</h3>
 <ul>
@@ -75,7 +72,8 @@ import React from "react"
 manner will assist Security Services in expediting your clearance update (if required).</li>
 <li><strong>Official languages: </strong>If the position is bilingual, you may have to be tested if you have no valid second language evaluation (SLE) results, if your SLE results are expired, or if the position requires a higher level of proficiency. (Note: SLE results are valid for 5 years.)</li>
 <li><strong>Medical: </strong>Some positions require a medical examination due to the nature of the work and to ensure the safety of all workers. The HR assistant will provide you with details in order to schedule your appointment with a physician.</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

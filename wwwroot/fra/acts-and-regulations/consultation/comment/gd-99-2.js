@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -348,9 +348,9 @@ Tableau B.1&nbsp;&#8211; Liste des syst&egrave;mes importants pour la s&ucirc;re
 Tableau B.2 &#8211; Fiabilit&eacute; pr&eacute;vue
 </caption>
 <tr>
-<td width="144" rowspan="3" valign="top"><p><strong>Crit&egrave;re de d&eacute;faillance</strong></p></td>
+<td width="144" rowSpan="3" valign="top"><p><strong>Crit&egrave;re de d&eacute;faillance</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Fiabilit&eacute; pr&eacute;vue</strong></p></td>
-<td width="53" rowspan="3" valign="top"><p align="center"><strong>Objectif</strong></p></td>
+<td width="53" rowSpan="3" valign="top"><p align="center"><strong>Objectif</strong></p></td>
 </tr>
 <tr>
 <td colSpan="2" valign="top"><p align="center">Ann&eacute;es ant&eacute;rieures</p></td>
@@ -450,7 +450,7 @@ Tableau B.4 &#8211;&nbsp;Indices de fiabilit&eacute; des groupes &eacute;lectrog
 <td colSpan="5" valign="top"><p align="center"><strong>A. R&eacute;sultats des essais</strong></p></td>
 </tr>
 <tr>
-<td width="73" rowspan="2" valign="top"><p><strong>N<sup>o</sup> de GES</strong></p></td>
+<td width="73" rowSpan="2" valign="top"><p><strong>N<sup>o</sup> de GES</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>D&eacute;marrage</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Fonctionnement</strong></p></td>
 </tr>
@@ -499,7 +499,7 @@ Tableau B.4 &#8211;&nbsp;Indices de fiabilit&eacute; des groupes &eacute;lectrog
 <td colSpan="5" valign="top"><p align="center"><strong>B. Statistiques sur la mise hors service</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><strong>N<sup>o</sup> de GES</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>N<sup>o</sup> de GES</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Aux fins d&#8217;entretien</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Arr&ecirc;t forc&eacute;</strong></p></td>
 </tr>
@@ -549,7 +549,7 @@ Tableau B.4 &#8211;&nbsp;Indices de fiabilit&eacute; des groupes &eacute;lectrog
 Tableau B.5 &#8211; Tendance relative aux indices de fiabilit&eacute; des groupes &eacute;lectrog&egrave;nes de secours
 </caption>
 <tr>
-<td width="51" rowspan="2" valign="top"><p><strong>Ann&eacute;e*</strong></p></td>
+<td width="51" rowSpan="2" valign="top"><p><strong>Ann&eacute;e*</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Taux de d&eacute;faillance de fonctionnement</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Dur&eacute;e moyenne avant d&eacute;faillance </strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Temps moyen de r&eacute;paration </strong></p></td>
@@ -703,7 +703,7 @@ Tableau B.6 &#8211; Indices de fiabilit&eacute; des groupes &eacute;lectrog&egra
 <td colSpan="5" valign="top"><p align="center"><strong>A. R&eacute;sultats des essais</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><strong>N<sup>o</sup> de GEU</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>N<sup>o</sup> de GEU</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>D&eacute;marrage</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Fonctionnement</strong></p></td>
 </tr>
@@ -738,7 +738,7 @@ Tableau B.6 &#8211; Indices de fiabilit&eacute; des groupes &eacute;lectrog&egra
 <td colSpan="5" valign="top"><p align="center"><strong>B. Statistiques sur la mise hors service</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><strong>N<sup>o</sup> de GEU</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>N<sup>o</sup> de GEU</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Aux fins d&#8217;entretien</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Arr&ecirc;t forc&eacute;</strong></p></td>
 </tr>
@@ -774,7 +774,7 @@ Tableau B.6 &#8211; Indices de fiabilit&eacute; des groupes &eacute;lectrog&egra
 Tableau B.7 &#8211;&nbsp;Tendance relative aux indices de fiabilit&eacute; des groupes &eacute;lectrog&egrave;nes d&#8217;urgence
 </caption>
 <tr>
-<td rowspan="2" valign="top"><p><strong>Ann&eacute;e*</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>Ann&eacute;e*</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Taux de d&eacute;faillance de fonctionnement</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Dur&eacute;e moyenne avant d&eacute;faillance </strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Temps moyen de r&eacute;paration </strong></p></td>
@@ -925,7 +925,7 @@ Tableau B.8 &#8211;&nbsp;D&eacute;faillance mineure et incidence sur la fiabilit
 Tableau B.9 &#8211;&nbsp;Information sur les mod&egrave;les de fiabilit&eacute;
 </caption>
 <tr>
-<td rowspan="2" valign="top"><p><strong>Syst&egrave;me</strong></p></td>
+<td rowSpan="2" valign="top"><p><strong>Syst&egrave;me</strong></p></td>
 <td colSpan="4" valign="top"><p align="center"><strong>Mod&egrave;le de fiabilit&eacute;</strong></p></td>
 <td colSpan="2" valign="top"><p align="center"><strong>Rapport</strong></p></td>
 </tr>
@@ -1012,7 +1012,7 @@ de r&eacute;glementation</strong></p></td>
 <td valign="top"><p align="center"><strong>Titre du rapport</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Gestion</p></td>
+<td rowSpan="3" valign="top"><p>Gestion</p></td>
 <td valign="top"><p>Syst&egrave;me de gestion</p></td>
 <td valign="top"><p>2.2.1.1</p></td>
 <td valign="top"><p>Rapport sur l&#8217;exploitation*</p></td>
@@ -1037,7 +1037,7 @@ Rapport sur la planification des formations, examens et &eacute;preuves pr&eacut
 <td valign="top"><p>Rapport sur l&#8217;exploitation*</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Installation et &eacute;quipement</p></td>
+<td rowSpan="3" valign="top"><p>Installation et &eacute;quipement</p></td>
 <td valign="top"><p>Analyse de la s&ucirc;ret&eacute;</p></td>
 <td valign="top"><p>2.2.1.2</p>
 <p>2.2.2.4</p>
@@ -1066,7 +1066,7 @@ Rapport sur la planification des formations, examens et &eacute;preuves pr&eacut
 Rapport sur la d&eacute;gradation des enveloppes de pression de la centrale nucl&eacute;aire</p></td>
 </tr>
 <tr>
-<td rowspan="8" valign="top"><p>Processus de contr&ocirc;le du c&#339;ur </p></td>
+<td rowSpan="8" valign="top"><p>Processus de contr&ocirc;le du c&#339;ur </p></td>
 <td valign="top"><p>Radioprotection</p></td>
 <td valign="top"><p>2.2.1.1<br />
 2.2.1.2<br />
@@ -1137,7 +1137,7 @@ Tableau&nbsp;3 : Cat&eacute;gorisation des rapports en fonction des domaines de 
 <tr>
 <td valign="top"><p>2.</p></td>
 <td valign="top"><p>Indice chimique</p></td>
-<td rowspan="2" valign="top"><p>4 &agrave; 6</p></td>
+<td rowSpan="2" valign="top"><p>4 &agrave; 6</p></td>
 </tr>
 <tr>
 <td valign="top"><p>3.</p></td>
@@ -1151,7 +1151,7 @@ Tableau&nbsp;3 : Cat&eacute;gorisation des rapports en fonction des domaines de 
 <tr>
 <td valign="top"><p>5.</p></td>
 <td valign="top"><p>Indice de l&#8217;efficacit&eacute; d&#8217;intervention en cas d&#8217;urgence radiologique</p></td>
-<td rowspan="3" valign="top"><p>10</p></td>
+<td rowSpan="3" valign="top"><p>10</p></td>
 </tr>
 <tr>
 <td valign="top"><p>6.</p></td>
@@ -1179,7 +1179,7 @@ Tableau&nbsp;3 : Cat&eacute;gorisation des rapports en fonction des domaines de 
 <tr>
 <td valign="top"><p>11.</p></td>
 <td valign="top"><p>Indice d&#8217;&eacute;v&eacute;nements li&eacute;s au rayonnement</p></td>
-<td rowspan="2" valign="top"><p>7</p></td>
+<td rowSpan="2" valign="top"><p>7</p></td>
 </tr>
 <tr>
 <td valign="top"><p>12.</p></td>
@@ -1193,7 +1193,7 @@ Tableau&nbsp;3 : Cat&eacute;gorisation des rapports en fonction des domaines de 
 <tr>
 <td valign="top"><p>14.</p></td>
 <td valign="top"><p>Nombre de transitoires impr&eacute;vus </p></td>
-<td rowspan="2" valign="top"><p>3, 5, 6</p></td>
+<td rowSpan="2" valign="top"><p>3, 5, 6</p></td>
 </tr>
 <tr>
 <td valign="top"><p>15.</p></td>
@@ -1202,7 +1202,7 @@ Tableau&nbsp;3 : Cat&eacute;gorisation des rapports en fonction des domaines de 
 <tr>
 <td valign="top"><p>16.</p></td>
 <td valign="top"><p>Retard cumul&eacute; au chapitre de l&#8217;entretien correctif</p></td>
-<td rowspan="4" valign="top"><p>5, 6</p></td>
+<td rowSpan="4" valign="top"><p>5, 6</p></td>
 </tr>
 <tr>
 <td valign="top"><p>17.</p></td>
@@ -1329,7 +1329,8 @@ DORS/2000-208</li>
 <li> CAN/CSA N289.5, <em>Seismic Instrumentation Requirements for CANDU Nuclear Power Plants</em>, Association canadienne de normalisation</li>
 <li><em>Mod&egrave;le du manuel qualit&eacute; pour la norme ISO 17025</em>, Organisation internationale de normalisation, 2005</li>
 <li><em>ASME Boiler &amp; Pressure Vessel Code, section&nbsp;III, division&nbsp;1, Rules for Construction of Nuclear Power Plant Components &#8211; sous-section&nbsp;NB &#8211; Class&nbsp;1 Components</em>, American Society of Mechanical Engineers</li>
-<li>TS-R-1, <em>R&egrave;glement de transport des mati&egrave;res radioactives</em>, Agence internationale de l&#8217;&eacute;nergie atomique, 2009</li>  </ul>  
+<li>TS-R-1, <em>R&egrave;glement de transport des mati&egrave;res radioactives</em>, Agence internationale de l&#8217;&eacute;nergie atomique, 2009</li>  </ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

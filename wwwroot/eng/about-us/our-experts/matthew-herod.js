@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Canadian Nuclear Laboratories Regulatory Program Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MHerom-sq.png" alt="" />
 <figcaption>Matthew Herod,<br/>
 Senior Project Officer</figcaption>
@@ -30,7 +30,8 @@ Senior Project Officer</figcaption>
 <h2>Expertise and education</h2>
 <p>Matthew holds a PhD in earth science from the University of Ottawa and a BScH in geology from Queen&rsquo;s University. He is an adjunct professor in the Department of Earth and Environmental Science at the University of Ottawa and is affiliated with the university&rsquo;s Andr&eacute; E. Lalonde Accelerator Mass Spectrometry Lab, where he supervises 3 graduate students. He is also a CNSC inspector and a registered professional geoscientist.</p>
 <h2>Current research and projects</h2>
-<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Matthew holds a dual role as both a licensing and a technical expert. He leads outreach and contributes to the technical assessment of the licensee&rsquo;s submission with respect to waste acceptance criteria, waste characterization, geology aspects, and long-term safety.</p>  
+<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Matthew holds a dual role as both a licensing and a technical expert. He leads outreach and contributes to the technical assessment of the licensee&rsquo;s submission with respect to waste acceptance criteria, waste characterization, geology aspects, and long-term safety.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

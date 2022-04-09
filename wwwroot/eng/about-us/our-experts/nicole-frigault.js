@@ -18,9 +18,9 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <p>Environmental Assessment Division</p>
-<div className="pull-right col-md-3"> <img alt="Nicole Frigault" src="/images/our-experts/web_experts_NFrigault-sub.png" />
+<div className="pull-right col-md-2"> <img alt="Nicole Frigault" src="/images/our-experts/web_experts_NFrigault-sub.png" />
 <p> Nicole Frigault,<br/>
 Environmental Assessment Specialist</p>
 </div>
@@ -29,7 +29,8 @@ Environmental Assessment Specialist</p>
 <h2>Expertise and education</h2>
 <p>Nicole holds a bachelor of science in biology and environmental studies from Saint Mary&rsquo;s University. As a student, she spent time in the mining industry where she worked on environmental monitoring and water treatment plant operation and maintenance, and conducted daily analytical laboratory tests. She started her career as an environment officer with Environment and Climate Change Canada working on climate change issues and later in the remediation of contaminated sites. She then moved to Public Works and Government Services Canada as an environmental assessment officer, where she provided expertise on several major federal projects across various departments and conducted numerous environmental studies.</p>
 <h2>Current research and projects</h2>
-<p><strong>Project:</strong> <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility"><strong>Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</strong></a><strong>.</strong> With respect to the CNSC&rsquo;s review of this proposed facility, Nicole has been the environmental assessment lead since that process began in 2016. She will continue to assess potential environmental impacts in the proposal stage and, if a licence is granted, she will continue her role of ensuring that all mitigation and follow-up measures and commitments made by the licensee are adhered to for the lifetime of the project.</p>  
+<p><strong>Project:</strong> <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility"><strong>Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</strong></a><strong>.</strong> With respect to the CNSC&rsquo;s review of this proposed facility, Nicole has been the environmental assessment lead since that process began in 2016. She will continue to assess potential environmental impacts in the proposal stage and, if a licence is granted, she will continue her role of ensuring that all mitigation and follow-up measures and commitments made by the licensee are adhered to for the lifetime of the project.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

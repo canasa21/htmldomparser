@@ -58,7 +58,8 @@ P.O. Box 1046, Station B<br/>
 280 Slater Street<br/>
 Ottawa, ONT K1P 5S9</li>
 <li>Fax: 613-995-5086 </li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

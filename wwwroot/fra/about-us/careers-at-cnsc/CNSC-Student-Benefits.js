@@ -71,7 +71,8 @@ Pour les &eacute;tudiants coop travaillant pour une p&eacute;riode d&eacute;term
 <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/regime-retraite.html">R&eacute;gime de pension de retraite de la fonction publique (RPRFP)</a></li>
 </ul></td>
 </tr>
-</table>  
+</table>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

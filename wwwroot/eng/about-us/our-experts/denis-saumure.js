@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Commission Registry</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_Denis-Saumure_sub.png" alt="Denis Saumure" />
 <figcaption>Denis Saumure,<br/>
 Commission Registrar</figcaption>
@@ -32,7 +32,8 @@ Commission Registrar</figcaption>
 <h2>Roles and responsibilities </h2>
 <p>As of January 1, 2022, what was previously known as the Commission Secretariat and Secretary became the Commission Registry and Registrar. As a part of this restructuring, Denis has taken on the new role of Commission Registrar. In this role, Denis will be responsible for the management and administration of the Commission Registry which now includes a legal advisory role to assist the Commission with regard to the rules of procedural fairness and contemporary administrative law standards for statutory decision-making.</p>
 <h2>Other roles</h2>
-<p>In his time with the CNSC, Denis has had the opportunity to be the legal counsel on 2 joint review panels, for the Darlington New Build and the Deep Geological Repository (DGR). Both offered an opportunity to work with Commission members, experts, licensees, Indigenous communities, and intervenors. The Darlington New Build panel focused on work that had not occurred in Canada for over 30 years, and the DGR panel was a completely novel proposition.</p>  
+<p>In his time with the CNSC, Denis has had the opportunity to be the legal counsel on 2 joint review panels, for the Darlington New Build and the Deep Geological Repository (DGR). Both offered an opportunity to work with Commission members, experts, licensees, Indigenous communities, and intervenors. The Darlington New Build panel focused on work that had not occurred in Canada for over 30 years, and the DGR panel was a completely novel proposition.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

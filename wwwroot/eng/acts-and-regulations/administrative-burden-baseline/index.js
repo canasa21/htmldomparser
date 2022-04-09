@@ -102,7 +102,8 @@ Commission)</em></td>
 <li><a href="http://www.tbs-sct.gc.ca/tbs-sct/ar-lr/gwfrp-ppreg-eng.asp">Government-Wide Forward Regulatory Plans</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/about-ausujet-eng.asp">The Cabinet Directive on Regulatory Management</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/index-eng.asp">The Red Tape Reduction Action Plan</a></li>
-<li><a href="http://actionplan.gc.ca/page/rcc-ccr/about-regulatory-cooperation-council?wb48617274=F196FB7F">The Canada-United States Regulatory Cooperation Council</a></li>  </ul>  <p>To learn about upcoming or ongoing consultations on proposed federal  regulations, visit the <em><a href="http://www.gazette.gc.ca/index-eng.html">Canada Gazette</a></em> and the Government of Canada&rsquo;s <a href="https://open.canada.ca/en">Open Government website</a> under the "<a href="https://www.canada.ca/en/government/system/consultations/consultingcanadians.html">Find a Consultation</a>" option.</p>  
+<li><a href="http://actionplan.gc.ca/page/rcc-ccr/about-regulatory-cooperation-council?wb48617274=F196FB7F">The Canada-United States Regulatory Cooperation Council</a></li>  </ul>  <p>To learn about upcoming or ongoing consultations on proposed federal  regulations, visit the <em><a href="http://www.gazette.gc.ca/index-eng.html">Canada Gazette</a></em> and the Government of Canada&rsquo;s <a href="https://open.canada.ca/en">Open Government website</a> under the "<a href="https://www.canada.ca/en/government/system/consultations/consultingcanadians.html">Find a Consultation</a>" option.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

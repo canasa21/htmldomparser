@@ -92,7 +92,8 @@ Lane R, Mao Y. Potential Years of Life Lost Among Major  Causes of Death in Cana
 <ul>
 <li>No ORCID : 0000-0003-2830-2644</li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

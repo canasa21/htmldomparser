@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" />This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -1377,7 +1377,8 @@ Note: For the purpose of this document, a plant is said to be in one of the foll
 <li><a name="R7" id="R7"></a>International Atomic Energy Agency, GS-R-2, Safety Standard Series, <em>Preparedness and Response for a Nuclear or Radiological Emergency</em>, Vienna, 2002.</li>
 <li><a name="R8" id="R8"></a>Health Canada, H46-2/03-326E, <em>Canadian Guidelines for Intervention during a Nuclear Emergency</em>, Ottawa, 2003.</li>
 <li><a name="R9" id="R9"></a>International Organization for Standardization, ISO 14001: 2004, <em>Environmental Management Systems</em>, 2004.</li>
-<li><a name="R10" id="R10"></a>International Atomic Energy Agency, Safety Guide No. WS-GS-6.1, <em>Storage of Radioactive Waste</em>, Vienna, 2006.</li>  </ol>  
+<li><a name="R10" id="R10"></a>International Atomic Energy Agency, Safety Guide No. WS-GS-6.1, <em>Storage of Radioactive Waste</em>, Vienna, 2006.</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

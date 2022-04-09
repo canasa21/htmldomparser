@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -457,7 +457,8 @@ temps de support ou de biote consomm&eacute;<br />
 <dd> Rejets de liquide ou &eacute;missions de gaz, qui contiennent des quantit&eacute;s de polluants, dans l&#8217;environnement, c.-&agrave;-d. dans les eaux de surface ou dans l&#8217;atmosph&egrave;re.</dd>
 <dt>seuil d&#8217;intervention</dt>
 <dd> Condition sp&eacute;cifique qui associe une quantit&eacute; statistique repr&eacute;sentant un rejet &agrave; l&#8217;extr&eacute;mit&eacute; sup&eacute;rieure de la plage de fonctionnement normale et la fr&eacute;quence pr&eacute;vue de d&eacute;passement de la quantit&eacute; statistique. Le d&eacute;clenchement d&#8217;un seuil d&#8217;intervention est consid&eacute;r&eacute; comme une indication de possible perte de contr&ocirc;le d&#8217;une partie des syst&egrave;mes de traitement du titulaire de permis et/ou de son programme de protection de l&#8217;environnement. La situation doit &ecirc;tre signal&eacute;e &agrave; la CCSN, et, le cas &eacute;ch&eacute;ant, on doit faire enqu&ecirc;te et prendre les mesures correctives n&eacute;cessaires.</dd>  </dl>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

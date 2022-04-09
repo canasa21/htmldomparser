@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -165,7 +165,7 @@ import React from "react"
 <td valign="top"><p><em>Une atteinte &agrave; l&#39;int&eacute;grit&eacute; des renseignements aurait une incidence sur des int&eacute;r&ecirc;ts autres que nationaux ou la s&eacute;curit&eacute; nationale du Canada</em></p></td>
 <td valign="top"><p><em>Une atteinte &agrave; l&#39;int&eacute;grit&eacute; des renseignements aurait une incidence sur l&#39;int&eacute;r&ecirc;t national ou la s&eacute;curit&eacute; nationale du Canada</em></p></td>  	</tr>  	<tr>
 <td colSpan="3" valign="top"><p>Cotes n&eacute;cessaires </p></td>  	</tr>  	<tr>
-<td rowspan="3" valign="top"><p>Renseignements r&eacute;glement&eacute;s</p></td>
+<td rowSpan="3" valign="top"><p>Renseignements r&eacute;glement&eacute;s</p></td>
 <td valign="top"><p>Prot&eacute;g&eacute; &laquo;&nbsp;A&nbsp;&raquo; </p>
 <p><em>(pr&eacute;judice)</em></p></td>
 <td valign="top"><p>Niveau I, Confidentiel</p>
@@ -225,7 +225,8 @@ N.B.&nbsp;: Comprend la r&egrave;gle des deux personnes.</p></td>  	</tr>  </tab
 <a name="#RDsection[32]#"></a>
 <h2><a name="P493_72266" id="P493_72266"></a>R&eacute;f&eacute;rences</h2>  <ol>  <li><em>Politique sur la s&eacute;curit&eacute; du gouvernement</em>, 2009. Secr&eacute;tariat du Conseil du Tr&eacute;sor du Canada.
 <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=16578&amp;section=text"><br />
-http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=16578&amp;section=text</a>. </li>  	<li><em>Preventive and Protective Measures against Insider Threats</em>, guide d&#8217;application,<em> </em>collection Normes de s&ucirc;ret&eacute; de l&#8217;AIEA, n&deg; 8, Vienne, 2008.</li>  <li><em>Physical Protection of Nuclear Facilities and Materials</em>, The International Training Course (ITC&nbsp;22 - 2010), Albuquerque, Nouveau-Mexique, &Eacute;tats-Unis.</li>  <li><em>Manuel de la s&eacute;curit&eacute; industrielle</em>, 2012. Travaux publics et Services gouvernementaux Canada &#8211; Programme de s&eacute;curit&eacute; industrielle. &nbsp;http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-fra.html</li>  </ol>  
+http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=16578&amp;section=text</a>. </li>  	<li><em>Preventive and Protective Measures against Insider Threats</em>, guide d&#8217;application,<em> </em>collection Normes de s&ucirc;ret&eacute; de l&#8217;AIEA, n&deg; 8, Vienne, 2008.</li>  <li><em>Physical Protection of Nuclear Facilities and Materials</em>, The International Training Course (ITC&nbsp;22 - 2010), Albuquerque, Nouveau-Mexique, &Eacute;tats-Unis.</li>  <li><em>Manuel de la s&eacute;curit&eacute; industrielle</em>, 2012. Travaux publics et Services gouvernementaux Canada &#8211; Programme de s&eacute;curit&eacute; industrielle. &nbsp;http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-fra.html</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -50,7 +50,8 @@ et leurs montants de responsabilité respectifs.</li>
 <li><a href="http://www.gazette.gc.ca/rp-pr/p2/2016/2016-05-18/html/sor-dors88-fra.php"><em>Règlement sur la responsabilité et  l&rsquo;indemnisation en matière nucléaire</em></a> de  Ressources naturelles Canada</li>
 <li>Présentation de Ressources naturelles  Canada sur le <a href="http://www.nuclearsafety.gc.ca/eng/pdfs/acts-and-regulations/strengthening-nuclear-liability-regime-eng.pdf">renforcement du régime de responsabilité nucléaire du Canada</a> (en anglais seulement) à l&rsquo;occasion du 21e congrès de  l&rsquo;Association internationale du droit nucléaire 2014</li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

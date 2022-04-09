@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -76,7 +76,8 @@ import React from "react"
 <li> les pr&eacute;parations sp&eacute;ciales de l&#8217;emballage, visant &agrave; s&#8217;assurer que l&#8217;int&eacute;rieur de l&#8217;emballage est d&eacute;contamin&eacute; ad&eacute;quatement et ferm&eacute; conform&eacute;ment aux exigences du 49 CFR 173.428 ou du paragraphe 520 du TS-R-1, sont d&eacute;crites.</li>  </ol>   <a name="7.4"></a>
 <h3>7.4 Autres op&eacute;rations</h3>  <p>Cette section devrait comprendre les dispositions relatives aux contr&ocirc;les op&eacute;rationnels sp&eacute;ciaux (p. ex. trajet, conditions m&eacute;t&eacute;orologiques, restrictions relatives &agrave; la dur&eacute;e de l&#8217;exp&eacute;dition, etc.).</p>   <a name="7.5"></a>
 <h3>7.5 Annexe</h3>  <p>L&#8217;annexe devrait comprendre une liste des r&eacute;f&eacute;rences, des pages applicables des documents mentionn&eacute;s en r&eacute;f&eacute;rence, des descriptions d&eacute;taill&eacute;es et des analyses des proc&eacute;d&eacute;s ou protocoles, des pr&eacute;sentations graphiques, les r&eacute;sultats des essais et d&#8217;autres renseignements additionnels.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

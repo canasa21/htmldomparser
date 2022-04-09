@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2>Preface</h2>
 <p>Discussion papers play an important role in the development of the  regulatory framework and regulatory program of the Canadian Nuclear Safety  Commission (CNSC). They are made public for a specified period of time, and are  used to solicit early feedback from stakeholders on proposed CNSC policies or  regulatory approaches. The use of discussion papers early in the regulatory  process underlines the CNSC&#39;s commitment to proactive and transparent  consultations.</p>
 <p>  This discussion paper seeks feedback from licensees, the Canadian public  and other interested stakeholders on the CNSC&#39;s proposal to amend several  regulations, including the <em>Class I Nuclear Facilities Regulations, </em>the<em> Class II Nuclear Facilities and Prescribed Equipment Regulations, </em>the<em> General Nuclear Safety and Control  Regulations,</em> the <em>Nuclear Substances and Radiation Devices  Regulations, </em>and the <em>Uranium Mines and Mills Regulations, </em>as well as  the <em>Canadian Nuclear Safety Commission Rules of Procedure.</em></p>
@@ -26,11 +26,10 @@ import React from "react"
 <p>  The CNSC actively encourages all  stakeholders to submit their views on the perceived impacts of these proposed  amendments, including any potential administrative burden or costs, as well any  reduction or savings, on small and large businesses. All feedback received from  this early consultation will be thoroughly considered in determining the CNSC&#39;s  regulatory approach.</p>
 <p>Should the decision be made to move  forward with the amendments proposed in this document, specific regulatory  language will be developed, and the public and other stakeholders will have  another opportunity to provide feedback and comments, as part of the <em>Canada  Gazette </em>Part I consultation process. </p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 className="mrgn-tp-md">Table of Contents</h2>
 <div className="IndentLeft10">
 <p><a href="#exec">Executive Summary</a></p>
@@ -89,11 +88,10 @@ import React from "react"
 <div className="IndentLeft10">
 <p><a href="#sec6">References</a></p>  </div>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="exec" className="mrgn-tp-md">Executive Summary</h2>
 <h3 className="mrgn-bttm-0">Background</h3>
 <p>Following the spring 2011 events at TEPCO&#39;s Fukushima Daiichi nuclear power station, nuclear regulators around the world launched a comprehensive review of all  their major facilities. As Canada&#39;s  nuclear regulator, the Canadian Nuclear Safety Commission (CNSC) established  the <a href="http://www.nuclearsafety.gc.ca/eng/resources/news-room/news-releases/index?news_release_id=385">CNSC  Fukushima Task Force</a> to review the capability of nuclear power plants&nbsp;- as  well as other nuclear facilities across the country&nbsp;- to withstand conditions comparable to those that triggered the Fukushima accident.</p>
@@ -125,11 +123,10 @@ import React from "react"
 <p>  Based on comments and feedback received, the CNSC  may decide to prepare a package of regulatory amendments (including specific  wording for each amendment), for publication in the <em>Canada Gazette</em>, Part  I. At this point, stakeholders would have another opportunity to comment.</p>
 <p>The draft amendments will then be revised, as  appropriate, and presented to the Commission for consideration. Should the  Commission decide to make the regulations, those will be submitted to the  Governor in Council, and if approved, published in the <em>Canada Gazette</em>,  Part II, after which they would come into force. </p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="sec1">1. Introduction</h2>
 <p>The Canadian Nuclear Safety Commission  (CNSC) is mandated under the <em>Nuclear Safety and Control Act </em>(NSCA) to regulate all nuclear facilities and nuclear-related activities in Canada.  Its mission is to protect the health, safety, and security of Canadians, as  well as the environment, from the risks associated with the production and use  of nuclear energy and substances, and to implement Canada&#39;s international commitments  on the peaceful use of nuclear energy.</p>
 <h3 id="sec1-1">1.1 Project background</h3>
@@ -141,19 +138,17 @@ import React from "react"
 <p>  Administrative burden includes the planning,  collecting, processing and reporting of information, completing forms and  retaining data required by the federal government to comply with a regulation.  This may apply to activities such as filling out licence applications and  forms, as well as finding and compiling data for audits and becoming familiar  with information requirements.</p>
 <p>Cost includes up-front capital costs, as well as  ongoing maintenance and training costs that businesses face when complying with  a regulation. These may include signage or notifications (when in material  form, such as a road sign), testing, training staff, purchasing new equipment  or software, maintaining equipment and software, renting additional space,  purchasing equipment to maintain records (such as secure filing cabinets),  etc.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="sec2">2. Proposed Amendments to Regulations</h2>
 <p>This section of the discussion paper outlines each  of the proposed amendments to the <em>Nuclear  Safety and Control Act</em> (NSCA) regulations in more detail. The ten proposed  amendments aim to strengthen and clarify the CNSC&#39;s regulatory framework.  Stakeholders are encouraged to provide feedback to the CNSC on these proposed  amendments. Further, feedback is sought as to the potential financial or  administrative impacts (whether positive or negative) that stakeholders may  incur if the CNSC decides to proceed with the amendments proposed in this  paper.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-1" className="mrgn-tp-md">2.1 Submission  of provincial offsite emergency plans to the CNSC </h3>
 <h4 id="sec2-1-1">2.1.1 Background</h4>
 <p>The CNSC regulates the entire lifecycle of nuclear  facilities, to ensure the protection of health, safety, the environment and the  security of Canadians. A Class I nuclear facility has five licensing stages:  site preparation, construction, operation, decommissioning and abandonment.</p>
@@ -165,11 +160,10 @@ import React from "react"
 <h4 id="sec2-1-4">2.1.4 Benefit</h4>
 <p>This amendment would provide the CNSC with a  comprehensive view of emergency preparedness throughout the lifecycle of a  Class I nuclear facility. The submission of offsite emergency plans would also  facilitate dialogue opportunities between the CNSC and provinces or  municipalities. As a result, the CNSC will be in a better position to provide  technical advice and support to appropriate responsible authorities, in case of  an emergency.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-2" className="mrgn-tp-md">2.2 Inclusion of human performance and fitness for duty requirements in regulations </h3>
 <h4 id="sec2-2-1">2.2.1 Background</h4>
 <p>Human  performance is defined as the outcomes of human behaviours and actions  associated with the planning, designing, constructing, managing, operating,  maintaining, controlling and optimizing of a facility or activity. Fitness for  duty includes ensuring that all workers are physically, physiologically and  psychologically fit to carry out their duties at the required levels of safety.  This is an area that can have a major impact on virtually every aspect of an  organization&#39;s or licensee&#39;s performance.</p>
@@ -182,11 +176,10 @@ import React from "react"
 <p>All licensees would be expected to have measures in place to support the performance of workers in carrying on the licensed activities, and to ensure workers are physically, physiologically and psychologically fit to fulfill their duties at the required levels of safety.</p>  <h4 id="sec2-2-4">2.2.4 Benefit</h4>
 <p>Having specific requirements about human performance and fitness for duty embedded in CNSC regulations will ensure a shared understanding, across all applicants and licensees, of the need to  address factors that affect human performance. Embedding these requirements into regulations will improve their profile, broaden their application, provide strong rationale for further CNSC guidance in these areas, and provide alignment with international and domestic nuclear safety requirements.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-3" className="mrgn-tp-md">2.3 Inclusion of periodic integrated safety reviews for nuclear power plants</h3>
 <h4 id="sec2-3-1">2.3.1 Background</h4>
 <p>The CNSC currently requires its licensees to perform  integrated safety reviews (ISRs) to assess the safety of their operations,  facilities and equipment, prior to either a plant refurbishment or the granting  of a life extension to an existing plant. Combined with annual reporting on the  safety and performance of NPPs, these ISRs aim to provide the necessary  assurance of the continued safe operation of such facilities.</p>
@@ -196,11 +189,10 @@ import React from "react"
 <p>The  CSNC is proposing to include a requirement, in the <em>Class I Nuclear  Facilities Regulations</em>, for  all NPPs to carry out mandatory and comprehensive ISRs at least once every ten  years. It is expected that licensees will provide a proposed implementation  plan to address any safety modifications emanating from the ISR.</p>  <h4 id="sec2-3-4">2.3.4 Benefit</h4>
 <p>The current proposal serves to formally entrench in  regulation the requirement to conduct ISRs at least once every ten years,  thereby ensuring consistency of approach across all Class IA NPP facilities.  This would add predictability in the processes and reporting requirements for  all NPP licensees in Canada.  It also ensures that licensees are comparing their facilities against modern  codes and standards, and perform upgrades as soon as practicable.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-4" className="mrgn-tp-md">2.4 Certification of exposure device operators for a  period defined by the Commission or designated officer</h3>
 <h4 id="sec2-4-1">2.4.1 Background</h4>
 <p>The use and operation of an exposure device has been  categorized as a high-risk activity by the CNSC. For this reason, the CNSC  requires all exposure device operators (EDOs) to complete appropriate training  and obtain certificates for operating such devices.</p>
@@ -211,11 +203,10 @@ import React from "react"
 <h4 id="sec2-4-4">2.4.4 Benefits</h4>
 <p>This proposal will have a positive impact on the  health, safety and security of Canadians and the environment by ensuring that EDOs consistently have the up-to-date knowledge, skills and expertise required to operate exposure devices safely. Finally, EDOs will be required to provide  proof of certification, and CNSC inspectors will be expressly authorized by law to request proof of certification from EDOs.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-5" className="mrgn-tp-md">2.5 Licensees to inform first responders of the  presence and location of radioactive nuclear substances or prescribed equipment</h3>
 <h4 id="sec2-5-1">2.5.1 Background</h4>
 <p>The <em>Radiation  Protection Regulations </em>require licensees to label radiation devices and to  post durable and legible signs in a visible location where radioactive  substances are stored or used. This requirement does not include the proactive  disclosure of Category I and/or II nuclear substances<sup><a href="#ftn2" id="ftnref2" >2</a></sup>, or devices  containing these substances, to offsite emergency responders, such as  paramedics, fire and police services. Category I nuclear substances are classified based on the  quantities used in devices such as irradiators, gamma knives and teletherapy  machines (with cobalt-60 and cesium-137). Category II substances are used in  calibration facilities (with cobalt-60, cesium-137), industrial radiography  (with cobalt-60, cesium-137, selenium-75) and in high-medium dose rate  brachytherapy (with cobalt-60, cesium-137 or iridium-192).</p>
@@ -227,11 +218,10 @@ import React from "react"
 <p>This proposed requirement would not apply to nuclear  substances, equipment or sources that are in transit, since these safety  requirements are covered under the <em><a href="http://laws-lois.justice.gc.ca/eng/acts/T-19.01/">Transportation of  Dangerous Goods Act</a></em>.</p>  <h4 id="sec2-5-4">2.5.4 Benefit</h4>
 <p>Providing this information to first responder  agencies will help to enhance their local emergency plans. It will improve the  safety of first responders in the unlikely case of an emergency situation as it  will allow them to approach the scene of an accident and/or provide treatment  in a more knowledgeable and prepared, and therefore, safer manner.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-6" className="mrgn-tp-md">2.6 Replace Requirement for &quot;quality assurance program&quot; with a Requirement for a &quot;management system&quot;</h3>
 <h4 id="sec2-6-1">2.6.1 Background</h4>
 <p>The CNSC has always required that the safe operation  of a facility shall be the paramount objective of a licensed organization.  Under the CNSC&#39;s safety and control area framework, nuclear facility licensees  are currently required (as a licence condition) to implement a management system  that integrates the requirements for  health, safety, environment, security, economics, and quality. Licensees  are also expected to monitor their performance against those safety  objectives.</p>
@@ -243,11 +233,10 @@ import React from "react"
 <h4 id="sec2-6-4">2.6.4 Benefit</h4>
 <p>This amendment will bring the CNSC regulations in  line with modern international standards. It will also assist in clarifying  requirements and promote greater consistency among licensees, for managing  nuclear facilities in a safe and secure manner.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-7" className="mrgn-tp-md">2.7 Exemption from Class II radiation safety officer certification requirements for Class I certified personnel</h3>
 <h4 id="sec2-7-1">2.7.1 Background</h4>
 <p>The CNSC defines positions within a Class I facility  for which certification from the CNSC is required. Such positions include, but are not limited to, the Senior Health Physicist, the Control Room Shift Supervisors and the Unit O Operators. Individuals who are so certified are also deemed to meet the requirements for a radiation safety officer (RSO) In other words, if a licensee appoints someone as a Class II radiation safety officer within a facility, and that person already possesses Class I certification from the CNSC, there is no need  for that person to obtain an additional Class II RSO certification from the CNSC.</p>
@@ -258,11 +247,10 @@ import React from "react"
 <h4 id="sec2-7-4">2.7.4 Benefit</h4>
 <p>This change would help to clarify the intent of the  regulation and remove ambiguity over the purpose of the exemption. Indeed, the exemption is about the certification level of an RSO, not about the requirement to appoint a certified RSO in respect of a Class II facility.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-8" className="mrgn-tp-md">2.8 Repeal of obsolete clause regarding radiation safety officer certification</h3>
 <h4 id="sec2-8-1">2.8.1 Background</h4>
 <p>At the time that section 15.06 of the <em>Class II  Nuclear Facilities and Equipment Regulations</em> came into force it was intended  to be a &quot;grandfathering&quot; clause for radiation safety officers (RSOs) who were  already employed by a licensee. <a href="http://laws-lois.justice.gc.ca/eng/regulations/sor-2000-205/page-6.html#h-26">Section  15.06</a> of the regulations stipulated that RSOs working in their field were  deemed to be certified, and therefore did not require immediate  re-certification at the time the regulations came into effect.</p>
@@ -273,11 +261,10 @@ import React from "react"
 <h4 id="sec2-8-4">2.8.4 Benefit</h4>
 <p>Repealing this obsolete provision will ensure  precision and clarity of requirements. Further, also it ensures that the  grandfathering clause is not inadvertently extended each time that an amended  version of the Class II regulations comes into force.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-9" className="mrgn-tp-md">2.9 Clarification of nature and scope of &quot;requests for rulings&quot;</h3>
 <h4 id="sec2-9-1">2.9.1 Background</h4>
 <p>Rule 20 of the CNSC&#39;s <em>Rules of Procedure</em> states that at any time before the start of a  public hearing, an intervener may  file a request with the Commission for a ruling on a particular issue. This is  done by setting out the issue and the reasons for seeking the ruling.</p>
@@ -291,11 +278,10 @@ import React from "react"
 <p>The  second proposed amendment is that rule 20(4) be amended to clarify that the  Commission may issue a ruling upon a request, when it is fair and expeditious  to do so, or may issue its decision at the end of the proceedings, upon  consideration of all the evidence.</p>  <h4 id="sec2-9-4">2.9.4 Benefit</h4>
 <p>These  proposed changes in regulation would clarify how requests for ruling are to be  handled. The changes would also help ensure that public hearings and other  Commission proceedings continue to be conducted as informally, transparently  and expeditiously as the circumstances and considerations of fairness permit.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h3 id="sec2-10" className="mrgn-tp-md">2.10 Clarification of concept of &quot;interest in a matter&quot;</h3>
 <h4 id="sec2-10-1">2.10.1 Background</h4>
 <p>The <em>Canadian Nuclear Safety Commission Rules of  Procedure</em> provide discretion to the Commission to allow stakeholders to  intervene &quot;in the manner and to the extent that the Commission considers&quot;  appropriate, if the person: </p>  <ul>
@@ -310,22 +296,20 @@ import React from "react"
 <p>Should this  distinction be made in the <em>Rules of Procedure</em>, the CSNC would develop  criteria to clarify and further define what is meant by a &quot;direct&quot; interest or  impact, to ensure clarity for both the Commission and stakeholders. </p>  <h4 id="sec2-10-4">2.10.4 Benefit</h4>
 <p>This  change, if implemented, will help to clarify a concept that has remained  somewhat vague within CNSC rules and regulations. It would also align the  specific language being proposed for the CNSC <em>Rules of Procedure</em> with  terminology that has recently been adopted by some other Canadian regulatory  agencies.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="sec3" className="mrgn-tp-md">3. Conclusion</h2>
 <p>The CNSC is committed to early engagement with  stakeholders on all new regulatory initiatives, including the suite of amendments proposed in this discussion paper to the <em>Class I Nuclear Facilities Regulations</em>, the <em>Class II Nuclear Facilities and Prescribed Equipment Regulations</em>, the <em>General Nuclear Safety and Control Regulations</em>, the <em>Uranium Mines and Mills Regulations</em> and the <em>Nuclear Substances and Radiation Devices Regulations</em>, as well as the <em>Canadian Nuclear Safety Commission Rules of Procedure</em>.</p>
 <p>Two of the amendments in this document are in response to recommendations made by the CNSC Fukushima Task Force, but most stem from the careful review of all CNSC regulations, with the  aim to further strengthen and clarify the CNSC&#39;s regulatory framework.</p>
 <p>All feedback received from stakeholders at this early stage of the consultation process will be taken into account and&nbsp;- should any amendment to regulations be further considered&nbsp;- used to develop detailed and specific regulatory wording for each amendment to an existing regulation. Stakeholders are therefore encouraged to provide their suggestions and views on each proposal, as well as the potential impact they could have on their daily operations, activities or interests.</p>
 <p>After full consideration of all of the feedback received, should the CNSC decide to pursue any of the proposed amendments to regulations described in this discussion paper, it would pre-publish the draft regulatory amendments in the <em>Canada Gazette</em>, Part I. At that time, stakeholders would have another opportunity  to provide input. Following pre-publication, all feedback would again be  considered, the proposed amendments revised, as appropriate, and presented to the Commission for consideration. Should the Commission make the regulations, they will be presented to the Governor in Council, and if approved, published in <em>Canada Gazette</em>, Part II, after which they would come into force. </p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="sec4" className="mrgn-tp-md">Feedback</h2>
 <p>Comments or feedback may be submitted to the CNSC in  one of the following ways: </p>
 <p><strong>By email: </strong><a href="mailto:consultation@cnsc-ccsn.gc.ca">consultation@cnsc-ccsn.gc.ca</a><br />
@@ -335,11 +319,10 @@ P.O. Box 1046, Station B <br />
 280 Slater Street <br />
 Ottawa, Ontario   K1P 5S9 </p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="appA" className="mrgn-tp-md">Appendix A - Synopsis of Pertinent Regulations</h2>
 <h3 id="appA-1">A.1 <em>General Nuclear Safety and Control Regulations</em></h3>
 <p>The <a href="http://laws-lois.justice.gc.ca/eng/regulations/sor-2000-202/page-1.html"><em>General Nuclear Safety and Control Regulations</em></a> apply to all nuclear facilities  and CNSC licensees and applicants. They provide general requirements with respect to licence applications and renewals, licensee obligations and exemptions, prescribed nuclear facilities and equipment, and inspections.</p>
@@ -352,11 +335,10 @@ Ottawa, Ontario   K1P 5S9 </p>
 <h3 id="appA-6">A.6 <em>Canadian Nuclear Safety Commission Rules of Procedure</em></h3>
 <p>The <a href="http://laws-lois.justice.gc.ca/eng/regulations/sor-2000-211/page-1.html"><em>Canadian Nuclear Safety Commission Rules of Procedure</em></a> define the procedures for public hearings, opportunities to be heard and other proceedings at the CNSC. These include procedures for applications, decisions, participation and interventions, appeals and orders, as well as more administrative requirements for such things as document transmission, filing specifications, etc. These rules of procedure apply to the CNSC.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12  mrgn-bttm-0">
+<div className="col-md-6  mrgn-bttm-0">
 <h2 id="sec6" className="mrgn-tp-md">References</h2>
 <ol>
 <li><em>Nuclear Safety and Control Act</em>, S.C. 1997, C. 9.</li>
@@ -376,10 +358,8 @@ Ottawa, Ontario   K1P 5S9 </p>
 <p id="ftn1">1. For more information on Category I and II substances or devices, see TECDOC-1344 <em><a href="http://hps.org/documents/IAEATecDoc1344.pdf">Categorization of  Radioactive Sources</a>,</em> July, 2003, published by the International Atomic Energy Agency.</p>
 <p id="ftn2">2. For more information on Category I and II substances or devices, see TECDOC-1344 <em><a href="http://hps.org/documents/IAEATecDoc1344.pdf">Categorization of  Radioactive Sources</a>,</em> July, 2003, published by the International Atomic Energy Agency.</p>
 </div>
-<div className="col-md-12  text-right mrgn-bttm-0">
+<div className="col-md-6  text-right mrgn-bttm-0">
 </div>
-<div className="clear"></div>
-
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

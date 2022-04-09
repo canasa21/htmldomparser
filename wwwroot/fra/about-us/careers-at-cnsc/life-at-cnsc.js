@@ -25,13 +25,13 @@ import React from "react"
 <li><a href="#learn">Possibilit&eacute;s d&rsquo;apprentissage</a></li>
 <li><a href="#diverse">Diversit&eacute; et inclusion</a></li>
 </ul>
-<div className="col-md-12 ">
-<div className="col-md-6  mrgn-bttm-0">
+<div className="col-md-8 ">
+<div className="col-md-4  mrgn-bttm-0">
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="440" height="248" src="https://www.youtube.com/embed/_M4L3XINypw" allowfullscreen></iframe>
 </div>
 </div>
-<div className="col-md-6  mrgn-bttm-0">
+<div className="col-md-4  mrgn-bttm-0">
 <p>D&eacute;couvrez ce que font les employ&eacute;s de la CCSN et pourquoi la CCSN est un endroit o&ugrave; il fait bon travailler.</p>
 <details>
 <summary>Transcription</summary>
@@ -66,7 +66,6 @@ import React from "react"
 </details>
 </div>
 </div>
-<div className="clear"></div>
 <h2 id="comp">R&eacute;mun&eacute;ration et avantages sociaux</h2>
 <p>La CCSN offre l&rsquo;un des r&eacute;gimes de r&eacute;mun&eacute;ration et d&rsquo;avantages sociaux les plus concurrentiels de la fonction publique et propose plusieurs offres uniques qui favorisent l&rsquo;&eacute;quilibre et la productivit&eacute;&nbsp;:</p>
 <ul>
@@ -94,7 +93,8 @@ import React from "react"
 <h2 id="diverse">Diversit&eacute; et inclusion</h2>
 <p>La CCSN est d&rsquo;avis que l&rsquo;&eacute;quit&eacute;, la diversit&eacute; et l&rsquo;inclusion sont essentielles pour favoriser l&rsquo;innovation, r&eacute;soudre des probl&egrave;mes complexes et am&eacute;liorer les r&eacute;sultats pour les Canadiens. La CCSN est d&eacute;termin&eacute;e &agrave; s&rsquo;assurer que son effectif est repr&eacute;sentatif de la soci&eacute;t&eacute; canadienne. Elle s&rsquo;efforce &eacute;galement d&rsquo;offrir un milieu de travail sain et s&eacute;curitaire, inclusif et exempt de harc&egrave;lement et de discrimination dans lequel tous les employ&eacute;s peuvent utiliser efficacement leurs comp&eacute;tences, leur savoir-faire et leur exp&eacute;rience pour aider la CCSN &agrave;  s&rsquo;acquitter de son mandat important.</p>
 <p>La CCSN compte plusieurs r&eacute;seaux dirig&eacute;s par les employ&eacute;s qui offrent au personnel un point de rencontre pour promouvoir des changements positifs et contribuer aux priorit&eacute;s organisationnelles. Mentionnons notamment le R&eacute;seau des employ&eacute;s noirs, le R&eacute;seau des Autochtones, le R&eacute;seau des jeunes professionnels et le R&eacute;seau des femmes en STIM. Tout en poursuivant sur cette lanc&eacute;e, la CCSN s&rsquo;attend &agrave; que d&rsquo;autres r&eacute;seaux d&rsquo;employ&eacute;s repr&eacute;sentatifs de son effectif diversifi&eacute; voient le jour.</p>
-<p>La CCSN favorise le bilinguisme et encourage les employ&eacute;s &agrave; travailler et &agrave; communiquer dans la langue officielle de leur choix. Collectivement, la CCSN parle 35&nbsp;langues au total, incluant le fran&ccedil;ais et l&rsquo;anglais.</p>  
+<p>La CCSN favorise le bilinguisme et encourage les employ&eacute;s &agrave; travailler et &agrave; communiquer dans la langue officielle de leur choix. Collectivement, la CCSN parle 35&nbsp;langues au total, incluant le fran&ccedil;ais et l&rsquo;anglais.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

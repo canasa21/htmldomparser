@@ -103,7 +103,8 @@ gouvernement</a></li>
 Cabinet sur la gestion de la r&eacute;glementation</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/index-fra.asp">Plan d&#39;action pour
 la r&eacute;duction du fardeau administratif</a></li>
-<li><a href="http://actionplan.gc.ca/fr/page/rcc-ccr/propos-du-conseil-de-cooperation-matiere-de">Conseil de coop&eacute;ration en mati&egrave;re de r&eacute;glementation Canada - &Eacute;tats-Unis</a></li>  </ul>  <p>Pour de plus amples renseignements concernant les  consultations actuelles ou &agrave; venir sur les projets de r&egrave;glement f&eacute;d&eacute;raux, veuillez consulter la <em><a href="http://www.gazette.gc.ca/index-fra.html">Gazette du Canada</a></em> et sure le site web le <a href="https://open.canada.ca/fr">Gouvernement ouvert</a> du gouvernement du Canada sous loption  « <a href="https://www.canada.ca/fr/gouvernement/systeme/consultations/consultationdescanadiens.html">Trouver une consultation</a> »</p>  
+<li><a href="http://actionplan.gc.ca/fr/page/rcc-ccr/propos-du-conseil-de-cooperation-matiere-de">Conseil de coop&eacute;ration en mati&egrave;re de r&eacute;glementation Canada - &Eacute;tats-Unis</a></li>  </ul>  <p>Pour de plus amples renseignements concernant les  consultations actuelles ou &agrave; venir sur les projets de r&egrave;glement f&eacute;d&eacute;raux, veuillez consulter la <em><a href="http://www.gazette.gc.ca/index-fra.html">Gazette du Canada</a></em> et sure le site web le <a href="https://open.canada.ca/fr">Gouvernement ouvert</a> du gouvernement du Canada sous loption  « <a href="https://www.canada.ca/fr/gouvernement/systeme/consultations/consultationdescanadiens.html">Trouver une consultation</a> »</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

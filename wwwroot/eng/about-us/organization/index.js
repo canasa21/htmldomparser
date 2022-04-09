@@ -53,7 +53,8 @@ import React from "react"
 <li><strong>Commission Registry:</strong> Commission Registrar &ndash; Denis Saumure </li>
 </ul>  	<h2>Associated links</h2>  	<ul>
 <li><a href="/eng/about-us/ministerial-briefing-binder-2021">2021 Transition Package delivered to the Minister of Natural Resources</a></li>  	</ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

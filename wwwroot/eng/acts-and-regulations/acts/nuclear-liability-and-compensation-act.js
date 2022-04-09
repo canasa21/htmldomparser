@@ -45,7 +45,8 @@ Liability and Compensation Act</em> information page</a></li>
 <li>Natural Resources Canada&rsquo;s <a href="http://www.gazette.gc.ca/rp-pr/p2/2016/2016-05-18/html/sor-dors88-eng.php"><em>Nuclear Liability and Compensation Regulations</em></a></li>
 <li>Presentation by Natural Resources  Canada at the 2014 21st INLA Congress entitled <a href="http://www.nuclearsafety.gc.ca/eng/pdfs/acts-and-regulations/strengthening-nuclear-liability-regime-eng.pdf">Strengthening Canada&rsquo;s nuclear liability regime</a>. </li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

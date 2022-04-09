@@ -18,26 +18,26 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-apply#sec1">1. Cr&eacute;er un profil</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-apply#sec2">2. Pr&eacute;senter une demande d&rsquo;emploi</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-apply#sec3">3. Pr&eacute;ciser les mesures d&rsquo;adaptation</a></p>
 </div>
 </div>
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/fra/about-us/careers-at-cnsc/how-to-apply#sec4">4. Examiner les conditions d&rsquo;emploi</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="#sec5">5. Pr&eacute;parer l&rsquo;&eacute;valuation</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec6">6. Apr&egrave;s l&rsquo;&eacute;valuation</a></p>
 </div>
 </div>
@@ -75,7 +75,8 @@ cl&eacute;s de la CCSN</a>.</li>
 <li><strong>S&eacute;curit&eacute;&nbsp;:</strong> Depuis juillet&nbsp;2015, le gouvernement du Canada exige que tous les employ&eacute;s qui obtiennent, renouvellent ou rel&egrave;vent une cote de s&eacute;curit&eacute; fassent &eacute;galement prendre leurs empreintes digitales. La prise rapide d&rsquo;un rendez-vous aidera les Services de s&eacute;curit&eacute; &agrave; acc&eacute;l&eacute;rer le processus de mise &agrave; jour de votre cote (s&rsquo;il y a lieu).</li>
 <li><strong>Langues officielles&nbsp;:</strong> Si le poste est bilingue, vous pourriez devoir passer un test si vous ne poss&eacute;dez pas de r&eacute;sultats valides &agrave; l&rsquo;&eacute;valuation en langue seconde (ELS), si vos r&eacute;sultats &agrave; l&rsquo;ELS sont expir&eacute;s ou si le poste n&eacute;cessite un niveau de comp&eacute;tence plus &eacute;lev&eacute;. (Remarque&nbsp;: les r&eacute;sultats &agrave; l&rsquo;ELS sont valides pendant 5&nbsp;ans.)</li>
 <li><strong>Examen m&eacute;dical&nbsp;:</strong> Certains postes exigent un examen m&eacute;dical en raison de la nature du travail et pour assurer la s&eacute;curit&eacute; de tous les travailleurs. L&rsquo;adjoint des RH vous fournira tous les d&eacute;tails pour prendre un rendez&#8209;vous avec un m&eacute;decin.</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

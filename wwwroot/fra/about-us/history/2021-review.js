@@ -18,9 +18,9 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <p className="text-right lead mrgn-bttm-lg"><a href="/fra/about-us/history/2020-review">Fait saillants de 2020</a></p>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 ">
 <p className="lead"><a href="#jan">Janvier</a></p>
 <a href="#jan"><img src="/images/2021-review/yir_web_image_Jan_B.png" alt="Janvier"/></a>
@@ -41,7 +41,6 @@ import React from "react"
 <a href="#apr"><img src="/images/2021-review/yir_web_image_Apr_FR.png" alt="Avril"/></a>
 <p>Consultation et mobilisation continues</p>
 </div>
-<div className="clear"></div>
 <div className="span-3 ">
 <p className="lead"><a href="#Mai">Mai</a></p>
 <a href="#Mai"><img src="/images/2021-review/yir_web_image_May_FR.png" alt="Mai"/></a>
@@ -62,7 +61,6 @@ import React from "react"
 <a href="#jul"><img src="/images/2021-review/yir_web_image_Aug_FR.png" alt="Août"/></a>
 <p>Harmonisation internationale &agrave; l&rsquo;&eacute;gard des nouvelles technologies</p>
 </div>
-<div className="clear"></div>
 <div className="span-3 ">
 <p className="lead"><a href="#sep">Septembre</a></p>
 <a href="#sep"><img src="/images/2021-review/yir_web_image_Sep_B.png" alt="Septembre"/></a>
@@ -84,11 +82,10 @@ import React from "react"
 <p>Pr&eacute;parer l&rsquo;avenir</p>
 </div>
 </div>
-<div className="clear"></div>
 <p>En cette nouvelle ann&eacute;e, nous avons l&rsquo;occasion de r&eacute;fl&eacute;chir &agrave; certains des faits saillants et des jalons de la CCSN en 2021. Notre 75e&nbsp;ann&eacute;e a &eacute;t&eacute; remplie de r&eacute;alisations qui m&eacute;ritent d&rsquo;&ecirc;tre soulign&eacute;es, en plus de nouveaux d&eacute;fis inattendus qui nous ont oblig&eacute;s &agrave; grandir et &agrave; &eacute;voluer de diff&eacute;rentes mani&egrave;res. N&eacute;anmoins, nous avons &agrave; nouveau fait preuve de souplesse et men&eacute; &agrave; bien notre important mandat sans h&eacute;sitation.
 <p>Bien que nous ayons accompli beaucoup en 2021, voici nos grands jalons et nos principales r&eacute;alisations de la derni&egrave;re ann&eacute;e.
 <h2 id="jan">Janvier</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Jan_B.png" alt="Janvier"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Cr&eacute;er un nouveau pr&eacute;c&eacute;dent pour l&rsquo;aptitude au travail dans le secteur nucl&eacute;aire canadien</h3>
@@ -97,10 +94,9 @@ import React from "react"
 <p>Notre approche est conforme aux pratiques exemplaires ici au Canada et dans le monde entier, et elle est le reflet de l&rsquo;orientation de l&rsquo;Agence internationale de l&rsquo;&eacute;nergie atomique.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="feb">F&eacute;vrier</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Feb_FR.png" alt="Février"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Renforcer notre engagement envers l&rsquo;&eacute;quit&eacute;, la diversit&eacute; et l&rsquo;inclusion</h3>
@@ -109,10 +105,9 @@ import React from "react"
 <p>Sur les sc&egrave;nes nationale et internationale, nous avons men&eacute; des initiatives visant &agrave; renforcer les valeurs d&rsquo;EDI dans le secteur nucl&eacute;aire, et profit&eacute; des occasions qui nous ont &eacute;t&eacute; offertes lors d&rsquo;&eacute;v&eacute;nements et d&rsquo;allocutions pour souligner l&rsquo;importance de ces valeurs. Notre pr&eacute;sidente Rumina&nbsp;Velshi a codirig&eacute; le <a href="https://genderchampions.com/impact/nuclear">Groupe d&rsquo;impact international de champions de l&rsquo;&eacute;galit&eacute; des genres dans les organismes de r&eacute;glementation nucl&eacute;aire</a> (en anglais), qui r&eacute;unit une communaut&eacute; compos&eacute;e d&rsquo;organismes de r&eacute;glementation nucl&eacute;aire d&eacute;termin&eacute;s &agrave; aborder les questions de genre dans leurs institutions et leurs pays, ainsi qu&rsquo;avec des partenaires internationaux.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="mar">Mars</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Mar_B.png" alt="Mars"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Une pand&eacute;mie mondiale, 1 an plus tard</h3>
@@ -121,10 +116,9 @@ import React from "react"
 <p>La premi&egrave;re ann&eacute;e a aussi &eacute;t&eacute; marqu&eacute;e par de nombreuses innovations quant aux modes de travail de notre personnel et de nos &eacute;quipes, allant des ressources et outils utilis&eacute;s jusqu&rsquo;&agrave; la mani&egrave;re de collaborer, et plus encore. Ces innovations guideront et am&eacute;lioreront notre fa&ccedil;on de travailler et de mener nos activit&eacute;s &agrave; l&rsquo;avenir.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="apr">Avril</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Apr_FR.png" alt="Avril"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Consultation et mobilisation continues</h3>
@@ -132,10 +126,9 @@ import React from "react"
 <p>Pendant la pand&eacute;mie de COVID-19, nos grandes priorit&eacute;s ont &eacute;t&eacute; de r&eacute;aliser notre mandat, qui consiste &agrave; diffuser des renseignements scientifiques, techniques et r&eacute;glementaires, et de maintenir une communication ouverte avec le public et d&rsquo;autres parties int&eacute;ress&eacute;es. En 2021, nous avons utilis&eacute; notre nouvelle plateforme de consultation &eacute;lectronique, <a href="https://www.parlonssuretenucleaire.ca/">Parlons s&ucirc;ret&eacute; nucl&eacute;aire</a>, pour mener 13&nbsp;consultations publiques sur plusieurs projets, notamment des documents d&rsquo;application de la r&eacute;glementation, des documents de travail et des rapports. Par ailleurs, nous avons organis&eacute; plus de 150&nbsp;r&eacute;unions et activit&eacute;s de relations externes avec plus de 45&nbsp;Nations et communaut&eacute;s autochtones.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="Mai">Mai</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_May_FR.png" alt="Mai"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Faire progresser les technologies &eacute;mergentes</h3>
@@ -144,10 +137,9 @@ import React from "react"
 En tant qu&rsquo;organisme de r&eacute;glementation nucl&eacute;aire du Canada, nous avons comme r&ocirc;le de r&eacute;glementer le secteur nucl&eacute;aire, quelle que soit la technologie employ&eacute;e, pour prot&eacute;ger la sant&eacute; et la s&eacute;curit&eacute; des Canadiens et l&rsquo;environnement.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="jun">Juin</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Jun_FR.png" alt="Juin"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">La protection de l&rsquo;environnement en action</h3>
@@ -155,10 +147,9 @@ En tant qu&rsquo;organisme de r&eacute;glementation nucl&eacute;aire du Canada, 
 <p>Le personnel a visit&eacute; des sites en Ontario, au Nouveau&#8209;Brunswick et en Saskatchewan afin de pr&eacute;lever des &eacute;chantillons d&rsquo;&eacute;l&eacute;ments naturels et de produits alimentaires locaux dans des parcs, des fermes, des lacs et sur des plages. &Agrave; Peterborough et Pickering (Ontario), il &eacute;tait accompagn&eacute; de repr&eacute;sentants de la Premi&egrave;re Nation de Curve Lake, qui ont observ&eacute; les activit&eacute;s d&rsquo;&eacute;chantillonnage et y ont pris part.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="jul">Juillet</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Jul_FR.png" alt="Juillet"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Prendre des mesures r&eacute;glementaires pour assurer la s&ucirc;ret&eacute;</h3>
@@ -169,10 +160,9 @@ En tant qu&rsquo;organisme de r&eacute;glementation nucl&eacute;aire du Canada, 
 <p>Nous ne compromettrons jamais la s&ucirc;ret&eacute; et, si cela est n&eacute;cessaire, ordonnerons l&rsquo;arr&ecirc;t d&rsquo;une installation ou d&rsquo;une activit&eacute; nucl&eacute;aire afin de prot&eacute;ger le public et l&rsquo;environnement.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="aug">Ao&ucirc;t</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Aug_FR.png" alt="Août"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Harmonisation internationale &agrave; l&rsquo;&eacute;gard des nouvelles technologies</h3>
@@ -181,10 +171,9 @@ En tant qu&rsquo;organisme de r&eacute;glementation nucl&eacute;aire du Canada, 
 <p>L&rsquo;ach&egrave;vement de ces travaux contribue &agrave; nous pr&eacute;parer aux technologies &eacute;mergentes en renfor&ccedil;ant la collaboration internationale et l&rsquo;harmonisation en mati&egrave;re de s&ucirc;ret&eacute;.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="sep">Septembre</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Sep_B.png" alt="Septembre"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">R&eacute;glementer les technologies novatrices</h3>
@@ -193,10 +182,9 @@ En tant qu&rsquo;organisme de r&eacute;glementation nucl&eacute;aire du Canada, 
 <p>Les efforts d&eacute;ploy&eacute;s par le personnel de la CCSN et la Commission pour &eacute;valuer ces applications li&eacute;es &agrave; la production d&rsquo;isotopes m&eacute;dicaux d&eacute;montrent notre &eacute;tat de pr&eacute;paration &agrave; la r&eacute;glementation de technologies novatrices. Ces importants travaux r&eacute;glementaires ont men&eacute; &agrave; la modification des permis de Bruce Power et d&rsquo;OPG et, une fois que les points d&rsquo;arr&ecirc;t respectifs seront lev&eacute;s, les 2 titulaires de permis pourront produire des isotopes m&eacute;dicaux qui sauveront des vies.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="oct">Octobre</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Oct_B.png" alt="Octobre"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">C&eacute;l&eacute;brer 75 ans de r&eacute;glementation nucl&eacute;aire au Canada</h3>
@@ -206,10 +194,9 @@ L&rsquo;arriv&eacute;e de l&rsquo;&eacute;nergie nucl&eacute;aire dans les ann&e
 <p>Aujourd&rsquo;hui, nous sommes au c&oelig;ur d&rsquo;une pand&eacute;mie qui a mis &agrave; l&rsquo;&eacute;preuve notre &eacute;tat de pr&eacute;paration et notre souplesse. Alors que nous envisageons l&rsquo;avenir, nous savons que le secteur nucl&eacute;aire continuera d&rsquo;&eacute;voluer, mais que notre engagement envers la s&ucirc;ret&eacute; et les Canadiens ne changera jamais. Le d&eacute;ploiement de technologies &eacute;mergentes pr&eacute;sentera de nouveaux d&eacute;fis et de nouvelles occasions d&rsquo;innover dans notre fa&ccedil;on de r&eacute;glementer, et nous continuerons d&rsquo;&ecirc;tre un chef de file international dans ces domaines, tout en nous assurant d&rsquo;&ecirc;tre pr&ecirc;ts &agrave; r&eacute;glementer ces technologies au pays.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="nov">Novembre</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Nov_B.png" alt="Novembre"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Mobiliser des homologues internationaux </h3>
@@ -219,10 +206,9 @@ L&rsquo;arriv&eacute;e de l&rsquo;&eacute;nergie nucl&eacute;aire dans les ann&e
 <p>La pr&eacute;sidente Velshi a &eacute;galement assist&eacute; au Sommet G4SR-3 de la Soci&eacute;t&eacute; nucl&eacute;aire canadienne, o&ugrave; elle a parl&eacute; de notre &eacute;tat de pr&eacute;paration &agrave; la r&eacute;glementation des PRM et d&rsquo;autres nouvelles technologies. La s&eacute;curit&eacute; nucl&eacute;aire, l&rsquo;efficacit&eacute; de la r&eacute;glementation, la mobilisation et la collaboration internationale sont tous des &eacute;l&eacute;ments cl&eacute;s pour assurer cet &eacute;tat de pr&eacute;paration.</p>
 </div>
 </div>
-<div className="clear"></div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 <h2 id="dec">D&eacute;cembre</h2>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-3 mrgn-lft-0 mrgn-rght-0"> <img src="/images/2021-review/yir_web_image_Dec_FR.png" alt="Décembre"/> </div>
 <div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Pr&eacute;parer l&rsquo;avenir</h3>
@@ -231,7 +217,8 @@ L&rsquo;arriv&eacute;e de l&rsquo;&eacute;nergie nucl&eacute;aire dans les ann&e
 <p>Nous nous concentrons aussi sur nos pratiques de leadership et notre culture organisationnelle, de m&ecirc;me que sur ce &agrave; quoi notre infrastructure physique et de TI ressemblera afin de r&eacute;pondre &agrave; nos besoins futurs. Nous cr&eacute;erons ainsi un milieu de travail moderne, inclusif et souple, o&ugrave; notre expertise et nos talents diversifi&eacute;s nous permettront de continuer &agrave; remplir notre mandat de r&eacute;glementation.</p>
 </div>
 </div>  <h2>Liens connexes</h2>  <ul>  	<li><a href="/fra/about-us/history/2020-review">R&eacute;trospective de l&rsquo;ann&eacute;e 2020</a></li>  	</ul>
-<p><a href="#wb-main" className="text-right">Haut de la page</a></p>  
+<p><a href="#wb-main" className="text-right">Haut de la page</a></p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

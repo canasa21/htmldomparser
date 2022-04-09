@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-2 pull-right"> <img src="/images/about-us/careers-at-cnsc/tr-house-fra.png" alt="" /> </div>
+<div className="col-md-1 pull-right"> <img src="/images/about-us/careers-at-cnsc/tr-house-fra.png" alt="" /> </div>
 <p>La gamme compl&egrave;te de r&eacute;mun&eacute;ration et d&rsquo;avantages sociaux comporte des offres uniques, sous un m&ecirc;me toit, et constitue l&#39;un des forfaits les plus attrayants du quartier.</p>
 <h2>R&eacute;mun&eacute;ration</h2>
 <ul className="list-bullet-none">
@@ -286,7 +286,8 @@ import React from "react"
 </details>
 </li>
 </ul>
-</div>  
+</div>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

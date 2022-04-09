@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" />The <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=24227">Standard on Web Usability</a> replaces this content. This content is archived because Common Look and Feel 2.0 Standards have been rescinded.</p>  <div id="archived" className="wet-boew-archived col-md-12">  	<section>
+<p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" />The <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=24227">Standard on Web Usability</a> replaces this content. This content is archived because Common Look and Feel 2.0 Standards have been rescinded.</p>  <div id="archived" className="wet-boew-archived col-md-6">  	<section>
 <h2>Archived Content</h2>
 <p>Information identified as archived is provided for reference, research or record-keeping purposes. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived. Please contact us to request a format other than those available.</p>  	</section>  </div>
 <a name="1.0"></a>
@@ -41,8 +41,7 @@ import React from "react"
 <h2>6.0 &Eacute;VALUATION</h2>  <p>Le  personnel de la CCSN est charg&eacute; d&#39;&eacute;valuer l&#39;adh&eacute;sion de la CCSN &agrave; cette  position ainsi que l&#39;efficacit&eacute; de cette position lors d&#39;examens p&eacute;riodiques de  programme et conform&eacute;ment aux priorit&eacute;s de gestion. </p>  <p>Puisque  les pratiques de gestion des d&eacute;chets sont continuellement test&eacute;es et am&eacute;lior&eacute;es  en tenant compte du climat canadien, de la variabilit&eacute; g&eacute;ologique et des  donn&eacute;es provenant des installations existantes de gestion des st&eacute;riles et des  r&eacute;sidus miniers, cette position sera r&eacute;vis&eacute;e tous les cinq (5) ans afin de  tenir compte de la compr&eacute;hension scientifique des pratiques de gestion des  d&eacute;chets miniers en constante &eacute;volution. </p>  <a name="7.0"></a>
 <h2>7.0 AUTORIT&Eacute; </h2>  <p>Cette  position est &eacute;nonc&eacute;e par la CCSN en vertu de la <em>Loi sur la s&ucirc;ret&eacute; et la r&eacute;glementation nucl&eacute;aires</em>.</p>   <a name="8.0"></a>
 <h2>8.0 R&Eacute;F&Eacute;RENCES</h2>  <p>P-290 : <em>Gestion des d&eacute;chets radioactifs</em> (juillet  2004)</p>  P-223 : <em>Protection  de l&#39;environnement</em> (f&eacute;vrier 2001)
-<div className="clear"></div>
-<div className="clear"></div>  </div>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

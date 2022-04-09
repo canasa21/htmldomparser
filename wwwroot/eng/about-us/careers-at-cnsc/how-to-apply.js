@@ -18,30 +18,27 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
+<div className="row">
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec1">1. Create a profile</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="#sec2">2. Submit an application</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec3">3. Identify accommodations</a></p>
 </div>
 </div>
 <div className="equalize">
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="#sec4">4. Review the hiring conditions</a></p>
 </div>
-<div className=" col-md-6">
+<div className=" col-md-4">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-prepare#sec5">5. Prepare for the assessment</a></p>
 </div>
-<div className=" col-md-6 ">
+<div className=" col-md-4 ">
 <p><a href="/eng/about-us/careers-at-cnsc/how-to-prepare#sec6">6. After the assessment</a></p>
-</div>
-</div>
-</div>
 <h2 id="sec1">1. Create a profile</h2>
 <ul>
 <li>Go to the <a href="https://clients.njoyn.com/CL4/xweb/Xweb.asp?tbtoken=ZlpeSxoXCG51EAYCNlNWCFI4A21EcFNfe0ggISkIE2dYLzEcKEcYe2F9eAkbUxRaTHAqWA%3D%3D&chk=ZVpaShw%3D&page=joblisting&CLID=71850">Job opportunities</a> page and click on &ldquo;My Profile&rdquo; in the left-hand menu.</li>
@@ -148,7 +145,8 @@ selecting &ldquo;Career Alert&rdquo; from the left-hand menu.</li>
 <p><strong>Recognized professional accounting designations</strong></p>
 <ul>
 <li>The recognized professional accounting designations are Chartered Professional Accountant (CPA), Chartered Accountant (CA), Certified Management Accountant (CMA), and Certified General Accountant (CGA).</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

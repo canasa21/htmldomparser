@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -169,7 +169,7 @@ une situation mentionn&eacute;e &agrave; l&#8217;alin&eacute;a 27<em>b</em>) de 
 <p>LSRN, alin&eacute;a&nbsp;27<em>b</em>)<br />
 Les titulaires de licence ou de permis et les personnes vis&eacute;es par r&egrave;glement&nbsp;:</p>
 <p><em>b</em>) font les rapports r&eacute;glementaires, notamment en cas de vol ou de perte d&#8217;une substance nucl&eacute;aire, d&#8217;une pi&egrave;ce d&#8217;&eacute;quipement r&eacute;glement&eacute; ou de renseignements r&eacute;glement&eacute;s utilis&eacute;s dans le cadre des activit&eacute;s autoris&eacute;es par la pr&eacute;sente loi.</p></td>
-<td rowspan="11" valign="top"><p>En plus de respecter les exigences en mati&egrave;re de rapports du paragraphe&nbsp;29(1) du RGSRN, le titulaire de permis doit inclure l&#8217;information mentionn&eacute;e dans le document <br />
+<td rowSpan="11" valign="top"><p>En plus de respecter les exigences en mati&egrave;re de rapports du paragraphe&nbsp;29(1) du RGSRN, le titulaire de permis doit inclure l&#8217;information mentionn&eacute;e dans le document <br />
 RD-99.1 dans le rapport pr&eacute;liminaire.</p>
 <p>En plus de respecter les exigences en mati&egrave;re de rapports du paragraphe&nbsp;29(1) du RGSRN, le titulaire de permis doit inclure dans le rapport complet l&#8217;information mentionn&eacute;e dans le rapport d&eacute;taill&eacute; (1) du document RD-99.1.</p>
 <p>Le titulaire de permis doit pr&eacute;senter le rapport complet dans un d&eacute;lai de 60&nbsp;jours apr&egrave;s l&#8217;&eacute;v&eacute;nement.</p></td>
@@ -275,7 +275,7 @@ c</em>) la cause probable du fait;<em><br />
 d</em>) les effets n&eacute;gatifs que le fait a entra&icirc;n&eacute;s ou est susceptible d&#8217;entra&icirc;ner sur l&#8217;environnement, la sant&eacute; et la s&eacute;curit&eacute; des personnes ainsi que le maintien de la s&eacute;curit&eacute; nationale et internationale;<em><br />
 e</em>) la dose efficace et la dose &eacute;quivalente de rayonnement re&ccedil;ues par toute personne en raison du fait;<em><br />
 f</em>) les mesures que le titulaire de permis a prises ou compte prendre relativement au fait.</p></td>
-<td rowspan="2" valign="top">&nbsp;</td>
+<td rowSpan="2" valign="top">&nbsp;</td>
 </tr>
 <tr>
 <td valign="top"><p>13.</p></td>
@@ -646,7 +646,8 @@ DORS/2000-208</li>
 <li>Association canadienne de normalisation, CAN/CSA-N289.5, <em>Seismic Instrumentation Requirements for CANDU Nuclear Power Plants</em>.</li>
 <li>Association mondiale des exploitants de centrales nucl&eacute;aires, ANR1.OR, <em>Implementing Guideline</em>&nbsp;19.1, 1996.</li>
 <li>Organisation internationale de normalisation, <em>Mod&egrave;le du manuel qualit&eacute; pour la norme</em> ISO&nbsp;17025, 2005.</li>  </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

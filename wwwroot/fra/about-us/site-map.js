@@ -18,8 +18,8 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div>  <section className="col-md-6">
-<section className="col-md-6 module-menu-section">
+<div>  <section className="col-md-4">
+<section className="col-md-4 module-menu-section">
 <h4>Accueil</h4>
 <ul>
 <li><a href="/fra/index">Accueil</a></li>
@@ -60,7 +60,7 @@ import React from "react"
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>La Commission</h4>
 <ul>
 <li><a href="/fra/the-commission/index">La Commission</a></li>
@@ -101,7 +101,7 @@ import React from "react"
 <li><a href="/fra/the-commission/commission-registry">Greffe de la Commission</a></li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Uranium</h4>
 <ul>
 <li><a href="/fra/uranium/index">Uranium</a></li>
@@ -117,7 +117,7 @@ de combustible</a></li>
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Réacteurs</h4>
 <ul>
 <li><a href="/fra/reactors/index">Réacteurs</a></li>
@@ -134,7 +134,7 @@ de combustible</a></li>
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Substances nucléaires</h4>
 <ul>
 <li><a href="/fra/nuclear-substances/index">Substances nucléaires</a></li>
@@ -184,7 +184,7 @@ de catégorie II</a></li>
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Déchets</h4>
 <ul>
 <li><a href="/fra/waste/index">Déchets</a></li>
@@ -200,7 +200,7 @@ de catégorie II</a></li>
 <li><a href="/fra/waste/deep-geological-repositories">Dépôts géologiques en profondeur</a></li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>Ressources</h4>
 <ul>
 <li><a href="/fra/resources/index">Ressources</a></li>
@@ -285,7 +285,7 @@ de catégorie II</a></li>
 </li>
 </ul>
 </section>
-<section className="col-md-6 module-menu-section">
+<section className="col-md-4 module-menu-section">
 <h4>CCSN en ligne</h4>
 <ul>
 <li><a href="/cnsconline/fl/index-fra">CCSN en ligne</a></li>
@@ -309,8 +309,8 @@ de catégorie II</a></li>
 <li><a href="/cnsconline/heu/fra/index">Le transport sécuritaire de l&#39;UHE</a></li>
 <li><a href="/cnsconline/ff11-mr11/fra/index">Mythe ou réalité : Le transport de l&#39;UHE</a></li>
 </ul>
-</section> </section> <section className="col-md-6">
-<section className="col-md-6 module-menu-section">
+</section> </section> <section className="col-md-4">
+<section className="col-md-4 module-menu-section">
 <h4>Lois et règlements</h4>
 <ul>
 <li><a href="/fra/acts-and-regulations/index">Lois et règlements</a></li>
@@ -346,7 +346,8 @@ la loi</a></li>
 <li><a href="/fra/acts-and-regulations/cost-recovery-program/index">Programme de recouvrement des coûts</a><ul></ul>
 </li>
 </ul>
-</section> </section>  
+</section> </section>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

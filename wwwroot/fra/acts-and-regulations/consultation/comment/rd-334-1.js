@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -392,7 +392,8 @@ Tableau A : Caract&eacute;ristiques d&#8217;un PGV efficace (adapt&eacute; de NS
 <li>CCSN, Norme d&#8217;application de la r&eacute;glementation S-210 <em>Programmes d&#8217;entretien des centrales nucl&eacute;aires</em>, 2007.</li>
 <li>Institute of Nuclear Power Operations (INPO), AP-913 R&eacute;vision&nbsp;1, <em>Equipment Reliability Process Description</em>, Atlanta, Georgia, USA, 2001.</li>
 <li>United States Nuclear Regulatory Commission (USNRC), NUREG-1801, <em>Generic Aging Lessons Learned (GALL) Report, Vol.&nbsp;1 and&nbsp;2</em>, Washington, DC, USA, 2005.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

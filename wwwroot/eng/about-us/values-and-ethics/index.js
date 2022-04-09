@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 alert alert-info pull-right">
+<div className="col-md-2 alert alert-info pull-right">
 <h2>Help</h2>
 <p>I can&rsquo;t open my form in Portable Document Format (PDF). What can I do?</p>
 <p><a href="/eng/contact-us/pdf-help" className="btn btn-info">PDF Help</a></p>   </div>
@@ -57,7 +57,8 @@ These resources include:</p>  <ul>
 <li>Respectful  Workplace Policy (currently under review)</li>
 <li>Inclusive  Workplace Policy (currently under review) </li>
 <li>Informal Conflict Management System (ICMS) </li>  </ul>  <h2>Related links</h2>  <ul>  <li><a href="/eng/pdfs/internal-audit/declaration-of-conflict-of-interest-form-I.pdf">Declaration of Conflict of Interest  &ndash; Form I &ndash; Application submitted from an external source</a> (PDF) </li>  <li><a href="/eng/pdfs/internal-audit/declaration-of-conflict-of-interest-form-II-eng.pdf">Declaration of Conflict of Interest  &ndash; Form II &ndash; Confidential Report</a> (PDF) </li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

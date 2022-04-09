@@ -202,7 +202,8 @@ travel</li>
 the straight-time rate</li>
 </ul></td>
 </tr>
-</table>  
+</table>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

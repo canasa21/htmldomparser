@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Information Management Technology Directorate</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_CMoses-sub.png" alt="" />
 <figcaption>Colin Moses,<br/>
 Director General and Chief Information Officer </figcaption>
@@ -29,7 +29,8 @@ Director General and Chief Information Officer </figcaption>
 <h2>Expertise and education</h2>
 <p>Colin has a bachelor&rsquo;s degree in mechanical engineering from McMaster University. His diverse job experience within the CNSC has enabled him to build on each role, helping him succeed and take on increased responsibility. Having worked in every branch of the CNSC, Colin has a unique understanding and appreciation of how every staff member contributes to the organization&rsquo;s success.</p>
 <h2>Roles and responsibilities</h2>
-<p>As Director General and Chief Information Officer, Colin and his team support the CNSC&rsquo;s vision of being a world class nuclear regulator, aligning the organization with the Government of Canada&rsquo;s Digital Operations Strategic Plan through the CNSC&rsquo;s Digital Strategy. This strategy will ensure the CNSC continues to be an open, digital-first organization that embraces the rapid pace of technological change and that tools are in place for staff to carry out robust, science- and data-based regulatory oversight. Timely access to the information and data that is collected by the CNSC helps to ensure that the organization can make informed decisions on the safety of nuclear facilities and activities.</p>  
+<p>As Director General and Chief Information Officer, Colin and his team support the CNSC&rsquo;s vision of being a world class nuclear regulator, aligning the organization with the Government of Canada&rsquo;s Digital Operations Strategic Plan through the CNSC&rsquo;s Digital Strategy. This strategy will ensure the CNSC continues to be an open, digital-first organization that embraces the rapid pace of technological change and that tools are in place for staff to carry out robust, science- and data-based regulatory oversight. Timely access to the information and data that is collected by the CNSC helps to ensure that the organization can make informed decisions on the safety of nuclear facilities and activities.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

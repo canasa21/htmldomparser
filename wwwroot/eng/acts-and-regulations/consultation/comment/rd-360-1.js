@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -146,7 +146,7 @@ CNSC Safety and Control Areas
 <td valign="top"><p>Performance Objectives</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Management</p></td>
+<td rowSpan="3" valign="top"><p>Management</p></td>
 <td valign="top"><p>Management System</p></td>
 <td valign="top"><p>Adequate management oversight of the control and implementation of activities defined by the documented series of processes.</p></td>
 </tr>
@@ -159,7 +159,7 @@ CNSC Safety and Control Areas
 <td valign="top"><p>Safe and secure plant operation with adequate regard for health, safety, security, environmental protection and international obligations.</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Facility and Equipment</p></td>
+<td rowSpan="3" valign="top"><p>Facility and Equipment</p></td>
 <td valign="top"><p>Safety Analysis</p></td>
 <td valign="top"><p>Demonstrated acceptability of the consequences of design basis events, the capability of protective systems to adequately control power, cool the fuel and contain any radioactivity that could be released from the plant.</p></td>
 </tr>
@@ -172,7 +172,7 @@ CNSC Safety and Control Areas
 <td valign="top"><p>Structures, systems, and components whose performance may affect safe operations or security remain available, reliable and effective, consistent with the design, quality control measures and analysis documents.</p></td>
 </tr>
 <tr>
-<td rowspan="8" valign="top"><p>Core Control Processes</p></td>
+<td rowSpan="8" valign="top"><p>Core Control Processes</p></td>
 <td valign="top"><p>Radiation Protection</p></td>
 <td valign="top"><p>Adequate protection of the health and safety of persons inside the facility with respect to ionizing radiation. </p></td>
 </tr>
@@ -237,7 +237,8 @@ CNSC Safety and Control Areas
 <li> IAEA, <em>Ageing Management for Nuclear Power Plants</em>, Safety Standards Series, Safety Guide NS-G-2.12, Vienna,&nbsp;2009.</li>
 <li>IAEA, <em>Maintenance, Surveillance and In-service Inspection in Nuclear Power Plants</em>, Safety Standards Series, Safety Guide NS-G-2.6, Vienna,&nbsp;2002.</li>
 <li>IAEA, Safety Report Series No.26, <em>Safe Enclosure of Nuclear Facilities During Deferred Dismantling</em>, Vienna,&nbsp;2002.</li>
-<li><em>Nuclear Fuel Waste Act</em>, S.C.&nbsp;2002, c.&nbsp;23.</li>  </ol>  
+<li><em>Nuclear Fuel Waste Act</em>, S.C.&nbsp;2002, c.&nbsp;23.</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

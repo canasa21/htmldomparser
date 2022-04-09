@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 module-related pull-right">
+<div className="col-md-2 module-related pull-right">
 <p><strong>Liens connexes</strong></p>
 <ul>
 <li><a href="/fra/resources/research/technical-papers-and-articles/index">Documents, pr&eacute;sentations et articles techniques</a></li>
@@ -69,7 +69,8 @@ Le CSP joue un r&ocirc;le  essentiel en ce qui concerne la gestion du travail sc
 <li><p><strong>18 septembre 2017</strong><br />
 <a href="/fra/pdfs/Presentations/VP/2017/20170918-Peter-Elder-Fire-Protection-deck-fra.pdf">Pr&eacute;sentation de Peter Elder &agrave; la 2e conf&eacute;rence internationale de la SNC sur la protection-incendie et la pr&eacute;paration aux situations d&#39;urgence dans l&#39;industrie nucl&eacute;aire </a></p>
 <p>Le 18 septembre 2017, Peter  Elder, vice-pr&eacute;sident et conseiller scientifique principal, Direction g&eacute;n&eacute;rale  du soutien technique, a donn&eacute; une pr&eacute;sentation dans le cadre de la 2e  conf&eacute;rence internationale de la SNC sur la protection-incendie et la gestion  des urgences dans l&#39;industrie nucl&eacute;aire, tenue &agrave; Toronto (Ontario). Sa  pr&eacute;sentation a port&eacute; sur l&#39;approche r&eacute;glementaire de la CCSN en mati&egrave;re de  protection-incendie et de gestion des urgences dans les installations  nucl&eacute;aires au Canada.</p> </li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

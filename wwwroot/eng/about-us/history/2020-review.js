@@ -18,17 +18,20 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">  <div className="col-md-22">  <div className="span-3 ">  	<p className="lead"><a href="#jan">January</a></p>  	<a href="#jan"><img src="/images/2020-review/web_yir_Jan_B.png" alt="January"/></a>  	<p>Ontario wakes up to a false alert</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#feb">February</a></p>  	<a href="#feb"><img src="/images/2020-review/web_yir_Feb_EN.png" alt="February"/></a>  	<p>President Velshi appointed as CSS Chair</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#mar">March</a></p>  	<a href="#mar"><img src="/images/2020-review/web_yir_Mar_B.png" alt="March"/></a>  	<p>Declaration of the global pandemic</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#apr">April</a></p>  	<a href="#apr"><img src="/images/2020-review/web_yir_Apr_en.png" alt="April"/></a>  	<p>Our new virtual reality</p>  	</div>  	<div className="clear"></div>  	<div className="span-3 ">  	<p className="lead"><a href="#may">May</a></p>  	<a href="#may"><img src="/images/2020-review/web_yir_May_En.png" alt="May"/></a>  	<p>CNSC celebrates its 20th anniversary</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jun">June</a></p>  	<a href="#jun"><img src="/images/2020-review/web_yir_Jun_EN.png" alt="June"/></a>  	<p>The Commission in the time of COVID-19</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jul">July</a></p>  	<a href="#jun"><img src="/images/2020-review/web_yir_Jul_EN.png" alt="July"/></a>  	<p>Beryllium resampling in Peterborough</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#aug">August</a></p>  	<a href="#jul"><img src="/images/2020-review/web_yir_Aug_EN.png" alt="August"/></a>  	<p>Continued consultation and engagement</p>  	</div>  	<div className="clear"></div>  	<div className="span-3 ">  	<p className="lead"><a href="#sep">September</a></p>  	<a href="#sep"><img src="/images/2020-review/web_yir_Sep_B.png" alt="September"/></a>  	<p>Being apart has not stopped the CNSCâ€™s pledge to inclusivity</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#oct">October</a></p>  	<a href="#oct"><img src="/images/2020-review/web_yir_Oct_B.png" alt="October"/></a>  	<p>Harmonization and collaboration in preparation for new and emerging technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#nov">November</a></p>  	<a href="#nov"><img src="/images/2020-review/web_yir_Nov_B.png" alt="November"/></a>  	<p>Protecting people and the environment is what we do</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#dec">December</a></p>  	<a href="#dec"><img src="/images/2020-review/web_yir_Dec_EN.png" alt="December"/></a>  	<p>Preparing for the future of work at the CNSC</p>  	</div>  </div>  <div className="clear"></div>
+<div className="row">  <div className="col-md-8">  <div className="span-3 ">  	<p className="lead"><a href="#jan">January</a></p>  	<a href="#jan"><img src="/images/2020-review/web_yir_Jan_B.png" alt="January"/></a>  	<p>Ontario wakes up to a false alert</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#feb">February</a></p>  	<a href="#feb"><img src="/images/2020-review/web_yir_Feb_EN.png" alt="February"/></a>  	<p>President Velshi appointed as CSS Chair</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#mar">March</a></p>  	<a href="#mar"><img src="/images/2020-review/web_yir_Mar_B.png" alt="March"/></a>  	<p>Declaration of the global pandemic</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#apr">April</a></p>  	<a href="#apr"><img src="/images/2020-review/web_yir_Apr_en.png" alt="April"/></a>  	<p>Our new virtual reality</p>  	</div>
+<div className="span-3 ">  	<p className="lead"><a href="#may">May</a></p>  	<a href="#may"><img src="/images/2020-review/web_yir_May_En.png" alt="May"/></a>  	<p>CNSC celebrates its 20th anniversary</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jun">June</a></p>  	<a href="#jun"><img src="/images/2020-review/web_yir_Jun_EN.png" alt="June"/></a>  	<p>The Commission in the time of COVID-19</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jul">July</a></p>  	<a href="#jun"><img src="/images/2020-review/web_yir_Jul_EN.png" alt="July"/></a>  	<p>Beryllium resampling in Peterborough</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#aug">August</a></p>  	<a href="#jul"><img src="/images/2020-review/web_yir_Aug_EN.png" alt="August"/></a>  	<p>Continued consultation and engagement</p>  	</div>
+<div className="span-3 ">  	<p className="lead"><a href="#sep">September</a></p>  	<a href="#sep"><img src="/images/2020-review/web_yir_Sep_B.png" alt="September"/></a>  	<p>Being apart has not stopped the CNSCâ€™s pledge to inclusivity</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#oct">October</a></p>  	<a href="#oct"><img src="/images/2020-review/web_yir_Oct_B.png" alt="October"/></a>  	<p>Harmonization and collaboration in preparation for new and emerging technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#nov">November</a></p>  	<a href="#nov"><img src="/images/2020-review/web_yir_Nov_B.png" alt="November"/></a>  	<p>Protecting people and the environment is what we do</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#dec">December</a></p>  	<a href="#dec"><img src="/images/2020-review/web_yir_Dec_EN.png" alt="December"/></a>  	<p>Preparing for the future of work at the CNSC</p>  	</div>  </div>
 <p>As 2020 draws to a close, it offers the opportunity to  reflect on the last year and highlight some of the hard work and major  milestones for the CNSC. At the start of the year, it was difficult to fathom  how drastically our collective situation would change. The onset of the global  pandemic due to COVID-19 quickly altered our reality and had very real  implications for the world, our work and our lives. Despite these unexpected  challenges, we adapted, demonstrating agility in the face of uncertainty and  carried out our mandate without missing a beat.<p>
-While we accomplished a great deal in 2020, the following text  highlights the most noteworthy milestones and achievements from this year.</p>  	<h2 id="jan">January</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+While we accomplished a great deal in 2020, the following text  highlights the most noteworthy milestones and achievements from this year.</p>  	<h2 id="jan">January</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Jan_B.png" alt="January"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Ontario wakes up to a false alert</h3>
 <p>At 7:23 am on Sunday, January 12, 2020, the  Province of Ontario erroneously issued an emergency alert for the Pickering  Nuclear Generating Station (PNGS). More  than 10 million Ontarians received an alert on their mobile devices, or saw in  the news or read on social media that a non-radiological alert had been issued  for those living within 10 km of the PNGS. Confusion set in as there had been  no radiological release to the environment, and residents were instructed to  take no action.</p>
 <p>While alerting is the responsibility of the  province and local municipalities, the CNSC responded quickly that morning,  verifying that the alert was in error and then communicating this message via  its official channels to the public. Recognizing the need for coordinated  support for the surge in communications, the CNSC also activated its Emergency  Operations Centre for the first time outside of an exercise since the Fukushima  Daiichi accident in 2011.</p>
 <p>Lessons learned from an event like this are  invaluable. The CNSC undertook its own evaluation and hired a third party to  offer further insights. In June 2020, staff presented the findings to the  Commission, alongside the Province, with actions complete or planned to enhance  emergency preparedness. The organization is more ready than ever.</p>
-</div>  </div>  <div className="clear"></div>  <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="feb">February</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="feb">February</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Feb_EN.png" alt="February"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">President Velshi appointed as  CSS Chair </h3>
@@ -38,8 +41,8 @@ While we accomplished a great deal in 2020, the following text  highlights the m
 <p>&ldquo;The IAEA greatly values the work of the CSS and I look  forward to CNSC President Velshi&rsquo;s experience and contribution as Chair.  Canada&rsquo;s nuclear regulator is a mature and highly respected regulator whose  leadership will make an important contribution to the work of Member States,&rdquo;  said IAEA Director General Rafael Mariano Grossi.</p>
 <p>This nomination is testament to the IAEA&rsquo;s high regard for  the CNSC&rsquo;s leadership and commitment to safety.</p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="mar">March</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="mar">March</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Mar_B.png" alt="March"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Declaration of the global pandemic</h3>
@@ -49,8 +52,9 @@ While we accomplished a great deal in 2020, the following text  highlights the m
 <p>In addition to ensuring the continued safe operation of  nuclear power plants, the CNSC&rsquo;s priority at the start of the pandemic was to provide  regulatory activities related to essential services: hospitals, isotope  producers, sterilization facilities, and border security.<br/>
 &nbsp;<br/>
 It oversaw the supply of radioisotopes vital to medical  treatment and equipment sterilization, and worked to ensure a continued  radioisotope supply to medical facilities that required them during the  pandemic. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="apr">April</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="apr">April</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Apr_en.png" alt="April"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Our new virtual reality</h3>
@@ -59,8 +63,8 @@ It oversaw the supply of radioisotopes vital to medical  treatment and equipment
 <p>Despite working remotely, the CNSC continued to be available 24/7 to respond  to any emergency, and remained committed to strong and effective regulatory  oversight of Canada&rsquo;s nuclear sector. It maintained effective regulatory  oversight during the pandemic through a variety of measures. Inspectors  continued to have access to licensed facilities as needed to respond to safety  issues, and followed the advice of health officials to practise physical  distancing when onsite. The CNSC remained in constant communication with  licensees while also being flexible, understanding that licenses would need  more time to report on issues that were not safety significant.</p>
 <p>All of these efforts and many more ensured that day-to-day work and  regulatory oversight were never compromised by the effects of the pandemic. </p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="may">May</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="may">May</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_May_En.png" alt="May"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">CNSC celebrates its 20th anniversary </h3>
@@ -68,8 +72,9 @@ It oversaw the supply of radioisotopes vital to medical  treatment and equipment
 <p>There are moments in the CNSC&rsquo;s <a href="/eng/about-us/history/milestones">20-year  history</a> that have very clearly influenced the organization and how it  operates today. It has responded  swiftly to world events, as well events closer to home, which have enabled it  to improve regulations for security and safety, improve emergency operations  and planning and modernize its regulatory framework. The organization has been  equally proactive in identifying and implementing changes to communicate more  transparently, and it invites participation in Commission proceedings.</p>
 <p>The past 20  years have been as eventful for the CNSC as any period since Canada&rsquo;s nuclear  regulatory regime began in 1946. Celebrating its 20th anniversary in the midst  of the COVID&#8209;19 pandemic is yet another milestone in a storied history. The  pandemic has required a demonstration of agility in order to continue to  regulate effectively in circumstances that prevent working face to face every  day. The CNSC has proven to have this agility, and is also thriving because of  it.</p>
 <p>The CNSC&rsquo;s approach to regulatory  oversight during the pandemic is an excellent example of this. On May 13, CNSC  Executive Vice-President and Chief Regulatory Operations Officer Ramzi Jammal  authorized the removal of the fourth and final <a href="/eng/resources/news-room/feature-articles/regulatory-hold-points-safe-successful-restart-newly-refurbish-reactor">regulatory  hold point</a> for the Darlington Nuclear Generating Station in southern  Ontario. The removal allowed OPG&rsquo;s Darlington Unit 2 to return to operation  after its refurbishment. This final authorization permitted Darlington Unit 2  to increase power beyond 35% of full power. CNSC staff confirmed that the  requirements for the removal of the fourth and final regulatory hold point had  been completed safely and successfully, in accordance with the Darlington  nuclear power reactor operating licence. While this had to be managed  differently in a remote work environment, the oversight and work continued  allowing the project to move forward successfully. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="jun">June</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="jun">June</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Jun_EN.png" alt="June"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">The Commission in the time of  COVID-19</h3>
@@ -78,8 +83,8 @@ It oversaw the supply of radioisotopes vital to medical  treatment and equipment
 <p>The 5 draft regulatory documents submitted for approval formalize  requirements and guidance related to waste and decommissioning activities. The  results of the IRRS and EPREV missions concluded that Canada has a strong  effective regulatory framework as well as a well-developed and mature  preparedness system in place to respond to a nuclear emergency.</p>
 <p>The IAEA team of experts viewed the Canadian EPREV mission  as a model of excellence for other member states, from its self-assessment to  its organization, through to execution. In June 2020, the Canadian Nuclear Society awarded the Canadian  team that hosted the EPREV mission with the <a href="https://www.cns-snc.ca/media/uploads/h_w/2020_ha_press_release.pdf">John  S. Hewitt Team Achievement Award</a>, in recognition of its effort and success.</p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="jul">July</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="jul">July</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Jul_EN.png" alt="July"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Beryllium resampling in  Peterborough</h3>
@@ -87,8 +92,9 @@ It oversaw the supply of radioisotopes vital to medical  treatment and equipment
 <p>In July 2020, the CNSC resampled beryllium levels in  Peterborough. The analysis measured the quantity of beryllium in the soil at  locations both close to and distant from the BWXT facility to verify the safety  of the public and environment. The environmental sampling was conducted using  strict COVID-19 precautions to minimize risk to employees and the public.</p>
 <p>The soil samples were analyzed at the CNSC lab, and results  indicated no significant increasing trend of beryllium soil concentrations in  Peterborough. <br/>
 Results also showed no risk to the environmental or human  health at the Prince of Wales Public School, as all concentrations of beryllium  in soil were consistent with natural levels present in the environment. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="aug">August</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="aug">August</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Aug_EN.png" alt="August"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Continued consultation and engagement</h3>
@@ -98,8 +104,8 @@ Results also showed no risk to the environmental or human  health at the Prince 
 <p>The first process launched on this platform was consultation  on CNSC regulatory documents. The new platform allows for a more user-friendly  approach, with digital comment submissions and better transparency through live  commenting. To date, 3 regulatory documents have been opened for consultation  using this new platform.</p>
 <p>The CNSC continuously strives to be a trusted regulator,  recognized by the public and Indigenous peoples as independent, open and  transparent. Its goal is to build long-term positive relationships with all  those with an interest in CNSC-regulated facilities and activities, and to be a  leader in consultation, engagement and reconciliation. <strong> </strong></p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="sep">September</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="sep">September</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Sep_B.png" alt="September"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Being apart has not stopped the CNSC&rsquo;s pledge to inclusivity</h3>
@@ -107,8 +113,9 @@ Results also showed no risk to the environmental or human  health at the Prince 
 <p>The CNSC is proud to be an inclusive workplace and is  committed to building a skilled workforce that is reflective of Canadian  society. Its diverse employee networks are critical to building a healthy and  respectful work environment where different viewpoints spur innovation and  benefit the organization as a whole. </p>
 <p>The CNSC continued to have important and necessary  conversations about racism and other forms of discrimination in 2020. These  conversations are vital to ensuring a better understanding of the issues and  the part that everyone must play in making a positive change. These  conversations are also critical to advancing the CNSC&rsquo;s commitment to providing  an inclusive, respectful and safe workplace, and they benefit everyone individually  as well as organizationally. </p>
 <p>September offered a number of opportunities to continue these  important conversations as well as to foster change. On September 29, 2020, the  CNSC joined like-minded regulators for the inaugural meeting of the IGC Impact  Group on Gender Equality in Nuclear Regulatory Agencies. This Impact Group  brings together a community of nuclear regulators and organizations committed  to working on gender issues in their institutions and countries.</p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="oct">October</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="oct">October</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Oct_B.png" alt="October"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Harmonization and  collaboration in preparation for new and emerging technologies</h3>
@@ -116,8 +123,8 @@ Results also showed no risk to the environmental or human  health at the Prince 
 <p>In October, the CNSC and the UK <a href="http://www.onr.org.uk/">Office for Nuclear Regulation</a> (ONR) signed two agreements to explore further collaboration and to more  effectively regulate an ever-changing nuclear sector. The two agreements are  built on years of collaboration in nuclear safety and security and were signed  during a virtual ceremony by CNSC President Rumina Velshi and ONR Chief Nuclear  Inspector Mark Foy on October&nbsp;8,&nbsp;2020.</p>
 <p>The memorandum of understanding (MOU) provides a  framework for enhanced collaboration, allowing for opportunities to share  information and experience between the CNSC and ONR. The memorandum of  cooperation, which was established to supplement and strengthen the existing  MOU, will provide a framework for sharing information, expertise and best  practices to support more efficient technical reviews of small modular reactors  and advanced nuclear technologies. It also allows more effective communication  between the two regulators.</p>  The CNSC has  therefore made it a top priority to adopt a modern approach to nuclear  regulation, and it continues to focus on readiness to regulate new and emerging  technologies. Collaborative agreements allow the CNSC to leverage the  experience and expertise of other regulators when conducting technical reviews  of these emerging technologies and novel designs for small modular reactors.
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="nov">November</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="nov">November</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Nov_B.png" alt="November"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Protecting people and the environment is what we do&nbsp; </h3>
@@ -125,8 +132,9 @@ Results also showed no risk to the environmental or human  health at the Prince 
 <p>The Commission held a hearing regarding the application from  Canadian Nuclear Laboratories (CNL) to amend its waste facility decommissioning  licence for the Douglas Point Waste Facility (DPWF). The DPWF is the site of  the former 200-MW Douglas Point power reactor and is located on the Bruce Power  site in Tiverton, Ontario. It was permanently shut down in 1984 and has been in  Phase 2 of decommissioning (storage with surveillance) since 1988. CNL  requested a licence amendment to authorize Phase 3 of the decommissioning  project, which would include the active decommissioning and demolition of  remaining facilities. The hearing was webcast live on November 25 and 26, with  Commission members, the licensee, intervenors and CNSC staff participating  virtually. <strong> </strong></p>
 <p>In November, the CNSC also published updates to the <em>Radiation Protection Regulations</em> that  enhance protections for nuclear sector workers. The updates take into account  the current science on radiation protection, as well as international standards  and recommendations from the International Atomic Energy Agency and the  International Commission on Radiological Protection. The changes also  integrate 20 years of experience since first publishing the regulations, and  stakeholder feedback from extensive public consultation, outreach sessions and  webinars. </p>
 <p>The new regulations include accommodations for workers who are  breastfeeding, and a lower annual limit for radiation doses to the lens of the  eye. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="dec">December</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="dec">December</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2020-review/web_yir_Dec_EN.png" alt="December"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Preparing for the future of work at the CNSC</h3>
@@ -134,7 +142,8 @@ Results also showed no risk to the environmental or human  health at the Prince 
 <p>In December, the organization co-hosted its first virtual  conference. This 5-day international, multi-sector workshop focused on how to  safely regulate innovative and disruptive technologies. Coincidentally,  December also marked nine months of disruption caused by the pandemic and  having to adapt to remote work, virtual Commission proceedings and virtual  conferences. The CNSC has adjusted to a new normal and is now making it a priority  to prepare for the next normal. This year has tested the CNSC, requiring both  quick thinking and flexibility in order to innovate and adopt new ways of  working. This agility has enabled the organization to successfully carry out  its mandate undeterred. It is clear that working remotely has not impacted the  CNSC&rsquo;s role as the regulator.</p>
 <p>As the organization looks to 2021, preparations are underway  for the next normal. This includes revisiting how day-to-day work is conducted,  including the continued modernization of Commission proceedings, leveraging  virtual conferences and meetings and moving away from an office-centric  environment. Physical workspaces are being reassessed and modified to support  the future of work at the CNSC, one that continues to support staff in their  work while accommodating the new public health realities that have resulted  from the COVID-19 pandemic. </p>
 </div>  </div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

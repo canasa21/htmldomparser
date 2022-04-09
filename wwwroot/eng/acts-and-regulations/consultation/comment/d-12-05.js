@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -86,7 +86,8 @@ Exceeded</td>
 <a name="5.0"></a>
 <h2><a name="P162_13031" id="P162_13031"></a>5.0 Conclusion</h2>  <p>The CNSC is committed to providing the Canadian public and other stakeholders with the opportunity to participate in the development of regulatory initiatives. You are invited to forward your comments on the proposed Administrative Monetary Penalties to the CNSC.</p>  <p>Please send any comments or feedback to:</p>  <p>Email:
 <a href="mailto:consultation@cnsc-ccsn.gc.ca">consultation@cnsc-ccsn.gc.ca</a></p>  <p>or,</p>  <p>Canadian Nuclear Safety Commission<br />  P.O. Box 1046, Station B<br />  Ottawa, ON  K1P 5S9<br />  Fax: 613-995-5086</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

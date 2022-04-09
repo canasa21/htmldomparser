@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Environmental Assessment Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_NKwamena-sub.png" alt="" />
 <figcaption>Nana Kwamena,<br/>
 Director</figcaption>
@@ -32,7 +32,8 @@ Director</figcaption>
 <p>As Director of the Environmental Assessment Division, Nana leads a team of specialists responsible for ensuring the CNSC meets the requirements of federal legislation in managing <a href="/eng/resources/environmental-protection/index">environmental and impact assessments</a>. Her team coordinates the CNSC&rsquo;s role in these assessments to ensure the environmental effects of proposed projects are examined prior to any licensing action under the <em>Nuclear Safety and Control Act</em>.</p>
 <p>Nana and her team also consult with Indigenous Nations and communities, and members of the public, to ensure these groups have the opportunity to present their perspectives on a project.</p>
 <h2>Other roles</h2>
-<p>Nana completed a 1-year assignment as a Senior Project Officer responsible for leading the CNSC&rsquo;s preparation for the <a href="/eng/resources/international-cooperation/index#review">Integrated Regulatory Review Service</a> mission to Canada in 2019. The mission provided valuable insights on Canada&rsquo;s framework for safety and the CNSC&rsquo;s core regulatory processes.</p>  
+<p>Nana completed a 1-year assignment as a Senior Project Officer responsible for leading the CNSC&rsquo;s preparation for the <a href="/eng/resources/international-cooperation/index#review">Integrated Regulatory Review Service</a> mission to Canada in 2019. The mission provided valuable insights on Canada&rsquo;s framework for safety and the CNSC&rsquo;s core regulatory processes.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

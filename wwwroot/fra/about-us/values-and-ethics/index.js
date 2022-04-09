@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 alert alert-info pull-right">
+<div className="col-md-2 alert alert-info pull-right">
 <h2>Aide</h2>
 <p>Je n&rsquo;arrive pas &agrave; ouvrir mon formulaire au format Portable Document Format (PDF). Que puis-je faire?</p>
 <p><a href="/fra/contact-us/pdf-help" className="btn btn-info">Aide PDF</a></p>   </div>
@@ -115,7 +115,8 @@ Le 5 mars 2021</p>
 <ul>
 <li><a href="/fra/pdfs/internal-audit/declaration-des-conflits-dinterets-formulaire-I.pdf">D&eacute;claration  de conflits d&rsquo;int&eacute;r&ecirc;ts &ndash; Formulaire I &ndash; Demande soumise par une source externe</a> (PDF)</li>
 <li><a href="/fra/pdfs/internal-audit/declaration-of-conflict-of-interest-form-II-fra.pdf">D&eacute;claration des conflits d&rsquo;int&eacute;r&ecirc;ts  &ndash; Formulaire II &ndash; Rapport confidentiel</a> (PDF)</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

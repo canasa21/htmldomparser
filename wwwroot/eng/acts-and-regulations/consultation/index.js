@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-3 module-related pull-right">
+<div className="col-md-2 module-related pull-right">
 <h2>Provide Comments and Suggestions</h2>
 <ul>
 <li>CNSC welcomes <a href="mailto:consultation@cnsc-ccsn.gc.ca">feedback</a> on any regulatory document at any time</li>
@@ -64,7 +64,8 @@ import React from "react"
 <li><a href="http://actionplan.gc.ca/page/rcc-ccr/about-regulatory-cooperation-council?wb48617274=F196FB7F">The Canada-United States  Regulatory Cooperation Council</a></li>
 </ul>
 <p>To learn about upcoming or ongoing consultations on proposed federal  regulations, visit the <em><a href="http://www.gazette.gc.ca/index-eng.html">Canada Gazette</a></em> and the Government of Canada&rsquo;s <a href="https://open.canada.ca/en">Open Government website</a> under the "<a href="https://www.canada.ca/en/government/system/consultations/consultingcanadians.html">Find a Consultation</a>" option.</p>
-</section>  
+</section>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

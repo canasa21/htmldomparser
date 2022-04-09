@@ -175,7 +175,8 @@ import React from "react"
 <td className="text-center">&ndash;</td>
 <td className="text-center">33,76 $/h </td>
 </tr>  </table>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Bruce Regulatory Program Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MHornof-sub.png" alt="" />
 <figcaption>Monica Hornof,<br/>
 Senior Regulatory Program Officer</figcaption>
@@ -33,7 +33,8 @@ Senior Regulatory Program Officer</figcaption>
 <p>Monica&rsquo;s work is critical to the regulation of nuclear power plants, ensuring the licensee&rsquo;s programs and activities remain within the scope of its licensing basis. More specifically, she manages the Bruce Power licence conditions handbook. Monica is responsible for evaluating and monitoring facility performance in the management systems and human performance safety and control areas, in addition to reviewing operational experience related to operating Canadian nuclear power plants.</p>
 <h2>Other roles</h2>
 <p>Monica is a member of the Directorate of Power Reactor Regulation Small Modular Reactor (SMR) Working Group, tasked with ensuring the CNSC&rsquo;s regulatory preparedness for the eventual operational licensing and compliance verification of SMRs.</p>
-<p>She is an advocate for gender equity and has been the co-chair of the CNSC&rsquo;s Women in Science, Technology, Engineering and Mathematics (STEM) Network since its launch in 2020. The goal of the network is to provide a safe space for all CNSC employees to come together, share experiences about their STEM careers and to inspire, empower and learn from each other.</p>  
+<p>She is an advocate for gender equity and has been the co-chair of the CNSC&rsquo;s Women in Science, Technology, Engineering and Mathematics (STEM) Network since its launch in 2020. The goal of the network is to provide a safe space for all CNSC employees to come together, share experiences about their STEM careers and to inspire, empower and learn from each other.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

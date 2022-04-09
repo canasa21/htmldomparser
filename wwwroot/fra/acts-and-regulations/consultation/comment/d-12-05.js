@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -88,7 +88,8 @@ r&eacute;glementaires</td>
 <a name="5.0"></a>
 <h2><a name="P161_15894" id="P161_15894"></a>5.0 Conclusion </h2>  <p>La CCSN s&#8217;est engag&eacute;e &agrave; offrir au public canadien et aux parties int&eacute;ress&eacute;es la possibilit&eacute; de participer &agrave; l&#8217;&eacute;laboration des initiatives de r&eacute;glementation. Vous &ecirc;tes invit&eacute; &agrave; faire parvenir &agrave; la CCSN vos commentaires sur les SAP propos&eacute;es<em>.</em></p>  <p>Veuillez transmettre vos commentaires ou r&eacute;troactions &agrave;&nbsp;:</p>  <p>Courriel&nbsp;:
 <a href="mailto:consultation@cnsc-ccsn.gc.ca">consultation@cnsc-ccsn.gc.ca</a></p>  <p>ou &agrave;&nbsp;la&nbsp;:</p>  <p>Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire<br />  C.P.&nbsp;1046, succursale B<br />  Ottawa (Ontario)  K1P 5S9<br />  T&eacute;l&eacute;copieur&nbsp;: 613-995-5086</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

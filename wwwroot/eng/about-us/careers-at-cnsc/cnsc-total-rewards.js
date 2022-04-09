@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-2 pull-right">  	<img src="/images/about-us/careers-at-cnsc/tr-house-eng.png" alt="" />
+<div className="col-md-1 pull-right">  	<img src="/images/about-us/careers-at-cnsc/tr-house-eng.png" alt="" />
 </div>
 <p>Total Rewards is the CNSC&#39;s comprehensive compensation and benefits package. Our full house of Total Rewards was built with several unique offerings, making it one of the most attractive packages on the block.</p>
 <h2>Compensation</h2>
@@ -285,7 +285,8 @@ import React from "react"
 </ul>
 </details>
 </li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

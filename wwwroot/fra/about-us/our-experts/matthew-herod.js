@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Division du programme de r&eacute;glementation des Laboratoires Nucl&eacute;aires Canadiens</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MHerom-sq.png" alt="" />
 <figcaption>Matthew Herod,<br/>
 Agent principal de projet</figcaption>
@@ -30,7 +30,8 @@ Agent principal de projet</figcaption>
 <h2>Expertise et &eacute;ducation</h2>
 <p>Matthew est titulaire d&rsquo;un doctorat en sciences de la Terre de l&rsquo;Universit&eacute; d&rsquo;Ottawa et d&rsquo;un baccalaur&eacute;at en sciences (avec mention) sp&eacute;cialis&eacute; en g&eacute;ologie de l&rsquo;Universit&eacute; Queen&rsquo;s. Il est professeur auxiliaire au D&eacute;partement des sciences de la Terre et de l&rsquo;environnement de l&rsquo;Universit&eacute; d&rsquo;Ottawa et affili&eacute; au laboratoire de spectrom&eacute;trie de masse par acc&eacute;l&eacute;rateur Andr&eacute; E. Lalonde de l&rsquo;universit&eacute;, o&ugrave; il supervise 3 &eacute;tudiants dipl&ocirc;m&eacute;s. Enfin, Matthew est inspecteur &agrave; la CCSN et g&eacute;oscientifique professionnel agr&eacute;&eacute;.</p>
 <h2>Recherches et projets actuels</h2>
-<p><strong>Projet</strong>&nbsp;: <a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. Matthew a deux r&ocirc;les dans l&rsquo;examen effectu&eacute; par la CCSN de cette installation pr&eacute;vue par les LNC, soit ceux d&rsquo;expert en d&eacute;livrance de permis et d&rsquo;expert technique. Il dirige aussi les activit&eacute;s de relations externes et contribue &agrave; l&rsquo;&eacute;valuation technique des documents pr&eacute;sent&eacute;s par le titulaire de permis pour ce qui est des crit&egrave;res d&rsquo;acceptation des d&eacute;chets, de la caract&eacute;risation des d&eacute;chets, des aspects touchant la g&eacute;ologie et de la s&ucirc;ret&eacute; &agrave; long terme.</p>  
+<p><strong>Projet</strong>&nbsp;: <a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. Matthew a deux r&ocirc;les dans l&rsquo;examen effectu&eacute; par la CCSN de cette installation pr&eacute;vue par les LNC, soit ceux d&rsquo;expert en d&eacute;livrance de permis et d&rsquo;expert technique. Il dirige aussi les activit&eacute;s de relations externes et contribue &agrave; l&rsquo;&eacute;valuation technique des documents pr&eacute;sent&eacute;s par le titulaire de permis pour ce qui est des crit&egrave;res d&rsquo;acceptation des d&eacute;chets, de la caract&eacute;risation des d&eacute;chets, des aspects touchant la g&eacute;ologie et de la s&ucirc;ret&eacute; &agrave; long terme.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

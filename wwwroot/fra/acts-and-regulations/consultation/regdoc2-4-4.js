@@ -53,7 +53,8 @@ C.P. 1046, succursale B<br/>
 280, rue Slater <br/>
 Ottawa (Ontario)  K1P 5S9</li>
 <li>Télécopieur  : 613-995-5086 </li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

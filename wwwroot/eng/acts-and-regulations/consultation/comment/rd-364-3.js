@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -117,7 +117,8 @@ import React from "react"
 <a name="3.6"></a>  	<h3>3.6 Appendix</h3>  <p>The appendix should include a list of references, applicable pages from referenced documents, justification of assumptions or analytical procedures, test results, photographs, computer program descriptions and examples of input and output files, specifications of O-rings and other components, detailed materials test data, and other supplemental information.</p>  <p>If the package has been subjected to a thermal test, the appendix should include a description of the test facility with respect to the following:</p>  <ol>  	<li>Type of facility (e.g., furnace, pool-fire);</li>  	<li>Method of heating the package (e.g., gas burners, electrical heaters);</li>  	<li>Volume and emissivity of the furnace interior;</li>  	<li>Method of simulating decay heat if applicable;</li>  	<li>Types, locations, and measurement uncertainties of all sensors used to measure the fire heat fluxes affecting critical components, such as seals, valves, pressure, and structural components, and fire temperatures;</li>  	<li>The post-fire environment for a period adequate to attain the post-fire, steady-state condition; and</li>  	<li>Methods for both maintaining and measuring an adequate supply and circulation of oxygen for initiating and naturally terminating the combustion of any burnable package component throughout the fire and post-fire periods.</li>  </ol>
 <p>The appendix should also include a complete description of the tests performed. This description should include the following:</p>
 <ol>  	<li>Test procedure;</li>  	<li>Test package description;</li>  	<li>Test initial and boundary conditions;</li>  	<li>Test chronologies (planned and actual);</li>  	<li>Photographs of the package components, including any structural or thermal damage, before and after the tests;</li>  	<li>Test measurements, including, at a minimum, documentation of test package physical changes and temperature and heat flux histories;</li>  	<li>Corrected tests results; and</li>  	<li>Method used to obtain the corrected results.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

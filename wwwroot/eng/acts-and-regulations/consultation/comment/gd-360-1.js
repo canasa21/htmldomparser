@@ -678,7 +678,7 @@ CNSC Safety and Control Areas
 (including but not limited to)</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Management</p></td>
+<td rowSpan="3" valign="top"><p>Management</p></td>
 <td valign="top"><p>Management System</p></td>
 <td valign="top"><p>n management system (including safety management)&nbsp;/ quality management oversight</p>
 <p>n organizational structure, roles and responsibilities, resource management, leadership</p>
@@ -707,7 +707,7 @@ CNSC Safety and Control Areas
 <p>n outage management performance</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Facility and Equipment</p></td>
+<td rowSpan="3" valign="top"><p>Facility and Equipment</p></td>
 <td valign="top"><p>Safety Analysis</p></td>
 <td valign="top"><p>n deterministic safety analysis</p>
 <p>n hazard analysis (internal and external) including</p>
@@ -754,7 +754,7 @@ CNSC Safety and Control Areas
 <p>n condition monitoring</p></td>
 </tr>
 <tr>
-<td rowspan="8" valign="top"><p>Core Control Processes</p></td>
+<td rowSpan="8" valign="top"><p>Core Control Processes</p></td>
 <td valign="top"><p>Radiation Protection</p></td>
 <td valign="top"><p>n application of ALARA</p>
 <p>n dosimetry services</p>
@@ -844,7 +844,8 @@ CNSC Safety and Control Areas
 <li> International Atomic Energy Agency (IAEA), <em>Maintenance, Surveillance and In-service Inspection in Nuclear Power Plants</em>, Safety Standards Series, Safety Guide NS-G-2.6, Vienna,&nbsp;2002.</li>
 <li>IAEA, <em>Ageing Management for Nuclear Power Plants</em>, Safety Standards Series, Safety Guide NS-G-2.12, Vienna,&nbsp;2009.</li>
 <li><em>Migratory Birds Convention Act</em>, S.C.&nbsp;1994, c.&nbsp;22.</li>
-<li><em> Nuclear Fuel Waste Act</em>, S.C.&nbsp;2002, c.&nbsp;23.</li>  </ol>  
+<li><em> Nuclear Fuel Waste Act</em>, S.C.&nbsp;2002, c.&nbsp;23.</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

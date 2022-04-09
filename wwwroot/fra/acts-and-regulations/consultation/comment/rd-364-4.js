@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -47,7 +47,7 @@ au terme source lib&eacute;rable des colis con&ccedil;us pour transporter du com
 <td></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p><b>Variable</b></p></td>
+<td rowSpan="2" valign="top"><p><b>Variable</b></p></td>
 <td colSpan="2" valign="top"><p><b>REP</b></p></td>
 <td colSpan="2" valign="top"><p><b>REB</b></p></td>
 </tr>
@@ -127,7 +127,8 @@ au terme source lib&eacute;rable des colis con&ccedil;us pour transporter du com
 <li> l&#8217;&eacute;preuve d&#8217;&eacute;tanch&eacute;it&eacute; p&eacute;riodique;</li>
 <li> l&#8217;&eacute;preuve d&#8217;&eacute;tanch&eacute;it&eacute; avant l&#8217;exp&eacute;dition.</li>  </ol>  <p>Les &eacute;preuves d&#8217;&eacute;tanch&eacute;it&eacute; r&eacute;alis&eacute;es lors de la fabrication et de l&#8217;entretien, ainsi que les &eacute;preuves p&eacute;riodiques devraient &ecirc;tre incluses dans le chapitre 8, <em>&Eacute;preuves d&#8217;acceptation et programme d&#8217;entretien</em>, de la demande. L&#8217;&eacute;preuve d&#8217;&eacute;tanch&eacute;it&eacute; avant l&#8217;exp&eacute;dition pour la v&eacute;rification de l&#8217;assemblage devrait &ecirc;tre incluse dans le chapitre 7,<em> Mode d&#8217;emploi</em> <em>de l&#8217;emballage</em>.</p>  <p>La norme NUREG/CR-6487 &#8220;Containment Analysis for Type B Packages Used to Transport Various Contents&#8221;<sup>4</sup> montre des exemples d&#8217;analyses visant &agrave; d&eacute;terminer les crit&egrave;res de confinement pour les colis du type B. Si ces analyses sont utilis&eacute;es, on doit d&eacute;montrer que les hypoth&egrave;ses du NUREG/CR-6487 sont applicables au colis au besoin.</p>  <p>Les m&eacute;thodes relatives aux &eacute;preuves d&#8217;&eacute;tanch&eacute;it&eacute; de tous les joints et les ouvertures de l&#8217;enveloppe de confinement, y compris les ouvertures de drainage et d&#8217;a&eacute;ration devraient &ecirc;tre d&eacute;crites. Si les ouvertures de remplissage, de drainage ou d&#8217;essai utilisent des vannes &agrave; d&eacute;connexion rapide, on devrait d&eacute;montrer que celles-ci n&#8217;emp&ecirc;chent pas l&#8217;&eacute;preuve d&#8217;&eacute;tanch&eacute;it&eacute; des joints de confinement. Le taux de fuite maximal admissible et la sensibilit&eacute; minimale &agrave; l&#8217;&eacute;preuve devraient &ecirc;tre pr&eacute;cis&eacute;s pour chaque type d&#8217;essai, c&#8217;est-&agrave;-dire fabrication, entretien, essais p&eacute;riodiques et essais avant l&#8217;exp&eacute;dition.</p>  <p>Une m&eacute;thode visant &agrave; d&eacute;terminer le taux de fuite volum&eacute;trique maximal admissible bas&eacute; sur les taux de rejet r&eacute;glementaires admissibles &agrave; la fois dans des conditions normales et dans des conditions d&#8217;accident hypoth&eacute;tique de transport est contenue dans la norme ANSI N14.5. Le plus faible de ces taux de fuite d&#8217;air est d&eacute;fini comme &eacute;tant le taux de fuite d&#8217;air de r&eacute;f&eacute;rence. La norme ISO 12807 pr&eacute;sente &eacute;galement un moyen de calculer le taux de rejet.</p>   <a name="4.5"></a>
 <h3>4.5 Annexe</h3>  <p>L&#8217;annexe devrait comprendre une liste des r&eacute;f&eacute;rences, des pages applicables tir&eacute;es des documents mentionn&eacute;s en r&eacute;f&eacute;rence, les renseignements et les analyses &agrave; l&#8217;appui, les r&eacute;sultats des essais et d&#8217;autres renseignements additionnels appropri&eacute;s.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

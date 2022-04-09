@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Division des autorisations de transport et du soutien strat&eacute;gique</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_ITremblay-sub.png" alt="" />
 <figcaption>Isabelle Tremblay,<br/>
 agente de programme</figcaption>
@@ -31,7 +31,8 @@ agente de programme</figcaption>
 <h2>R&ocirc;les et responsabilit&eacute;s</h2>
 <p>Dans son poste, M<sup>me</sup> Tremblay est responsable de l&rsquo;&eacute;valuation technique des demandes d&rsquo;homologation de l&rsquo;&eacute;quipement r&eacute;glement&eacute;. Elle a aussi &eacute;t&eacute; nomm&eacute;e <a href="/fra/the-commission/designated-officers">fonctionnaire d&eacute;sign&eacute;e</a> (FD) par la Commission pour mener &agrave; bien des mesures pr&eacute;cises en mati&egrave;re d&rsquo;autorisation et de r&eacute;glementation, ce qui lui permet de prendre certaines d&eacute;cisions au nom de la Commission. Les fonctionnaires d&eacute;sign&eacute;s font partie int&eacute;grante du cadre d&rsquo;autorisation et de conformit&eacute; de la CCSN&nbsp;: gr&acirc;ce &agrave; eux, l&rsquo;organisation est capable de g&eacute;rer les quelque 1&nbsp;800 permis et certificats devant &ecirc;tre examin&eacute;s, surveill&eacute;s et appliqu&eacute;s chaque ann&eacute;e.</p>
 <h2>Autres r&ocirc;les</h2>
-<p>M<sup>me</sup> Tremblay a jou&eacute; un r&ocirc;le d&eacute;terminant dans la publication des premi&egrave;res &eacute;ditions du Rapport de surveillance r&eacute;glementaire annuel sur l&rsquo;utilisation des substances nucl&eacute;aires au Canada de la CCSN, portant sur environ 2&nbsp;500 titulaires de permis. Ce rapport &eacute;tait une premi&egrave;re au Canada et d&eacute;crivait le rendement en mati&egrave;re de s&ucirc;ret&eacute; des titulaires de permis autoris&eacute;s &agrave; utiliser des substances nucl&eacute;aires. Elle fait la promotion de l&rsquo;&eacute;quit&eacute; entre les genres et est membre active du r&eacute;seau Femmes en STIM (science, technologie, ing&eacute;nierie, math&eacute;matiques) de la CCSN, dans le cadre duquel elle m&egrave;ne des activit&eacute;s de sensibilisation avec ses coll&egrave;gues pour encourager les jeunes &eacute;tudiants, en particulier les filles, &agrave; poursuivre des carri&egrave;res dans le domaine des STIM.</p>  
+<p>M<sup>me</sup> Tremblay a jou&eacute; un r&ocirc;le d&eacute;terminant dans la publication des premi&egrave;res &eacute;ditions du Rapport de surveillance r&eacute;glementaire annuel sur l&rsquo;utilisation des substances nucl&eacute;aires au Canada de la CCSN, portant sur environ 2&nbsp;500 titulaires de permis. Ce rapport &eacute;tait une premi&egrave;re au Canada et d&eacute;crivait le rendement en mati&egrave;re de s&ucirc;ret&eacute; des titulaires de permis autoris&eacute;s &agrave; utiliser des substances nucl&eacute;aires. Elle fait la promotion de l&rsquo;&eacute;quit&eacute; entre les genres et est membre active du r&eacute;seau Femmes en STIM (science, technologie, ing&eacute;nierie, math&eacute;matiques) de la CCSN, dans le cadre duquel elle m&egrave;ne des activit&eacute;s de sensibilisation avec ses coll&egrave;gues pour encourager les jeunes &eacute;tudiants, en particulier les filles, &agrave; poursuivre des carri&egrave;res dans le domaine des STIM.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -87,7 +87,8 @@ import React from "react"
 </p>  <p><input type="submit" name="submit" value="Comment on Section 7.4" /></p>  </form>
 <p>  <form name="myform" action="frm_comment" method="POST">  <input type="hidden" name="RDpage" value="7" />  <input type="hidden" name="RDsection" value="7.5" />  <input type="hidden" name="document" value="364" />  <a name="7.5"></a>  	<h3><strong>7.5 Appendix</strong></h3>  <p>The appendix should include a list of references, applicable pages from referenced documents, detailed descriptions and analysis of processes or protocols, graphic presentations, test results, and other supplemental information.</p>
 </p>  <p><input type="submit" name="submit" value="Comment on Section 7.5" /></p>  </form>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

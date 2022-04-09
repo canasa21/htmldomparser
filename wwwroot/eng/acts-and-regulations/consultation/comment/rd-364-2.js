@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -133,7 +133,8 @@ import React from "react"
 <div style="padding-left:10px;padding-right:10px;background-color:#efefef;border:1px solid black;">  <p>For approval in Canada, the application should also include a copy of the special form certificate and drawings for each capsule authorized in the package. Provision for allowance of similar capsules meeting the requirements for special form radioactive material may be granted provided that the application includes proper demonstration that these would be bounded by the analysis provided.</p>  </div>
 <a name="2.11"></a>  	<h3><strong>2.11 Fuel Rods</strong></h3>  <p>The structural integrity of fuel rods and cladding integrity should be addressed for packages used to transport fresh or irradiated nuclear fuel. Where fuel structural components and cladding are considered to provide containment of radioactive material or confinement or geometry control of fissile material under normal or accident test conditions, this section should provide an analysis or test results showing that the components will maintain sufficient mechanical integrity to provide the degree of containment or confinement assumed. </p>  <p>For SNF, the application should specifically address whether damaged or high-burnup fuel is to be transported. High burnup fuel for light-water reactors is defined as fuel with greater than 45,000 megawatt days per metric tonne of uranium (MWD/MTU) burnup. Damaged fuel should be defined and assessed with respect to the containment, shielding, and criticality evaluations. Guidance with respect to the definition of damaged fuel is provided in reference&nbsp;2. Damage may include known or suspected cladding defects, greater than hairline cracks or pinhole leaks, or damage to the structural components of a fuel assembly, such as spacer grids. Any special provisions for transporting damaged fuel (e.g.,&nbsp;use of a canister) should be addressed. </p>
 <a name="2.12"></a>  	<h3><strong>2.12 Appendix</strong></h3>  <p>The appendix should include a list of references, with chapter, section, or page numbers if appropriate; applicable pages from referenced documents if not generally available; computer code descriptions; input and output files; test results; test reports; descriptions of test facilities; and instrumentation, photographs, and other appropriate supplemental information. This appendix should also include materials and manufacturing specifications for items that are significant with respect to safety but are not produced to generally recognized standards.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

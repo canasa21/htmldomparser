@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -175,7 +175,7 @@ Domaines de s&ucirc;ret&eacute; et de r&eacute;glementation de la CCSN
 <td valign="top"><p>Objectif de rendement</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Gestion</p></td>
+<td rowSpan="3" valign="top"><p>Gestion</p></td>
 <td valign="top"><p>Syst&egrave;me de gestion</p></td>
 <td valign="top"><p>La direction exerce une supervision ad&eacute;quate sur le contr&ocirc;le et la mise en &#339;uvre des activit&eacute;s d&eacute;finies dans l&#8217;ensemble de documents d&eacute;crivant les processus.</p></td>
 </tr>
@@ -188,7 +188,7 @@ Domaines de s&ucirc;ret&eacute; et de r&eacute;glementation de la CCSN
 <td valign="top"><p>Une conduite des op&eacute;rations s&ucirc;re et s&eacute;curitaire et qui pr&ecirc;te l&#8217;attention voulue &agrave; la pr&eacute;servation de la sant&eacute; et de la s&eacute;curit&eacute; des personnes, au maintien de la s&eacute;curit&eacute; nationale, &agrave; la protection de l&#8217;environnement et au respect des obligations internationales.</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Installation et &eacute;quipement</p></td>
+<td rowSpan="3" valign="top"><p>Installation et &eacute;quipement</p></td>
 <td valign="top"><p>Analyse de la s&ucirc;ret&eacute;</p></td>
 <td valign="top"><p>La preuve que les cons&eacute;quences des accidents de dimensionnement sont acceptables; des syst&egrave;mes de protection capables d&#8217;effectuer ad&eacute;quatement le contr&ocirc;le de la puissance, le refroidissement du combustible et le confinement de toute radioactivit&eacute; &eacute;manant de la centrale.</p></td>
 </tr>
@@ -201,7 +201,7 @@ Domaines de s&ucirc;ret&eacute; et de r&eacute;glementation de la CCSN
 <td valign="top"><p>Les syst&egrave;mes, structures et composants dont le rendement peut avoir une incidence sur la s&ucirc;ret&eacute; de l&#8217;exploitation ou la s&eacute;curit&eacute;, demeurent dans un &eacute;tat de disponibilit&eacute;, de fiabilit&eacute; et d&#8217;efficacit&eacute; qui est conforme &agrave; la conception, aux mesures de contr&ocirc;le de la qualit&eacute; et aux documents d&#8217;analyse.</p></td>
 </tr>
 <tr>
-<td rowspan="8" valign="top"><p>Processus de contr&ocirc;le de base</p></td>
+<td rowSpan="8" valign="top"><p>Processus de contr&ocirc;le de base</p></td>
 <td valign="top"><p>Radioprotection</p></td>
 <td valign="top"><p>Une protection ad&eacute;quate de la sant&eacute; et de la s&eacute;curit&eacute; des personnes se trouvant &agrave; l&#8217;int&eacute;rieur de l&#8217;installation contre les rayonnements ionisants. </p></td>
 </tr>
@@ -265,7 +265,8 @@ Domaines de s&ucirc;ret&eacute; et de r&eacute;glementation de la CCSN
 <li>AIEA,<em> Maintenance, Surveillance and In-service Inspection in Nuclear Power Plants, </em>collection Normes de s&ucirc;ret&eacute;, Guide de s&ucirc;ret&eacute; n<sup>o</sup> NS-G-2.6, Vienne, 2002.</li>
 <li>AIEA, <em>Safe Enclosure of Nuclear Facilities During Deferred Dismantling</em>, collection Rapports de s&ucirc;ret&eacute;, n<sup>o</sup> 26, Vienne,&nbsp;2002.</li>
 <li><em>Loi sur les d&eacute;chets de combustible nucl&eacute;aire, </em>L.C. 2002, ch. 23.</li>  </ol>  <p><sup><a href="#P297_37920" name="P297_37919" id="P297_37919">1</a></sup> AIEA, <em>Basic Safety Principles for Nuclear Power Plants 75-INSAG-3 R&eacute;v. </em>1, INSAG 12, Vienne, 1999.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -175,7 +175,8 @@ Student Salary Ranges &ndash; Effective May 1, 2020
 <td className="text-center">&ndash;</td>
 <td className="text-center">$33.76/hr </td>
 </tr>  </table>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -423,7 +423,8 @@ souterraine, &agrave; Environnement Canada). Il a accumul&eacute; des connaissan
 f&eacute;d&eacute;rale-provinciale sur le projet de carri&egrave;re et de terminal de Whites Point (2004), et membre de la commission d&rsquo;examen du projet de super-carri&egrave;re c&ocirc;ti&egrave;re de Kelly Mountain (1991).</p>   <p>M. Muecke a publi&eacute;, seul ou en collaboration, des rapports de recherche sur la g&eacute;ologie, la g&eacute;ochimie, la p&eacute;trogen&egrave;se, la g&eacute;ochronologie et l&rsquo;&eacute;volution stratigraphique et magmatique. Il a &eacute;t&eacute; membre actif de comit&eacute;s de d&eacute;partements et de facult&eacute;s
 comme le Comit&eacute; de bourses de recherche postdoctorale, le Comit&eacute; de programmes d&rsquo;&eacute;tudes du d&eacute;partement des sciences de la Terre (pr&eacute;sident) et le Comit&eacute; des &eacute;tudes nordiques de l&rsquo;Universit&eacute; Dalhousie (pr&eacute;sident). Il a &eacute;t&eacute; membre de revues techniques
 interdisciplinaires internationales comme le comit&eacute; de r&eacute;daction de Lanthanide and Actinide Research.</p>   <p>Au cours de sa carri&egrave;re, M. Muecke a re&ccedil;u de nombreux prix, dont la M&eacute;daille d&rsquo;or en g&eacute;ologie de l&rsquo;Universit&eacute; de l&rsquo;Alberta (1963), la bourse d&rsquo;&eacute;tudes Woodrow Wilson (1964), la bourse de recherche de la Fondation Alexander von Humboldt (1977, 1978
-et 1983) et le Fonds de dotation pour le futur de l&rsquo;Universit&eacute; de l&rsquo;Alberta (1982).</p> 
+et 1983) et le Fonds de dotation pour le futur de l&rsquo;Universit&eacute; de l&rsquo;Alberta (1982).</p> </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

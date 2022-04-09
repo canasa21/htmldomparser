@@ -18,16 +18,16 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
-<div className="col-md-22">
-<div className="col-md-6 ">
+<div className="row">
+<div className="col-md-8">
+<div className="col-md-4 ">
 <img alt="" src="/images/our-experts/web-faces-jean-claude-poirier.png"/>
 <p>
 Jean-Claude (JC) Poirier<br/>
 Agent principal de projet
 </p>
 </div>
-<div className="col-md-12 ">
+<div className="col-md-8 ">
 <p>Jean-Claude (J.-C.) Poirier, un agent principal de projet qui fait partie de la CCSN depuis 26 ans, travaille à des initiatives damélioration organisationnelle à la Division de la gestion interne de la qualité. </p>
 <p>J.-C. a dirigé le développement du Programme des sanctions administratives pécuniaires (SAP) de la CCSN dont il assure maintenant la gestion. Il a aussi joué un rôle clé dans lélaboration du processus interne Réaliser une inspection et de la stratégie dapplication de la loi. À lheure actuelle, il dirige lélaboration de la position de la CCSN concernant les enquêtes. Pour ce faire, il collabore avec des experts en formation pour préparer et donner des cours liés au Programme de formation et de qualification des inspecteurs.</p>
 <p>« Tout au long de ma carrière, je me suis efforcé daccroître la qualité de notre régime de conformité et dapplication de la loi afin de servir et de protéger plus efficacement les Canadiens », déclare J.-C. </p>
@@ -37,7 +37,8 @@ Agent principal de projet
 <p><a href="/fra/about-us/history/75-anniversary-faces">Visages de la CCSN</a></p>
 </div>
 </div>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

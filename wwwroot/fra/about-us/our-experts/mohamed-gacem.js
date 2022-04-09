@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Division du programme de r&eacute;glementation des Laboratoires Nucl&eacute;aires Canadiens</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MGacem-sq.png" alt="" />
 <figcaption>Mohamed Cherif Gacem,<br/>
 Agent principal de projet</figcaption>
@@ -30,7 +30,8 @@ Agent principal de projet</figcaption>
 <h2>Expertise et &eacute;ducation</h2>
 <p>Mohamed est ing&eacute;nieur m&eacute;canique professionnel et poss&egrave;de un titre de comp&eacute;tences en s&ucirc;ret&eacute; nucl&eacute;aire. Il a accumul&eacute; plus de 20 ans d&rsquo;expertise en g&eacute;nie nucl&eacute;aire, plus particuli&egrave;rement en conception, construction, mise en service, exploitation, d&eacute;classement et surveillance r&eacute;glementaire des installations et activit&eacute;s de gestion des d&eacute;chets nucl&eacute;aires.</p>
 <h2>Recherches et projets actuels</h2>
-<p><strong>Projet</strong> : <a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. En ce qui concerne l&rsquo;examen effectu&eacute; par la CCSN de cette installation propos&eacute;e par les LNC, le r&ocirc;le de Mohamed est celui d&rsquo;agent de projet responsable de la d&eacute;livrance de permis. Il est l&rsquo;unique point de contact pour le titulaire de permis, en plus de s&rsquo;occuper des examens et &eacute;valuations techniques de tous les aspects de la gestion des d&eacute;chets et du d&eacute;classement, de la conception de l&rsquo;installation, de l&rsquo;analyse de la s&ucirc;ret&eacute; et des &eacute;valuations de la s&ucirc;ret&eacute;, de la conduite de l&rsquo;exploitation, de la sant&eacute; et s&eacute;curit&eacute; classiques et de la protection de l&rsquo;environnement.</p>  
+<p><strong>Projet</strong> : <a href="/fra/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">installation de gestion des d&eacute;chets pr&egrave;s de la surface (IGDPS) des Laboratoires Nucl&eacute;aires Canadiens</a>. En ce qui concerne l&rsquo;examen effectu&eacute; par la CCSN de cette installation propos&eacute;e par les LNC, le r&ocirc;le de Mohamed est celui d&rsquo;agent de projet responsable de la d&eacute;livrance de permis. Il est l&rsquo;unique point de contact pour le titulaire de permis, en plus de s&rsquo;occuper des examens et &eacute;valuations techniques de tous les aspects de la gestion des d&eacute;chets et du d&eacute;classement, de la conception de l&rsquo;installation, de l&rsquo;analyse de la s&ucirc;ret&eacute; et des &eacute;valuations de la s&ucirc;ret&eacute;, de la conduite de l&rsquo;exploitation, de la sant&eacute; et s&eacute;curit&eacute; classiques et de la protection de l&rsquo;environnement.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

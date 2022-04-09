@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -179,7 +179,7 @@ tbs-sct.gc.ca/tbsf-fsct/index-eng.asp</a>:</p>  <ul>
 <td valign="top"><p>Compromise would affect an interest other than the national interest or the national security of Canada</p></td>
 <td valign="top"><p>Compromise would affect the national interest or the national security of Canada</p></td>  	</tr>  	<tr>
 <td colSpan="3" valign="top"><p>Required markings</p></td>  	</tr>  	<tr>
-<td rowspan="3" valign="top"><p>Prescribed Information</p></td>
+<td rowSpan="3" valign="top"><p>Prescribed Information</p></td>
 <td valign="top"><p>Protected &#8220;A&#8221; </p>
 <p>(injury)</p></td>
 <td valign="top"><p>Level I, Confidential</p>
@@ -238,7 +238,8 @@ http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=16578&amp;section=text</a></li>
 <li> IAEA Nuclear Security Series No. 8, Implementing Guide,<em> Preventive and Protective Measures against Insider Threats</em>, Vienna, 2008.</li>
 <li>The International Training Course (ITC 22 - 2010), <em>Physical Protection of Nuclear Facilities and Materials</em>, Albuquerque, New Mexico, USA.</li>
 <li><em>Industrial Security Manual</em>, 2012. The Public Works Government Services Canada &#8211; Industrial Security Program.
-<a href="http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-eng.html">http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-eng.html</a></li>  </ol>  
+<a href="http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-eng.html">http://ssi-iss.tpsgc-pwgsc.gc.ca/msi-ism/msi-ism-eng.html</a></li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

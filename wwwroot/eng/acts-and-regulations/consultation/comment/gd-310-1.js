@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -398,10 +398,10 @@ Table 3: Minimum Expectations for the Number of Trip Parameters
 <td valign="top"><p align="center"><strong>Trip Parameter Total</strong></p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p align="center">1</p></td>
-<td rowspan="4" valign="top"><p align="center">No</p></td>
-<td rowspan="2" valign="top"><p align="center">One fast-acting SD means</p></td>
-<td rowspan="2" valign="top"><p align="center">One direct TP per event</p></td>
+<td rowSpan="4" valign="top"><p align="center">1</p></td>
+<td rowSpan="4" valign="top"><p align="center">No</p></td>
+<td rowSpan="2" valign="top"><p align="center">One fast-acting SD means</p></td>
+<td rowSpan="2" valign="top"><p align="center">One direct TP per event</p></td>
 <td valign="top"><p align="center">Yes</p></td>
 <td valign="top"><p align="center">One direct TP per event</p></td>
 <td valign="top"><p align="center">One TP</p></td>
@@ -412,8 +412,8 @@ Table 3: Minimum Expectations for the Number of Trip Parameters
 <td valign="top"><p align="center">Two TPs</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p align="center">Second SD means</p></td>
-<td rowspan="2" valign="top"><p align="center">One direct TP per event</p></td>
+<td rowSpan="2" valign="top"><p align="center">Second SD means</p></td>
+<td rowSpan="2" valign="top"><p align="center">One direct TP per event</p></td>
 <td valign="top"><p align="center">Yes</p></td>
 <td valign="top"><p align="center">One direct TP per event</p></td>
 <td valign="top"><p align="center">One TP</p></td>
@@ -424,10 +424,10 @@ Table 3: Minimum Expectations for the Number of Trip Parameters
 <td valign="top"><p align="center">Two TPs</p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p align="center">2</p></td>
-<td rowspan="4" valign="top"><p align="center">Yes</p></td>
-<td rowspan="2" valign="top"><p align="center">One fast-acting SD means</p></td>
-<td rowspan="2" valign="top"><p align="center">Two TPs per event (at least one direct)</p></td>
+<td rowSpan="4" valign="top"><p align="center">2</p></td>
+<td rowSpan="4" valign="top"><p align="center">Yes</p></td>
+<td rowSpan="2" valign="top"><p align="center">One fast-acting SD means</p></td>
+<td rowSpan="2" valign="top"><p align="center">Two TPs per event (at least one direct)</p></td>
 <td valign="top"><p align="center">Yes</p></td>
 <td valign="top"><p align="center">Two TPs (at least one direct)</p></td>
 <td valign="top"><p align="center">Two TPs</p></td>
@@ -438,8 +438,8 @@ Table 3: Minimum Expectations for the Number of Trip Parameters
 <td valign="top"><p align="center">Two TPs</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p align="center">Second fast-acting SD means</p></td>
-<td rowspan="2" valign="top"><p align="center">Two TPs per event (at least one direct)</p></td>
+<td rowSpan="2" valign="top"><p align="center">Second fast-acting SD means</p></td>
+<td rowSpan="2" valign="top"><p align="center">Two TPs per event (at least one direct)</p></td>
 <td valign="top"><p align="center">Yes</p></td>
 <td valign="top"><p align="center">Two TPs (at least one direct)</p></td>
 <td valign="top"><p align="center">Two TPs</p></td>
@@ -585,7 +585,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="10" valign="top"><p>Small LOCA</p>
+<td rowSpan="10" valign="top"><p>Small LOCA</p>
 <ul>
 <li>Small HTS pipe failure (~50-1000 kg/s)</li>
 <li> Pipe failure at the top of pressurizer</li>
@@ -653,7 +653,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Transition break LOCA</p>
+<td rowSpan="9" valign="top"><p>Transition break LOCA</p>
 <ul>
 <li> HTS pipe failure (1000&#8211;3000 kg/s)</li>
 </ul></td>
@@ -711,7 +711,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Large-break LOCA</p>
+<td rowSpan="9" valign="top"><p>Large-break LOCA</p>
 <ul>
 <li> (&gt;3000 kg/s)</li>
 </ul></td>
@@ -772,7 +772,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>LOCA outside containment</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Very small LOCA (leak) outside containment</p>
+<td rowSpan="2" valign="top"><p>Very small LOCA (leak) outside containment</p>
 <ul>
 <li> HTS instrument tubing rupture outside containment</li>
 </ul></td>
@@ -795,7 +795,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="5" valign="top"><p>Single SG tube rupture</p></td>
+<td rowSpan="5" valign="top"><p>Single SG tube rupture</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -840,7 +840,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>HTS gland seal failure</p></td>
+<td rowSpan="2" valign="top"><p>HTS gland seal failure</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -853,7 +853,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>HTS bleed line failure</p></td>
+<td rowSpan="2" valign="top"><p>HTS bleed line failure</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -866,7 +866,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>HTS feed line failure </p></td>
+<td rowSpan="2" valign="top"><p>HTS feed line failure </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -889,7 +889,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Loss of flow</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Minor flow blockage in one channel </p></td>
+<td rowSpan="2" valign="top"><p>Minor flow blockage in one channel </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -902,7 +902,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Severe flow blockage in one channel</p></td>
+<td rowSpan="2" valign="top"><p>Severe flow blockage in one channel</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -915,7 +915,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Stagnation feeder break</p></td>
+<td rowSpan="9" valign="top"><p>Stagnation feeder break</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -973,7 +973,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Fuelling failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="9" valign="top"><p>Fuel ejection from fuelling machine into containment</p></td>
+<td rowSpan="9" valign="top"><p>Fuel ejection from fuelling machine into containment</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1031,7 +1031,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Feedwater system failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Total loss of feedwater</p></td>
+<td rowSpan="3" valign="top"><p>Total loss of feedwater</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1050,7 +1050,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Feedwater line failure upstream of the last check valve</p></td>
+<td rowSpan="3" valign="top"><p>Feedwater line failure upstream of the last check valve</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1069,7 +1069,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Feedwater line failure downstream of the last check valve</p></td>
+<td rowSpan="3" valign="top"><p>Feedwater line failure downstream of the last check valve</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1119,7 +1119,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Large steam pipe failure:</p>
+<td rowSpan="3" valign="top"><p>Large steam pipe failure:</p>
 <ul>
 <li> Main steam line rupture</li>
 <li> Main steam balance header failure</li>
@@ -1143,7 +1143,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Reheater drain line failure</p></td>
+<td rowSpan="3" valign="top"><p>Reheater drain line failure</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1196,7 +1196,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Fuel handling system failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Loss of fuelling machine (FM) cooling in transit</p></td>
+<td rowSpan="3" valign="top"><p>Loss of fuelling machine (FM) cooling in transit</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1215,7 +1215,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top"><p align="center">&#8730;</p></td>
 </tr>
 <tr>
-<td rowspan="4" valign="top"><p>Loss of FM coolant on reactor</p></td>
+<td rowSpan="4" valign="top"><p>Loss of FM coolant on reactor</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1240,7 +1240,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Bundle crushed with FM latched to reactor</p></td>
+<td rowSpan="2" valign="top"><p>Bundle crushed with FM latched to reactor</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1253,7 +1253,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Fuel handling incidents at the irradiated fuel port (IFP)</p></td>
+<td rowSpan="2" valign="top"><p>Fuel handling incidents at the irradiated fuel port (IFP)</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1266,7 +1266,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Irradiated fuel bay (IFB) incidents</p></td>
+<td rowSpan="2" valign="top"><p>Irradiated fuel bay (IFB) incidents</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1279,7 +1279,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Loss of IFB cooling</p></td>
+<td rowSpan="3" valign="top"><p>Loss of IFB cooling</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1298,7 +1298,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Loss of IFB inventory</p></td>
+<td rowSpan="2" valign="top"><p>Loss of IFB inventory</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1314,7 +1314,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Electrical failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Loss of Class IV power</p></td>
+<td rowSpan="2" valign="top"><p>Loss of Class IV power</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1445,7 +1445,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Shield cooling system loss of circulation </p></td>
+<td rowSpan="2" valign="top"><p>Shield cooling system loss of circulation </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1465,7 +1465,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Loss of end shield inventory </p></td>
+<td rowSpan="2" valign="top"><p>Loss of end shield inventory </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1495,7 +1495,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Moderator system failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="5" valign="top"><p>Loss of LPSWOS</p></td>
+<td rowSpan="5" valign="top"><p>Loss of LPSWOS</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1526,7 +1526,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Loss of moderator circulation</p></td>
+<td rowSpan="3" valign="top"><p>Loss of moderator circulation</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1552,7 +1552,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p>Loss of moderator inventory </p></td>
+<td rowSpan="2" valign="top"><p>Loss of moderator inventory </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top">&#160; </td>
 <td valign="top"><p align="center">&#8730;</p></td>
@@ -1586,7 +1586,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td valign="top">&#160; </td>
 </tr>
 <tr>
-<td rowspan="3" valign="top"><p>Loss of LPSWOS to moderator heat exchangers</p></td>
+<td rowSpan="3" valign="top"><p>Loss of LPSWOS to moderator heat exchangers</p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -1608,7 +1608,7 @@ Table A.1: Outputs of Event Identification and Classification
 <td colSpan="5" valign="top"><p align="left"><strong>Support system failures</strong></p></td>
 </tr>
 <tr>
-<td rowspan="6" valign="top"><p>Loss of LPSWOS/Recirculating Cooling Water failure </p></td>
+<td rowSpan="6" valign="top"><p>Loss of LPSWOS/Recirculating Cooling Water failure </p></td>
 <td valign="top"><p>No additional failures</p></td>
 <td valign="top"><p align="center">&#8730;</p></td>
 <td valign="top">&#160; </td>
@@ -2147,7 +2147,8 @@ Table B.2: Examples of Acceptance Criteria for Design Basis Accidents
 <li> Canadian Nuclear Safety Commission, RD-327, <em>Nuclear Criticality Safety</em>, Ottawa, 2010.</li>
 <li> Canadian Nuclear Safety Commission, GD-327, <em>Guidance for Nuclear Criticality Safety</em>, Ottawa, 2010.</li>
 <li> Canadian Standards Association, N286.7-99, <em>Quality Assurance of Analytical, Scientific and Design Computer Programs for Nuclear Power Plants</em>, Toronto, 2003.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

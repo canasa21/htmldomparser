@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -554,9 +554,9 @@ For mild environment qualification, the design should include the following:
 Table 1: Structural acceptance criteria for reinforced concrete elements adapted from the American Concrete Institute, ACI 349-06, <em>Code Requirements for Nuclear Safety-related Concrete Structures and Commentary </em>and U.S. Department of the Army, TM 5-1300, <em>Structures to Resist the Effects of Accidental Explosions</em>, 1990. (superseded by UFC 3-340-02, 2008).
 </caption>
 <tr>
-<th id="t" rowspan="2">Element type</th>
-<th id="s" rowspan="2">Controlling stress</th>
-<th id="d" rowspan="2">Ductility, &#956;<sub>a</sub></th>
+<th id="t" rowSpan="2">Element type</th>
+<th id="s" rowSpan="2">Controlling stress</th>
+<th id="d" rowSpan="2">Ductility, &#956;<sub>a</sub></th>
 <th id="r" colSpan="3">Support rotation in degrees<sup>(3,4),</sup> &#952;<sub>a</sub><br/><br/> </th>
 </tr>
 <tr>
@@ -565,12 +565,12 @@ Table 1: Structural acceptance criteria for reinforced concrete elements adapted
 <th id="bdbt2">Second Tier BDBTs</th>
 </tr>
 <tr>
-<th id="p" headers="t" rowspan="6">Beams</th>
+<th id="p" headers="t" rowSpan="6">Beams</th>
 <td headers="s p">Flexure</td>
 <td headers="d p"><sup>(2)</sup></td>
-<td headers="r dbt p" rowspan="6">essentially elastic behavior<sup>(6)</sup></td>
-<td headers="r bdbt1 p" rowspan="6">2</td>
-<td headers="r bdbt2 p" rowspan="6">4</td>
+<td headers="r dbt p" rowSpan="6">essentially elastic behavior<sup>(6)</sup></td>
+<td headers="r bdbt1 p" rowSpan="6">2</td>
+<td headers="r bdbt2 p" rowSpan="6">4</td>
 </tr>
 <tr>
 <td headers="s p">Shear: <sup>(1)</sup></td>
@@ -593,12 +593,12 @@ Table 1: Structural acceptance criteria for reinforced concrete elements adapted
 <td headers="d p">1.3</td>
 </tr>
 <tr>
-<th id="ds" headers="t" rowspan="6">Slabs</th>
+<th id="ds" headers="t" rowSpan="6">Slabs</th>
 <td headers="s ds" >Flexure</td>
 <td headers="d ds"><sup>(2)</sup></td>
-<td headers="r dbt ds" rowspan="6">essentially elastic behavior<sup>(6)</sup></td>
-<td headers="r bdbt1 ds" rowspan="6">4</td>
-<td headers="r bdbt2 ds" rowspan="6">8</td>
+<td headers="r dbt ds" rowSpan="6">essentially elastic behavior<sup>(6)</sup></td>
+<td headers="r bdbt1 ds" rowSpan="6">4</td>
+<td headers="r bdbt2 ds" rowSpan="6">8</td>
 </tr>
 <tr>
 <td headers="s ds">Shear: <sup>(1)</sup></td>
@@ -621,24 +621,24 @@ Table 1: Structural acceptance criteria for reinforced concrete elements adapted
 <td headers="d ds">1.3</td>
 </tr>
 <tr>
-<th id="pc" headers="t" rowspan="2">Beam-columns, walls and slabs in compression</th>
+<th id="pc" headers="t" rowSpan="2">Beam-columns, walls and slabs in compression</th>
 <td headers="s pc">Flexure<br /></td>
 <td headers="d pc">1.3 <sup>(5)</sup></td>
-<td headers="r dbt pc" rowspan="2">essentially elastic behavior<sup>(6)</sup></td>
-<td headers="r bdbt1 pc" rowspan="2">2</td>
-<td headers="r bdbt2 pc" rowspan="2">4</td>
+<td headers="r dbt pc" rowSpan="2">essentially elastic behavior<sup>(6)</sup></td>
+<td headers="r bdbt1 pc" rowSpan="2">2</td>
+<td headers="r bdbt2 pc" rowSpan="2">4</td>
 </tr>
 <tr>
 <td headers="s pc">Compression</td>
 <td headers="d pc">1.3</td>
 </tr>
 <tr>
-<th id="cm" headers="t" rowspan="2">Shear walls, diaphragms</th>
+<th id="cm" headers="t" rowSpan="2">Shear walls, diaphragms</th>
 <td headers="s cm">Flexure</td>
 <td headers="d cm">3</td>
-<td headers="r dbt cm" rowspan="2">essentially elastic behavior<sup>(6)</sup></td>
-<td headers="r bdbt1 cm" rowspan="2">1.5</td>
-<td headers="r bdbt2 cm" rowspan="2">2</td>
+<td headers="r dbt cm" rowSpan="2">essentially elastic behavior<sup>(6)</sup></td>
+<td headers="r bdbt1 cm" rowSpan="2">1.5</td>
+<td headers="r bdbt2 cm" rowSpan="2">2</td>
 </tr>
 <tr>
 <td headers="s cm">Shear &#8211; In-plane</td>
@@ -660,7 +660,7 @@ Table 2: Structural acceptance criteria - allowable strains for steel
 <th scope="col">Allowable value for First Tier BDBTs</th>
 </tr>
 <tr>
-<th scope="row" rowspan="2">Carbon steel plate</th>
+<th scope="row" rowSpan="2">Carbon steel plate</th>
 <td>Membrane principal strain (tensile)</td>
 <td>0.01</td>
 <td>0.050</td>
@@ -671,7 +671,7 @@ Table 2: Structural acceptance criteria - allowable strains for steel
 <td>0.140/TF</td>
 </tr>
 <tr>
-<th scope="row" rowspan="2">304 stainless steel plate</th>
+<th scope="row" rowSpan="2">304 stainless steel plate</th>
 <td>Membrane principal strain (tensile)</td>
 <td>0.01</td>
 <td>0.067</td>
@@ -1399,7 +1399,8 @@ N286.7-99, <em>Quality Assurance of Analytical, Scientific, and Design Computer 
 <li> Nuclear Energy Institute, NEI 07-13, <em>Methodology for Performing Aircraft Impact Assessments for New Plant Designs</em>, 2011</li>
 <li> Nuclear Energy Institute, NEI 08-09 Rev.6, <em>Cyber Security Plan for Nuclear Power Reactors</em>, 2010</li>
 <li> Nuclear Information and Records Management Association/American National Standards Institute (NIRMA/ANSI), <em>Standard Configuration Management (CM),</em> 1.0-2007</li>
-<li> U.S. Department of the Army, TM 5-1300, <em>Structures to Resist the Effects of Accidental Explosions</em>, 1990.  Superceded by UFC 3-340-02, 2008</li>  </ol>  
+<li> U.S. Department of the Army, TM 5-1300, <em>Structures to Resist the Effects of Accidental Explosions</em>, 1990.  Superceded by UFC 3-340-02, 2008</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

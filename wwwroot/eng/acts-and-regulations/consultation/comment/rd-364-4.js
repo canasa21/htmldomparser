@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -48,7 +48,7 @@ Commercial Pressurized and Boiling-Water (PWR and BWR) Reactors  for Burnups bel
 <td></td>
 </tr>
 <tr>
-<td rowspan="2" valign="top"><p className=""><strong>Variable</strong></p></td>
+<td rowSpan="2" valign="top"><p className=""><strong>Variable</strong></p></td>
 <td colSpan="2" valign="top"><p className=""><strong>PWR</strong></p></td>
 <td colSpan="2" valign="top"><p className=""><strong>BWR</strong></p></td>
 </tr>
@@ -128,7 +128,8 @@ Commercial Pressurized and Boiling-Water (PWR and BWR) Reactors  for Burnups bel
 <li> Periodic leakage rate test; and</li>
 <li> Pre-shipment leakage rate test.</li>  </ol>  <p>Fabrication, maintenance, and periodic leakage rate tests should be included in Section&nbsp;8, <em>Acceptance Tests and Maintenance Program,</em> of the application. The pre-shipment leakage rate test for assembly verification should be included in Section 7, <em>Operating Procedures,</em> of the application..</p>  <p>Sample analyses for determining containment criteria for Type B packages are provided in NUREG/CR-6487. If these analyses are used, demonstration that the assumptions used in NUREG/CR-6487 are applicable to the package under consideration is required. </p>  <p>Methods for leak testing of all containment seals and penetrations, including drain and vent ports, should be described. If fill, drain, or test ports use quick-disconnect valves, demonstration that these do not preclude leak testing of the containment seals should be provided. The maximum allowable leakage rate and the minimum test sensitivity should be specified for each type of test (e.g., fabrication, maintenance, periodic, and pre-shipment tests).</p>  <p>A method to determine the maximum permissible volumetric leakage<em> </em>rates based on the allowed regulatory release rates under both normal conditions of transport and hypothetical accident conditions can be found in ANSI N14.5. The smaller of these air leakage rates is defined as the reference air leakage rate. ISO 12807 also presents a way of calculating the release rate.</p>
 <a name="4.5"></a>  	<h3><strong>4.5 Appendix</strong></h3>  <p>The appendix should include a list of references, applicable pages from referenced documents, supporting information and analysis, test results, and other appropriate supplemental information.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

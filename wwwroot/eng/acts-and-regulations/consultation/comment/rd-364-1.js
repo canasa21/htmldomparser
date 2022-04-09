@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -88,7 +88,6 @@ import React from "react"
 <li> Operational specifications (e.g., bolt torque);</li>
 <li> Weld design and inspection method; and</li>
 <li> Gasketted joints in the containment system with sufficient detail to show, as a minimum, the surface finish and flatness requirements of the closure surfaces, the gasket or O-ring specification, and, if appropriate, the method of gasket or O-ring retention.</li>  </ol>  <p>The appendix should also include a list of references, applicable pages from referenced documents that are not generally available, supporting information on special fabrication procedures, determination of the package category, and other appropriate supplemental information. </p>  <div style="padding-left:10px;padding-right:10px;background-color:#efefef;border:1px solid black;"><p>A generic sketch representing the package as prepared for transport in order to comply with Paragraph&nbsp;807(h) of TS-R-1 as referenced in Paragraph&nbsp;7(1)(<em>a</em>) of the PTNS Regulations. This sketch is required under the Canadian regulations. The appendix should include a generic sketch which represents the package as prepared for transport.</p></div>
-
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

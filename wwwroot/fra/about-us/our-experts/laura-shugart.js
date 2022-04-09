@@ -18,16 +18,16 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
-<div className="col-md-22">
-<div className="col-md-6 ">
+<div className="row">
+<div className="col-md-8">
+<div className="col-md-4 ">
 <iframe width="380" height="214" src="https://www.youtube.com/embed/SCTulzHESXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>
 Laura Shugart <br/>
 Agente de projet
 </p>
 </div>
-<div className="col-md-12 ">
+<div className="col-md-8 ">
 <p>En tant quagente de projet à la Division de la coordination de la réglementation des opérations, Laura Shugart aide à administrer le Programme de formation et de qualification des inspecteurs. Le programme permet de sassurer que les inspecteurs acquièrent et maintiennent les connaissances, les compétences et laccréditation nécessaires pour protéger les Canadiens et lenvironnement.</p>
 <p>La CCSN, qui a le pouvoir de former et daccréditer des inspecteurs, compte actuellement environ 180 inspecteurs accrédités. Les inspecteurs ont la tâche essentielle de protéger le public et lenvironnement en sassurant que les titulaires de permis respectent la réglementation en vigueur.   </p>
 <p>« Si les inspecteurs ne sont pas adéquatement formés dans leur secteur de service, ils nauront pas les compétences nécessaires pour effectuer des inspections efficaces, qui sont indispensables à la protection des Canadiens et de lenvironnement », précise Laura. </p>
@@ -35,7 +35,8 @@ Agente de projet
 <p><a href="/fra/about-us/history/75-anniversary-faces">Visages de la CCSN</a></p>
 </div>
 </div>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

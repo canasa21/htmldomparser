@@ -199,7 +199,8 @@ Aper&ccedil;u des avantages sociaux des employ&eacute;s
 <li> Le paiement maximum ne peut d&eacute;passer une r&eacute;mun&eacute;ration de 12 heures par jour et est calcul&eacute; au taux r&eacute;gulier</li>
 </ul></td>
 </tr>
-</table>  
+</table>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

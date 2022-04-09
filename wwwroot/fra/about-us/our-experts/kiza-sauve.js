@@ -47,7 +47,8 @@ import React from "react"
 <ul>
 <li><a href="https://www.linkedin.com/in/kiza-sauve/">Profil LinkedIn</a></li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

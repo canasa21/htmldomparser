@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -378,7 +378,8 @@ import React from "react"
 <li> IAEA Safety Standards Series No.&nbsp;TS-R-1, <em>Regulations for the Safe Transport of Radioactive Material</em>,&nbsp;2009.</li>
 <li> IAEA Safety Standards Series No.&nbsp;TS-G-1.1 (Rev.&nbsp;1), <em>Advisory Material for the IAEA Regulations for the Safe Transport of Radioactive Material</em>, 2008.</li>
 <li> CNSC, RD-364 <em>Joint Canada&#8212;United States Guide for Approval of Type&nbsp;B(U) and Fissile Material Transportation Packages</em>, March&nbsp;2009.</li>
-<li> American National Standards <em>Dosimetry for Criticality Accidents</em>, ANSI N13.3-1969&nbsp;(R1981).</li>  </ol>  
+<li> American National Standards <em>Dosimetry for Criticality Accidents</em>, ANSI N13.3-1969&nbsp;(R1981).</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

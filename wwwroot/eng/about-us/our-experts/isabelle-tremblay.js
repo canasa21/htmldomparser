@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Transport Licensing and Strategic Support Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_ITremblay-sub.png" alt="" />
 <figcaption>Isabelle Tremblay,<br/>
 Program Officer</figcaption>
@@ -31,7 +31,8 @@ Program Officer</figcaption>
 <h2>Roles and responsibilities</h2>
 <p>In her position, Isabelle is responsible for technical assessments of prescribed equipment certification applications. She is also a <a href="/eng/the-commission/designated-officers">designated officer</a> (DO) appointed by the Commission to carry out specific licensing and regulatory actions, and allowing her to make certain decisions on behalf of the Commission. DOs are a key part of the CNSC&rsquo;s licensing and compliance framework and allow the organization to handle the approximate 1,800 licences and certificates that need to be reviewed, monitored and enforced each year.</p>
 <h2>Other roles</h2>
-<p>Isabelle played an instrumental role in publishing the CNSC&rsquo;s first editions of the <em>Annual Regulatory Oversight Report on the Use of Nuclear Substances in Canada</em>, reporting on approximately 2,500 licensees. This report was a first in Canada and outlined the safety performance of the licensees authorized to use nuclear substances. She is an advocate for gender equity and an active member of the CNSC&rsquo;s Women in Science, Technology, Engineering and Mathematics (STEM) Network, through which she conducts outreach activities with her colleagues to encourage young students, especially girls, to pursue STEM careers.</p>  
+<p>Isabelle played an instrumental role in publishing the CNSC&rsquo;s first editions of the <em>Annual Regulatory Oversight Report on the Use of Nuclear Substances in Canada</em>, reporting on approximately 2,500 licensees. This report was a first in Canada and outlined the safety performance of the licensees authorized to use nuclear substances. She is an advocate for gender equity and an active member of the CNSC&rsquo;s Women in Science, Technology, Engineering and Mathematics (STEM) Network, through which she conducts outreach activities with her colleagues to encourage young students, especially girls, to pursue STEM careers.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

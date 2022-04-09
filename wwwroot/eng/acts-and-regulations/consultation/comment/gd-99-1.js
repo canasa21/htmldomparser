@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -173,7 +173,7 @@ Every licensee and every prescribed person shall:</p>
 <p>(i) any theft or loss of a nuclear substance, prescribed equipment or prescribed information that is used in carrying on any activity that is authorized by this Act</p>
 </ul>
 </ul></td>
-<td rowspan="11" valign="top"><p>In addition to the reporting requirements specified in GNSCR 29(1), the licensee shall include in the preliminary report the information specified in RD-99.1. </p>
+<td rowSpan="11" valign="top"><p>In addition to the reporting requirements specified in GNSCR 29(1), the licensee shall include in the preliminary report the information specified in RD-99.1. </p>
 <p>In addition to the reporting requirements specified in GNSCR 29(1), the licensee shall include in the full report the information specified in Detailed Report (1) found in RD-99.1. </p>
 <p>The licensee shall submit the full report within 60 days of the occurrence of the event. </p></td>
 </tr>
@@ -285,7 +285,7 @@ Every licensee who becomes aware of any of the following situations shall immedi
 (d) the adverse effects on the environment, the health and safety of persons and the maintenance of national and international security that have resulted or may result from the situation;<br />
 (e) the effective dose and equivalent dose of radiation received by any person as a result of the situation; and <br />
 (f) the actions that the licensee has taken or proposes to take with respect to the situation</p></td>
-<td rowspan="2" valign="top">&nbsp;</td>
+<td rowSpan="2" valign="top">&nbsp;</td>
 </tr>
 <tr>
 <td valign="top"><p>13.</p></td>
@@ -654,7 +654,8 @@ There are five levels of defence in depth:</dd>  </dl>  <ol className="lower-alp
 <li>CAN/CSA N289.5, <em>Seismic Instrumentation Requirements for CANDU Nuclear Power Plants</em>, Canadian Standards Association</li>
 <li>ANR1.OR, <em>Implementing Guideline 19.1</em>, World Association of Nuclear Operators, 1996</li>
 <li>ISO 17025, <em>Quality Manual Template</em>, International Organization for Standardization, 2005</li>  </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

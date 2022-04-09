@@ -165,7 +165,8 @@ Other benefits include:
 </ul></td>
 </tr>
 </tfoot>
-</table>  
+</table>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

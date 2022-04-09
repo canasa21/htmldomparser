@@ -59,7 +59,8 @@ C.P. 1046, succursale B<br/>
 Ottawa (Ontario) K1P 5S9</li>
 <li>T&eacute;l&eacute;copieur  : 613-995-5086 </li>
 </ul>
-<h2>&nbsp;</h2>  
+<h2>&nbsp;</h2>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

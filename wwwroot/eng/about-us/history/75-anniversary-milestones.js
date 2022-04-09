@@ -18,8 +18,8 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
-<div className="col-md-22">
+<div className="row">
+<div className="col-md-8">
 <div className="span-3 "> <a href="#1955"><img src="/images/75th-anniversary/75_milestones_1955.png" alt=""/></a>
 <p><a href="#1955">1946-1955: Building the framework for nuclear safety in Canada</a></p>
 </div>
@@ -32,7 +32,6 @@ import React from "react"
 <div className="span-3 "> <a href="#1985"><img src="/images/75th-anniversary/75_milestones_1985.png" alt=""/></a>
 <p><a href="#1985">1976-1985: Instilling confidence in Canada&rsquo;s nuclear regulation and safety</a></p>
 </div>
-<div className="clear"></div>
 <div className="span-3 "> <a href="#1995"><img src="/images/75th-anniversary/75_milestones_1995.png" alt=""/></a>
 <p><a href="#1995">1986-1995: Demonstrating leadership on the global stage</a></p>
 </div>
@@ -47,9 +46,9 @@ import React from "react"
 </div>
 </div>
 <h2 id="1955">1946-1955: Building the framework for nuclear safety in Canada</h2>
-<div className="col-md-22">
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1955.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-8">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1955.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1946</strong> &ndash;  On October 12, the <em>Atomic Energy Control  Act</em> is proclaimed. Under this act, the Government of Canada establishes the  Atomic Energy Control Board (AECB) as a regulatory agency to provide control  and supervision of the development, application and use of atomic energy. The  board also plays a role in enabling Canada to participate effectively in  measures of international control of atomic energy.</li>
 <li><strong>1947</strong> &ndash;  One year later in July 1947, Canada is ready for the first research reactor to  start operating at Chalk River Laboratories. So far, it is the world&rsquo;s most  powerful research reactor, producing isotopes and giving Canada the lead in  nuclear medicine.</li>
@@ -64,8 +63,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="1965">1956-1965: Creating a path to the peaceful use of nuclear energy</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1965.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1965.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1958</strong> &ndash;  In September 1958, significant numbers of Canadians oppose the federal  government&#39;s plans to purchase nuclear-warhead-capable Bomarc missiles from the  United States. The controversy continues for a number of years when Prime  Minister Lester Pearson announces the purchase of nuclear missiles. However, 10  years later, Canada ratifies the <em>Treaty  on the Non-Proliferation of Nuclear Weapons</em>, and nuclear warheads begin to  be removed from the country.</li>
 <li><strong>1959</strong> &ndash;  As the public becomes more aware of Canada&#39;s nuclear power usage, education becomes  a priority. In 1959, the first university-based research reactor in the British  Commonwealth opens in Hamilton, Ontario at McMaster University.</li>
@@ -80,8 +79,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="1975">1966-1975: Bringing nuclear to health care</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1975.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1975.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1966</strong> &ndash;  The Douglas Point Nuclear Generating Station begins operating. This is Canada&rsquo;s  first commercial-scale nuclear generating station and a prototype for today&rsquo;s  larger nuclear power plants. An interim operating licence is issued to permit  the start up and operation of the station.</li>
 <li><strong>1969</strong> &ndash;  As Canada begins to focus on nuclear use in healthcare, the AECB adopts  regulations for the transport of radioactive materials.</li>
@@ -98,8 +97,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="1985">1976-1985: Instilling confidence in Canada&rsquo;s nuclear regulation and safety</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1985.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1985.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1978</strong> &ndash;  The Soviet Union launched the Kosmos 954 satellite in 1977. In 1978, a  malfunction prevents safe separation of its onboard nuclear reactor. When  re-entering the earth&#39;s atmosphere the satellite scatters radioactive debris  over northern Canada, prompting an extensive cleanup operation. A team of AECB  staff is sent to the Northwest Territories on a search-and-recovery mission  while Canada and the U.S. lead the cleanup initiative, dubbed Operation Morning  Light. The teams work day and night in extreme weather conditions, striving for  the same goal &ndash; cleaning up the debris scattered across 124,000 km2. </li>
 <li><strong>1979</strong> &ndash; Near Harrisburg, Pennsylvania, equipment failure and human error contribute  to an accident at the Three Mile Island nuclear reactor, the worst in U.S.  history. There is major damage to 1 of 2 reactors at the plant, but the plants  containment structures ensure radiation exposure to employees and the public is  minimal. As the plant is being stabilized, there is an uncoordinated release of  information from various authorities through the media. A vacuum of reliable  information results in sensationalism and some hysteria. After review, the  nuclear industry responds by creating the Institute of Nuclear Power Operations  (INPO). INPO&#39;s mission is to promote the highest levels of safety and reliability  in the operation of nuclear generating plants. In response, the AECB  re-evaluates strategies for public outreach and transparency and communication  with the public takes centre stage. </li>
@@ -115,8 +114,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="1995">1986-1995: Demonstrating leadership on the global stage</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1995.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_1995.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1986</strong> &ndash;  On April 26, reactor number 4 at the Chernobyl nuclear power plant in Ukraine  suffers a catastrophic power increase, leading to explosions in the core.  Considered the worst nuclear power plant accident ever, it is the first and  only accident to be classified a Level 7 event on the International Atomic  Energy Agency&#39;s Nuclear Event Scale. In Ontario, the government responds by  commissioning a review of nuclear plant operations in the province, while the  nuclear industry responds with the creation of the World Association of Nuclear  Operators in 1989. The major impact on public perception strengthens the AECB&rsquo;s  commitment to transparency and public outreach. Public access policies, public  consultation programs, the publication of regulatory agendas, issuing of policy  statements for public comment and the appointment of an access to information  and privacy coordinator are put in place.</li>
 <li><strong>1992</strong> &ndash;  An important step in environmental protection, the <em>Canadian Environmental Assessment Act</em>, is passed. Under this act, the  CNSC will conduct environmental assessments on nuclear projects and activities. </li>
@@ -131,8 +130,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="2005">1996-2005: Enhancing legislation to protect Canadians and the environment</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_2005.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_2005.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>1996</strong> &ndash; Not only  is it the 50th anniversary of the <em>Atomic  Energy Control Act,</em> but on March 21, the Hon. Anne McLellan, Minister of  Natural Resources, tables Bill C-23 in the House of Commons. This bill seeks to<em> establish the Canadian Nuclear Safety Commission,  and make consequential amendments to other Acts.</em> The new  legislation is tabled to replace the <em>Atomic  Energy Control</em> <em>Act</em> and in 1997  becomes the <em>Nuclear Safety and Control Act </em>(NSCA) with a focus on the health, safety and  environmental impact of using nuclear technologies.</li>
 <li><strong>1997</strong> &ndash;  Ontario Hydro announces that 7 CANDU reactors will be shut down, leading some  to predict the end of nuclear power in Canada. AECB indicates that a special  oversight process will be required prior to restart of the shutdown reactors.  This is the beginning of the current periodic safety reviews that have lead to  significant safety improvements in all operating nuclear reactors.&nbsp; </li>
@@ -155,8 +154,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="2015">2006-2015: Establishing transparency and gaining clarity on regulatory requirements</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_2015.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/75_milestones_2015.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>2006</strong> &ndash; The CNSC implements the National Sealed Source Registry and Sealed Source  Tracking System, making Canada the first G7 country with such robust  registration and tracking controls for high-risk sealed sources. Together, the  registry and the tracking system assure the global community of the safe and  secure international transfers of these sources.</li>
 <li><strong>2007 </strong>&ndash; The CNSC initiates research on tritium releases in Canada to study and  evaluate tritium processing facilities exercising the best practices around the  globe.&nbsp;Since then, the CNSC has undertaken several research projects under  the banner of the <em>Tritium Studies Project</em>.  The extensive body of research is made available to the public in 2017.</li>
@@ -180,8 +179,8 @@ import React from "react"
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
 <h2 id="2021">2016-2021: Growing trust in an era of innovation driven by technology and opportunity</h2>
-<div className="col-md-6 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/updates-thumbs-present-en.png" alt=""/> </div>
-<div className="col-md-12 mrgn-tp-0">
+<div className="col-md-4 mrgn-lft-0 mrgn-rght-0"> <img src="/images/75th-anniversary/updates-thumbs-present-en.png" alt=""/> </div>
+<div className="col-md-8 mrgn-tp-0">
 <ul>
 <li><strong>2018</strong> &ndash; In January, the CNSC is the first federal regulator in Canada to publish  regulatory requirements for managing the fitness for duty of workers in  relation to alcohol and drug use at all high-security sites, as defined in the <em>Nuclear Security Regulations. </em>In 2021,  the requirements are updated to include the legalization of marijuana.</li>
 <li><strong>2019</strong> &ndash;  The CNSC receives an application from Global First Power for a licence to  prepare a site for a micro modular reactor on AECL property at the Chalk River  Laboratories location. As the demand for small modular reactors increases, the  CNSC and the United States Nuclear Regulatory Commission sign a memorandum of  cooperation aimed at enhancing and harmonizing technical reviews of advanced  reactor and small modular reactor technologies.</li>
@@ -200,7 +199,7 @@ import React from "react"
 </ul>
 </div>
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-</div>  
+</div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

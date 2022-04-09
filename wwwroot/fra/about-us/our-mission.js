@@ -22,7 +22,8 @@ import React from "react"
 <li>r&eacute;glementer le d&eacute;veloppement, la production et l&#39;utilisation de l&#39;&eacute;nergie nucl&eacute;aire au Canada pour prot&eacute;ger la sant&eacute;, la s&ucirc;ret&eacute;, la s&eacute;curit&eacute; et l&#39;environnement</li>
 <li>r&eacute;glementer la production, la possession, l&#39;utilisation et le transport des substances nucl&eacute;aires, ainsi que la production, la possession et l&#39;utilisation de l&#39;&eacute;quipement et des renseignements r&eacute;glement&eacute;s </li>
 <li>mettre en œuvre les mesures de contrôle international du d&eacute;veloppement, de la production, du transport et de l&#39;utilisation de l&#39;&eacute;nergie et des substances nucl&eacute;aires, y compris les mesures de non prolif&eacute;ration des armes et des explosifs nucl&eacute;aires </li>
-<li>informer le public, sur les plans scientifique, technique ou r&eacute;glementaire, au sujet des activit&eacute;s de la CCSN et des cons&eacute;quences, pour la sant&eacute; et la s&eacute;curit&eacute; des personnes et de l&#39;environnement, du d&eacute;veloppement, de la production, de la possession, du transport et de l&#39;utilisation des substances nucl&eacute;aires </li>  	</ul>  
+<li>informer le public, sur les plans scientifique, technique ou r&eacute;glementaire, au sujet des activit&eacute;s de la CCSN et des cons&eacute;quences, pour la sant&eacute; et la s&eacute;curit&eacute; des personnes et de l&#39;environnement, du d&eacute;veloppement, de la production, de la possession, du transport et de l&#39;utilisation des substances nucl&eacute;aires </li>  	</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

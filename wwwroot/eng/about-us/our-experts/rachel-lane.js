@@ -91,7 +91,8 @@ import React from "react"
 <h2>Additional links</h2>
 <ul>
 <li>ORCID iD:&nbsp;0000-0003-2830-2644</li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

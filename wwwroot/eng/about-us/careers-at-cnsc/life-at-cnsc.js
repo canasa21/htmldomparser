@@ -25,13 +25,13 @@ import React from "react"
 <li><a href="#learn">Learning opportunities</a></li>
 <li><a href="#diverse">Diversity and inclusion</a></li>
 </ul>
-<div className="col-md-12 ">
-<div className="col-md-6  mrgn-bttm-0">
+<div className="col-md-8 ">
+<div className="col-md-4  mrgn-bttm-0">
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="440" height="248" src="https://www.youtube.com/embed/2gxKY5bxzb4" allowfullscreen></iframe>
 </div>
 </div>
-<div className="col-md-6  mrgn-bttm-0">
+<div className="col-md-4  mrgn-bttm-0">
 <p>Learn more about what our employees do and why the CNSC is a great place to work.</p>
 <details>
 <summary>Transcript</summary>
@@ -66,7 +66,6 @@ import React from "react"
 </details>
 </div>
 </div>
-<div className="clear"></div>
 <h2 id="comp">Compensation and benefits</h2>
 <p>The CNSC offers one of the most competitive  compensation and benefit packages in the public service and has several unique offerings that support balance and productivity:</p>
 <ul>
@@ -94,7 +93,8 @@ import React from "react"
 <h2 id="diverse">Diversity and inclusion</h2>
 <p>The CNSC believes that equity, diversity and inclusion are critical to spurring innovation, solving complex issues and improving results for Canadians. The CNSC is committed to ensuring that its workforce is representative of Canadian society. It also strives to be a safe and healthy workplace, one that is inclusive and free from harassment and discrimination, where all employees are able to effectively use their skills, expertise and  experience to help deliver on the CNSC&rsquo;s important mandate.</p>
 <p>The CNSC has several employee-led networks in place that provide staff with a space to connect, promote positive change and contribute to organizational priorities. This includes the Black Employees Network, Indigenous Network, Young Professionals Network and Women in STEM Network. As the CNSC continues to build on this momentum, it expects that additional employee networks will be launched that represent its diverse workforce.</p>
-<p>The CNSC promotes bilingualism and encourages employees to work and communicate in the official language of their choice. Collectively, the CNSC speaks a total of 35 languages, including English and French.</p>  
+<p>The CNSC promotes bilingualism and encourages employees to work and communicate in the official language of their choice. Collectively, the CNSC speaks a total of 35 languages, including English and French.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-12 mrgn-bttm-0">  	<div className="module-poster col-md-3 mrgn-lft-0"><img src="/images/commission_members/CNSC-Commission-Member-Velshi.jpg" alt="Rumina Velshi" height="403" width="280"/>
+<div className="col-md-6 mrgn-bttm-0">  	<div className="module-poster col-md-2 mrgn-lft-0"><img src="/images/commission_members/CNSC-Commission-Member-Velshi.jpg" alt="Rumina Velshi" height="403" width="280"/>
 <div className="image-caption mrgn-bttm-0">
 <p className="text-center"><strong>Ms. Rumina Velshi</strong></p>
 </div>
@@ -39,7 +39,7 @@ import React from "react"
 <li><a href="https://www.youtube.com/watch?v=wvzzkzsBcLQ">Webinar: Building low-carbon resilient electricity infrastructures with nuclear power in the post-COVID era</a></li>
 <li><a href="https://www.youtube.com/watch?v=W0mpRBXaQvM">Webinar: The impact of the COVID19 pandemic on the nuclear energy sector and the need for innovation</a></li>
 <li><a href="https://ocni.webex.com/recordingservice/sites/ocni/recording/play/b7e401b56ab04b07ac2dbf58d363ec06">Town Hall: In conversation with the CNSC</a></li>
-</ul>  	</div>  
+</ul>  	</div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Faites d&eacute;filer la page et l&rsquo;avis &ldquo;archiv&eacute;&rdquo; appara&icirc;t au haut de la fen&ecirc;tre.</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Avertissement" title="Avertissement" className="image-actual mrgn-bttm-0" /> Cette page Web a &eacute;t&eacute; archiv&eacute;e dans le Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Contenu archiv&eacute;</h2>
 <p>Information archiv&eacute;e dans le Web &agrave; des fins de consultation, de recherche ou de tenue de documents. Cette derni&egrave;re n&rsquo;a aucunement &eacute;t&eacute; modifi&eacute;e ni mise &agrave; jour depuis sa date de mise en archive. Les pages archiv&eacute;es dans le Web ne sont pas assujetties aux normes qui s&rsquo;appliquent aux sites Web du gouvernement du Canada. Conform&eacute;ment &agrave; la <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12316">Politique de communication du gouvernement du Canada</a>, vous pouvez obtenir cette information dans un autre format en <a href="/fra/contact-us/index">communiquant avec nous</a>.</p>
 </div>
@@ -157,7 +157,8 @@ import React from "react"
 <li>CCSN, norme d&rsquo;application de la  r&eacute;glementation S-296, <em><a href="http://www.cnsc-ccsn.gc.ca/pubs_catalogue/uploads_fre/S-296_F.pdf">Politiques, programmes et proc&eacute;dures de protection de  l&rsquo;environnement aux installations nucl&eacute;aires de cat&eacute;gorie&nbsp;1&nbsp;et aux  mines et usines de concentration d&rsquo;uranium</a></em>, 2006</li>
 <li>CCSN, guide d&rsquo;application de la  r&eacute;glementation G-296,<a href="http://www.cnsc-ccsn.gc.ca/pubs_catalogue/uploads_fre/G-296_F.pdf"> <em>&Eacute;laboration de politiques, programmes et proc&eacute;dures de  protection de l&rsquo;environnement aux installations nucl&eacute;aires de cat&eacute;gorie&nbsp;1&nbsp;et  aux mines et usines de concentration d&rsquo;uranium</em></a>, 2006.</li>
 <li>CSA, norme&nbsp;CAN/CSA-ISO  14004-F04 &ndash;<em> <a href="http://shop.csa.ca/fra/canada/environmental-management-systems/cancsa-iso-14004&shy;04-r2009/invt/27002902004/">Syst&egrave;mes de management environnemental &ndash; Lignes directrices  g&eacute;n&eacute;rales concernant les principes, les syst&egrave;mes et les techniques de mise en &oelig;uvre</a></em>, 2004 </li>
-<li>CSA, norme CSA&nbsp;N288.4, <em><a href="http://shop.csa.ca/en/canada/nuclear/n2884-10/invt/27008222010/"><span lang="en" xml:lang="en">Environmental&nbsp;Monitoring&nbsp;Programs  at&nbsp;Class&nbsp;I Nuclear Facilities and Uranium Mines and Mills</span></a></em>, 2010 [en anglais  seulement]</li>  </ol>  
+<li>CSA, norme CSA&nbsp;N288.4, <em><a href="http://shop.csa.ca/en/canada/nuclear/n2884-10/invt/27008222010/"><span lang="en" xml:lang="en">Environmental&nbsp;Monitoring&nbsp;Programs  at&nbsp;Class&nbsp;I Nuclear Facilities and Uranium Mines and Mills</span></a></em>, 2010 [en anglais  seulement]</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -83,7 +83,8 @@ import React from "react"
 <ul>
 <li><a href="/fra/about-us/ministerial-briefing-binder-2021">Document dinformation de 2021 présenté au ministre des Ressources naturelles</a></li>
 </ul>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

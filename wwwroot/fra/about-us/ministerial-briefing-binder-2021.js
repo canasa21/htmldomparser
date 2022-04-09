@@ -18,7 +18,7 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-12 alert alert-info module-simplify">  <p>Soumis au ministre des Ressources naturelles le 23 novembre 2021, à la suite de lélection fédérale canadienne de 2021.</p>  </div>  <div className="clear"></div>
+<div className="col-md-6 alert alert-info module-simplify">  <p>Soumis au ministre des Ressources naturelles le 23 novembre 2021, à la suite de lélection fédérale canadienne de 2021.</p>  </div>
 <div className="module-table-contents">
 <h2>Table des mati&egrave;res</h2>
 <ul>
@@ -236,7 +236,8 @@ import React from "react"
 <p>Elle exerce le droit depuis trente ans, et possède une expérience des tribunaux de première instance et dappel dans plusieurs compétences, ainsi quune expérience des tribunaux administratifs fédéraux et provinciaux. Sa pratique du droit administratif, commercial, environnemental, de lénergie et des ressources met à contribution sa vaste expérience acquise au sein des services juridiques, réglementaires, environnementaux et de relations avec les collectivités et les Autochtones auprès de grands fournisseurs de gaz naturel et délectricité, ainsi que de lAlberta Utilities Commission.</p>
 <p>Mme Maharaj a une perspective unique de lensemble du secteur des ressources et de la réglementation puisquelle a travaillé auprès de propriétaires, de promoteurs réglementés, de fournisseurs dénergie et dorganismes de réglementation. Elle a participé à de nombreux processus de production dénergie et de délivrance de permis à grande visibilité, notamment le projet gazier Mackenzie, un projet de gazoducs transfrontaliers, la regazéification du gaz naturel liquéfié dans le nord-est des États&#8209;Unis, des projets de transformation des gaz de torche en énergie, et plusieurs autres projets de moins grande envergure. En 2017, le gouvernement de lAlberta a nommé Mme Maharaj au poste de présidente de la Criminal Injuries Review Board et, le 1<sup>er</sup> octobre 2020, lui a conféré un mandat de trois ans à titre de membre suppléante de la National Resources Conservation Board.</p>
 <p>Mme Maharaj est également chercheuse universitaire à lInstitut canadien du droit des ressources, ses recherches portant entre autres sur la progression du cadre de réglementation du secteur de lénergie, la compréhension de la production dénergie renouvelable et lélaboration de politiques visant à établir un équilibre progressif entre les impacts sur lenvironnement et le développement. Mme&nbsp;Maharaj se consacre aussi au bénévolat. Elle est directrice bénévole de la Smart Sustainable Resilient Infrastructure Association, avocate bénévole auprès de la Calgary Legal Guidance, secrétaire de lAssociation du Barreau canadien (section de lAlberta), mentore pour le programme de mentorat de la Law Society of Alberta, bénévole auprès de lorganisme Soup Sisters de Calgary et fondatrice du Sunflower Spirit Project.</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Canadian Nuclear Laboratories Regulatory Program Division</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MGacem-sq.png" alt="" />
 <figcaption>Mohamed Cherif Gacem,<br/>
 Senior Project Officer</figcaption>
@@ -30,7 +30,8 @@ Senior Project Officer</figcaption>
 <h2>Expertise and education</h2>
 <p>Mohamed is a mechanical engineer (with a professional engineer designation) and has a credential in nuclear safety. His expertise in nuclear engineering spans over 2 decades in design, construction, commissioning, operation, decommissioning and regulatory oversight of nuclear waste management facilities and activities.</p>
 <h2>Current research and projects</h2>
-<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Mohamed is the licensing lead project officer. Acting as a single point of contact with the Licensee, his role also includes performing technical reviews and assessments of all aspects of waste management and decommissioning, facility design, safety analysis and safety assessments, operating performance, conventional health and safety, and environmental protection.</p>  
+<p><strong>Project</strong>: <a href="/eng/reactors/research-reactors/nuclear-facilities/chalk-river/near-surface-disposal-facility">Canadian Nuclear Laboratories&rsquo; proposed near surface disposal facility (NSDF)</a>. With respect to the CNSC&rsquo;s review of this proposed facility, Mohamed is the licensing lead project officer. Acting as a single point of contact with the Licensee, his role also includes performing technical reviews and assessments of all aspects of waste management and decommissioning, facility design, safety analysis and safety assessments, operating performance, conventional health and safety, and environmental protection.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

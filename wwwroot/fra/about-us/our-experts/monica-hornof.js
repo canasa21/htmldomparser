@@ -19,7 +19,7 @@ import React from "react"
                     {/*MAIN CONTENT START*/}
                     
 <p>Division du programme de r&eacute;glementation de Bruce</p>
-<div className="pull-right col-md-3">
+<div className="pull-right col-md-2">
 <figure><img src="/images/our-experts/web_experts_MHornof-sub.png" alt="" />
 <figcaption>Monica Hornof,<br/>
 Agente principale du programme de r&eacute;glementation</figcaption>
@@ -33,7 +33,8 @@ Agente principale du programme de r&eacute;glementation</figcaption>
 <p>Le travail de M<sup>me</sup> Hornof est essentiel &agrave; la r&eacute;glementation des centrales nucl&eacute;aires, car il permet de s&rsquo;assurer que les programmes et les activit&eacute;s des titulaires de permis respectent la port&eacute;e de leur fondement d&rsquo;autorisation. Plus pr&eacute;cis&eacute;ment, M<sup>me</sup> Hornof g&egrave;re le manuel des conditions de permis de Bruce Power. Elle s&rsquo;occupe aussi de l&rsquo;&eacute;valuation et de la surveillance du rendement des installations pour les domaines de s&ucirc;ret&eacute; et de r&eacute;glementation &laquo; Syst&egrave;me de gestion &raquo; et &laquo; Gestion de la performance humaine &raquo;, en plus d&rsquo;examiner l&rsquo;exp&eacute;rience op&eacute;rationnelle li&eacute;e &agrave; l&rsquo;exploitation des centrales nucl&eacute;aires canadiennes.</p>
 <h2>Autres r&ocirc;les</h2>
 <p>M<sup>me</sup> Hornof est membre du Groupe de travail sur les petits r&eacute;acteurs modulaires (PRM) de la Direction de la r&eacute;glementation des centrales nucl&eacute;aires, qui veille &agrave; ce que la CCSN soit pr&ecirc;te sur le plan r&eacute;glementaire &agrave; d&eacute;livrer des permis d&rsquo;exploitation et &agrave; v&eacute;rifier la conformit&eacute; des PRM.</p>
-<p>Elle fait la promotion de l&rsquo;&eacute;quit&eacute; entre les genres et est copr&eacute;sidente du r&eacute;seau Femmes en STIM (science, technologie, ing&eacute;nierie, math&eacute;matiques) de la CCSN depuis son lancement en 2020. L&rsquo;objectif de ce r&eacute;seau est d&rsquo;offrir un espace s&ucirc;r &agrave; toutes les employ&eacute;es de la CCSN pour qu&rsquo;elles puissent se r&eacute;unir, partager leur exp&eacute;rience sur leurs carri&egrave;res en STIM et s&rsquo;inspirer, se donner des moyens d&rsquo;agir et apprendre les unes des autres.</p>  
+<p>Elle fait la promotion de l&rsquo;&eacute;quit&eacute; entre les genres et est copr&eacute;sidente du r&eacute;seau Femmes en STIM (science, technologie, ing&eacute;nierie, math&eacute;matiques) de la CCSN depuis son lancement en 2020. L&rsquo;objectif de ce r&eacute;seau est d&rsquo;offrir un espace s&ucirc;r &agrave; toutes les employ&eacute;es de la CCSN pour qu&rsquo;elles puissent se r&eacute;unir, partager leur exp&eacute;rience sur leurs carri&egrave;res en STIM et s&rsquo;inspirer, se donner des moyens d&rsquo;agir et apprendre les unes des autres.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

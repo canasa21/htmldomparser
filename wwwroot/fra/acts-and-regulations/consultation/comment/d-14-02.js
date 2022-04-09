@@ -18,20 +18,18 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="preface"></div>
 <h2>Pr&eacute;face</h2>  <p>Les documents de travail jouent un r&ocirc;le important dans la s&eacute;lection et l&#39;&eacute;laboration du cadre et du programme de r&eacute;glementation de la Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire (CCSN). Ils visent &agrave; obtenir, t&ocirc;t dans le processus, la r&eacute;troaction du public sur les politiques et approches de la CCSN.</p>  <p>L&#39;utilisation de documents de travail au d&eacute;but du processus de r&eacute;glementation souligne l&#39;engagement de la CCSN &agrave; l&#39;&eacute;gard d&#39;un processus de consultation transparent. La CCSN analyse les r&eacute;troactions pr&eacute;liminaires et en tient compte lorsqu&#39;elle d&eacute;termine le type et la nature des exigences et orientations &agrave; &eacute;tablir.</p>  <p>Les documents de travail sont rendus publics aux fins de commentaires pour une p&eacute;riode d&eacute;termin&eacute;e. &Agrave; la fin de la premi&egrave;re p&eacute;riode de commentaires, le personnel de la CCSN examine toutes les observations formul&eacute;es par le public. Les commentaires re&ccedil;us sont ensuite affich&eacute;s aux fins de r&eacute;troaction sur le site Web de la CCSN pour une deuxi&egrave;me p&eacute;riode de consultation.</p>  <p>La CCSN tient compte de toute la r&eacute;troaction obtenue dans le cadre de ce processus de consultation lorsqu&#39;elle &eacute;tablit son approche de r&eacute;glementation.</p>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="toc"></div>
-<h2 className="mrgn-tp-0">Table des mati&egrave;res</h2>  <div className="module-table-contents col-md-12">
+<h2 className="mrgn-tp-0">Table des mati&egrave;res</h2>  <div className="module-table-contents col-md-6">
 <ol>
 <li><a href="#sec1">Introduction</a></li>
 <li><a href="#sec2">Contexte et perspective historique</a></li>
@@ -40,25 +38,21 @@ import React from "react"
 <li><a href="#sec5">Commentaires</a></li>
 </ol>  </div>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="1"></div>
 <h2 id="sec1" className="mrgn-tp-0">1. Introduction</h2>  <p>Au cours de l&#39;&eacute;t&eacute; 2014, la Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire (CCSN) a entrepris une initiative de modernisation de sa r&eacute;glementation en vue de revoir sa s&eacute;rie de treize r&egrave;glements. Bien que la CCSN examine r&eacute;guli&egrave;rement chacun de ses r&egrave;glements et y apporte les modifications qui s&#39;imposent, l&#39;exercice de modernisation a une port&eacute;e plus vaste. Il vise &agrave; faire en sorte que les Canadiens et les parties r&eacute;glement&eacute;es par la CCSN continuent de jouir d&#39;un r&eacute;gime de r&eacute;glementation moderne, efficace et efficient qui est fond&eacute; sur la science et qui tient compte du risque.</p>  <p>Le pr&eacute;sent document ne propose pas de modifications r&eacute;glementaires pr&eacute;cises, mais cherche plut&ocirc;t &agrave; solliciter les commentaires des parties int&eacute;ress&eacute;es qui aideront la CCSN &agrave; d&eacute;terminer s&#39;il convient d&#39;am&eacute;liorer davantage ses r&egrave;glements. La CCSN tiendra compte de toute r&eacute;troaction qui lui sera soumise dans un souci constant d&#39;actualiser le cadre de r&eacute;glementation du secteur nucl&eacute;aire canadien.</p>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="2"></div>
 <h2 id="sec2" className="mrgn-tp-0">2. Contexte et perspective historique</h2>  <p>Au Canada, la surveillance r&eacute;glementaire des activit&eacute;s nucl&eacute;aire a commenc&eacute; en 1946 lorsque le gouverneur en conseil a approuv&eacute; la Loi sur le contr&ocirc;le de l&#39;&eacute;nergie atomique (LCEA). La LCEA a &eacute;t&eacute; le tout premier texte l&eacute;gislatif du Canada en mati&egrave;re nucl&eacute;aire et a permis de cr&eacute;er la Commission de contr&ocirc;le de l&#39;&eacute;nergie atomique (CCEA), pr&eacute;curseur de la CCSN.</p>  <p>  Au fil des ans, le nombre d&#39;activit&eacute;s nucl&eacute;aires men&eacute;es au Canada a augment&eacute; consid&eacute;rablement. L&#39;utilisation des radio-isotopes dans la recherche m&eacute;dicale et le traitement du cancer, l&#39;emploi de l&#39;&eacute;nergie nucl&eacute;aire pour g&eacute;n&eacute;rer de l&#39;&eacute;lectricit&eacute;, les avanc&eacute;es dans l&#39;extraction mini&egrave;re de l&#39;uranium et les innombrables applications industrielles de la technologie nucl&eacute;aire n&eacute;cessitaient tous l&#39;adoption de nouvelles approches r&eacute;glementaires afin de prot&eacute;ger la sant&eacute; et la s&eacute;curit&eacute; de la population. Au fil du temps, l&#39;organisme de r&eacute;glementation a vu son mandat &eacute;voluer : principalement ax&eacute; sur la s&eacute;curit&eacute; nationale au d&eacute;but, il englobe maintenant la sant&eacute;, la s&ucirc;ret&eacute; et la s&eacute;curit&eacute; des Canadiens ainsi que la protection de l&#39;environnement.</p>  <p>  En 1996, Anne McLellan, alors ministre des Ressources naturelles du Canada, a pr&eacute;sent&eacute; le projet de loi C-23 au Parlement afin de remplacer la LCEA, qui datait de 50 ans. Ce projet de loi est devenu la Loi sur la s&ucirc;ret&eacute; et la r&eacute;glementation nucl&eacute;aires (LSRN), qui a re&ccedil;u la sanction royale le 20 mars 1997.</p>  <p>  La LSRN a cr&eacute;&eacute; la CCSN et pr&eacute;cis&eacute; son mandat qui vise &agrave; &eacute;tablir et &agrave; faire respecter des exigences li&eacute;es &agrave; la s&eacute;curit&eacute; des travailleurs du secteur nucl&eacute;aire et du public. En outre, elle a :</p>  <ul>
 <li>donn&eacute; &agrave; la CCSN un solide fondement l&eacute;gislatif afin de mettre en oeuvre une politique canadienne sur les questions de s&eacute;curit&eacute;, plus particuli&egrave;rement sur la non-prolif&eacute;ration des armes nucl&eacute;aires</li>
@@ -78,14 +72,12 @@ import React from "react"
 <li>R&egrave;gles de proc&eacute;dure de la Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire</li>
 <li>R&egrave;glement administratif de la Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire</li>  </ul>  <p>  La CCSN a modifi&eacute; certains r&egrave;glements en fonction des besoins, notamment pour tenir compte des normes modernes et des avanc&eacute;es scientifiques ou pour r&eacute;agir aux &eacute;v&eacute;nements ext&eacute;rieurs (comme le 11 septembre 2001 et l&#39;accident nucl&eacute;aire de Fukushima). Elle a &eacute;galement apport&eacute; des modifications r&eacute;glementaires &agrave; la demande du gouvernement, par exemple pour instaurer le R&egrave;glement sur les sanctions administratives p&eacute;cuniaires. Aujourd&#39;hui, le Canada est reconnu sur la sc&egrave;ne internationale pour son r&eacute;gime de r&eacute;glementation nucl&eacute;aire souple et efficace qui accorde autant d&#39;importance aux exigences normatives qu&#39;&agrave; celles fond&eacute;es sur le rendement.</p>  <p>  Dans le cadre de son engagement envers l&#39;am&eacute;lioration continue, la CCSN est &agrave; entreprendre une r&eacute;vision g&eacute;n&eacute;rale de ses r&egrave;glements. Cette r&eacute;vision vise &agrave; s&#39;assurer que les r&egrave;glements continuent d&#39;&ecirc;tre clairs et ex&eacute;cutoires pour que la CCSN puisse demeurer un organisme de r&eacute;glementation efficace et efficient. Le projet en est &agrave; ses tout d&eacute;buts et devrait prendre fin d&#39;ici 2017. Cette  &eacute;ch&eacute;ance, telle qu&#39;&eacute;tablie dans le <a href="/fra/acts-and-regulations/regulatory-framework/regulatory-framework-plan">Plan du cadre de r&eacute;glementation de la CCSN</a>, pourra &ecirc;tre modifi&eacute;e de fa&ccedil;on p&eacute;riodique.</p>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="3"></div>
 <h2 id="sec3" className="mrgn-tp-0">3. Questions aux fins de discussion</h2>  <ol>
 <li><p className="mrgn-tp-0">La CCSN dispose d&#39;un ensemble de r&egrave;glements con&ccedil;us pour encadrer toutes les activit&eacute;s nucl&eacute;aires r&eacute;alis&eacute;es au Canada. Elle aimerait savoir si, de l&#39;avis des parties int&eacute;ress&eacute;es, certaines sections de ces r&egrave;glements manquent de clart&eacute;, de coh&eacute;rence ou devraient &ecirc;tre am&eacute;lior&eacute;es. Les points de vue d&eacute;coulant de l&#39;exp&eacute;rience acquise dans l&#39;application de r&egrave;glements dans d&#39;autres pays ou juridictions peuvent &eacute;galement s&#39;av&eacute;rer pertinents.</p>
@@ -101,35 +93,30 @@ import React from "react"
 <li><p className="mrgn-tp-0">Dans le cadre du Plan d&#39;action pour la r&eacute;duction du fardeau administratif, le gouvernement du Canada s&#39;est engag&eacute; &agrave; aider les parties r&eacute;glement&eacute;es &agrave; bien comprendre ce qu&#39;elles doivent faire pour se conformer aux r&egrave;glements. Pour ce faire, la CCSN leur soumet aux fins d&#39;examen et de commentaires les projets de documents d&#39;application de la r&eacute;glementation, qu&#39;ils soient nouveaux ou r&eacute;vis&eacute;s pour s&#39;assurer qu&#39;ils sont clairs. En outre, le personnel de la CCSN tient des s&eacute;ances de sensibilisation, des ateliers, des conf&eacute;rences et des r&eacute;unions pour expliquer les exigences et r&eacute;pondre aux questions.</p>
 <p>Serait-il possible pour la CCSN d&#39;aider encore plus les demandeurs et les titulaires de permis &agrave; bien comprendre les mesures qu&#39;ils doivent prendre pour se conformer &agrave; ses exigences r&eacute;glementaires?</p></li>  </ol>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="4"></div>
 <h2 id="sec4" className="mrgn-tp-0">4. Conclusion</h2>  <p>La CCSN s&#39;est engag&eacute;e &agrave; consulter les parties int&eacute;ress&eacute;es d&egrave;s les premi&egrave;res &eacute;tapes de son initiative de modernisation des r&egrave;glements et prendra en compte les commentaires qu&#39;elle recevra. Elle tiendra de plus amples consultations si elle envisage d&#39;apporter d&#39;autres modifications &agrave; ses r&egrave;glements.</p>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Haut de la page</a></p>
 </div>
-<div className="clear"></div>
-<div className="col-md-12 mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-6 mrgn-tp-0 mrgn-bttm-0">
 <div id="5"></div>
 <h2 id="sec5" className="mrgn-tp-0">5. Commentaires</h2>  <p>Vous pouvez soumettre vos commentaires et observations &agrave; la CCSN au plus tard le 29 mai 2015, de l&#39;une des mani&egrave;res suivantes&nbsp;: </p>  <p><strong>Par courriel </strong>: <a href="mailto:consultation@cnsc-ccsn.gc.ca">consultation@cnsc-ccsn.gc.ca</a></p>  <p><strong>Par t&eacute;l&eacute;copieur</strong>&nbsp;: 613-995-5086</p>  <p><strong>Par la poste</strong>&nbsp;: </p>  <p>Commission canadienne de s&ucirc;ret&eacute; nucl&eacute;aire<br />  C. P. 1046, succursale B<br />  280, rue Slater<br />  Ottawa (Ontario) K1P 5S9</p>
 </div>
-<div className="clear"></div>
-<div className="col-md-6  mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-4  mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="col-md-3  text-right mrgn-tp-0 mrgn-bttm-0">
+<div className="col-md-2  text-right mrgn-tp-0 mrgn-bttm-0">
 </div>
-<div className="clear"></div>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

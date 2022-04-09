@@ -839,9 +839,9 @@ import React from "react"
 <li>l&#8217;int&eacute;grit&eacute; structurale du r&eacute;servoir d&#8217;eau de r&eacute;serve (p. ex. conception des r&eacute;acteurs CANDU)</li>
 <li>l&#8217;int&eacute;grit&eacute; structurale du pont polaire de manutention</li>  </ul>  <p>Les crit&egrave;res d&#8217;acceptation structuraux pour les &eacute;l&eacute;ments en b&eacute;ton arm&eacute; sont pr&eacute;sent&eacute;s au tableau&nbsp;1. </p>  <p>Les crit&egrave;res d&#8217;acceptation pour les &eacute;l&eacute;ments en acier sont pr&eacute;sent&eacute;s au tableau&nbsp;2.</p>  <table className="width-100">  <caption>Tableau 1 : Crit&egrave;res d&#8217;acceptation structuraux pour les &eacute;l&eacute;ments en b&eacute;ton arm&eacute; adapt&eacute;s de la publication ACI 349-06 de l&#8217;American Concrete Institute, Code Requirements for Nuclear Safety-related Concrete Structures and Commentary et de la publication TM 5-1300 du D&eacute;partement de l&#8217;Arm&eacute;e des &Eacute;tats-Unis, Structures to Resist the Effects of Accidental Explosions [1990] (remplac&eacute;e par la publication UFC 3-340-02, 2008).</caption>
 <tr >
-<th id="t" rowspan="2">Type d&#8217;&eacute;l&eacute;ment</th>
-<th  id="s" rowspan="2">Contr&ocirc;le des contraintes</th>
-<th  id="d" rowspan="2">Ductilit&eacute;, &#956;<sub>a</sub></th>
+<th id="t" rowSpan="2">Type d&#8217;&eacute;l&eacute;ment</th>
+<th  id="s" rowSpan="2">Contr&ocirc;le des contraintes</th>
+<th  id="d" rowSpan="2">Ductilit&eacute;, &#956;<sub>a</sub></th>
 <th  id="r" colSpan="3">Rotation du support en degr&eacute;s<sup>(3,4),</sup> &#952;<sub>a</sub><br/><br/></th>
 </tr>
 <tr>
@@ -850,12 +850,12 @@ import React from "react"
 <th id="bdbt2">MI de deuxi&egrave;me niveau</th>
 </tr>
 <tr>
-<th id="p" headers="t" rowspan="6">Poutres</th>
+<th id="p" headers="t" rowSpan="6">Poutres</th>
 <td headers="s p">Flexion</td>
 <td headers="d p"><sup>(2)</sup></td>
-<td headers="r dbt p" rowspan="6">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
-<td headers="r bdbt1 p" rowspan="6">2</td>
-<td headers="r bdbt2 p" rowspan="6">4</td>
+<td headers="r dbt p" rowSpan="6">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
+<td headers="r bdbt1 p" rowSpan="6">2</td>
+<td headers="r bdbt2 p" rowSpan="6">4</td>
 </tr>
 <tr>
 <td headers="s p">Cisaillement&nbsp;: <sup>(1)</sup></td>
@@ -878,12 +878,12 @@ import React from "react"
 <td headers="d p">1,3</td>
 </tr>
 <tr>
-<th id="ds" headers="t" rowspan="6">Dalles-support</th>
+<th id="ds" headers="t" rowSpan="6">Dalles-support</th>
 <td headers="s ds" >Flexion </td>
 <td headers="d ds"><sup>(2)</sup></td>
-<td headers="r dbt ds" rowspan="6">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
-<td headers="r bdbt1 ds" rowspan="6">4</td>
-<td headers="r bdbt2 ds" rowspan="6">8</td>
+<td headers="r dbt ds" rowSpan="6">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
+<td headers="r bdbt1 ds" rowSpan="6">4</td>
+<td headers="r bdbt2 ds" rowSpan="6">8</td>
 </tr>
 <tr>
 <td headers="s ds">Cisaillement&nbsp;: <sup>(1)</sup></td>
@@ -906,24 +906,24 @@ import React from "react"
 <td headers="d ds">1,3</td>
 </tr>
 <tr>
-<th id="pc" headers="t" rowspan="2">Poutres-colonnes, murs et dalles-support en compression</th>
+<th id="pc" headers="t" rowSpan="2">Poutres-colonnes, murs et dalles-support en compression</th>
 <td headers="s pc">Flexion<br /></td>
 <td headers="d pc">1,3 <sup>(5)</sup></td>
-<td headers="r dbt pc" rowspan="2">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
-<td headers="r bdbt1 pc" rowspan="2">2</td>
-<td headers="r bdbt2 pc" rowspan="2">4</td>
+<td headers="r dbt pc" rowSpan="2">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
+<td headers="r bdbt1 pc" rowSpan="2">2</td>
+<td headers="r bdbt2 pc" rowSpan="2">4</td>
 </tr>
 <tr>
 <td headers="s pc">Compression</td>
 <td headers="d pc">1,3</td>
 </tr>
 <tr>
-<th id="cm" headers="t" rowspan="2">Cisaillement des murs, diaphragmes</th>
+<th id="cm" headers="t" rowSpan="2">Cisaillement des murs, diaphragmes</th>
 <td headers="s cm">Flexion</td>
 <td headers="d cm">3</td>
-<td headers="r dbt cm" rowspan="2">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
-<td headers="r bdbt1 cm" rowspan="2">1,5</td>
-<td headers="r bdbt2 cm" rowspan="2">2</td>
+<td headers="r dbt cm" rowSpan="2">comportement essentiellement &eacute;lastique <sup>(6)</sup></td>
+<td headers="r bdbt1 cm" rowSpan="2">1,5</td>
+<td headers="r bdbt2 cm" rowSpan="2">2</td>
 </tr>
 <tr>
 <td headers="s cm">Cisaillement &#8211; dans le plan</td>
@@ -937,7 +937,7 @@ import React from "react"
 <th scope="col">Valeur admissible pour les MI de premier niveau</th>
 </tr>
 <tr>
-<th scope="row" rowspan="2">T&ocirc;le d&#8217;acier au carbone</th>
+<th scope="row" rowSpan="2">T&ocirc;le d&#8217;acier au carbone</th>
 <td>D&eacute;formation principale de la membrane (d&eacute;formation due &agrave; la traction)</td>
 <td>0,01</td>
 <td>0,050</td>
@@ -948,7 +948,7 @@ import React from "react"
 <td>0,140/FT</td>
 </tr>
 <tr>
-<th scope="row" rowspan="2">T&ocirc;le d&#8217;acier inoxydable 304</th>
+<th scope="row" rowSpan="2">T&ocirc;le d&#8217;acier inoxydable 304</th>
 <td>D&eacute;formation principale de la membrane (d&eacute;formation due &agrave; la traction)</td>
 <td>0,01</td>
 <td>0,067</td>
@@ -1737,7 +1737,8 @@ N286.7-F99, <em>Assurance de la qualit&eacute; des programmes informatiques scie
 <li> Nuclear Energy Institute, NEI 07-13, <em>Methodology for Performing Aircraft Impact Assessments for New Plant Designs</em> [2011]</li>
 <li> Nuclear Energy Institute, NEI 08-09 Rev.6, <em>Cyber Security Plan for Nuclear Power Reactors</em> [2010]</li>
 <li> Nuclear Information and Records Management Association/American National Standards Institute (NIRMA/ANSI), <em>Standard Configuration Management (CM),</em> 1.0-2007</li>
-<li> U.S. Department of the Army, TM 5-1300, <em>Structures to Resist the Effects of Accidental Explosions</em>, 1990. Remplac&eacute; par UFC 3-340-02 [2008]</li>  </ol>  
+<li> U.S. Department of the Army, TM 5-1300, <em>Structures to Resist the Effects of Accidental Explosions</em>, 1990. Remplac&eacute; par UFC 3-340-02 [2008]</li>  </ol>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

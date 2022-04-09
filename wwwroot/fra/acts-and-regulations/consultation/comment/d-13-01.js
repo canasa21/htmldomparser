@@ -288,8 +288,8 @@ Ottawa (Ontario) K1P 5S9</li>  <li><strong>En ligne :</strong> en utilisant le f
 <td colSpan="3">Aucune proposition de modification.</td>
 </tr>
 <tr>
-<td rowspan="4">7</td>
-<td rowspan="4"><a href="#sec7">Renseignements &agrave;&nbsp;fournir</a></td>
+<td rowSpan="4">7</td>
+<td rowSpan="4"><a href="#sec7">Renseignements &agrave;&nbsp;fournir</a></td>
 <td>7. (1)&nbsp;Le titulaire de permis avise par &eacute;crit chaque travailleur du secteur nucl&eacute;aire&nbsp;:
 <p><em>a</em>)&nbsp;du fait qu&#8217;il est un travailleur du secteur nucl&eacute;aire;</p></td>
 <td>7. (1)&nbsp;Le titulaire de permis avise par &eacute;crit chaque travailleur&nbsp;:
@@ -346,8 +346,8 @@ Ottawa (Ontario) K1P 5S9</li>  <li><strong>En ligne :</strong> en utilisant le f
 <td colSpan="2">Certaines d&eacute;finitions seront modifi&eacute;es ou supprim&eacute;es au terme des modifications qu&#8217;on propose d&#8217;apporter &agrave; l&#8217;article&nbsp;13. </td>
 </tr>
 <tr>
-<td rowspan="2">13</td>
-<td rowspan="2"><a href="#sec13">Limites de dose efficace</a></td>
+<td rowSpan="2">13</td>
+<td rowSpan="2"><a href="#sec13">Limites de dose efficace</a></td>
 <td>&nbsp;</td>
 <td>Modifier les paragraphes&nbsp;13(2), (3) et (4) afin d&#8217;utiliser du texte (plut&ocirc;t que des formules math&eacute;matiques) pour d&eacute;crire le mode de calcul des doses efficaces. La&nbsp;formulation propos&eacute;e pr&eacute;ciserait qu&#8217;on calculera la dose efficace de mani&egrave;re &agrave; ce qu&#8217;elle inclue les &eacute;l&eacute;ments suivants&nbsp;: la&nbsp;somme des doses pertinentes imputables &agrave;&nbsp;une irradiation externe et la somme des doses engag&eacute;es pertinentes imputables aux incorporations survenues durant la m&ecirc;me p&eacute;riode.</td>
 <td>Pour simplifier et clarifier les exigences r&eacute;glementaires, tout en refl&eacute;tant plus pr&eacute;cis&eacute;ment la fa&ccedil;on dont les doses sont mesur&eacute;es et calcul&eacute;es en pratique.</td>
@@ -358,8 +358,8 @@ Ottawa (Ontario) K1P 5S9</li>  <li><strong>En ligne :</strong> en utilisant le f
 <td>Dans le contexte du<em> R&egrave;glement sur la radioprotection</em>, on juge inutile le traitement unique de l&#8217;exposition aux produits de filiation du radon, ainsi que les concepts connexes d&#8217;unit&eacute; alpha et d&#8217;unit&eacute; alpha-mois. En outre, la CIPR revoit actuellement les mod&egrave;les d&eacute;finissant le mode de calcul de la dose de produits de filiation du radon. On&nbsp;pr&eacute;voit que ces mod&egrave;les seront bient&ocirc;t remplac&eacute;s par le concept des coefficients de dose (similaires au traitement de l&#8217;incorporation d&#8217;autres radionucl&eacute;ides). La suppression de la r&eacute;f&eacute;rence &agrave; l&#8217;exposition aux produits de filiation du radon, ainsi que des concepts connexes d&#8217;unit&eacute; alpha et d&#8217;unit&eacute; alpha-mois, harmoniserait le <em>R&egrave;glement sur la radioprotection</em> avec les changements qu&#8217;on propose d&#8217;apporter aux articles&nbsp;4, 5 et&nbsp;19. </td>
 </tr>
 <tr>
-<td rowspan="2">14</td>
-<td rowspan="2"><a href="#sec14">Limites de dose &eacute;quivalente</a></td>
+<td rowSpan="2">14</td>
+<td rowSpan="2"><a href="#sec14">Limites de dose &eacute;quivalente</a></td>
 <td>Au point&nbsp;3, colonne&nbsp;1 du tableau, on mentionne &laquo;&nbsp;mains et pieds&nbsp;&raquo; en r&eacute;f&eacute;rence &agrave; l&#8217;article&nbsp;14.</td>
 <td>Modifier &laquo;&nbsp;mains et pieds&nbsp;&raquo; pour &laquo;&nbsp;peau de chaque main et de chaque pied&nbsp;&raquo;.</td>
 <td>Pour clarifier la terminologie et refl&eacute;ter avec plus de pr&eacute;cision les deux &eacute;l&eacute;ments suivants&nbsp;: la mesure r&eacute;elle de la dose &eacute;quivalente re&ccedil;ue par les mains et les pieds, et l&#8217;objet de la limite de dose. </td>
@@ -397,11 +397,11 @@ Ottawa (Ontario) K1P 5S9</li>  <li><strong>En ligne :</strong> en utilisant le f
 <td>Cela offrirait une certaine souplesse pour la d&eacute;termination des limites de dose futures li&eacute;es &agrave; l&#8217;autorisation de retourner au travail d&eacute;livr&eacute;e &agrave; une personne qui d&eacute;passe la limite d&eacute;finie &agrave; l&#8217;article&nbsp;16.</td>
 </tr>
 <tr>
-<td rowspan="3">18</td>
-<td rowspan="3"><a href="#sec18">Demande de permis d&#8217;exploitation</a></td>
+<td rowSpan="3">18</td>
+<td rowSpan="3"><a href="#sec18">Demande de permis d&#8217;exploitation</a></td>
 <td>18<em>b</em>) le programme d&#8217;assurance de la qualit&eacute; propos&eacute;</td>
 <td>Modifier l&#8217;alin&eacute;a 18<em>b</em>) pour qu&#8217;il se lise comme suit&nbsp;: &laquo;&nbsp;le programme d&#8217;assurance de la qualit&eacute; propos&eacute;, incluant les &eacute;l&eacute;ments suivants&nbsp;: politique de la direction; description du programme d&#8217;assurance de la qualit&eacute;; revue par la direction; organisation et autorit&eacute;; comp&eacute;tences du personnel; approvisionnement; contr&ocirc;le du travail; contr&ocirc;le des modifications; contr&ocirc;le des documents; &eacute;talonnage et entretien; v&eacute;rification; non-conformit&eacute;; mesures correctives; enregistrements; v&eacute;rifications ind&eacute;pendantes&nbsp;&raquo;.</td>
-<td rowspan="3">Pour refl&eacute;ter les exigences &eacute;nonc&eacute;es dans le document S-106,<em> Exigences techniques et d&#8217;assurance de la qualit&eacute; pour les services de dosim&eacute;trie</em> (r&eacute;vision&nbsp;1), qui&nbsp;sont d&eacute;j&agrave; mises en &#339;uvre par les titulaires de permis. La modification incorporerait les exigences qui s&#8217;appliquent &agrave; tous les services de dosim&eacute;trie autoris&eacute;s.</td>
+<td rowSpan="3">Pour refl&eacute;ter les exigences &eacute;nonc&eacute;es dans le document S-106,<em> Exigences techniques et d&#8217;assurance de la qualit&eacute; pour les services de dosim&eacute;trie</em> (r&eacute;vision&nbsp;1), qui&nbsp;sont d&eacute;j&agrave; mises en &#339;uvre par les titulaires de permis. La modification incorporerait les exigences qui s&#8217;appliquent &agrave; tous les services de dosim&eacute;trie autoris&eacute;s.</td>
 </tr>
 <tr>
 <td>18<em>c</em>) les genres de services de dosim&eacute;trie propos&eacute;s, y&nbsp;compris les types de rayonnement qui seront soumis au contr&ocirc;le et les gammes d&#8217;&eacute;nergie correspondantes</td>
@@ -412,8 +412,8 @@ Ottawa (Ontario) K1P 5S9</li>  <li><strong>En ligne :</strong> en utilisant le f
 <td>18<em>d</em>) la pr&eacute;cision, l&#8217;exactitude et la fiabilit&eacute; des services de dosim&eacute;trie propos&eacute;s, incluant les dispositions relatives aux essais ind&eacute;pendants et la d&eacute;monstration d&#8217;un essai ind&eacute;pendant effectu&eacute; avec succ&egrave;s</td>
 </tr>
 <tr>
-<td rowspan="2">19</td>
-<td rowspan="2"><a href="#sec19">Obligations du titulaire de permis</a></td>
+<td rowSpan="2">19</td>
+<td rowSpan="2"><a href="#sec19">Obligations du titulaire de permis</a></td>
 <td>&nbsp;</td>
 <td>Ajout de l&#8217;obligation pour les titulaires de permis dont les TSN font l&#8217;objet d&#8217;un contr&ocirc;le par un service de dosim&eacute;trie autoris&eacute; (SDA) de fournir &agrave; ce SDA les renseignements exig&eacute;s, afin qu&#8217;il puisse d&eacute;clarer les doses au Fichier dosim&eacute;trique national.</td>
 <td>Pour permettre aux services de dosim&eacute;trie autoris&eacute;s d&#8217;exiger de leurs clients (titulaires de permis de la CCSN) ayant besoin des SDA les renseignements pr&eacute;cis&eacute;s dans le <em>R&egrave;glement sur la radioprotection</em> (voir les articles&nbsp;10 et&nbsp;19 du pr&eacute;sent tableau). </td>
@@ -555,7 +555,8 @@ Le titulaire de permis devrait &eacute;galement aviser la CCSN de la nomination 
 </p>
 </form>
 </section>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

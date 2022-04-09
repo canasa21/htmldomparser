@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -392,7 +392,8 @@ Table A: Attributes of an effective AMP (adapted from IAEA NS-G-2.12&nbsp;[<a hr
 <li>IAEA, TECDOC&nbsp;1197, <em>Assessment and Management of Ageing of Major Nuclear Power Plant Components Important to Safety: CANDU Reactor Assemblies</em>, Vienna, Austria, 2001.</li>
 <li> Institute of Nuclear Power Operations (INPO) AP-913 Revision&nbsp;1, <em>Equipment Reliability Process Description</em>, Atlanta, USA, 2001.</li>
 <li>United States Nuclear Regulatory Commission (USNRC), NUREG-1801, <em>Generic Aging Lessons Learned (GALL) Report, Vol.&nbsp;1 and&nbsp;2</em>, Washington, DC, USA, 2005.</li>  </ol>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

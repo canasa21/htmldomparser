@@ -18,11 +18,13 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">  <div className="col-md-22">  <p className="text-right lead mrgn-bttm-lg"><a href="/eng/about-us/history/2020-review">Highlights of 2020</a></p>  <div className="span-3 ">  	<p className="lead"><a href="#jan">January</a></p>  	<a href="#jan"><img src="/images/2021-review/yir_web_image_Jan_B.png" alt="January"/></a>  	<p>Setting a new bar for fitness for duty in the  Canadian nuclear industry</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#feb">February</a></p>  	<a href="#feb"><img src="/images/2021-review/yir_web_image_Feb_EN.png" alt="February"/></a>  	<p>Strengthening our commitment to equity, diversity and  inclusion</p>  </div>  <div className="span-3">  	<p className="lead"><a href="#mar">March</a></p>  	<a href="#mar"><img src="/images/2021-review/yir_web_image_Mar_B.png" alt="March"/></a>  	<p>A  global pandemic, 1 year later</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#apr">April</a></p>  	<a href="#apr"><img src="/images/2021-review/yir_web_image_Apr_EN.png" alt="April"/></a>  	<p>Continued  consultation and engagement</p>  	</div>  	<div className="clear"></div>  	<div className="span-3 ">  	<p className="lead"><a href="#may">May</a></p>  	<a href="#may"><img src="/images/2021-review/yir_web_image_May_EN.png" alt="May"/></a>  	<p>Moving forward on emerging technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jun">June</a></p>  	<a href="#jun"><img src="/images/2021-review/yir_web_image_Jun_EN.png" alt="June"/></a>  	<p>Environmental protection in action</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jul">July</a></p>  	<a href="#jun"><img src="/images/2021-review/yir_web_image_Jul_EN.png" alt="July"/></a>  	<p>Taking regulatory action to ensure safety</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#aug">August</a></p>  	<a href="#jul"><img src="/images/2021-review/yir_web_image_Aug_EN.png" alt="August"/></a>  	<p>International harmonization on new technologies</p>  	</div>  	<div className="clear"></div>  	<div className="span-3 ">  	<p className="lead"><a href="#sep">September</a></p>  	<a href="#sep"><img src="/images/2021-review/yir_web_image_Sep_B.png" alt="September"/></a>  	<p>Regulating innovative technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#oct">October</a></p>  	<a href="#oct"><img src="/images/2021-review/yir_web_image_Oct_B.png" alt="October"/></a>  	<p>Celebrating 75 years of nuclear regulation in Canada</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#nov">November</a></p>  	<a href="#nov"><img src="/images/2021-review/yir_web_image_Nov_B.png" alt="November"/></a>  	<p>Engaging with international counterparts</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#dec">December</a></p>  	<a href="#dec"><img src="/images/2021-review/yir_web_image_Dec_EN.png" alt="December"/></a>  	<p>Ensuring future readiness</p>  	</div>  </div>  <div className="clear"></div>
+<div className="row">  <div className="col-md-8">  <p className="text-right lead mrgn-bttm-lg"><a href="/eng/about-us/history/2020-review">Highlights of 2020</a></p>  <div className="span-3 ">  	<p className="lead"><a href="#jan">January</a></p>  	<a href="#jan"><img src="/images/2021-review/yir_web_image_Jan_B.png" alt="January"/></a>  	<p>Setting a new bar for fitness for duty in the  Canadian nuclear industry</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#feb">February</a></p>  	<a href="#feb"><img src="/images/2021-review/yir_web_image_Feb_EN.png" alt="February"/></a>  	<p>Strengthening our commitment to equity, diversity and  inclusion</p>  </div>  <div className="span-3">  	<p className="lead"><a href="#mar">March</a></p>  	<a href="#mar"><img src="/images/2021-review/yir_web_image_Mar_B.png" alt="March"/></a>  	<p>A  global pandemic, 1 year later</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#apr">April</a></p>  	<a href="#apr"><img src="/images/2021-review/yir_web_image_Apr_EN.png" alt="April"/></a>  	<p>Continued  consultation and engagement</p>  	</div>
+<div className="span-3 ">  	<p className="lead"><a href="#may">May</a></p>  	<a href="#may"><img src="/images/2021-review/yir_web_image_May_EN.png" alt="May"/></a>  	<p>Moving forward on emerging technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jun">June</a></p>  	<a href="#jun"><img src="/images/2021-review/yir_web_image_Jun_EN.png" alt="June"/></a>  	<p>Environmental protection in action</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#jul">July</a></p>  	<a href="#jun"><img src="/images/2021-review/yir_web_image_Jul_EN.png" alt="July"/></a>  	<p>Taking regulatory action to ensure safety</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#aug">August</a></p>  	<a href="#jul"><img src="/images/2021-review/yir_web_image_Aug_EN.png" alt="August"/></a>  	<p>International harmonization on new technologies</p>  	</div>
+<div className="span-3 ">  	<p className="lead"><a href="#sep">September</a></p>  	<a href="#sep"><img src="/images/2021-review/yir_web_image_Sep_B.png" alt="September"/></a>  	<p>Regulating innovative technologies</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#oct">October</a></p>  	<a href="#oct"><img src="/images/2021-review/yir_web_image_Oct_B.png" alt="October"/></a>  	<p>Celebrating 75 years of nuclear regulation in Canada</p>  	</div>  <div className="span-3">  	<p className="lead"><a href="#nov">November</a></p>  	<a href="#nov"><img src="/images/2021-review/yir_web_image_Nov_B.png" alt="November"/></a>  	<p>Engaging with international counterparts</p>  	</div>  <div className="span-3 ">  	<p className="lead"><a href="#dec">December</a></p>  	<a href="#dec"><img src="/images/2021-review/yir_web_image_Dec_EN.png" alt="December"/></a>  	<p>Ensuring future readiness</p>  	</div>  </div>
 <p>Entering into the new year, we have an opportunity to  reflect on some of the CNSC&rsquo;s highlights and milestones in 2021. Our 75th year included  great achievements, but also new and unexpected challenges that compelled us to  grow and evolve in different ways. Nevertheless, we once again demonstrated our  agility and delivered on our important mandate without skipping a beat.
 <p>
 While we accomplished a great deal in 2021, here are the year&rsquo;s  major milestones and achievements:&nbsp;
-<h2 id="jan">January</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<h2 id="jan">January</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Jan_B.png" alt="January"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Setting a new bar for fitness for duty in the Canadian nuclear industry</h3>
@@ -31,8 +33,9 @@ While we accomplished a great deal in 2021, here are the year&rsquo;s  major mil
 The changes include new measures that are based on solid  scientific evidence and expert consultant research &ndash; they are about setting the  highest standard for safety in the facilities we regulate. Our requirement for  licensees to test workers in safety-sensitive positions for drug and alcohol  use is informed by extensive consultation, engagement and outreach with the  Canadian Human Rights Commission, unions, licensees and other  Canadians.&nbsp;Our focus is on fitness for duty, not on being punitive. This means  that workers in certain defined positions who test positive for drug and  alcohol use are removed from safety-sensitive duties and referred for  evaluation.</p>
 <p>
 Our approach is consistent with best practices here in  Canada and around the world and reflects guidance of the International Atomic  Energy Agency. </p>
-</div>  </div>  <div className="clear"></div>  <p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="feb">February</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="feb">February</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Feb_EN.png" alt="February"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Strengthening our commitment to equity, diversity and inclusion</h3>
@@ -42,8 +45,8 @@ Since 2020, we have facilitated the launch of 3 employee-led  networks &ndash; t
 <p>
 On the international and national stages, we spearheaded  initiatives to increase EDI within the nuclear sector and leveraged  opportunities at speaking engagements and events to highlight the importance of  these values. Our President Rumina Velshi co-led the <a href="https://genderchampions.com/impact/nuclear">International Gender Champions  (IGC) Impact Group on Gender Equality in Nuclear Regulatory Agencies</a>,  bringing together a community of nuclear regulators committed to working on  gender issues in their institutions and countries, and with international  partners.</p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="mar">March</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="mar">March</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Mar_B.png" alt="March"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">A global pandemic, 1 year later</h3>
@@ -52,8 +55,9 @@ On the international and national stages, we spearheaded  initiatives to increas
 The first year of remote work saw many remarkable  demonstrations of flexibility, patience, determination and creativity on the  part of our employees. Day-to-day operations continued, Commission proceedings  remained uninterrupted, as did the work of our inspectors and other important  regulatory functions and activities.</p>
 <p>
 The first year also involved many innovations in how our employees  and teams work together &ndash; from the tools and resources used, to the way staff  collaborate and much more. These innovations will inform and benefit how we  work and do business in the future. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="apr">April</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="apr">April</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Apr_EN.png" alt="April"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Continued consultation and engagement</h3>
@@ -61,8 +65,8 @@ The first year also involved many innovations in how our employees  and teams wo
 <p>
 Throughout the COVID-19  pandemic, delivering on our mandate to disseminate scientific, technical and  regulatory information, and ensuring that we maintain open communication with  the public and other stakeholders has remained an important priority. In 2021,  our new e-consultation platform <a href="https://www.letstalknuclearsafety.ca/">Let&rsquo;s  Talk Nuclear Safety</a> facilitated  13 public consultations on several different projects, including regulatory  documents, discussion papers and reports. We also held over 150 meetings and  outreach activities with over 45 different Indigenous Nations and communities. </p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="may">May</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="may">May</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_May_EN.png" alt="May"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Moving forward on emerging technologies</h3>
@@ -71,8 +75,9 @@ Throughout the COVID-19  pandemic, delivering on our mandate to disseminate scie
 We also began the technical review of Global First Power&rsquo;s  documentation in support of its application for a licence to prepare a site for  an SMR at the Chalk River Laboratories site in May.</p>
 <p>
 As Canada&#39;s nuclear regulator, our role is to regulate the  nuclear industry regardless of the technology used to protect the health and  safety of Canadians and the environment.</p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="jun">June</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="jun">June</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Jun_EN.png" alt="June"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Environmental protection in action</h3>
@@ -80,8 +85,8 @@ As Canada&#39;s nuclear regulator, our role is to regulate the  nuclear industry
 <p>
 Staff visited sites across Ontario, New Brunswick and  Saskatchewan to collect samples from nature and local food products at parks,  farms, lakes and beaches. In Peterborough and Pickering, Ontario, they were  joined by representatives from Curve Lake First Nation, who observed and  participated in the sampling activities. </p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="jul">July</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="jul">July</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Jul_EN.png" alt="July"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Taking regulatory action to ensure safety</h3>
@@ -94,8 +99,9 @@ In July, the Commission also established a new External  Advisory Committee on P
 In October, the Commission approved the restart of Bruce  Power&rsquo;s Unit 3 and OPG&rsquo;s Pickering Unit 5.</p>
 <p>
 We will never compromise safety, and if necessary, can shut  down any nuclear facility or activity in order to protect the public and the  environment. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="aug">August</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="aug">August</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Aug_EN.png" alt="August"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">International harmonization on new technologies</h3>
@@ -105,8 +111,8 @@ Under the MOC, we completed a joint report that compares  each organization&rsqu
 <p>
 The completion of this work contributes to our readiness for  emerging technologies by increasing international collaboration and  harmonization on safety. </p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="sep">September</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="sep">September</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Sep_B.png" alt="September"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Regulating innovative technologies</h3>
@@ -115,8 +121,9 @@ The completion of this work contributes to our readiness for  emerging technolog
 Ontario Power Generation (OPG) also submitted a request to  amend the existing operating licence for Darlington to allow for the production  of the molybdenum-99 (Mo-99) isotope. Mo-99 &ndash; and more precisely, its decay  product, technetium-99&nbsp; &ndash; is widely used  by the medical industry for diagnostic imaging. Following a public hearing in  writing, which considered submissions from OPG, CNSC staff and 10 intervenors,  the Commission amended the OPG power reactor operating licence to allow for the  production of Mo-99 at Darlington Nuclear Generating Station. OPG will work  with BWXT Nuclear Energy Company and BWXT Canada Ltd. to install an isotope  irradiation system at Darlington Unit 2 to produce Mo-99. The Commission is  satisfied that OPG has implemented programs for security, safeguards, and  conventional health and safety to ensure the safe production of Mo-99.</p>
 <p>
 The efforts of CNSC staff and the Commission to assess these  medical isotope producing applications underscore our readiness to regulate  innovative technologies. This important regulatory work has culminated in  licence amendments for both Bruce Power and OPG and once the respective hold  points are released, allow for the production of life-saving medical isotopes. </p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="oct">October</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="oct">October</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Oct_B.png" alt="October"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Celebrating 75 years of nuclear regulation in Canada</h3>
@@ -128,8 +135,8 @@ Since 1946,  a number of major milestones have shaped the CNSC into the organiza
 <p>
 Today, we are in the midst of an ongoing pandemic that has tested our readiness  and agility. As we look to the future, we know that the nuclear sector will  continue to evolve, but our commitment to safety and to Canadians will never  change. The deployment of emerging technologies will present new challenges and  opportunities to innovate the way we regulate, and we will continue to lead  internationally in these areas while ensuring that we are ready to regulate at  home.</p>
 </div>  </div>
-<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="nov">November</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="nov">November</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Nov_B.png" alt="November"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Engaging with international counterparts </h3>
@@ -140,8 +147,9 @@ Our experts travelled to Vienna to attend the IAEA International  Conference on 
 President Velshi chaired the 3rd meeting of the IGC Impact Group on  Gender Equality in Nuclear Regulatory Agencies. During the meeting, the group  made great progress on establishing quantitative and qualitative parameters to  track outcomes and to promote meaningful action to improve gender equality and  diversity in the nuclear regulatory workforce.</p>
 <p>
 President Velshi also attended the Canadian  Nuclear Society G4SR-3 Summit and spoke about our readiness to regulate SMRs  and other new technologies. Nuclear security, regulatory efficiency, engagement  and international collaboration are all key to ensuring this readiness.</p>
-</div>  </div>  	<div className="clear"></div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-<h2 id="dec">December</h2>  	<div className="col-md-22">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
+</div>  </div>
+<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
+<h2 id="dec">December</h2>  	<div className="col-md-8">  	<div className="span-3 mrgn-lft-0 mrgn-rght-0">
 <img src="/images/2021-review/yir_web_image_Dec_EN.png" alt="December"/>
 </div>  	<div className="span-9 mrgn-tp-0">
 <h3 className="mrgn-tp-0">Ensuring future readiness</h3>
@@ -154,7 +162,8 @@ We are also  focusing on our leadership practices and organizational culture, an
 <li><a href="/eng/about-us/history/2020-review">2020: A year in review</a></li>
 </ul>
 </div>  	<p className="text-right"><a href="#wb-main"><span className="wb-icon-nav-090-alt"></span>Top of page</a></p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

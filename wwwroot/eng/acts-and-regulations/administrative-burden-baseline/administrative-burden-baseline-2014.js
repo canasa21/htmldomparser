@@ -88,7 +88,8 @@ counts</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/about-ausujet-eng.asp">The Cabinet Directive on Regulatory Management</a></li>
 <li><a href="http://www.tbs-sct.gc.ca/rtrap-parfa/index-eng.asp">The Red Tape Reduction Action Plan</a></li>
 <li><a href="http://actionplan.gc.ca/page/rcc-ccr/about-regulatory-cooperation-council?wb48617274=F196FB7F">The Canada-United States Regulatory
-Cooperation Council</a></li>  </ul>  <p>To learn about upcoming or ongoing consultations  on proposed federal regulations, visit the <a href="http://www.gazette.gc.ca/index-eng.html">Canada  Gazette</a> and <a href="http://www.consultingcanadians.gc.ca/hm.jspx">Consulting with Canadians</a> websites.</p>  
+Cooperation Council</a></li>  </ul>  <p>To learn about upcoming or ongoing consultations  on proposed federal regulations, visit the <a href="http://www.gazette.gc.ca/index-eng.html">Canada  Gazette</a> and <a href="http://www.consultingcanadians.gc.ca/hm.jspx">Consulting with Canadians</a> websites.</p>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

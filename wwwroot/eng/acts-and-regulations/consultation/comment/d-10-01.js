@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" /> This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -52,7 +52,8 @@ preferred option that ensures protection of the environment as a whole, such tha
 <h2>7.0 POSITION AUTHORITY </h2>  <p>This position  is issued by the CNSC under  the authority of the <em>Nuclear Safety and  Control Act</em>.</p>
 <a name="a8.0" id="a8.0"></a>
 <h2>8.0 REFERENCES</h2>  <p>P-290 <em>Managing  Radioactive Waste</em> (July 2004)</p>  <p>P-223 <em>Protection  of the Environment</em> (February 2001)</p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

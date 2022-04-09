@@ -18,13 +18,13 @@ import React from "react"
                     <Layout pageContext={pageContext}>
                     {/*MAIN CONTENT START*/}
                     
-<div className="grid-12">
-<div className="col-md-22 margin-medium">
+<div className="row">
+<div className="col-md-8 margin-medium">
 <img src="/images/75th-anniversary/75_landing_ban.png" alt="" />
 </div>
 <p>Dans les  ann&eacute;es 1940, l&rsquo;arriv&eacute;e de la technologie nucl&eacute;aire fait na&icirc;tre l&rsquo;engouement  pour l&rsquo;&eacute;nergie illimit&eacute;e, mais suscite aussi l&rsquo;incertitude, la curiosit&eacute; et une  certaine crainte, surtout dans le contexte du d&eacute;veloppement des armes  nucl&eacute;aires. Le besoin d&rsquo;un contr&ocirc;le technologique, de connaissances et de  surveillance est &eacute;vident. C&rsquo;est le d&eacute;but d&rsquo;une qu&ecirc;te en vue de bien r&eacute;glementer  cette innovation technologique partout dans le monde, y compris au Canada.</p>
 <p className="mrgn-bttm-lg">Le 12  octobre 2021 marque le 75e anniversaire de la proclamation de la <em>Loi sur le  contr&ocirc;le de l&rsquo;&eacute;nergie atomique</em> par le gouvernement du Canada. Depuis lors, le  Canada a b&acirc;ti une riche histoire de r&eacute;glementation nucl&eacute;aire et est devenu l&rsquo;un  des chefs de file mondiaux les plus respect&eacute;s dans le domaine.</p>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-7 ">
 <img src="/images/75th-anniversary/75_landing_milestones.png" alt="" />  	</div>
 <div className="span-5 ">
@@ -33,7 +33,7 @@ import React from "react"
 <p><a className="btn btn-primary" href="/fra/about-us/history/75-anniversary-milestones">Plus d&#39;info</a></p>
 </div>
 </div>
-<div className="col-md-22">
+<div className="col-md-8">
 <div className="span-7 pull-right ">
 <img src="/images/75th-anniversary/75th-landing-faces-02.png" alt="" />
 </div>
@@ -43,23 +43,23 @@ import React from "react"
 <p><a className="btn btn-primary" href="/fra/about-us/history/75-anniversary-faces">Plus dinfos</a></p>
 </div>
 </div>
-<div className="clear"></div>
 <h2>En vedette</h2>
-<div className="col-md-6">
+<div className="col-md-4">
 <h3><a href="/fra/about-us/our-experts/index">CCSN sp&eacute;cialistes</a></h3>
 <img src="/images/our-experts/web_experts_feature.png" alt="" />
 <p>Rencontrez les sp&eacute;cialistes de la CCSN.</p>
 </div>
-<div className="col-md-6">
+<div className="col-md-4">
 <h3><a href="/fra/about-us/history/presidents/index">Pr&eacute;sidents de la CCSN</a></h3>
 <img src="/images/20th-anniversary/web_history_thumb_presidents.png" alt="" />
 <p>Rencontrez tous les pr&eacute;sidents de la CCSN.</p>
 </div>
-<div className="col-md-6">
+<div className="col-md-4">
 <h3><a href="/fra/about-us/history/75-anniversary-gallery">Galerie de photos</a></h3>
 <img src="/images/75th-anniversary/75th_landing_210511_thumbs_Gallery.png" alt="" />
 <p>Regardez les photos darchives qui présentent lhistoire dynamique de lorganisation.</p>
-</div>  
+</div>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

@@ -20,7 +20,7 @@ import React from "react"
                     
 <p><strong>Scroll down and the "archived" notice will fade in (at the top of your window)</strong></p>
 <p><img src="/dist/js/images/archived/warning.gif" alt="Warning" title="Warning" className="image-actual mrgn-bttm-0" />This Web page has been archived on the Web.</p>
-<div id="archived" className="wet-boew-archived col-md-12">
+<div id="archived" className="wet-boew-archived col-md-6">
 <h2>Archived Content</h2>
 <p>Information identified as archived on the Web is for reference, research or recordkeeping purposes. It has not been altered or updated after the date of archiving. Web pages that are archived on the Web are not subject to the Government of Canada Web Standards. As per the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12316&amp;section=text">Communications Policy of the Government of Canada</a>, you can request alternate formats on the <a href="/eng/contact-us/">Contact Us</a> page.</p>
 </div>
@@ -220,7 +220,8 @@ Department of Justice. 2011. <em><a href="http://laws-lois.justice.gc.ca/eng/act
 Cowell, J. 1986. <em><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1491271/pdf/cmaj00129-0027.pdf">Guidelines on   Fitness-to-Work Examinations</a></em>. Canadian Medical Association Journal, 135:   985-988. </p>
 <p><a href="#fnb35-ref"><span className="cn-invisible">Return to references </span>35<span className="cn-invisible"> referrer</span></a>
 Picher, M. 2002. <em>J.D. Irving v.   CEPU</em>, Local 104 and 1309 (Drug and Alcohol Policy Grievance): 111 L.A.C.   (4Th) 328. </p>
-
+</div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>

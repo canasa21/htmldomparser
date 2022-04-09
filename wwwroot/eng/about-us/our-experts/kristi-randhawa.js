@@ -101,7 +101,8 @@ Hall G, Maier A, Bennell MC, Randhawa K, Majury A.  2012.&nbsp; Heat burden and 
 <li><a href="https://www.researchgate.net/profile/Kristi_Randhawa">ResearchGate  profile</a></li>
 <li><a href="https://www.linkedin.com/in/kristi-randhawa-33812757/">LinkedIn profile</a></li>
 <li><a href="https://gcdirectory-gcannuaire.ssc-spc.gc.ca/en/GCD/?pgid=015&dn=Q049S1JJU1RJLlJBTkRIQVdBQENBTkFEQS5DQSxPVT1IU0VDRC1EU1NDRSxPVT1ERVJQQS1EUEVSRSxPVT1UU0ItREdTVCxPVT1DTlNDLUNDU04sTz1HQyxDPUNB">GEDS  contact</a></li>
-</ul>  
+</ul>  </div>
+</div>  </div>
                     {/*MAIN CONTENT END*/}
                     </Layout>
                 </>
