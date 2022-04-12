@@ -78,6 +78,6 @@ $removals = array(
       "opacity-60",
       "opacity-70",
       "opacity-80",
-      "opacity-90"
+      "opacity-90",
     );
 ?>

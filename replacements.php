@@ -4,8 +4,11 @@
 $replacements = array(
       "span-1"=> "col-md-1",
       "span-2"=> "col-md-2",
+      "span-3"=> "col-md-3",
       "span-4"=> "col-md-4",
-      "span-6"=> "col-md-6",  
+      "span-5"=> "col-md-5",
+      "span-6"=> "col-md-12",
+      "span-7"=> "col-md-7",  
       "span-8"=> "col-md-12",
       "grid-12"=>"row",
       "float-right"=> "pull-right",
