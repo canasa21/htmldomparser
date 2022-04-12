@@ -18,6 +18,7 @@ $gatsby = array(
     "rowspan"=>"rowSpan",
     "<div className=\"clear\"></div>"=>"",
     "<div className=\"col-md-22\">"=>"",
-    "col-md-12" => "col-md-8"
+    "<section>"=>"",
+    "</section>"=>""
 );
       ?>
