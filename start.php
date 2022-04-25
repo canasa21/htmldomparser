@@ -108,15 +108,17 @@ include('include/db.php');
     //$heading = $html->find('h1[id="wb-cont"]',0);
 
     $breadcrumbs = $html->find('div[id="gcwu-bc"]',0);
+
+    
+
     //echo($breadcrumbs);
     $content = $html->find('div[id="wb-main"]',0);
-    //echo($content);
-    //if(is_null($content)){
-      //$content = $html->find('div[class="span-6"]',0);
-      //echo($content);
-    //}
 
-    //echo $content;
+   
+   
+    //$content = $content->class = null;
+    //$content = $content->className = "img-responsive";
+
     $status = 1;
 
     if ($html->find('time',0)){
@@ -240,8 +242,8 @@ include('include/db.php');
     $content = str_replace('<div class="clearfix"></div>', '', $content);
     //$content = preg_replace('#</div>{3}#', '', $content);
     //$content = preg_replace('#</div></div>#', '', $content);
-    $content = str_replace('</div> </div> </div>', '', $content);
-    $content = str_replace('</div></div></div>', '', $content);
+    //$content = str_replace('</div> </div> </div>', '', $content);
+    //$content = str_replace('</div></div></div>', '', $content);
     //HOLD $content = preg_replace('/\s\s+/', ' ', $content);
     $content = str_replace('<table class="width-100">', '<table class="table table-striped">', $content);
     $content = str_replace('<table>', '<table class="table table-striped">', $content);
@@ -283,9 +285,9 @@ include('include/db.php');
     //<div class="wet-boew-share span-5 margin-bottom-none" data-wet-boew="{'sites': ['bit.ly', 'blogger', 'del.icio.us', 'digg', 'diigo', 'facebook', 'google', 'hotmail', 'linkedin', 'newsvine', 'reddit', 'stumbleupon', 'technorati', 'tumblr', 'twitter', 'yahoobuzz'],addAnalytics:true, analyticsName:'/share/{r}/{s}'}"></div>
     $translation_content = preg_replace('#<div class="wet-boew-share(.*?)</div>#', '', $translation_content);
     $translation_content = preg_replace('#<dl id="gcwu-date-mod(.*?)</dl>#', '', $translation_content);
-    $translation_content = str_replace('<div class="clearfix"></div>', '', $translation_content);
+    //$translation_content = str_replace('<div class="clearfix"></div>', '', $translation_content);
    
-    $translation_content = str_replace('</div> </div> </div>', '', $translation_content);
+    //$translation_content = str_replace('</div> </div> </div>', '', $translation_content);
     $translation_content = str_replace('’', '', $translation_content);
 
   
