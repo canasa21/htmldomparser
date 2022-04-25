@@ -43,7 +43,6 @@ if ($result->num_rows > 0) {
         $language = $row['language'];
         $modified = $row['modified'];
         $translation_path = $row['translation_path'];
-        //echo($translation_path);
 
         $title = htmlspecialchars_decode($row["title"], ENT_QUOTES);
         $content = htmlspecialchars_decode($row["content"], ENT_QUOTES);
@@ -51,15 +50,24 @@ if ($result->num_rows > 0) {
         include('gatsby.php');
         $content = str_replace(array_keys($gatsby), $gatsby, $content);
         
-
-        //$content = strip_tags($content, '<section><p><a><header><table><thead><tbody><tfoot><tr><th><td><h1><h2><h3><h4><h5><h6><br><hr><i><em><b><strong><ul><ol><li><img><dl><dt><dd><time><details><summary><iframe><svg><title><canvas><desc><style><symbol><g><path><text><rect>');
-
+        $content = preg_replace('/(<[^>]*) style=("[^"]+"|\'[^\']+\')([^>]*>)/i', '$1$3', $content);
+        $content = preg_replace('/className="\s*?"/','',$content);
         $content = preg_replace('/<!--(.|\s)*?-->/', '', $content);
+
+        //$content = preg_replace('/(<img((?!(.*?)className=['\"](.*?)emoji(.*?)['\"](.*?)).)*>)+/i','',$content);
         
 
         //add breaks
         $content = preg_replace('#\s{4,}#', PHP_EOL, $content);
-        $content = preg_replace('#((<\/div>)\s+){3}#','',$content);
+        $content = preg_replace('#((<\/div>)\s*){2}$#','',$content);
+
+        //remove inline styles
+        $content = preg_replace('#style="[^\"]*"#','',$content);
+
+
+        //$content = trim(preg_replace('#<img((.(?!className=))*)\/>#','<img className="img-responsive"$1/>',$content));
+        //$content = preg_replace('#<img((.(?!className=\"pull-right\"))*)\/>#','<img className="img-responsive pull-right"$1/>',$content);
+        //$content = preg_replace('#<img((.(?!className=\"pull-left\"))*)\/>#','<img className="img-responsive pull-left"$1/>',$content);
 
      
         $HTML=$incoming_path . $page_name.'.js';
@@ -93,6 +101,8 @@ if ($result->num_rows > 0) {
                 </>
             )
         }';
+
+        
     
         //echo $loadhtml;
         

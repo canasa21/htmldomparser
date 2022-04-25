@@ -6,6 +6,7 @@ $tags = array(
       '<div class="span-6">',
       '<div class="span-8">',
       '<div className="col-md-22">',
-      '<div class=\"span-12\">'
+      '<div class=\"span-12\">',
+      '<div class=\"clear\"></div>'
     );
 ?>

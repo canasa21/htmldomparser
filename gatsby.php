@@ -1,6 +1,7 @@
 <?php 
 $gatsby = array(
     "class="=> "className=",
+    "<img className=\""=>"<img className=\"img-responsive ",
     ".cfm"=>"",
     "tabindex=" => "tabIndex=",
     "maxlength=" => "maxLength=",
@@ -11,14 +12,16 @@ $gatsby = array(
     "<br>" => "<br/>",
     "<hr>"=>"<hr/>",
     "<p>&nbsp;</p>" => "",
-    "'"=> "&#39;",
+    //"'"=> "&#39;",
     "`"=>"&#39;",
     "’"=>"&#39;",
     "colspan"=>"colSpan",
-    "rowspan"=>"rowSpan",
+    "rowspan"=>"rowSpan", 
     "<div className=\"clear\"></div>"=>"",
     "<div className=\"col-md-22\">"=>"",
-    "<section>"=>"",
-    "</section>"=>""
+    "onclick"=>"onClick",
+    "/index\""=>"/\"",
+    "/index#"=>"/#",
+    "wet-boew-tables"=>"wb-tables table"
 );
       ?>
