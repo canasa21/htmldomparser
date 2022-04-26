@@ -58,6 +58,9 @@ if ($result->num_rows > 0) {
         $content = preg_replace('#((<\/div>)\s*){2}#','',$content);
         $content = preg_replace('#style="[^\"]*"#','',$content);
 
+        //remove inline styles
+        //$content = preg_replace('#style="[^\"]*"#','',$content);
+
      
         $HTML=$incoming_path . $page_name.'.js';
         $languageToggle = $incoming_path . $page_name;

@@ -70,8 +70,8 @@ li.current {
 
 ini_set('max_execution_time', '300');
 
-$threshold = htmlspecialchars($_GET['threshold']);
-echo $threshold;
+//$threshold = htmlspecialchars($_GET['threshold']);
+//echo $threshold;
 
 include('simple_html_dom.php');
 include('characters.php');
@@ -80,8 +80,11 @@ include('removals.php');
 
 include('include/db.php');
 
+    //for batch pages
+    //$sql = "select id, url from externalPages WHERE ID BETWEEN $threshold";
 
-    $sql = "select id, url from externalPages WHERE ID BETWEEN $threshold";
+    //$sql = "select id, url from externalPages WHERE ID IN(83,92,105,116,119,150,204,838,837,956,989,993,961,1010,1031,1067,1081,1095,1104,1105,1233,1474,1495,1496,1560,1567,1623,1662,2014,2102,2106)";
+    $sql = "select id, url from externalPages WHERE ID IN(961,1010,1031,1067,1081,1095,1104,1105,1233,1474,1495,1496,1560,1567,1623,1662,2014,2102,2106)";
     // deepcode ignore Sqli: <please specify a reason of ignoring this>
     $result = $conn->query($sql);
 
