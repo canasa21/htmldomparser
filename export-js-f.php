@@ -65,6 +65,7 @@ if ($result->num_rows > 0) {
         $HTML=$incoming_path . $page_name.'.js';
         $languageToggle = $incoming_path . $page_name;
         $languageToggle = str_replace('./wwwroot/fra','/eng',$languageToggle);
+        $languageToggle = str_replace('/index','/',$languageToggle);
         //$HTML=$path_to_directory . '.html';
         // deepcode ignore PT: <please specify a reason of ignoring this>
         $handlehtml=fopen($HTML, 'w');
