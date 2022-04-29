@@ -392,8 +392,9 @@ include('include/db.php');
        
     $conn->close();
 
-    $content->clear();
-    unset($content);
+
+    //$content->clear();
+    //unset($content);
 
     //loop through array
     header("Location: top500.php");
