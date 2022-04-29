@@ -1,8 +1,8 @@
 <?php 
 $gatsby = array(
     "class="=> "className=",
-    "<img className=\""=>"<img className=\"img-responsive ",
     ".cfm"=>"",
+    "<img class="=>"<img className=\"img-responsive",
     "tabindex=" => "tabIndex=",
     "maxlength=" => "maxLength=",
     "label for=" => "label htmlFor=",
@@ -22,6 +22,7 @@ $gatsby = array(
     "onclick"=>"onClick",
     "/index\""=>"/\"",
     "/index#"=>"/#",
-    "wet-boew-tables"=>"wb-tables table"
+    "wet-boew-tables"=>"wb-tables table",
+    "allowfullscreen"=>"allowFullScreen"
 );
       ?>

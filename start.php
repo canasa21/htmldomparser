@@ -117,7 +117,23 @@ include('include/db.php');
     //echo($breadcrumbs);
     $content = $html->find('div[id="wb-main"]',0);
 
-   
+
+    foreach($content->find('img[!class]') as $img) {
+      $img->class = "img-responsive";
+     }
+
+
+    //$content->find('img[!class]',0)->class="img-responsive";
+    
+    //->class="img-responsive";
+
+
+      //update <img add class="img responsive or add img-responsive to <img class="
+      //[attribute]	Matches elements that have the specified attribute. (e.g.<img src="" class="" />)
+      //[!attribute]	Matches elements that don't have the specified attribute. (e.g <img src="" />)
+
+
+
    
     //$content = $content->class = null;
     //$content = $content->className = "img-responsive";
@@ -139,6 +155,10 @@ include('include/db.php');
     //$translation_heading = $translation_html->find('h1[id="wb-cont"]',0);
     $translation_breadcrumbs = $translation_html->find('div[id="gcwu-bc"]',0);
     $translation_content = $translation_html->find('div[id="wb-main"]',0);
+
+    foreach($translation_content->find('img[!class]') as $img) {
+      $img->class = "img-responsive";
+     }
 
     $content = str_replace('https://www.nuclearsafety.gc.ca/','/',$content);
     $translation_content = str_replace('https://www.nuclearsafety.gc.ca/','/',$translation_content);
@@ -204,6 +224,12 @@ include('include/db.php');
     $content = str_replace('<div class="span-6">', '', $content);
     $content = str_replace('<div class="span-8">', '', $content);
     $content = preg_replace('#<h1 id="wb-cont">(.*?)<\/h1>#', '', $content);
+
+
+
+
+
+
 
     //clean breadcrumbs
     $breadcrumbs = str_replace('<div id="gcwu-bc">', '', $breadcrumbs);
@@ -365,6 +391,9 @@ include('include/db.php');
     //print_r($rows);
        
     $conn->close();
+
+    $content->clear();
+    unset($content);
 
     //loop through array
     header("Location: top500.php");
