@@ -28,7 +28,7 @@ if (isset($_POST["upload"])) {
       fclose( $handle );
 
       // deepcode ignore XSS: <please specify a reason of ignoring this>
-      header("Location: top500.php");
+      header("Location: index.php");
 
     //}
 

@@ -2,7 +2,7 @@
 
 //define root folder
 
-$target_directory = "./wwwroot";
+$target_directory = "./wwwroothtml";
 
 include('include/db.php');
 
@@ -49,43 +49,18 @@ if ($result->num_rows > 0) {
         //remove inline styles
         //$content = preg_replace('#style="[^\"]*"#','',$content);
   
-        $HTML=$incoming_path . $page_name.'.js';
+        $HTML=$incoming_path . $page_name.'.html';
         $languageToggle = $incoming_path . $page_name;
         $languageToggle = str_replace('./wwwroot/fra','/eng',$languageToggle);
         $languageToggle = str_replace('/index','/',$languageToggle);
         //$HTML=$path_to_directory . '.html';
         // deepcode ignore PT: <please specify a reason of ignoring this>
-        //$handlehtml=fopen($HTML, 'w');
         $handlehtml=fopen($HTML, 'w');
-        $loadhtml='import React from "react"
-        import Layout from "/src/components/Layout"
-
-        export default function pageName({ pageContext }) {
-
-            pageContext.layout = {
-
-                language: "' . $language . '",
-                pageTitle: "' . $title . '", 
-                dateModified: "' . $modified . '",
-                langToggleUrl: "'. $languageToggle .'"
-        
-            };
-
-
-            return (
-                <>
-                    <Layout pageContext={pageContext}>
-                    {/*MAIN CONTENT START*/}
-                    ' . $content . '
-                    {/*MAIN CONTENT END*/}
-                    </Layout>
-                </>
-            )
-        }';
-
-
-  
-     
+        $loadhtml='<h1>' . $title . '</h1>
+       
+                <body>' . $content . '</body>';
+    
+   
         
         fwrite($handlehtml, $loadhtml);
 

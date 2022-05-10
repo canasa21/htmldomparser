@@ -97,6 +97,12 @@ include('include/db.php');
 
       $content = $html->find('div[id="wb-main"]',0);
 
+     
+      foreach($content->find('img[class]') as $img) {
+        $img->class .= " img-responsive";
+       }
+     
+     
       foreach($content->find('img[!class]') as $img) {
         $img->class = "img-responsive";
       }
@@ -118,6 +124,11 @@ include('include/db.php');
     $translation_breadcrumbs = $translation_html->find('div[id="gcwu-bc"]',0);
     $translation_content = $translation_html->find('div[id="wb-main"]',0);
 
+    
+    foreach($translation_content->find('img[class]') as $img) {
+      $img->class .= " img-responsive";
+     }
+    
     foreach($translation_content->find('img[!class]') as $img) {
       $img->class = "img-responsive";
      }
