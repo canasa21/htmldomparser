@@ -112,7 +112,7 @@ a:hover {
 </style>
 <body>
 
-    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> 
+    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> <a class="buttonExport" href="export-html.php">Export HTML English Pages</a> <a class="buttonExport" href="export-html-f.php">Export HTML French Pages</a>
     
     <form id="batch" action="start.php">
 
@@ -232,7 +232,7 @@ echo("</select>");
 
 
         if (isset($row['id']) && in_array($row['id'],$page_ids)){
-        echo "<td width=\"100px\"><a class=\"button\" href=\"content-eng.php?id=" . $row['id'] . "\">Eng</a> <a class=\"button\" href=\"content-fra.php?id=" . $row['id'] . "\">Fra</a></td>";
+          echo "<td style=\"background-color: #336699;padding:4px;color:#fff;text-align:center;\">Complete</td>";
         }else{
           echo "<td style=\"background-color: #dd0000;padding:4px;color:#fff;text-align:center;\">No data</td>";
         }

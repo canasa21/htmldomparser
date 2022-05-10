@@ -1,6 +1,0 @@
-UPDATE `externalPagesTest`
-SET url = TRIM(TRAILING CONCAT('/', SUBSTRING_INDEX(url, '/', -1)) FROM url)
-
-//remove everything after the last slash
-
-SELECT DISTINCT url FROM `externalPagesTest`;
