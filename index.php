@@ -174,7 +174,7 @@ echo "</select>";
 
 <?php
 
-define("NEXTPAGE","?pageno=",true); 
+
 
 
   if ( isset( $_GET[ 'pageno' ] ) ) {
@@ -211,8 +211,8 @@ define("NEXTPAGE","?pageno=",true);
 
 <ul class="pagination">
     <li><a class="button" href="?pageno=1">First</a></li>
-    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo NEXTPAGE.($pageno - 1); } ?>">Prev</a> </li>
-    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo NEXTPAGE.($pageno + 1); } ?>">Next</a> </li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=" .($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=" .($pageno + 1); } ?>">Next</a> </li>
     <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>
 
@@ -249,8 +249,8 @@ define("NEXTPAGE","?pageno=",true);
 
 <ul class="pagination">
     <li><a class="button" href="?pageno=1">First</a></li>
-    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo NEXTPAGE.($pageno - 1); } ?>">Prev</a> </li>
-    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo NEXTPAGE.($pageno + 1); } ?>">Next</a> </li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=" .($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=" .($pageno + 1); } ?>">Next</a> </li>
     <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>
   <script>
