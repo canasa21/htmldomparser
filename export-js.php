@@ -83,9 +83,6 @@ if ($result->num_rows > 0) {
         }';
 
         
-    
-        //echo $loadhtml;
-        
         fwrite($handlehtml, $loadhtml);
 
 
