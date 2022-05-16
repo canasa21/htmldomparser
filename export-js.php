@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
         //remove filename from incoming path
         $incoming_path = pathinfo($incoming_path, PATHINFO_DIRNAME);
         echo "Path: " . $incoming_path;
-        createDirectoryStructure($page_name,$incoming_path);
+        createDirectoryStructure($incoming_path);
 
         $title = $row['title'];
         $content = $row['content'];
@@ -39,22 +39,18 @@ if ($result->num_rows > 0) {
 
         include('gatsby.php');
         $content = str_replace(array_keys($gatsby), $gatsby, $content);
-        
-        //$content = preg_replace('/(<[^>]*) style=("[^"]+"|\'[^\']+\')([^>]*>)/i', '$1$3', $content);
+       
         $content = preg_replace('/className="\s*?"/','',$content);
         $content = preg_replace('/<!--(.|\s)*?-->/', '', $content);
-        //add breaks
         $content = preg_replace('#\s{4,}#', PHP_EOL, $content);
         $content = preg_replace('#((<\/div>)\s*){3}$#','',$content);
-        //remove inline styles
-        //$content = preg_replace('#style="[^\"]*"#','',$content);
+   
      
         $HTML=$incoming_path . $page_name.'.js';
         $languageToggle = $incoming_path . $page_name;
         $languageToggle = str_replace('./wwwroot/eng','/fra',$languageToggle);
         $languageToggle = str_replace('/index','/',$languageToggle);
-        //$HTML=$path_to_directory . '.html';
-        // deepcode ignore PT: <please specify a reason of ignoring this>
+       
         $handlehtml=fopen($HTML, 'w');
         $loadhtml='import React from "react"
         import Layout from "/src/components/Layout"
@@ -92,7 +88,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 
-function createDirectoryStructure($page_name,$path_to_directory) {
+function createDirectoryStructure($path_to_directory) {
 if (!file_exists($path_to_directory)) {
     // deepcode ignore PT: <please specify a reason of ignoring this>
     mkdir($path_to_directory, 0777, true);
@@ -101,9 +97,9 @@ if (!file_exists($path_to_directory)) {
 }
 
 
-echo ("<script>");
-echo ('setTimeout("location.href = \'index.php\';",1500);');
-echo ("</script>");
+echo "<script>";
+echo 'setTimeout("location.href = \'index.php\';",1500);';
+echo "</script>";
 
 
 ?>
