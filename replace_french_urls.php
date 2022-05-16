@@ -23,9 +23,9 @@
 
 echo getcwd();
 rename("wwwroot/fra/a/page-one.html", "wwwroot/fra/a/page-une.html");
-rename("/wwwroot/fra/b/page-two.html", "./wwwroot/fra/bb/page-deux.htm");
-rename("./wwwroot/fra/c/page-three.js", "./wwwroot/fra/cc/page-trois.js");
-rename("../wwwroot/fra/d/page-four", "./wwwroot/fra/dd/page-quattre");
+rename("wwwroot/fra/b/page-two.html", "wwwroot/fra/bb/page-deux.htm");
+rename("wwwroot/fra/c/page-three.js", "wwwroot/fra/cc/page-trois.js");
+rename("wwwroot/fra/d/page-four", "wwwroot/fra/dd/page-quattre");
 
 // same array can be used to handle both and run separately
 

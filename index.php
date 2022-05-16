@@ -112,20 +112,19 @@ a:hover {
 </style>
 <body>
 
-    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a> <a class="buttonExport" href="export-html.php">Export HTML English Pages</a> <a class="buttonExport" href="export-html-f.php">Export HTML French Pages</a>
-    
-    <form id="batch" action="start.php">
+    <p style="padding-top:30px;padding-bottom:30px;"><a class="buttonExport" href="top500.php">Main</a> <a class="buttonExport" href="upload.php">Upload URLs</a> <a class="buttonExport" href="export-js.php">Export English Pages</a> <a class="buttonExport" href="export-js-f.php">Export French Pages</a><p><a class="buttonExport" href="export-html.php">Export HTML English Pages</a> <a class="buttonExport" href="export-html-f.php">Export HTML French Pages</a></p>
+    <form id="batch" action="start.php" style="margin-top: 30px;">
 
     <?php
     echo ("<select name=\"threshold\" id=\"threshold\">");
-for ($i = 1; $i <= 2410; $i += 25)
+for ($i = 1; $i <= 2410; $i += 50)
 {
-    $j = $i + 24;
+    $j = $i + 49;
     echo ("<option value=\" $i AND $j \">$i to $j</option>");
 }
 echo("</select>");
 ?>
-  <input class="buttonExport" id="batch" value="Batch Process" type="submit"></form>
+  <input class="buttonExport" id="batch" value="Batch Process" type="submit"></form></p>
  </p>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
