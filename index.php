@@ -1,6 +1,5 @@
 <html>
-<!-- Alex was here on October 18, 2021 -->
-<!-- 1:15 PM -->
+
 <style type="text/css">
 * { font-family: helvetica;
     font-size: 1rem;}
@@ -23,7 +22,6 @@ th {
 
 .pagination li {
 	padding: 5px 10px;
-	/*border: 1px solid #ddd;*/
 	display: inline-block;
 	float: left;
 	background: #fff;
@@ -116,13 +114,13 @@ a:hover {
     <form id="batch" action="start.php" style="margin-top: 30px;">
 
     <?php
-    echo ("<select name=\"threshold\" id=\"threshold\">");
+    echo "<select name=\"threshold\" id=\"threshold\">";
 for ($i = 1; $i <= 2410; $i += 50)
 {
     $j = $i + 49;
-    echo ("<option value=\" $i AND $j \">$i to $j</option>");
+    echo "<option value=\" $i AND $j \">$i to $j</option>";
 }
-echo("</select>");
+echo "</select>";
 ?>
   <input class="buttonExport" id="batch" value="Batch Process" type="submit"></form></p>
  </p>
@@ -177,6 +175,8 @@ echo("</select>");
 <?php
 
 
+
+
   if ( isset( $_GET[ 'pageno' ] ) ) {
     $pageno = $_GET[ 'pageno' ];
   } else {
@@ -197,7 +197,7 @@ echo("</select>");
   $sql = "select id, url from externalPages LIMIT $offset, $no_of_records_per_page";
     $result = $conn->query($sql);
 
-  echo("<p><b>Total number of records: </b>" . $total_rows . "</p>");
+  echo "<p><b>Total number of records: </b>" . $total_rows . "</p>";
 
   $sql_ids = "select name from content_both_top_500";
   $dataset = $conn->query($sql_ids);
@@ -211,8 +211,8 @@ echo("</select>");
 
 <ul class="pagination">
     <li><a class="button" href="?pageno=1">First</a></li>
-    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
-    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=" .($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=" .($pageno + 1); } ?>">Next</a> </li>
     <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>
 
@@ -222,7 +222,7 @@ echo("</select>");
     echo "<table>";
 
     if ($result->num_rows > 0) {
-      // output data of each row
+   
       while($row = $result->fetch_assoc()) {
 
         echo "<tr>";
@@ -249,8 +249,8 @@ echo("</select>");
 
 <ul class="pagination">
     <li><a class="button" href="?pageno=1">First</a></li>
-    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Prev</a> </li>
-    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Next</a> </li>
+    <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=" .($pageno - 1); } ?>">Prev</a> </li>
+    <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?>"> <a class="button" href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=" .($pageno + 1); } ?>">Next</a> </li>
     <li><a class="button" href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
   </ul>
   <script>

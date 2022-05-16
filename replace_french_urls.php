@@ -19,7 +19,7 @@
 
 //array can be generated from excel spreadsheet or table in word
 
-// rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
+
 
 echo getcwd();
 rename("wwwroot/fra/a/page-one.html", "wwwroot/fra/a/page-une.html");
@@ -55,7 +55,6 @@ $result = str_replace(array_keys($repalcement_links), $repalcement_links, $conte
 
 echo $result;
 
-//$result = '';
 
 ?>
 

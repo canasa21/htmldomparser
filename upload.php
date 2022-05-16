@@ -2,13 +2,13 @@
 
 if (isset($_POST["upload"])) {
 
-  //echo("1<br>");
+ 
   include('include/db.php');
 
   
     
     print_r($_FILES);
-    //if ( $filename[ 1 ] == 'csv' ) {
+  
 
       $handle = fopen( $_FILES[ 'file' ][ 'tmp_name' ], "r+" );
      
@@ -24,15 +24,12 @@ if (isset($_POST["upload"])) {
 
       }
       
-      echo( $handle );
+    
       fclose( $handle );
 
-      // deepcode ignore XSS: <please specify a reason of ignoring this>
       header("Location: index.php");
 
-    //}
-
- // }
+  
 }
 
 ?>
